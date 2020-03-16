@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00.490 --> 00:01.900
+Hi everybody welcome back.
+
+00:01.900 --> 00:05.930
+Now we previously looked at getting info from our users using the input.
+
+00:06.050 --> 00:09.920
+Now we're going to be doing something similar again in this lecture which is why as you can see I've
+
+00:09.920 --> 00:15.950
+moved from my Sublime Text Editor into my idol text and so now that our programs are becoming more advanced
+
+00:16.250 --> 00:18.760
+and longer it's time to revisit the input prompts.
+
+00:18.920 --> 00:23.040
+Sometimes you want to write a longer prompt than simply What's your name.
+
+00:23.360 --> 00:27.680
+You can store your prompt in a variable and pass that variable to the input function.
+
+00:27.680 --> 00:32.990
+This way you can write your prompts over several lines then write a nice clean import statement.
+
+00:33.170 --> 00:35.420
+Let's take a look at how we will do that.
+
+00:35.420 --> 00:36.030
+So prompt
+
+00:40.050 --> 00:40.980
+eaglet.
+
+00:41.060 --> 00:46.840
+So I just paused this video for a second and I've entered in Alwi you can see is a very long front.
+
+00:46.910 --> 00:51.680
+This is our lecturer discussing pipings in plant and how to keep a tidy please and your favorite so
+
+00:51.680 --> 00:53.070
+far and why you like it.
+
+00:53.080 --> 00:54.990
+This is a double space there and are removed.
+
+00:55.130 --> 01:00.430
+So as you can see a very very long prompt but we've created a variable and we've decided this value.
+
+01:00.720 --> 01:03.200
+So what we want to do now is favorite Lechter
+
+01:08.580 --> 01:11.070
+equals input.
+
+01:11.080 --> 01:13.510
+So we're going to ask the user to input their favorite lecture.
+
+01:13.810 --> 01:21.120
+We're going to do it with a text from the prompt above OK and let's see what that gives us.
+
+01:22.030 --> 01:26.520
+So we save it and then we run a OK.
+
+01:26.550 --> 01:31.020
+So as you can see now this lecture is discussing platens input prompt and how to keep it tidy please
+
+01:31.040 --> 01:35.420
+at your favorite lecture so lecture once.
+
+01:35.760 --> 01:36.450
+OK.
+
+01:36.490 --> 01:37.060
+There we go.
+
+01:37.150 --> 01:41.170
+So don't forget when using the input function pioneered terabits everything that the user enters as
+
+01:41.170 --> 01:41.820
+a string.
+
+01:42.010 --> 01:48.130
+And also as we discussed before don't forget how to use the input function for numerical entries and
+
+01:48.130 --> 01:50.680
+to handle numerical entries from the user.
+
+01:50.680 --> 01:56.920
+We do so by using the function which tells Platon to treat the input as a numerical value the function
+
+01:57.040 --> 02:01.420
+converges a string representation of a number two in the miracle representation number and we look at
+
+02:01.420 --> 02:04.420
+that at our previous lecture on the input prompt.
+
+02:04.480 --> 02:06.220
+Thanks for listening and I'll see you in the next lecture.

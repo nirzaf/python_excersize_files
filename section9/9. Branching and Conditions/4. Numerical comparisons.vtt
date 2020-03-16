@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.680 --> 00:05.020
+Hi everybody and welcome back in this lecture we're going to be looking at numerical comparisons.
+
+00:05.090 --> 00:08.920
+So how to compare numbers with each other when it comes to comparing numbers.
+
+00:08.930 --> 00:14.070
+It makes it pretty simple that age equals 18.
+
+00:14.240 --> 00:19.600
+And as you can see we don't surround the 8 digits in single or double quotes because they're numbers.
+
+00:19.730 --> 00:25.000
+We only do that with strings age equals 18.
+
+00:25.040 --> 00:25.510
+True.
+
+00:25.580 --> 00:26.510
+Perfect.
+
+00:26.600 --> 00:29.920
+We can also test to see if two numbers are not equal to each other.
+
+00:30.130 --> 00:32.510
+And the way we do that is let's just pop open a new file
+
+00:35.490 --> 00:35.830
+for us.
+
+00:35.830 --> 00:44.340
+Let's save this save as this top and save it as numbers and I'll just replace what I have there.
+
+00:44.340 --> 00:45.250
+The place.
+
+00:45.260 --> 00:45.730
+Perfect.
+
+00:45.800 --> 00:49.530
+OK so let's say age equals 23.
+
+00:50.420 --> 00:54.770
+If age is not equal to 22.
+
+00:54.840 --> 01:01.100
+So somebody's birthday who is 22 not 23 percent
+
+01:04.160 --> 01:04.770
+sorry.
+
+01:04.790 --> 01:08.140
+No cake for you which is a bit mean.
+
+01:08.150 --> 01:10.210
+But anyway it makes our point.
+
+01:10.220 --> 01:11.330
+And let's say that.
+
+01:11.430 --> 01:17.060
+Now let's run us.
+
+01:17.330 --> 01:18.410
+And there we go.
+
+01:18.410 --> 01:18.800
+Sorry.
+
+01:18.800 --> 01:20.380
+No cake for you.
+
+01:20.390 --> 01:23.520
+We can also use several mathematical comparisons in our statements.
+
+01:23.720 --> 01:24.460
+Let's have a look at it.
+
+01:24.470 --> 01:26.380
+So we've already seen the equal sign.
+
+01:26.630 --> 01:28.360
+Now what about less than.
+
+01:28.810 --> 01:31.550
+So we give an age the value of 21.
+
+01:31.550 --> 01:35.990
+So age is less than the value 21 favs.
+
+01:36.290 --> 01:40.360
+OK let's say age graded and 21.
+
+01:40.700 --> 01:45.330
+How about age less than or equal to 21.
+
+01:45.350 --> 01:46.250
+True.
+
+01:46.250 --> 01:46.940
+Perfect.
+
+01:46.940 --> 01:52.150
+How about age greater than or equal to 21.
+
+01:52.160 --> 01:54.860
+True because the age is equal to 21.
+
+01:54.920 --> 02:00.080
+That's it for this lovely short lecture on numerical comparisons and we look at these later on in future
+
+02:00.090 --> 02:00.590
+lectures.
+
+02:00.680 --> 02:02.160
+Thank you and I'll see you in the next lecture.

@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.740 --> 00:02.380
+Hi everybody and welcome back.
+
+00:02.630 --> 00:08.870
+So far we've seen how less really the workhorse of pipe and we've seen the power of the if the else
+
+00:09.020 --> 00:10.300
+and the Aliff statements.
+
+00:10.490 --> 00:12.970
+Well how about combining all of these things together.
+
+00:13.280 --> 00:17.060
+Let's take a look at a type of online shopping cart as our example.
+
+00:17.060 --> 00:21.110
+So let's start off creating our shopping cart and our shopping cart is just a list of items that we
+
+00:21.110 --> 00:28.120
+have in our cart so we are adding a comment here to say creating our shopping cart
+
+00:30.860 --> 00:31.320
+OK.
+
+00:31.330 --> 00:38.580
+Next we create our list of shopping cart items so shopping cart clothes square brackets.
+
+00:38.620 --> 00:40.630
+Now let's populate our shopping cart pens
+
+00:43.200 --> 00:44.340
+paper.
+
+00:44.960 --> 00:51.030
+And as always each item in our list is separated by a common stapler.
+
+00:51.390 --> 00:56.100
+And finally let's add in some post-its because who doesn't like Post-its.
+
+00:59.260 --> 01:04.270
+Now we're going to do is for each item in a shopping cart we're going to add in a print message saying
+
+01:04.570 --> 01:06.750
+adding the item to our order.
+
+01:06.790 --> 01:10.110
+So that's our income and here's what we know what we're doing.
+
+01:12.160 --> 01:20.370
+And I think each item to an order as we go and let's start this off the for statement.
+
+01:20.540 --> 01:27.310
+So for Item four items in our shopping cart.
+
+01:27.470 --> 01:31.730
+OK so for each of our items in shopping cart we want to print.
+
+01:31.730 --> 01:43.040
+So open up a double quote adding space close to the quote Plus item plus open double quotes space to
+
+01:43.040 --> 01:48.310
+your order OK and let's close that up put our brackets.
+
+01:49.940 --> 01:53.710
+And then we close this off with a print statement telling the user that the order is complete.
+
+01:53.720 --> 01:54.320
+So print
+
+01:57.590 --> 02:00.020
+your order is complete.
+
+02:00.020 --> 02:05.570
+So imagine you're on something like Amazon.com and you're clicking away and pans paper stapler and then
+
+02:05.660 --> 02:09.500
+you click checkout and you'll get a message saying your order is complete.
+
+02:09.500 --> 02:13.070
+We're doing a very simple version of that to our terminal at your code here.
+
+02:13.920 --> 02:14.480
+OK.
+
+02:14.760 --> 02:16.020
+So let's run this and see what we get.
+
+02:16.020 --> 02:17.370
+First we save it.
+
+02:17.370 --> 02:18.020
+Here we go.
+
+02:18.040 --> 02:22.410
+Now let's run adding Pansie order paper.
+
+02:22.450 --> 02:23.480
+Stay posted.
+
+02:23.480 --> 02:25.490
+Your order is complete perfect so that's what we want.
+
+02:25.490 --> 02:26.840
+Very simple.
+
+02:26.840 --> 02:30.920
+Now what happens when one of our items in our list could be our stock.
+
+02:30.920 --> 02:32.120
+How would we deal with that.
+
+02:32.360 --> 02:38.240
+So you have to imagine again that we have a shopping cart list and copy another list in our program
+
+02:38.360 --> 02:43.120
+which we'll look at later which could be a list of our stock items sort of somebody else in the office.
+
+02:43.250 --> 02:46.490
+And every time an item is out of stock they're all taking that list.
+
+02:46.700 --> 02:51.500
+So let's have a look at how we deal with an item that's out of stock we can use an if statement inside
+
+02:51.500 --> 02:52.480
+a for loop.
+
+02:52.550 --> 02:54.270
+So let's do that now.
+
+02:54.290 --> 02:55.270
+So inside a for loop.
+
+02:55.280 --> 02:58.650
+And as you mentioned before indentation is very important in writing.
+
+02:58.760 --> 03:03.400
+So if item I'm going to say that pens are out of stock.
+
+03:03.850 --> 03:07.160
+So if the item is pends pans
+
+03:11.520 --> 03:14.310
+Sorry that's a spelling mistake there.
+
+03:14.340 --> 03:16.160
+Spary sorry
+
+03:19.000 --> 03:22.260
+that item is out of stock.
+
+03:22.770 --> 03:23.220
+OK.
+
+03:23.230 --> 03:24.220
+Simple enough.
+
+03:24.220 --> 03:26.610
+Let's close off a double called Koser bracket.
+
+03:27.310 --> 03:32.470
+Now order wise else we have in our print print.
+
+03:32.900 --> 03:34.940
+Adding the item to our order.
+
+03:35.530 --> 03:40.660
+This time we check each order item before adding it to our current or if statement checks to see if
+
+03:40.660 --> 03:42.240
+our user has ordered pens.
+
+03:42.340 --> 03:45.230
+If they have them we display a message saying the pens are out of stock.
+
+03:45.280 --> 03:53.950
+So let's have a look at how that would work and save and run that we go our first our first item is
+
+03:53.950 --> 03:55.490
+pens and we get the message.
+
+03:55.490 --> 03:59.340
+Sorry that item is out-of-stock not bad.
+
+03:59.340 --> 04:03.520
+Very simple online ordering system or the bones of one anyway.
+
+04:03.570 --> 04:06.720
+Now there will come a time when we will be working with empty lists.
+
+04:06.750 --> 04:11.910
+After all if we are creating a shopping cart we don't know in advance what our user is going to put
+
+04:11.910 --> 04:13.500
+in and what they're going to buy.
+
+04:13.500 --> 04:17.270
+So our list obviously will be empty at the very beginning of our program.
+
+04:17.400 --> 04:22.740
+So let's stick to our shopping cart example and check whether the list shopping cart is empty before
+
+04:22.740 --> 04:24.150
+proceeding to the checkout.
+
+04:24.420 --> 04:29.220
+If the list is empty We'll tell you it that they need to add an item to the cart before proceeding.
+
+04:29.220 --> 04:33.210
+If the list is not empty we proceed with the order just as we did in the previous example.
+
+04:33.510 --> 04:34.820
+So let's do that now.
+
+04:35.060 --> 04:36.120
+Let me clear off here.
+
+04:39.780 --> 04:44.160
+And we're just going to update that update this comment here because this is going to be a new program
+
+04:47.650 --> 04:56.360
+working with the lists perfect So let's first create an empty list.
+
+05:00.280 --> 05:01.170
+Empty shopping cart
+
+05:04.150 --> 05:09.670
+cake shopping cart equals.
+
+05:09.900 --> 05:13.560
+And as we saw before and empty this has created just two square brackets.
+
+05:13.740 --> 05:16.650
+Now if shopping cart
+
+05:21.020 --> 05:30.430
+for item and shopping cart What are we going to do now here.
+
+05:30.630 --> 05:32.400
+Well we're going to do is we're going to print
+
+05:36.000 --> 05:47.650
+I think very similar to last time plus item plus broken brackets plus double quotes space to your cart
+
+05:48.710 --> 05:50.450
+those that are of brackets.
+
+05:50.610 --> 05:51.250
+OK.
+
+05:51.500 --> 05:52.320
+Otherwise we print
+
+05:57.150 --> 05:59.870
+your order is complete
+
+06:04.100 --> 06:05.110
+no or else
+
+06:12.840 --> 06:26.320
+you must select an item before proceeding.
+
+06:26.740 --> 06:29.200
+OK so what are we doing let's have a quick look.
+
+06:29.310 --> 06:30.940
+We create an empty shopping cart here.
+
+06:32.330 --> 06:33.810
+Now we've opened up an if statement.
+
+06:33.890 --> 06:35.460
+So if our shopping cart.
+
+06:35.550 --> 06:39.340
+So for item in our shopping cart print adding item to our order.
+
+06:39.350 --> 06:41.530
+But as we know our shopping cart is empty.
+
+06:42.550 --> 06:44.610
+If it's not empty we get to print a message.
+
+06:44.740 --> 06:47.020
+Your order is complete but it is empty.
+
+06:47.050 --> 06:48.600
+So we get the message.
+
+06:48.640 --> 06:50.550
+You must select an item before proceeding.
+
+06:50.620 --> 06:51.660
+So we're checking that.
+
+06:51.670 --> 06:54.500
+So let's just say this and let's run it.
+
+06:56.520 --> 06:58.620
+You must select an item before proceeding.
+
+06:58.620 --> 07:02.530
+OK let's modify that slightly and add an item into a shopping cart.
+
+07:02.570 --> 07:10.850
+So let's add in pends savings and run us adding Pansey your card.
+
+07:10.890 --> 07:12.050
+Your order is complete.
+
+07:12.050 --> 07:12.800
+So you go.
+
+07:12.870 --> 07:17.970
+A very simple example of how we can check if an item is in a list or not and how to use the L statement
+
+07:18.180 --> 07:23.040
+the if statement and a for statement all together to create a shopping cart example.
+
+07:23.200 --> 07:28.220
+I hope we found this helpful if not please let me know and ask any questions you would like.
+
+07:28.260 --> 07:29.910
+Q And a section of this lecture.
+
+07:29.910 --> 07:31.500
+Thank you and I'll see you in the next lecture.

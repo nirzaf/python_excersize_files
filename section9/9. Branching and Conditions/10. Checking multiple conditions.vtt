@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.920 --> 00:02.520
+Hi everybody and welcome back.
+
+00:02.570 --> 00:06.140
+Now in the last lecture we used the if if else chain.
+
+00:06.510 --> 00:12.200
+And it's only appropriate to use this chain when you just need one test to pass when Piven finds one
+
+00:12.200 --> 00:13.780
+task that passes in your if.
+
+00:13.790 --> 00:14.390
+Elif.
+
+00:14.390 --> 00:16.290
+Else chain it skips the rest.
+
+00:16.520 --> 00:20.810
+But sometimes you'll need to check all of the conditions of interest when you need to do this.
+
+00:20.810 --> 00:22.840
+You can use a series of IF statements.
+
+00:22.840 --> 00:26.780
+This makes sense when more than one condition can and must be true.
+
+00:26.990 --> 00:28.350
+So let's look at an example.
+
+00:28.640 --> 00:30.330
+So let's first create a list.
+
+00:30.640 --> 00:34.630
+OK we're going to create a list called booking details.
+
+00:35.670 --> 00:38.350
+That's always open with square brackets.
+
+00:38.360 --> 00:41.750
+I'm going to give it the first value of Tony.
+
+00:42.410 --> 00:44.400
+This is a book in detail for a sentiment.
+
+00:44.400 --> 00:44.900
+Let's go.
+
+00:44.900 --> 00:45.630
+Miller wrote.
+
+00:45.710 --> 00:53.810
+Because I like sitting in the middle rope and we are going to be watching this film in a screen to OK
+
+00:53.840 --> 00:54.490
+perfect.
+
+00:54.570 --> 00:59.410
+And let's close off our list with a square bracket not a curly bracket no.
+
+00:59.420 --> 01:06.920
+So if Tony in booking details
+
+01:17.410 --> 01:20.480
+will come to you in the cinema.
+
+01:21.370 --> 01:23.050
+OK good stuff.
+
+01:23.050 --> 01:27.700
+Next if Middleboro
+
+01:30.640 --> 01:31.800
+in booking details
+
+01:36.560 --> 01:48.420
+we don't print your seat number is 0 1 0 in the middle row.
+
+01:48.620 --> 01:53.900
+Perfect So I think you get an idea of what we're doing here and there's nothing I closed out with that.
+
+01:53.900 --> 01:54.850
+There we go.
+
+01:55.070 --> 02:05.320
+And final final if Death Screen two in booking the towns
+
+02:09.660 --> 02:10.050
+print
+
+02:13.050 --> 02:20.490
+your film is in screen too and let's close it up.
+
+02:20.490 --> 02:21.800
+There we go.
+
+02:22.710 --> 02:27.510
+So we start off a list containing our users booking details the first IF statement checks to see if
+
+02:27.510 --> 02:30.800
+the person collecting the ticket is the person who booked it online.
+
+02:30.800 --> 02:36.240
+If so a message is printed welcoming them and our test continue our next if statement checks to see
+
+02:36.240 --> 02:38.570
+if the middle row was booked by the same user.
+
+02:38.610 --> 02:44.230
+If so our program continues the next test I would then check to make sure that the screen the box screen
+
+02:44.230 --> 02:49.260
+to is in our booking details so what we're doing here is we're checking all the details in our booking
+
+02:49.260 --> 02:50.260
+details list.
+
+02:50.480 --> 02:53.720
+I confirm during our test and each time they are confirmed.
+
+02:53.760 --> 02:56.720
+Our program continues the next test and so on and so on.
+
+02:56.730 --> 02:58.550
+So let's run this and see how it looks.
+
+02:58.590 --> 03:04.610
+Us we save and then we run walk me to the cinema.
+
+03:04.680 --> 03:09.110
+Your seat number 0 1 0 in the middle row your film is in screen too perfect.
+
+03:09.120 --> 03:11.010
+Thanks for listening and I'll see you in the next lecture.

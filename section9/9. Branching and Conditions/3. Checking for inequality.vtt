@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.320 --> 00:02.980
+Hi everybody and welcome back.
+
+00:03.030 --> 00:05.970
+Now we've just learned how to check for a quality of two items.
+
+00:06.120 --> 00:10.520
+But what about when we want to check if two values are not equal to each other.
+
+00:10.530 --> 00:14.290
+Truth is we can combine an exclamation mark and an equal sign.
+
+00:15.710 --> 00:21.860
+As it does in many programming language the exclamation mark represents not that's not an example.
+
+00:22.490 --> 00:31.330
+So in idle Let's go new file let's just make that large Let's save this as
+
+00:34.890 --> 00:40.260
+birthday.
+
+00:40.260 --> 00:40.750
+There we go.
+
+00:40.760 --> 00:41.460
+Saved.
+
+00:41.670 --> 00:42.030
+OK.
+
+00:42.040 --> 00:48.180
+So my underscore birthday equals November
+
+00:56.030 --> 00:57.680
+my birthday.
+
+00:59.380 --> 01:00.790
+Is not equal to
+
+01:04.700 --> 01:05.720
+march.
+
+01:08.910 --> 01:09.510
+Then print
+
+01:13.710 --> 01:16.950
+it not your birthday.
+
+01:21.930 --> 01:22.800
+Let me just correct that.
+
+01:22.800 --> 01:25.430
+That should be a double quote instead of a single.
+
+01:25.850 --> 01:30.360
+And let's run this so you'll save it.
+
+01:32.730 --> 01:33.570
+What's this error.
+
+01:33.580 --> 01:36.170
+Now let's just correct this and just left out the quote.
+
+01:36.190 --> 01:37.690
+And let's run it again.
+
+01:40.070 --> 01:45.120
+It's not your birthday and that's because the minute the value assigned to my birthday is November and
+
+01:45.140 --> 01:48.070
+we have given it marked We're checking if it's March.
+
+01:48.170 --> 01:49.190
+OK so I hope that helps.
+
+01:49.190 --> 01:51.550
+And that's how you check for I suppose inequality.
+
+01:51.590 --> 01:55.220
+How to check if two items are not equal to each other and see you in the next lecture.
+
+01:55.220 --> 01:57.790
+When will we be looking at numerical comparisons.
+
+01:57.800 --> 01:58.190
+Thank you.

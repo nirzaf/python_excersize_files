@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.450 --> 00:01.640
+Hi everybody and welcome back.
+
+00:01.650 --> 00:05.700
+Now as you can see here we're using partons Idol Shelfer this lecture and that's because we want instant
+
+00:05.700 --> 00:08.590
+feedback from what we're going to be doing during the lecture.
+
+00:08.650 --> 00:14.250
+So we were introduced briefly in the last lecture the Titans statement and every IF statement is like
+
+00:14.250 --> 00:17.470
+a test and these tests are called conditional test.
+
+00:17.520 --> 00:23.420
+And that's because each test can be evaluated as either true or false depending on the conditions within
+
+00:23.430 --> 00:23.960
+them.
+
+00:24.390 --> 00:29.310
+If a conditional test evaluates the true pipe and executes the code following the if statement.
+
+00:29.640 --> 00:33.380
+If the test evaluates to false and ignores the code following the if statement.
+
+00:33.600 --> 00:38.640
+The simplest conditional test checks whether the value of a variable is equal to the value of interest.
+
+00:38.640 --> 00:40.250
+So let's take a look.
+
+00:40.330 --> 00:42.980
+That's quite new very variable called Password.
+
+00:43.020 --> 00:45.960
+Let's get at the value of Tony.
+
+00:46.020 --> 00:47.880
+Perfect.
+
+00:47.880 --> 00:55.020
+Now let's compare and see if our value within password which is Tony is equal to Tony which would come
+
+00:55.020 --> 01:00.690
+from user input and it is to as we've seen plenty of times before is assigned a value of Tony to the
+
+01:00.690 --> 01:06.840
+variable password a double equal sign is called the equality operator the equality operator returns
+
+01:06.840 --> 01:11.280
+true if the values on both sides of it match and false if they don't match.
+
+01:11.280 --> 01:17.010
+So for example here we know that the value on the left hand side of the equality operator password contains
+
+01:17.010 --> 01:17.910
+the value.
+
+01:17.910 --> 01:19.210
+Tony.
+
+01:19.470 --> 01:22.830
+And on the right hand side if you call the operator we have Toney's.
+
+01:22.890 --> 01:29.020
+So we press Enter we are returned true because both sides only call the operator are equal to each other.
+
+01:29.190 --> 01:34.350
+When you are testing for equality implied in case matters two values with different capitalization are
+
+01:34.350 --> 01:35.610
+not considered equal.
+
+01:35.610 --> 01:36.530
+So let's take a look.
+
+01:37.430 --> 01:43.170
+Password is equal to Tony with a capital T.
+
+01:43.420 --> 01:47.760
+And we know that's going to be false because we know our password is Tony with alacrity false.
+
+01:47.870 --> 01:49.270
+OK so far so good.
+
+01:49.300 --> 01:55.460
+If the case matters like Windows or using a password or a sign in form that this behavior is very useful
+
+01:55.990 --> 02:00.580
+but if it doesn't matter then you need to compare the variables value to lowercase before conducting
+
+02:00.580 --> 02:01.410
+your tests.
+
+02:01.420 --> 02:04.190
+And let's take a look now at how we would do it at first.
+
+02:04.210 --> 02:10.040
+Let's create a new password password 1 and that's the sign at the value.
+
+02:10.150 --> 02:16.850
+Frank would an upper case f great.
+
+02:16.860 --> 02:18.440
+Now let's take that value.
+
+02:20.720 --> 02:23.290
+And apply our lower case method.
+
+02:25.760 --> 02:27.850
+And compare it to Frank
+
+02:30.460 --> 02:31.230
+true.
+
+02:31.240 --> 02:37.540
+So here we can see we've taken the value Frank with an upper case f we've lowered it and compared it
+
+02:37.540 --> 02:39.400
+to Frank with a lowercase F..
+
+02:39.490 --> 02:41.520
+And we've gotten the result of true.
+
+02:41.590 --> 02:46.120
+So this has been a brief introduction into conditional test and the if statement in particular and we'll
+
+02:46.110 --> 02:49.000
+look how to use that in bigger programs in the next lecture.
+
+02:49.000 --> 02:50.860
+Thank you for listening and I'll see you in the next lecture.

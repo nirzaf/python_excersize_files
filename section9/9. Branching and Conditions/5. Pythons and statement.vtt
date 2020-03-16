@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.240 --> 00:02.220
+Hi everybody and welcome back.
+
+00:02.220 --> 00:07.260
+Now sometimes you are going to want to check if multiple conditions are true because so far we've only
+
+00:07.260 --> 00:08.780
+been looking at single conditions.
+
+00:08.820 --> 00:15.170
+If one thing is true or not true for example we might want to check if a username and password are true.
+
+00:15.180 --> 00:20.490
+Let's look at how the check of two conditions are true if each test passes then the overall expression
+
+00:20.640 --> 00:23.610
+or our program will evaluate to true.
+
+00:23.610 --> 00:28.980
+So let's start here with a user name and you can already see I've entered in some comments as identifying
+
+00:28.980 --> 00:30.670
+the program in part
+
+00:33.280 --> 00:33.790
+welcome
+
+00:38.270 --> 00:41.080
+please enter your username
+
+00:43.840 --> 00:49.690
+OK so that's our first one and let's create a variable password and put
+
+00:53.610 --> 00:58.970
+Oh please enter your password.
+
+00:59.570 --> 01:00.170
+OK.
+
+01:00.200 --> 01:01.640
+Let's just close that off.
+
+01:01.640 --> 01:02.750
+If use a name
+
+01:06.080 --> 01:07.650
+be helpful if I spelt it right.
+
+01:07.680 --> 01:09.470
+Because otherwise nothing is going to work.
+
+01:09.690 --> 01:12.330
+If your name is not Tony
+
+01:15.920 --> 01:26.140
+and our password is not password 1 2 3 It wouldn't be very hard to hack.
+
+01:26.260 --> 01:29.670
+This was a real program print
+
+01:34.500 --> 01:36.630
+Access Denied
+
+01:40.280 --> 01:41.710
+else.
+
+01:41.830 --> 01:47.230
+Don't forget your code on prent.
+
+01:47.400 --> 01:47.790
+Welcome
+
+01:50.870 --> 01:51.650
+OK.
+
+01:52.010 --> 01:53.390
+So I've already saved this file.
+
+01:53.400 --> 01:55.030
+So let's run it and see what we get.
+
+01:56.350 --> 02:01.210
+Welcome please enter your username username Tony present your password.
+
+02:01.210 --> 02:03.150
+P A S S W O already.
+
+02:03.170 --> 02:04.540
+One two three.
+
+02:04.750 --> 02:05.320
+Welcome.
+
+02:05.320 --> 02:06.240
+There we go.
+
+02:06.250 --> 02:10.420
+So two conditions are true and our program has run.
+
+02:10.420 --> 02:11.750
+Let's try this again.
+
+02:15.440 --> 02:18.780
+Present our username Frank password p a.
+
+02:18.790 --> 02:20.960
+SS access denied.
+
+02:20.960 --> 02:23.140
+So Bodor conditions are incorrect.
+
+02:23.150 --> 02:25.570
+So if so our program evaluates to false.
+
+02:26.000 --> 02:29.860
+OK let's just step through this program for a moment.
+
+02:30.380 --> 02:31.830
+Here we have the lines.
+
+02:31.830 --> 02:36.870
+Suppose one and two we ask the user to input their user name and password.
+
+02:36.870 --> 02:43.990
+Then we create an if statement and we Calpine that if the username does not equal Tony and the password
+
+02:43.990 --> 02:51.920
+does not equal password 1 2 3 then print access is denied as long as the user input and the password
+
+02:52.100 --> 02:54.380
+equal Tony and password 1 2 3.
+
+02:54.680 --> 02:56.900
+Then the program is a success.
+
+02:56.900 --> 03:01.860
+Print welcome and that's how we test for multiple conditions using the current condition.
+
+03:03.020 --> 03:06.340
+We look at this later on in furter lectures and bigger programs.
+
+03:06.650 --> 03:08.390
+Thank you for listening and I see you in the next lecture.

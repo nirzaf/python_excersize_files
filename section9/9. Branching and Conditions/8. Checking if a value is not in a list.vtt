@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.600 --> 00:02.030
+Hi everybody and welcome back.
+
+00:02.060 --> 00:05.920
+Now in this lecture we're going to look at how to check if a value is not in a list.
+
+00:05.940 --> 00:08.530
+So sometimes you need to know when the value is not in the list.
+
+00:08.550 --> 00:14.610
+Again consider the example of a web app you could have to list for different users admin users and normal
+
+00:14.610 --> 00:15.160
+users.
+
+00:15.300 --> 00:18.230
+Obviously admin users can do more than the normal users.
+
+00:18.360 --> 00:20.340
+So let's have a look at how that would work.
+
+00:20.340 --> 00:22.600
+So let's first create a list of admin users.
+
+00:26.610 --> 00:28.730
+And let's call this admin users.
+
+00:28.750 --> 00:30.680
+Nice and simple.
+
+00:30.680 --> 00:34.540
+He calls let's just give this to users.
+
+00:34.640 --> 00:39.940
+Tony and frank here we go.
+
+00:39.940 --> 00:42.960
+We've created a list of users now that asked to use for our username
+
+00:48.310 --> 00:49.490
+and let's have a look.
+
+00:49.500 --> 00:54.270
+User name equals input
+
+00:58.690 --> 01:02.680
+please enter your user name.
+
+01:03.520 --> 01:05.740
+OK close it off.
+
+01:05.740 --> 01:06.430
+Perfect.
+
+01:06.430 --> 01:19.500
+Next we check if the username entered is in our list of adman's.
+
+01:19.520 --> 01:32.720
+So if user name not so here's the key word here not in admin users colon print
+
+01:36.810 --> 01:40.010
+you do not have access.
+
+01:40.380 --> 01:42.910
+OK else print
+
+01:46.030 --> 01:47.130
+access granted
+
+01:51.470 --> 01:51.770
+OK.
+
+01:51.770 --> 01:55.520
+So what we've done is we've created a list of admin users with just two users.
+
+01:55.520 --> 02:01.220
+We've then asked the user input the user name if the user name is not in our list of our main users.
+
+02:01.310 --> 02:05.840
+Well then we don't grant access to whatever it is or trying to do or otherwise you print out access
+
+02:05.840 --> 02:06.950
+granted.
+
+02:06.950 --> 02:08.080
+So let's save this.
+
+02:08.290 --> 02:09.740
+And now let's run it.
+
+02:12.350 --> 02:12.850
+OK.
+
+02:13.010 --> 02:15.610
+Please enter your username Tony.
+
+02:15.680 --> 02:17.050
+Access granted.
+
+02:17.150 --> 02:18.080
+So far so good.
+
+02:18.140 --> 02:19.100
+Let's run it again.
+
+02:22.540 --> 02:24.120
+Present your news name.
+
+02:24.460 --> 02:30.690
+Bobby As you can see I'm expanding out on my list of user names from my usual Frank.
+
+02:30.720 --> 02:31.140
+Tony.
+
+02:31.150 --> 02:33.540
+Mary you do not have access.
+
+02:33.570 --> 02:34.310
+So there we go.
+
+02:34.320 --> 02:38.850
+So you can see how we can combine that with the last letter to start checking for valid users and user
+
+02:38.850 --> 02:41.700
+names put in your web app or any other application.
+
+02:41.700 --> 02:43.380
+Thanks for listening and I'll see you in the next lecture.

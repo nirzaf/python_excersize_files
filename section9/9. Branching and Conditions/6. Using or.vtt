@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.980 --> 00:02.720
+Hi everybody and welcome back.
+
+00:02.720 --> 00:07.640
+Now we've just seen how we can check conditions using the on statement and for the statement to pass
+
+00:07.970 --> 00:09.280
+or to run a program.
+
+00:09.320 --> 00:11.590
+Both conditions have to be true.
+
+00:11.660 --> 00:16.790
+We can also use what's called the or key word which allows us to check multiple conditions.
+
+00:16.940 --> 00:23.120
+But it passes when either or both of the individual tests pass and or expression fails only when both
+
+00:23.150 --> 00:24.540
+individual tests fail.
+
+00:24.770 --> 00:26.320
+Let's look at an example.
+
+00:26.720 --> 00:28.630
+So we're going to check some pages here.
+
+00:28.670 --> 00:37.620
+So your age equals import.
+
+00:37.650 --> 00:40.750
+How old are you.
+
+00:40.830 --> 00:41.430
+Perfect.
+
+00:41.430 --> 00:42.630
+Let's just close that up.
+
+00:43.880 --> 00:49.090
+And your friends age and I was always a little typo in my spelling.
+
+00:49.160 --> 00:55.680
+Friends age equals import.
+
+00:55.820 --> 00:59.190
+How old is your friend.
+
+01:02.580 --> 01:06.900
+And again close with her double quote on our bracket.
+
+01:07.060 --> 01:09.370
+So now we're going to create an IF block.
+
+01:09.460 --> 01:13.690
+But first is just something we need to address because we're asking here for ages and people are going
+
+01:13.690 --> 01:17.720
+to import digits those digits are going to be received by Payden as strings.
+
+01:17.890 --> 01:22.750
+So we need to convert them into integers for our programs to run and not generate any errors.
+
+01:22.750 --> 01:27.220
+So if in your age
+
+01:31.770 --> 01:37.430
+is greater than or equal to 18 or friends age
+
+01:41.540 --> 01:43.690
+is greater than or equal to 18.
+
+01:43.700 --> 01:56.020
+Don't forget our on print and Grotz one of you is old enough to vote
+
+02:00.640 --> 02:02.720
+OK else
+
+02:07.000 --> 02:09.800
+print.
+
+02:09.950 --> 02:16.080
+Sorry one of you is too young to vote.
+
+02:18.450 --> 02:21.060
+We start by asking to use the input to ages.
+
+02:21.060 --> 02:26.910
+We don't want to check using the organization to see if both of our ages are greater than or equal to
+
+02:26.910 --> 02:27.900
+18.
+
+02:27.940 --> 02:30.210
+Let's run this program now and see how it looks.
+
+02:30.210 --> 02:33.640
+First we'll save it and then we run.
+
+02:34.530 --> 02:35.540
+So how will you.
+
+02:35.580 --> 02:36.990
+So let's say I'm 18.
+
+02:36.990 --> 02:37.940
+I wish I were.
+
+02:38.250 --> 02:39.190
+How old is your friend.
+
+02:39.320 --> 02:40.220
+Eighteen.
+
+02:40.320 --> 02:40.830
+Congrats.
+
+02:40.830 --> 02:44.550
+One of you is old enough to vote country boat art has a pass.
+
+02:44.580 --> 02:49.750
+So as we said from the beginning and or expression fails only when both individual tests fail.
+
+02:49.950 --> 02:53.180
+Let's run this again and not fail both tests.
+
+02:54.690 --> 02:55.590
+So will you.
+
+02:55.650 --> 02:56.860
+16.
+
+02:57.140 --> 02:58.120
+How old is your friend.
+
+02:58.150 --> 02:58.930
+17.
+
+02:59.040 --> 02:59.600
+Sorry.
+
+02:59.700 --> 03:04.020
+One of you is too young to vote and we've left out a word here.
+
+03:04.020 --> 03:06.220
+Too young to vote so we correct that now.
+
+03:07.590 --> 03:09.480
+So hope that explains the statement.
+
+03:09.700 --> 03:12.640
+And like others will be using it when we get into more advanced topics.
+
+03:12.750 --> 03:14.540
+Later on during the course.
+
+03:14.940 --> 03:16.770
+Thank you and I'll see you in the next lecture.

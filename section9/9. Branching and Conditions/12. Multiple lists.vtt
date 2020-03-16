@@ -1,0 +1,136 @@
+WEBVTT
+
+00:02.350 --> 00:04.320
+Hi everybody and welcome back.
+
+00:04.390 --> 00:08.210
+Now in a previous example we specified a particular item that was out-of-stock.
+
+00:08.290 --> 00:12.220
+So we specified that pens were out of stock but doesn't mention there will come a time when we're able
+
+00:12.220 --> 00:15.160
+to pull in or out of stock items from another list.
+
+00:15.160 --> 00:21.460
+So in this example we're going to use to list a list of items in our shopping cart and a list of I and
+
+00:21.460 --> 00:23.490
+a list about the stock items.
+
+00:23.530 --> 00:27.060
+So as you can see here I've started off some comments and that created two tulis.
+
+00:27.160 --> 00:29.260
+So go ahead and create those lists now.
+
+00:31.070 --> 00:31.710
+OK.
+
+00:31.810 --> 00:36.510
+In the example to come each item in a shopping cart is checked against our list of out-of-stock items.
+
+00:36.520 --> 00:42.130
+So let's take a look at how we do that we have to list our first list is our in-stock items on our second
+
+00:42.130 --> 00:43.650
+list is our shopping cart.
+
+00:43.990 --> 00:50.680
+So as you can see here our user has requested orange post-its which is not in our in-stock list.
+
+00:50.680 --> 00:53.730
+So let's get meet ever code of our program running.
+
+00:54.220 --> 00:58.760
+So for item in shopping cart
+
+01:02.510 --> 01:10.820
+inside the loop we first check to see if each item our user wants to buy is in-stock if item in in-stock
+
+01:14.350 --> 01:15.760
+if the item is in stock.
+
+01:15.760 --> 01:19.870
+We print the message like in the last lecture which tells the user that we're adding the item to the
+
+01:19.870 --> 01:20.540
+list.
+
+01:20.540 --> 01:20.870
+Print
+
+01:26.080 --> 01:32.680
+plus item plus to your order.
+
+01:34.100 --> 01:35.390
+Perfect.
+
+01:35.430 --> 01:36.980
+Close that off.
+
+01:36.990 --> 01:39.840
+Else print
+
+01:43.380 --> 01:55.480
+sorry plus item plus OpenTable quote is not in stock
+
+01:59.280 --> 02:11.950
+close that off and we finish up with a print statement print your order is complete.
+
+02:12.460 --> 02:12.820
+OK.
+
+02:12.850 --> 02:13.900
+There we go.
+
+02:13.900 --> 02:15.380
+So let's have a look what we've done.
+
+02:15.430 --> 02:18.340
+First we've Crighton in-stock list which contains three items.
+
+02:18.340 --> 02:20.750
+Blue pens paper and staples.
+
+02:20.770 --> 02:27.430
+Next we have our users shopping cart and they've opted to buy blue pants paper staples and orange Post-its.
+
+02:27.430 --> 02:32.680
+Plus we know orange post-its are not in our stock list for block.
+
+02:33.040 --> 02:37.630
+We have four item in our shopping cart so for each item in our shopping cart do the following.
+
+02:37.990 --> 02:43.590
+If the item is in our in-stock list print adding the item to your order else.
+
+02:43.630 --> 02:50.270
+So if the item is not in stock list print sorry item is not in stock when our 4 block is complete.
+
+02:50.350 --> 02:53.260
+We run our print statement here which says your order is complete.
+
+02:53.350 --> 02:57.930
+So let's say this and then run it.
+
+02:57.990 --> 03:01.000
+Here we go adding blue pens you order adding paper to your order.
+
+03:01.050 --> 03:02.100
+Staples your order.
+
+03:02.100 --> 03:04.380
+Sorry orange post that is not in stock.
+
+03:04.410 --> 03:05.450
+Your order is complete.
+
+03:05.640 --> 03:07.080
+Perfect.
+
+03:07.140 --> 03:10.770
+So there we have an example of how we can use multiple lists in our programs.
+
+03:10.770 --> 03:12.480
+Thanks for listening and I'll see you in the next lecture.

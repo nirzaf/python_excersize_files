@@ -1,0 +1,244 @@
+WEBVTT
+
+00:00.420 --> 00:02.060
+Hi everybody and welcome back.
+
+00:02.190 --> 00:07.350
+Now they are gonna be many times when you need to test more than two possible situations and to do this
+
+00:07.530 --> 00:11.720
+we can use an if if else block.
+
+00:12.120 --> 00:13.590
+Let's take a look at an example.
+
+00:13.840 --> 00:19.800
+So consider an online banking application that tells you what your interest rate is based on your balance.
+
+00:19.800 --> 00:22.290
+First we ask the user for the balance.
+
+00:22.320 --> 00:26.420
+Let's start off income and get use or balance.
+
+00:26.790 --> 00:27.360
+OK.
+
+00:27.600 --> 00:32.450
+Then we ask the user for her actual balance balance equals in part
+
+00:35.490 --> 00:36.660
+opened double quote.
+
+00:36.750 --> 00:39.870
+What is your bank balance.
+
+00:42.290 --> 00:43.200
+Question mark.
+
+00:43.200 --> 00:48.350
+First of all quote close brackets if he uses bank balance is less than 50 dollars that they did not
+
+00:48.350 --> 00:55.920
+qualify to earn interest if integer because of user input that we got back will be a string balance.
+
+00:55.940 --> 01:00.530
+I'm going to use our comparison's operators here now what we saw in a previous lecture is less than
+
+01:00.530 --> 01:04.160
+or equal to 50.
+
+01:04.170 --> 01:09.100
+Don't forget your code which I nearly did print.
+
+01:09.590 --> 01:14.710
+You do not qualify for interest
+
+01:19.840 --> 01:24.510
+perfect or if to use his bank bounds is less than one dollars but more than $50.
+
+01:24.610 --> 01:26.950
+Then they qualify for one percent interest.
+
+01:26.950 --> 01:32.870
+Finally if you use it bounds is over $100 and they get 2 percent interest.
+
+01:32.890 --> 01:34.190
+So let's add that in there.
+
+01:34.450 --> 01:45.620
+So if balance is less than 100.
+
+01:46.030 --> 01:47.050
+Your interest.
+
+01:47.050 --> 01:55.800
+Actually I've forgotten my opening double quote here so your interest rate is 1 percent.
+
+01:55.830 --> 01:57.600
+Close your double quotes.
+
+01:57.600 --> 01:58.790
+Close your bracket.
+
+01:59.910 --> 02:00.330
+Else
+
+02:03.410 --> 02:03.860
+print
+
+02:08.580 --> 02:09.480
+your interest
+
+02:13.180 --> 02:15.710
+rate is 2 percent.
+
+02:16.340 --> 02:16.980
+OK.
+
+02:17.230 --> 02:20.550
+We can use as many blocks as we like in our code.
+
+02:21.510 --> 02:23.690
+So let's run this now and see what happens.
+
+02:23.700 --> 02:28.160
+First we have to say that command an S and then run.
+
+02:28.240 --> 02:28.950
+OK so here we go.
+
+02:28.950 --> 02:31.890
+What does your bank balance my bank balance is $10.
+
+02:31.980 --> 02:34.050
+You do not qualify for an interest rate.
+
+02:34.230 --> 02:34.650
+OK.
+
+02:34.650 --> 02:36.160
+That's unfortunate.
+
+02:36.160 --> 02:39.230
+So let's say I've made a deposit run Mudgal.
+
+02:39.470 --> 02:45.430
+What does your bank balance my bank balance is $51 your interest rate is 1 percent.
+
+02:45.590 --> 02:46.350
+OK.
+
+02:46.660 --> 02:52.720
+Let's run it one more time and have a look my bank balance is $102.
+
+02:52.940 --> 02:54.620
+Your interest rate is 2 percent.
+
+02:54.820 --> 02:55.730
+Okay perfect.
+
+02:55.730 --> 02:58.880
+So let's just go back to our program and step over this for a second.
+
+02:58.880 --> 03:01.200
+First we are so used to our balance.
+
+03:01.220 --> 03:02.710
+So what does your bank balance.
+
+03:02.750 --> 03:08.080
+And we wait for the user's input if their balance is less than 50 or less than or equal to $50.
+
+03:08.150 --> 03:13.250
+So I think from 50 dollars down to zero you do not qualify for interest.
+
+03:13.250 --> 03:19.350
+Now then we say out if Al if indeed your balance is less than 100.
+
+03:19.520 --> 03:22.370
+But we've already caught anything from 50 downwards.
+
+03:22.490 --> 03:26.970
+So this catches anything from 50 upwards but not greater than 100.
+
+03:26.990 --> 03:34.200
+Your interest rate is 1 percent and then else what we're saying here is anything over 100 is 2 percent.
+
+03:34.520 --> 03:36.550
+So I hope that makes sense.
+
+03:36.710 --> 03:40.740
+Let's expand on this program now and not another half block.
+
+03:40.940 --> 03:46.280
+So we're going to modify this here and we're going to say if the balance is zero we're going to print
+
+03:48.900 --> 03:52.530
+would you like to make a deposit.
+
+03:54.370 --> 03:59.040
+Close close close that and then we're going to put our first what was previously our first print statement
+
+03:59.280 --> 04:12.870
+into an atlas if and balance after the teeter and balance is less than or equal to 50 than we print.
+
+04:12.950 --> 04:14.670
+You do not qualify for interest.
+
+04:14.810 --> 04:15.230
+Okay.
+
+04:15.230 --> 04:16.200
+So let's run this again.
+
+04:16.200 --> 04:19.120
+First we save it and let's run it now.
+
+04:20.090 --> 04:21.440
+What does your bank balance.
+
+04:21.440 --> 04:22.700
+Well my balance is zero.
+
+04:22.700 --> 04:24.080
+Would you like to make a deposit.
+
+04:24.110 --> 04:24.840
+Perfect.
+
+04:24.950 --> 04:27.160
+At the end of our program there is an Alice block.
+
+04:27.230 --> 04:28.200
+So here it is here.
+
+04:28.330 --> 04:30.970
+Platon doesn't actually need an ounce block at the end of it.
+
+04:31.140 --> 04:36.500
+If it's changed by closing our program or else we are using it as a kind of catch all statement for
+
+04:36.500 --> 04:41.830
+anything over the 100 dollar mark and applying an interest rate of 2 percent that we are saying the
+
+04:41.830 --> 04:46.640
+plight and that anyone with a balance of over 100 dollars gets the interest of 2 percent.
+
+04:46.850 --> 04:52.550
+Sometimes we'll make more sense to end with an If statement that catches a specific condition of your
+
+04:52.550 --> 04:53.980
+program.
+
+04:53.990 --> 04:55.010
+Now I hope this makes sense.
+
+04:55.020 --> 04:58.640
+I'm going to be coming back to this program in later lectures and expanding on it.
+
+04:58.850 --> 05:01.820
+If you've any questions as always don't hesitate to reach out.
+
+05:01.820 --> 05:03.720
+Thanks for listening and I'll see you in the next lecture.

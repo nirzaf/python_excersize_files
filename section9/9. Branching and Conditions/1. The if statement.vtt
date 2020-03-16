@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.940 --> 00:02.680
+Hi everybody and welcome back.
+
+00:02.680 --> 00:07.440
+Today we're moving into a new section and that section is all about branching and conditions.
+
+00:07.840 --> 00:15.310
+So every day of our nine lives we make decisions log into our email or access Facebook or not to continue.
+
+00:15.310 --> 00:17.530
+Click this button buy a product.
+
+00:17.530 --> 00:18.880
+Or don't buy a product.
+
+00:18.970 --> 00:21.760
+In programming these decisions are called branching.
+
+00:21.790 --> 00:25.700
+Think of branching as a decision to take one road over another.
+
+00:26.110 --> 00:27.920
+Let's take a look at a quick example.
+
+00:29.100 --> 00:33.570
+Using our newly acquired knowledge of the INPUT statement let's create a password checker so that you
+
+00:33.570 --> 00:37.740
+can see here I vented in our usual comments and we're starting off with a print statement
+
+00:41.190 --> 00:43.420
+to continue.
+
+00:44.610 --> 00:46.260
+Please log in.
+
+00:46.680 --> 00:48.950
+OK simple enough clothes are double quotes.
+
+00:48.960 --> 00:49.990
+Close our brackets.
+
+00:50.160 --> 00:51.260
+Now we'll enter in a calm and
+
+00:54.840 --> 00:56.150
+using the if statement.
+
+00:59.410 --> 01:01.050
+Perfect.
+
+01:01.170 --> 01:05.710
+Now let's create a new variable called password which will hold the user's input and password.
+
+01:05.990 --> 01:06.340
+Import
+
+01:11.680 --> 01:14.840
+Please enter your password.
+
+01:15.460 --> 01:21.100
+OK so far nothing out of the blue.
+
+01:21.180 --> 01:23.630
+Now if password
+
+01:27.830 --> 01:33.310
+and we're using two equal signs an implied and that means if the password is identical.
+
+01:33.370 --> 01:38.610
+So not just similar not just almost absolutely identical.
+
+01:38.710 --> 01:42.740
+So that includes lower case number of characters everything.
+
+01:42.820 --> 01:45.340
+So if a password is identical to Tony
+
+01:51.310 --> 01:59.220
+access granted nice Ok open sesame access granted.
+
+01:59.220 --> 02:02.310
+Don't forget our closing quote here or else
+
+02:05.190 --> 02:06.770
+don't forget the code on there.
+
+02:06.790 --> 02:07.070
+Print
+
+02:09.930 --> 02:10.470
+incorrect
+
+02:13.180 --> 02:16.910
+please try again OK.
+
+02:16.940 --> 02:19.720
+Close or double quotes close or brackets.
+
+02:19.720 --> 02:21.380
+Let's have a look and run this program.
+
+02:21.460 --> 02:22.590
+But first we have to save.
+
+02:22.660 --> 02:24.810
+OK so here we are to continue please log in.
+
+02:25.210 --> 02:26.870
+Please enter your password.
+
+02:27.250 --> 02:28.940
+Let's go Tony.
+
+02:29.050 --> 02:30.220
+Access granted.
+
+02:30.340 --> 02:31.440
+Very very nice.
+
+02:31.530 --> 02:33.360
+OK let's run it again.
+
+02:37.080 --> 02:38.190
+Please enter your password.
+
+02:38.190 --> 02:40.020
+Let's try Frank.
+
+02:40.110 --> 02:40.630
+Incorrect.
+
+02:40.650 --> 02:41.570
+Please try again.
+
+02:41.580 --> 02:46.320
+This example has a couple of new concepts and in the next lecture we're going to be taking a much closer
+
+02:46.320 --> 02:46.670
+look.
+
+02:46.740 --> 02:48.360
+Thank you and I'll see you in the next lecture.

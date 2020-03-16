@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.980 --> 00:02.860
+Hi everybody and welcome back.
+
+00:02.960 --> 00:07.100
+Now in an earlier lecture we wrote a program to check our username and password.
+
+00:07.330 --> 00:10.790
+But let's go back a step and consider the registration process.
+
+00:11.000 --> 00:15.560
+If you've ever registered for any kind of online service you'll be familiar with the process that when
+
+00:15.560 --> 00:21.320
+you enter in a user name a small program runs in the background to see if that username is available.
+
+00:21.320 --> 00:26.020
+You were then prompted with a kind of yes or no success or failure message you say yes that username
+
+00:26.030 --> 00:26.650
+is available.
+
+00:26.670 --> 00:28.790
+Or know that user name is not available.
+
+00:28.940 --> 00:33.100
+Well we are going to have a look at a similar process the check of a value is already in the list.
+
+00:33.170 --> 00:35.220
+We can use the in keyword.
+
+00:35.420 --> 00:40.770
+Let's look at the example First we create a list of user names that have already been registered up.
+
+00:40.820 --> 00:52.420
+So I just put in a comment here names registered perfect and Karaite our list registered names.
+
+00:53.000 --> 00:59.370
+And as always we open and close with square brackets and inside that we open and close with single quotes.
+
+00:59.390 --> 01:01.380
+So let's start populating our names.
+
+01:01.560 --> 01:08.470
+And as always Again a comment to separate out our values Frank.
+
+01:08.520 --> 01:13.750
+Mary come to open and close brackets open closed single quotes Peter.
+
+01:14.490 --> 01:16.380
+OK so our list is created.
+
+01:16.830 --> 01:20.290
+Then we ask you to import the user name that they would like to use.
+
+01:20.310 --> 01:21.420
+So the user name
+
+01:24.080 --> 01:27.900
+equals the space that for a little bit of clarity in port
+
+01:31.380 --> 01:34.730
+Please enter the user name.
+
+01:35.430 --> 01:37.830
+You would like to use.
+
+01:38.020 --> 01:38.590
+OK.
+
+01:38.620 --> 01:42.960
+Now let's see close the brackets.
+
+01:43.010 --> 01:47.570
+Next we check to see if the user name is already taken in a list of registered names.
+
+01:47.570 --> 01:51.120
+So we have an IF block.
+
+01:51.490 --> 01:59.670
+So I would just leave a comment here check to see if user name is already taken.
+
+02:00.010 --> 02:00.470
+OK.
+
+02:00.490 --> 02:01.440
+Perfect.
+
+02:01.450 --> 02:07.890
+So if you if use a name which comes from our input if you use a name in registered names
+
+02:12.840 --> 02:17.450
+don't forget your colon print sorry.
+
+02:19.690 --> 02:22.520
+Use a name already taken.
+
+02:23.920 --> 02:27.930
+And with this correct spelling mistake they're perfect.
+
+02:30.170 --> 02:31.210
+Closes up.
+
+02:31.220 --> 02:34.480
+So if you use a name already exists we print the sorry message.
+
+02:34.540 --> 02:35.220
+You is not.
+
+02:35.220 --> 02:43.150
+If the username is not taken then we give the user a success message so else present
+
+02:46.600 --> 02:53.310
+this user name is available OK.
+
+02:54.480 --> 02:59.350
+And let's say this man that S and see how it runs ok.
+
+02:59.360 --> 03:01.120
+Please enter the username you would like to use.
+
+03:01.200 --> 03:04.560
+Let's first start off of one that we know is already in our list.
+
+03:04.560 --> 03:07.110
+Tony sorry username is already taken.
+
+03:07.290 --> 03:09.680
+OK let's try it again.
+
+03:10.280 --> 03:11.310
+Let's try.
+
+03:13.390 --> 03:14.620
+The user name is available.
+
+03:14.840 --> 03:15.690
+Okay perfect.
+
+03:15.710 --> 03:19.850
+So there we have a simple username checker program and as we've seen the previous lectures you could
+
+03:19.850 --> 03:20.710
+add on to this.
+
+03:20.750 --> 03:26.030
+You could enter this program with by using the lowercase method so that when you use energy in Tony
+
+03:26.030 --> 03:30.800
+with a capital T you're not getting to use names that will ultimately be the same.
+
+03:30.800 --> 03:34.820
+I hope this letter was helpful and as always if any questions please do not hesitate to reach out and
+
+03:34.850 --> 03:35.690
+ask me.
+
+03:35.690 --> 03:37.310
+I look forward to seeing you in the next lecture.

@@ -1,0 +1,157 @@
+WEBVTT
+
+00:01.600 --> 00:05.970
+Hi everybody come back and back this lecture we're looking at Titans strep method.
+
+00:06.190 --> 00:12.400
+So the strip method removes any whitespace on the left or right hand side of your string.
+
+00:12.420 --> 00:13.550
+So let's take a look.
+
+00:13.890 --> 00:18.910
+So let's assume that you have a program running on the web and asks you to further address.
+
+00:18.930 --> 00:21.850
+So let's create our address variable.
+
+00:22.470 --> 00:25.460
+And as always I have left out the equal sign.
+
+00:26.460 --> 00:33.540
+And as always we have our opening closing double quotes and let's just say Our address is 101 Main Street.
+
+00:34.650 --> 00:35.160
+OK.
+
+00:35.190 --> 00:40.860
+And let's just print that out to our screen and see how it looks.
+
+00:41.040 --> 00:43.110
+Ok perfect as you can see down here on the bottom left.
+
+00:43.160 --> 00:44.440
+101 Main Street.
+
+00:44.460 --> 00:45.660
+Nothing wrong there.
+
+00:45.660 --> 00:52.890
+Now let's let's assume another user comes along and they enter in one or two main street.
+
+00:53.080 --> 01:00.860
+But for some reason they've also added in some tabs at the beginning and end of the string.
+
+01:01.010 --> 01:05.910
+And just to put this into a real world example I had a user once who couldn't log into our program because
+
+01:06.180 --> 01:11.010
+at the end of their email address they were putting in an extra whitespace that are hitting the space
+
+01:11.010 --> 01:12.910
+bar at the end of the e-mail address.
+
+01:12.930 --> 01:17.630
+I don't know why they were just doing it but the error was on my side because I didn't write in the
+
+01:17.640 --> 01:22.540
+code that picked up this little bit of extra whitespace and removed it from the e-mail address.
+
+01:22.560 --> 01:23.530
+So it was my fault.
+
+01:23.700 --> 01:27.630
+So this little matter we're going to look at now what have solved that problem.
+
+01:27.690 --> 01:31.190
+But before we get to that let's have a look at what we get on our output.
+
+01:31.190 --> 01:36.540
+So control and bait and here we are here down the bottom right down the bottom left sorry one or two
+
+01:36.540 --> 01:41.810
+main street and you can see here that our tarps have been added in.
+
+01:41.840 --> 01:45.940
+So obviously we don't want that going into our database or into our file.
+
+01:46.040 --> 01:50.920
+So we need to remove this whitespace and that's where pipelines strip method comes in.
+
+01:51.170 --> 01:59.810
+So at the end of address we have dot strip opening closing brackets and let's run that again.
+
+01:59.850 --> 02:01.000
+There we go perfect.
+
+02:01.230 --> 02:03.460
+All whitespace removed.
+
+02:03.780 --> 02:05.060
+Very very handy.
+
+02:05.300 --> 02:08.310
+So let's have a look at another example this time.
+
+02:08.310 --> 02:15.030
+Let's assume that they have left the whitespace in on the left hand side of their address.
+
+02:15.180 --> 02:17.160
+So just have been left here.
+
+02:17.160 --> 02:24.300
+We can modify strip to just be strip as in left strip and let's run that again.
+
+02:26.090 --> 02:27.350
+There we go.
+
+02:27.470 --> 02:29.160
+No whitespace.
+
+02:29.270 --> 02:31.840
+And again the same is true for the right hand side.
+
+02:34.850 --> 02:38.750
+So let's just add in some whitespace first to make sure that it's there.
+
+02:40.230 --> 02:41.080
+And print it out
+
+02:44.810 --> 02:48.210
+and on the right hand side we should see some whitespace yet there it is there.
+
+02:48.300 --> 02:51.290
+And let's modify our program again to remove the whitespace
+
+02:56.260 --> 02:57.600
+runs again.
+
+02:57.700 --> 03:01.720
+And as you can see no whitespace on the right hand side.
+
+03:01.780 --> 03:04.880
+So a very very handy set up for a set of methods there.
+
+03:05.080 --> 03:19.570
+And they are the strip method which removes all whitespace from your string the left strip method which
+
+03:19.630 --> 03:26.120
+as it sounds removes whitespace from the left hand side your string and or a strip method.
+
+03:27.730 --> 03:30.940
+Which removes whitespace from the right hand side of your string.
+
+03:32.560 --> 03:37.390
+And the real world these methods are very useful to clean cleaner user input and combined with everything
+
+03:37.390 --> 03:42.910
+that we've seen so far should help you to take user input strip it down clean it up and have it nicely
+
+03:42.910 --> 03:44.940
+formatted in your database.
+
+03:44.980 --> 03:48.030
+I hope that all of this made sense and I look forward to seeing you in the next lecture.
+
+03:48.100 --> 03:48.580
+Thank you.

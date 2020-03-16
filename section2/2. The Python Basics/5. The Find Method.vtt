@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00.780 --> 00:06.180
+Hi everybody and welcome back in the last lecture we looked at the title method which allowed us to
+
+00:06.180 --> 00:10.060
+capitalize the first letter of any string or any word.
+
+00:10.160 --> 00:15.340
+So as we know a method is an action that can come perform on any piece of data.
+
+00:15.690 --> 00:18.890
+So in this lecture we're going to look at pipings find method.
+
+00:18.900 --> 00:20.800
+So again we're still going to say with strings.
+
+00:20.880 --> 00:25.630
+So let's just enter in a string here and we start off with our opening and our closing quotes.
+
+00:25.680 --> 00:36.290
+So this string I'm going to enter is my favorite book is single quote because I want to emphasize the
+
+00:36.290 --> 00:39.770
+book name Elon Musk and if you haven't read it give it a go.
+
+00:39.770 --> 00:43.040
+It really is an excellent and a quick read.
+
+00:43.070 --> 00:44.550
+So here we have our strength.
+
+00:44.840 --> 00:49.280
+So let's just say again we have a program and it might have a search bar in it or a search function
+
+00:49.280 --> 00:56.210
+within it and we want to find where book is within our string or we might want to find where the word
+
+00:56.530 --> 01:02.790
+for it is within our string what we can do here is we can assign this first a variable.
+
+01:02.810 --> 01:07.110
+So let's just say my book equals.
+
+01:07.170 --> 01:13.740
+So now we have our variable on the left hand side and we have our value which is a string on a right.
+
+01:13.820 --> 01:18.010
+And what we do here now is we attach the find method
+
+01:21.120 --> 01:26.410
+OK seems simple enough but we have to tell it what we want to find.
+
+01:26.430 --> 01:31.890
+We just have empty brackets and as we said in The Last Lecture brackets are where you can place information
+
+01:32.070 --> 01:36.320
+of what you want to find method to do or any method to do so in this instance.
+
+01:36.330 --> 01:38.610
+We want to find book B.
+
+01:38.640 --> 01:39.590
+OK.
+
+01:39.840 --> 01:40.590
+OK.
+
+01:40.860 --> 01:41.830
+So there we go.
+
+01:41.960 --> 01:46.040
+So let's see what this does for us here and to get the information out to the screen.
+
+01:46.050 --> 01:54.850
+We have print my book let's run that perfect today.
+
+01:54.910 --> 02:00.160
+Now down here in the left hand side we can see that we got a return of 12 and why 12.
+
+02:00.160 --> 02:01.710
+Why not the actual workbook.
+
+02:01.840 --> 02:06.410
+Well obviously we need to first find where book is put in our strength.
+
+02:06.430 --> 02:08.810
+So here we have my favorite book.
+
+02:08.880 --> 02:16.420
+So what the 12 refers to is the position within our string where the word book starts.
+
+02:16.420 --> 02:19.100
+So when Spuyten counts it doesn't count.
+
+02:19.120 --> 02:20.570
+One two three four.
+
+02:20.650 --> 02:22.240
+Instead it starts at zero.
+
+02:22.400 --> 02:25.440
+So 0 1 2 3 4 and so on.
+
+02:25.630 --> 02:30.260
+And the reason Python starts at 0 is because it will on your computer language actually for that matter
+
+02:30.310 --> 02:33.870
+will start at zero is because it allows you to count backwards.
+
+02:34.000 --> 02:37.990
+So 0 minus one month to months minus four and so on.
+
+02:37.990 --> 02:43.300
+So you have that flexibility go forwards into positive numbers or backwards into negative numbers.
+
+02:43.300 --> 02:44.610
+So here we have here.
+
+02:44.980 --> 02:50.950
+My favorite book and if you were to count out you would see that B which is the start of book starts
+
+02:50.950 --> 02:55.070
+at position or as it's known in programming languages the index 12.
+
+02:55.090 --> 02:56.470
+And that's where the book starts.
+
+02:56.470 --> 03:03.850
+So equally we could change this and we could say instead of book we could say E-Loan and we can run
+
+03:03.850 --> 03:13.000
+this again and we get position 21 or index 21 position to index 21 OK.
+
+03:13.040 --> 03:16.090
+So how can this find method be used in the real world.
+
+03:16.250 --> 03:21.410
+Well as I mentioned at the start imagine this was a search program and you wanted to type in find Ilan
+
+03:21.680 --> 03:24.560
+it would be able to give you back what position Ilan is in.
+
+03:24.560 --> 03:29.000
+How many times E-Loan was mentioned in the search parameters or whatever might you might be.
+
+03:29.000 --> 03:33.140
+There are plenty of ways to expand on this Xon little method.
+
+03:33.380 --> 03:39.590
+Now Equally if you had a program and it was going back to an example an email program you could have
+
+03:39.650 --> 03:40.750
+a spam filter.
+
+03:40.760 --> 03:45.310
+So what you could make your program do is find characters that are associated with spam.
+
+03:45.380 --> 03:55.220
+So we could have subject as a variable equals and then the title over e-mail let's just say is get rich
+
+03:55.980 --> 03:56.610
+now.
+
+03:56.830 --> 04:00.440
+So I'm sure we've all got these kind of emails and we could have that find
+
+04:07.630 --> 04:09.790
+print subject.
+
+04:10.180 --> 04:15.720
+And let's see Amanda be and there we go.
+
+04:15.720 --> 04:16.610
+And this is interesting.
+
+04:16.620 --> 04:18.460
+We got the value back of zero.
+
+04:18.630 --> 04:22.570
+And as I just said Platon started counting at zero.
+
+04:22.610 --> 04:24.210
+Then it goes one two tree.
+
+04:24.210 --> 04:32.130
+So what this poll is telling us is that it found our search of three dollar signs in the very very beginning
+
+04:32.340 --> 04:33.490
+of our strength.
+
+04:33.510 --> 04:34.330
+So here we are.
+
+04:34.410 --> 04:35.400
+So here it is here.
+
+04:35.560 --> 04:40.440
+And what we could do later on is we could refine our e-mail program to remove any messages that it picks
+
+04:40.440 --> 04:42.880
+up as spam which is a three dollar signs.
+
+04:42.900 --> 04:43.700
+And this example.
+
+04:43.740 --> 04:46.190
+So that's a quick example of the find method.
+
+04:46.680 --> 04:54.120
+And as always as we've seen in our last lecture the find that starts with i n Andy brackets and inside
+
+04:54.120 --> 04:58.440
+the brackets is the argument that you want to pass on the information that you want to pass and applying
+
+04:58.740 --> 05:01.680
+for a method to act upon.
+
+05:01.690 --> 05:03.020
+So I hope that made sense.
+
+05:03.130 --> 05:06.170
+If not please shoot me a question on the Q&amp;A section.
+
+05:06.240 --> 05:10.570
+I gave the activities go at the end of the section thank you and I'll see you in the next lecture.

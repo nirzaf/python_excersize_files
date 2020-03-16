@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.450 --> 00:06.000
+Hi everybody and welcome back this lecture we're going to be talking about adding whitespace.
+
+00:06.000 --> 00:08.190
+So we've seen how remove whitespace.
+
+00:08.190 --> 00:12.300
+How about adding it back in such as a new line or a top.
+
+00:12.390 --> 00:14.160
+So I think it Hobba simple enough.
+
+00:14.160 --> 00:15.370
+And this is how you do it.
+
+00:15.420 --> 00:18.410
+That's Stigwood our dress.
+
+00:18.800 --> 00:25.470
+So we have a very big address equals opening closing double quote 101 Main Street.
+
+00:25.980 --> 00:30.510
+And then let's just say we want to add in the area where that might be such as the county or the city
+
+00:31.800 --> 00:32.830
+or the province.
+
+00:32.970 --> 00:37.700
+And let's just say if you're in Dublin like I am back slashed he adds in a tub.
+
+00:37.830 --> 00:42.140
+So you have backslid t Double-A and they just print our address
+
+00:45.390 --> 00:47.310
+and run that and there we go.
+
+00:47.310 --> 00:51.950
+Bottom left hand corner we can see our address 101 Main Street tab Dublin.
+
+00:51.960 --> 00:53.130
+Simple enough.
+
+00:53.640 --> 00:55.710
+Let's look at doing that with a new line.
+
+00:55.710 --> 00:57.060
+So again address
+
+00:59.530 --> 01:08.260
+equals opening closing double quote one or two Main Street and instead of adding in it time we want
+
+01:08.260 --> 01:15.240
+to add in a new line Dublin and let's just print Our address again.
+
+01:15.370 --> 01:17.830
+Print opening closing door brackets.
+
+01:17.970 --> 01:19.000
+Our address.
+
+01:19.000 --> 01:20.680
+Let's run that.
+
+01:20.910 --> 01:24.270
+And there we go one of two main street Doebbler.
+
+01:24.330 --> 01:25.280
+Perfect.
+
+01:25.290 --> 01:30.390
+So that's a very quick explanation as to how you add in a tab or a new line into your strings and your
+
+01:30.390 --> 01:31.100
+programs.
+
+01:31.230 --> 01:33.050
+Thank you and I'll see you in the next lecture.

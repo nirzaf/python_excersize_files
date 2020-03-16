@@ -1,0 +1,85 @@
+WEBVTT
+
+00:01.080 --> 00:06.930
+Hi everybody and welcome back in this lecture we're going to continue our exploration of pipings methods
+
+00:07.190 --> 00:09.680
+and we're going to talk about the lower method.
+
+00:09.750 --> 00:11.130
+So what exactly does that mean.
+
+00:11.130 --> 00:14.730
+Well it's it does exactly what it says on the tin.
+
+00:14.790 --> 00:16.860
+So let's go back to our name example.
+
+00:16.860 --> 00:23.040
+So we have name and we're going to start for the opening closing double quotes.
+
+00:23.040 --> 00:29.250
+I don't to impart my name or as you type your name I'm going to put them in or Piquet's characters like
+
+00:29.250 --> 00:29.560
+this.
+
+00:29.550 --> 00:36.020
+Tony Stanton in upper case so let's assume someone has entered your name into your shiny new program
+
+00:36.300 --> 00:38.440
+and it's all in uppercase like this.
+
+00:38.550 --> 00:43.470
+Obviously we don't want to put that into a database or into our storage system which may be a file like
+
+00:43.470 --> 00:43.810
+this.
+
+00:43.830 --> 00:48.960
+We want it all the same because some people might enter their name in lowercase or capitalize the first
+
+00:48.960 --> 00:50.940
+initial like we saw in a previous example.
+
+00:50.940 --> 00:56.010
+So what we want going into our database has to be all the same and all the same formatted information
+
+00:56.340 --> 00:59.070
+so that we can use here is whitens lower method.
+
+00:59.280 --> 01:06.130
+So as we've seen with other methods we have dot o w e or opening close brackets.
+
+01:06.130 --> 01:09.020
+And what I will do now now it will lower the string.
+
+01:09.050 --> 01:12.000
+Tony and to all lowercase characters.
+
+01:12.060 --> 01:13.430
+So let's have a look at what we get.
+
+01:13.460 --> 01:22.550
+Print name and let's run this program control command and see if you run a Mac perfect reader.
+
+01:22.560 --> 01:25.380
+Here we have now down here in the bottom right Tony Staunton.
+
+01:25.530 --> 01:32.010
+All in nice lower characters cleanly formatted and ready to go into our database or any other file storage
+
+01:32.010 --> 01:32.650
+system.
+
+01:32.940 --> 01:36.610
+So that's a quick introduction into Python's lower method.
+
+01:36.630 --> 01:41.330
+To be honest it's one of my favorite because it's very useful and it's used all the time.
+
+01:41.580 --> 01:43.890
+I hope that was easy enough and I'll see you in the next lecture.
+
+01:43.890 --> 01:44.200
+Thank you.

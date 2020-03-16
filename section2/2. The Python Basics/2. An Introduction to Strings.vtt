@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.630 --> 00:02.660
+Hi everybody and welcome back.
+
+00:02.730 --> 00:06.080
+Now in the previous lecture we assigned values to a variable.
+
+00:06.210 --> 00:10.600
+So just to refresh your memory this is the variable name.
+
+00:10.860 --> 00:14.190
+And this is the value put in double quotes that we assign to it.
+
+00:15.950 --> 00:18.980
+So we know what a variable is but what about the text under your side.
+
+00:18.980 --> 00:22.460
+What about this text here we didn't double quote Tony storms.
+
+00:22.820 --> 00:24.840
+Well this text is called a string.
+
+00:25.090 --> 00:30.430
+And that string has nothing got to do with the string of your guitar string of your bow or any other
+
+00:30.450 --> 00:31.420
+type of string.
+
+00:31.460 --> 00:33.230
+Put her down a string.
+
+00:33.340 --> 00:34.140
+Pite.
+
+00:34.250 --> 00:40.040
+I'm going to use the term string and python we are referring to a string of characters.
+
+00:40.110 --> 00:45.400
+So the main use of strings in Python is to represent bits of text like my name here.
+
+00:45.510 --> 00:50.150
+You can use single or double quotes of it as we have done here around your strings.
+
+00:50.550 --> 00:52.590
+So equally we could have done this
+
+00:55.790 --> 00:59.370
+and this would still be valid and Titan would still run it within your program.
+
+00:59.900 --> 01:04.660
+This flexibility also allows you to use quotes and apostrophes within your strings.
+
+01:04.700 --> 01:09.320
+So let's say that we have a quote from a movie or something like that that we would like to put into
+
+01:09.320 --> 01:16.160
+a string so we would open with double quotes and then our quote within that line would be single quotes.
+
+01:16.160 --> 01:18.360
+So let's take a look at how that would look.
+
+01:18.500 --> 01:27.360
+So let's start with our variable which is moving in or movie like we are going to sign a sign at the
+
+01:27.360 --> 01:31.470
+value which starts with a double quote what then.
+
+01:33.690 --> 01:37.750
+Is this sort of an opening a question mark.
+
+01:37.780 --> 01:42.330
+And now we're going to put in the quote from a movie I'm going to start out with a single quote.
+
+01:42.450 --> 01:43.860
+So here we go.
+
+01:43.890 --> 01:45.950
+Show me the money.
+
+01:46.290 --> 01:47.040
+So there we go.
+
+01:47.070 --> 01:50.090
+And we close it again with a single quote.
+
+01:50.250 --> 01:57.050
+And as you can see here we still have our double quote closing our overall string of text.
+
+01:57.060 --> 02:01.690
+So like I said at the beginning this entire line is a string of text.
+
+02:01.740 --> 02:04.820
+It opens with a double quote I want in a line.
+
+02:04.860 --> 02:08.070
+We want to emphasize or emphasize or quote something.
+
+02:08.250 --> 02:14.010
+So we have that opening with a single quote and closing with a single quote and an overall string of
+
+02:14.010 --> 02:16.410
+text closes with a double quote.
+
+02:16.620 --> 02:17.750
+So that works both ways.
+
+02:17.850 --> 02:21.260
+We could have just as easily done this by take this out
+
+02:24.170 --> 02:25.000
+and I take this out.
+
+02:25.020 --> 02:32.550
+I can start on end this example with a single quote but what I need to do now is I need to just change
+
+02:32.550 --> 02:36.540
+these around three double quotes
+
+02:39.430 --> 02:40.220
+and just do that.
+
+02:40.220 --> 02:48.520
+Now here we go double double and a single to wrap it up.
+
+02:48.560 --> 02:51.080
+So Biden doesn't mind which one you use.
+
+02:51.140 --> 02:56.990
+It allows for flexibility and discipline and this flexibility as we've just seen here allows you to
+
+02:56.990 --> 02:57.220
+put.
+
+02:57.230 --> 03:03.560
+And this is what in your quotes when you string of characters Let's take a look at another example.
+
+03:03.770 --> 03:09.620
+If for some reason you don't like double quotes you can still use a single quote method but any single
+
+03:09.620 --> 03:14.160
+quotes would in your string well need to be escaped with the backslash character.
+
+03:14.360 --> 03:16.640
+And that goes like this.
+
+03:16.670 --> 03:23.020
+So we have our variable start equals and we opened with a single quote and now we have the word.
+
+03:23.030 --> 03:26.640
+Let's But we can't write that.
+
+03:26.670 --> 03:27.460
+That's what we need to do.
+
+03:27.460 --> 03:30.500
+Here is we need to escape this.
+
+03:30.560 --> 03:37.200
+This single quote with a backslash like that's let's get started.
+
+03:38.330 --> 03:39.640
+With Python.
+
+03:40.650 --> 03:43.120
+And we end this with a single quote.
+
+03:43.440 --> 03:49.710
+So as you can see here you can you can use single quotes to open and close your strings but if you're
+
+03:49.710 --> 03:56.130
+going to use a single quote well inside you need to escape it with a backslash character.
+
+03:56.170 --> 03:58.850
+So this has been a nice simple introduction into strings.
+
+03:59.020 --> 04:02.110
+And the next lecture we're going to look at are ways to use strings.
+
+04:02.180 --> 04:03.000
+What insight.
+
+04:03.190 --> 04:04.920
+Thank you and I'll see you in the next lecture.

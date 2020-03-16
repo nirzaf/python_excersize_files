@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.750 --> 00:06.250
+Hi everybody and welcome back the last lecture we looked at how to concatenate strings and variables
+
+00:06.730 --> 00:09.760
+or how to combine strings and variables.
+
+00:09.760 --> 00:15.700
+Now we used name in a name example in our last program lecture and how we're going to do and this lecture
+
+00:15.700 --> 00:19.270
+is we're just going to stick with this name example for a few more minutes.
+
+00:19.510 --> 00:21.300
+So just bear with me.
+
+00:21.430 --> 00:29.740
+So we have our name on our variable now as you can see here each time I typed my name I capitalized
+
+00:30.130 --> 00:35.820
+my first and my last name and I did that just out of habit.
+
+00:35.960 --> 00:40.970
+So let's just enter in a new variable first name.
+
+00:41.320 --> 00:44.030
+And again I use it just go like that.
+
+00:44.120 --> 00:47.110
+Capitalize But what happens if I don't.
+
+00:47.420 --> 00:51.690
+So there's no way for us to know how a user is going to type in their name.
+
+00:51.800 --> 00:57.560
+They could enter it in all caps all lowercase or they could capitalize the first initial of their name
+
+00:57.920 --> 00:59.740
+and let's just type in last name as well.
+
+00:59.740 --> 01:00.500
+Why were Alice
+
+01:04.060 --> 01:05.070
+so again.
+
+01:05.090 --> 01:10.670
+Imagine a program on the Web where you have asked a user for a first name and their last name but obviously
+
+01:10.670 --> 01:15.740
+when you print that name back to them you might want to capitalize their first or last initial whatever
+
+01:15.740 --> 01:16.510
+it might be.
+
+01:16.610 --> 01:17.570
+How do we do that.
+
+01:17.780 --> 01:20.980
+Well we use what's called the string title method.
+
+01:21.080 --> 01:24.770
+So the title medaled and that method looks like this.
+
+01:24.770 --> 01:27.830
+So we don't have to do anything to our current variables or the values.
+
+01:27.860 --> 01:30.450
+What we need to do is work on our print statement.
+
+01:30.560 --> 01:40.540
+So we have print and print our first name and then we followed up with Dot T I T L E.
+
+01:40.830 --> 01:42.570
+Open and close brackets.
+
+01:42.720 --> 01:50.160
+And that's called the piping title method and what that does is it capitalizes the first initial of
+
+01:50.160 --> 01:50.870
+this variable.
+
+01:50.940 --> 01:53.880
+So let's run this program and there we go.
+
+01:53.880 --> 02:00.840
+So as you can see our variable here Tony is all lowercase but when we printed out the screen Tony is
+
+02:00.840 --> 02:04.850
+now capitalized or at a T and Tony is now capitalized.
+
+02:04.910 --> 02:06.930
+That is very very handy.
+
+02:06.960 --> 02:11.610
+Saves you doing it allows you to take input from the user manipulate that input and print it out in
+
+02:11.610 --> 02:13.510
+a nice clean format.
+
+02:13.530 --> 02:15.930
+Now let's print out our first or our full name.
+
+02:15.930 --> 02:23.940
+But before we do let's just change the S and a t to lowercase and we just go down here and we say print
+
+02:26.550 --> 02:29.080
+name that.
+
+02:29.370 --> 02:34.490
+Print name that title opening close brackets and make sure you close your brackets here.
+
+02:34.490 --> 02:36.350
+And let's run this program again.
+
+02:37.440 --> 02:38.220
+And there we go.
+
+02:38.220 --> 02:39.370
+Perfect.
+
+02:39.690 --> 02:45.600
+Even though our name variable is all lowercase it's output it because of the title method in a nice
+
+02:45.750 --> 02:50.080
+cleanly formatted capitalized way.
+
+02:50.090 --> 02:53.530
+So let's just talk about this title method for a moment.
+
+02:53.630 --> 02:58.760
+This piece of information here t I t the open and closed brackets.
+
+02:58.760 --> 03:01.270
+That is what's known important as a method.
+
+03:01.760 --> 03:05.070
+So a method is an action that pipe and can perform on a piece of data.
+
+03:05.240 --> 03:11.360
+So in this example we've used the title method to manipulate the data within the name variable so to
+
+03:11.360 --> 03:18.290
+manipulate my name here or in your example your name and that manipulation has capitalized the T and
+
+03:18.290 --> 03:21.200
+the s dot after that name.
+
+03:21.200 --> 03:26.460
+Intertidal tells Python to make the title method act on the variable name.
+
+03:26.640 --> 03:27.950
+So no go just adding it in.
+
+03:27.960 --> 03:31.270
+You have to remember to put in the dash and adult with them.
+
+03:31.270 --> 03:37.480
+Tell Spuyten to use the title method on our variable name and equally when we use it on first name.
+
+03:37.510 --> 03:43.190
+Title told pite to use the title method on our first name and it would be the same with our last name.
+
+03:43.410 --> 03:54.400
+So print name last name and dush which tells Python to modify the last name variable with the title
+
+03:55.020 --> 03:55.730
+method.
+
+03:56.890 --> 03:59.900
+Let's run this again and there we have it.
+
+03:59.980 --> 04:04.080
+The standard has become the s in the stand and has become capitalized.
+
+04:04.090 --> 04:06.000
+A very very handy feature.
+
+04:07.070 --> 04:11.000
+Every method is followed by a set set of brackets opening and closing.
+
+04:11.360 --> 04:15.290
+Because methods often need additional information to do the work.
+
+04:15.320 --> 04:17.790
+This info is provided when in the brackets.
+
+04:17.790 --> 04:22.650
+So as we'll see later what in the brackets here we will provide more information for a method to work
+
+04:22.660 --> 04:24.970
+that could be user input could be anything.
+
+04:25.040 --> 04:26.150
+We'll look at that later.
+
+04:27.050 --> 04:30.210
+And that is an introduction into the python title method.
+
+04:30.360 --> 04:32.890
+We will look at other methods in future lectures.
+
+04:33.030 --> 04:33.660
+Thank you.
+
+04:33.690 --> 04:34.830
+I hope all this made sense.
+
+04:34.830 --> 04:36.560
+If not please ask me to Q&amp;A.
+
+04:36.680 --> 04:38.210
+Or check out the activity section.
+
+04:38.310 --> 04:39.940
+Thank you and I'll see you in the next lecture.

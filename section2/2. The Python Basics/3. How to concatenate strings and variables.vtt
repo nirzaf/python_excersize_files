@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.240 --> 00:05.200
+Hi everybody and welcome back in the last lecture we got a nice simple introduction to strings.
+
+00:05.230 --> 00:09.750
+I'm going to continue continue to build on that introduction throughout the next few lectures.
+
+00:09.750 --> 00:13.840
+So in this lecture we're going to be talking about concatenating strings.
+
+00:13.920 --> 00:18.420
+Now if you're anything like me you have to google what concatenate means.
+
+00:18.600 --> 00:23.110
+And if you did you're not alone because when I first start learning programming languages so did I.
+
+00:23.310 --> 00:30.700
+So let's just take a quick look at what concatenation means concatenate means to link things in a chain
+
+00:30.910 --> 00:32.000
+or a series.
+
+00:32.020 --> 00:34.520
+Quite simply it means to combine things.
+
+00:34.690 --> 00:37.120
+And that's what we're going to be doing in this example.
+
+00:37.120 --> 00:44.380
+We are going to be combining strings here you say why can't I just type in a full sentence for a sentence
+
+00:44.440 --> 00:45.700
+or a string of characters.
+
+00:45.790 --> 00:46.870
+Well that's a good question.
+
+00:46.870 --> 00:50.830
+And let's take a look starting with our previous example.
+
+00:50.830 --> 00:57.640
+So we enter in our variable and we enter in the name so you can put in your own name here.
+
+00:57.970 --> 00:58.710
+OK.
+
+00:58.900 --> 01:02.140
+So we have a string and a string is my name.
+
+01:02.140 --> 01:08.910
+Tony Stuart but what happens if I want to output my program my first name or my last name.
+
+01:08.950 --> 01:12.190
+We might be working with a piece of software where it says hi.
+
+01:12.370 --> 01:13.300
+Your first name.
+
+01:13.340 --> 01:14.260
+So hi Tony.
+
+01:14.260 --> 01:15.160
+Welcome back.
+
+01:15.230 --> 01:18.420
+Or you might be writing an email template and it might be and might be.
+
+01:18.430 --> 01:19.520
+Dear Mr.
+
+01:19.570 --> 01:20.590
+And then your last name.
+
+01:20.770 --> 01:26.920
+We can't really do that here because this is all one string and pikemen doesn't know which is the first
+
+01:26.920 --> 01:29.960
+name on which is the last name to in.
+
+01:30.040 --> 01:32.240
+This all just one string.
+
+01:32.600 --> 01:33.690
+So how do we do that.
+
+01:33.700 --> 01:38.530
+How do we give it individual first name and last name and then how do we combine them to make a full
+
+01:38.530 --> 01:38.950
+name.
+
+01:39.100 --> 01:40.190
+Well let's take a look.
+
+01:41.410 --> 01:44.700
+Let me get rid of that and we'll start off with first name.
+
+01:45.570 --> 01:59.490
+So that's our first variable equals Tony and our last name equals Staunton OK so there we go.
+
+01:59.490 --> 02:03.100
+And later on the lecture where we talk about how to receive input from our users.
+
+02:03.100 --> 02:05.870
+But for now we can just imagine that we have a piece of software.
+
+02:05.980 --> 02:10.730
+We have an interface on the web that is asked for a user's first name and last name.
+
+02:10.780 --> 02:15.730
+So suppose you're building a piece of software that needs to store the first and last names in separate
+
+02:15.730 --> 02:18.010
+variables like we have just here.
+
+02:18.220 --> 02:22.760
+That piece of software my to combine them does display your own name.
+
+02:23.320 --> 02:26.250
+So think of your signature in an email program when you log in.
+
+02:26.250 --> 02:30.540
+It might say Hi Tony it might welcome you back to the software.
+
+02:30.640 --> 02:31.820
+So how does that happen.
+
+02:31.840 --> 02:33.020
+How do we do that.
+
+02:33.550 --> 02:34.600
+Let's take a look.
+
+02:34.600 --> 02:41.110
+So when I send an e-mail in my order populate my first name and in the opening signature so print So
+
+02:41.220 --> 02:48.780
+imagine this is in your email software program and we open up our double quotes and we say hi we leave
+
+02:48.780 --> 02:51.150
+a space and we quote close out of a quote.
+
+02:51.150 --> 02:56.360
+We then enter in the plus symbol and we enter in the variable first name.
+
+02:56.790 --> 02:57.540
+So there we go.
+
+02:57.630 --> 03:01.790
+What's going to happen there is that we are going to get the message high on a first name.
+
+03:01.920 --> 03:11.780
+In this example Tony what about if we were doing a more formal kind of email print that we open up a
+
+03:11.780 --> 03:17.130
+double called again Dear believe that we live in space there clothes or double quotes.
+
+03:17.420 --> 03:23.520
+Use the plus symbol again and we have a last name and I've actually just left out one small piece here.
+
+03:23.550 --> 03:25.230
+Dear Mr..
+
+03:25.280 --> 03:28.350
+And then a space and our last name.
+
+03:28.580 --> 03:29.460
+And that's how.
+
+03:29.460 --> 03:33.800
+And that's why it's a good idea to separate things such as names or anything that might be used as an
+
+03:33.830 --> 03:37.390
+individual piece of information or data in its own variable.
+
+03:37.400 --> 03:41.980
+So we've used first name and last name so let's run this and see what happens.
+
+03:44.780 --> 03:45.450
+OK.
+
+03:45.740 --> 03:46.800
+Down the bottom you have.
+
+03:46.890 --> 03:47.660
+Hi Tony.
+
+03:47.730 --> 03:49.410
+And dear Mr. Stanton.
+
+03:49.570 --> 03:56.790
+So piking uses the plus symbol to combine strings with variables we have just used the plus symbol to
+
+03:56.790 --> 04:03.460
+create a welcome message using the plus symbol to combine strings in Python is known as concatenation.
+
+04:03.720 --> 04:04.700
+Let's try another one.
+
+04:06.380 --> 04:06.800
+Print
+
+04:11.120 --> 04:14.030
+first name and last name.
+
+04:14.360 --> 04:18.860
+So again take your email program that might be welcome you might be a welcome message with your full
+
+04:18.860 --> 04:19.340
+name.
+
+04:19.520 --> 04:21.270
+So hi tony standard.
+
+04:21.450 --> 04:23.080
+And if we run this again.
+
+04:23.610 --> 04:24.670
+Oh OK.
+
+04:24.950 --> 04:29.510
+So down the bottom here you can see the full name has been printed but there's no space between a name.
+
+04:29.510 --> 04:32.690
+So where did the space go the space character.
+
+04:32.700 --> 04:35.520
+Like any other character needs to be added in.
+
+04:35.940 --> 04:37.100
+So let's do that.
+
+04:37.440 --> 04:42.300
+So we have first name actually let's just type a new line so we can do it again.
+
+04:42.340 --> 04:48.750
+Print first name plus.
+
+04:48.820 --> 04:51.660
+So instead of just going straight the last name we want to add in a space.
+
+04:51.670 --> 04:58.720
+So again we open for open and close with our double quotes type in a space and then add in our last
+
+04:58.990 --> 05:05.040
+name so let's run the US and there we have it.
+
+05:05.060 --> 05:07.300
+Tony standon Well a nice space.
+
+05:07.310 --> 05:09.650
+So going back to what we said it started this lecture.
+
+05:09.650 --> 05:12.500
+Concatenation means to combine things.
+
+05:12.500 --> 05:13.920
+So in Python it is.
+
+05:13.990 --> 05:18.550
+You use it to combine strings or strings with variables to make complete sentences.
+
+05:19.490 --> 05:20.840
+So I hope all of that makes sense.
+
+05:20.930 --> 05:26.070
+If not please don't hesitate to ask me in the Q and A section of this course and if it does keep going.
+
+05:26.090 --> 05:28.400
+Try the activities and I'll see you in the next lecture.
+
+05:28.520 --> 05:28.830
+Thank you.

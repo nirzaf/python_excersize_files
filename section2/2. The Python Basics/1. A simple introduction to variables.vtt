@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.560 --> 00:01.250
+Hi everybody.
+
+00:01.250 --> 00:02.130
+Welcome back.
+
+00:02.370 --> 00:05.700
+In this lecture we're going to be discussing variables.
+
+00:05.920 --> 00:08.240
+So what exactly is a variable.
+
+00:08.240 --> 00:12.330
+A variable is a name that represents or refers to a value.
+
+00:12.590 --> 00:19.180
+So a simple example is name equals or whatever your name is.
+
+00:19.180 --> 00:21.480
+In this case Tony for myself.
+
+00:21.570 --> 00:29.660
+So now we just create a variable called name and we've and we've assigned that variable value Tony.
+
+00:29.760 --> 00:38.450
+And let's change the example by typing the following first name equals the last name.
+
+00:42.920 --> 00:44.730
+Equals.
+
+00:45.220 --> 00:47.030
+And you can do the same for your name.
+
+00:47.660 --> 00:52.420
+So you can change the value of a variable at any time a pilot will always keep track slightly.
+
+00:52.460 --> 00:57.680
+So here's some pointers when you're naming your variables variable names consist of letters numbers
+
+00:57.830 --> 00:59.270
+and underscores.
+
+00:59.270 --> 01:02.810
+They can start with a letter or an underscore but not a number.
+
+01:02.810 --> 01:12.020
+So for example the variable name Name one is valid but the name one name is not valid.
+
+01:12.040 --> 01:15.040
+You cannot start a variable names with a number.
+
+01:16.700 --> 01:18.730
+Variable names cannot contain spaces.
+
+01:18.950 --> 01:23.390
+So use underscores to separate words of ideas on these two variable names above.
+
+01:23.510 --> 01:26.340
+And always remember to keep your variable names short on script.
+
+01:26.350 --> 01:29.440
+Now that we know what a variable is and has assign a value to it.
+
+01:29.600 --> 01:31.490
+How do we see what we've done.
+
+01:31.580 --> 01:36.070
+So how do we get our first name and last name variables out onto our screen.
+
+01:36.500 --> 01:39.290
+Well to do that we add the following lines.
+
+01:39.350 --> 01:45.590
+Print which outputs to your screen enter in the variable name first name.
+
+01:45.590 --> 01:51.440
+Print last name and your variable name.
+
+01:51.610 --> 01:57.550
+Once you have data on if you're using sublime like I am in a Mac you can press control and be that ruins
+
+01:57.690 --> 02:02.500
+your program and as you can see down on the bottom left we have totally stoned on the amount of time
+
+02:02.500 --> 02:04.880
+it took to run that program.
+
+02:05.010 --> 02:06.870
+That's a simple introduction to variables.
+
+02:06.870 --> 02:09.930
+Now it's time to try it yourself and your code editor of choice.
+
+02:09.930 --> 02:10.900
+Create a program.
+
+02:10.950 --> 02:16.560
+We just signed your first and last name to a variable then add the print statement with the values of
+
+02:16.560 --> 02:18.470
+your versions.
+
+02:18.500 --> 02:20.010
+Hopefully you can get that working.
+
+02:20.060 --> 02:23.580
+Any questions please do not hesitate to ask and I'll see you in the next lecture.
+
+02:23.930 --> 02:24.260
+Thank you.

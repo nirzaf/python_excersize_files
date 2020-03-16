@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00.550 --> 00:05.550
+Hi everybody and welcome back and this lecture we're going to be talking about Payton's replace method.
+
+00:05.740 --> 00:07.150
+So what does he actually does not do.
+
+00:07.510 --> 00:13.300
+Well it replaces a piece of a string with an earpiece so you can replace one word with another word
+
+00:13.700 --> 00:14.340
+and we'll look at that.
+
+00:14.350 --> 00:15.220
+Now in a moment.
+
+00:15.340 --> 00:19.050
+But first let me put this in some context for you in a real world example.
+
+00:19.300 --> 00:25.810
+We previously looked at the find method and what I did was find the position of a word within a string.
+
+00:25.840 --> 00:32.620
+So we had find a book and it told us that book started imposition 15 to what we could do is think of
+
+00:32.720 --> 00:35.530
+any word processing program you've ever used.
+
+00:35.530 --> 00:38.120
+There is always a Find and Replace function.
+
+00:38.260 --> 00:40.590
+So you could find a word and then replace the word.
+
+00:40.600 --> 00:42.810
+And this is exactly how it's done.
+
+00:42.820 --> 00:44.590
+So we previously saw how to find.
+
+00:44.590 --> 00:46.410
+Now we're going to see how to replace.
+
+00:46.480 --> 00:51.640
+So let's have a look at our Iran strength and what we're going to do here now is we're going to start
+
+00:51.640 --> 00:52.870
+off again with a variable.
+
+00:52.870 --> 00:56.920
+I'm going to call my book equals.
+
+00:57.010 --> 01:03.160
+And as always we start off with opening and closing double quotes and what we do here is we have my
+
+01:04.120 --> 01:04.600
+favorite
+
+01:10.380 --> 01:18.550
+book is a single quote because we want to give it emphasis and let's just say we spell this Ilan what
+
+01:18.590 --> 01:23.050
+a type of instead of Ilan we put Elon Musk.
+
+01:23.130 --> 01:25.610
+Easily done.
+
+01:25.650 --> 01:29.920
+So there's a string of what we want to do is replace.
+
+01:30.120 --> 01:32.410
+So we're using the pipe and replace method.
+
+01:36.350 --> 01:39.630
+Opening and closing brackets and we first put in the piece of the string.
+
+01:39.650 --> 01:45.780
+We want to replace two as previously we start with opening closing single quotes and we have Thielen
+
+01:47.010 --> 01:50.500
+then we have a comma to separate out our two pieces of information.
+
+01:50.870 --> 01:52.470
+Opening close and single quotes.
+
+01:52.610 --> 01:55.270
+And we put in what we want to replace it with.
+
+01:55.280 --> 02:03.770
+So we want to replace Eelam with Ilan and again go back to thinking about a word processor.
+
+02:03.880 --> 02:06.910
+You've made a typo and you've written a paper on the book.
+
+02:06.910 --> 02:14.130
+Elon Musk and all that paper you've misspelled Ilan for Ilan and you've done that 300 times.
+
+02:14.170 --> 02:19.030
+Now you get to find a Replace function within your word processor and this is how this is exactly how
+
+02:19.030 --> 02:20.260
+it works in the background.
+
+02:20.260 --> 02:22.890
+So let's run that and see what we get.
+
+02:28.470 --> 02:31.230
+And there we have it in the bottom left hand corner.
+
+02:31.410 --> 02:36.840
+Instead of getting my favorite book is Elon Musk We have my favorite book is Elon Musk.
+
+02:36.840 --> 02:38.250
+So it works perfectly.
+
+02:38.340 --> 02:43.680
+And that really is a very very helpful function if you're developing any kind of word processing email
+
+02:44.070 --> 02:47.460
+or any user input program because it's always going to be errors.
+
+02:47.480 --> 02:54.000
+Windows users involved so very easily we're able to replace our misspelt word with our correct word
+
+02:54.470 --> 02:57.520
+and nice little feature to keep on your list.
+
+02:57.570 --> 02:58.890
+So that's it for the replacement.
+
+02:59.010 --> 03:00.050
+I hope that made sense.
+
+03:00.090 --> 03:03.650
+If not please don't hesitate to ask me any questions in the Q and A section.
+
+03:03.750 --> 03:05.470
+Thank you and I'll see you in the next lecture.

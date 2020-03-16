@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00.530 --> 00:01.810
+Hi everybody and welcome back.
+
+00:01.910 --> 00:05.740
+I hope this letter finds you well and that your programming is coming along nicely.
+
+00:05.750 --> 00:10.760
+Don't forget if you want to become an expert programmer you need to do it every single day.
+
+00:10.760 --> 00:16.230
+With that said let's move on and we're entering into a new section and that section is called tuples.
+
+00:16.290 --> 00:18.520
+But before we get going let me ask you a question.
+
+00:18.560 --> 00:20.490
+Do you know what mutable means.
+
+00:20.510 --> 00:21.360
+Neither do I.
+
+00:21.380 --> 00:22.910
+Do you know what immutable means.
+
+00:22.910 --> 00:25.830
+When I started programming I didn't know what either of those terms meant.
+
+00:26.180 --> 00:28.220
+Well mutable means liable to change.
+
+00:28.460 --> 00:35.060
+So you could say that the weather is mutable and immutable means an object or value which cannot change.
+
+00:35.060 --> 00:37.930
+So far we have been working with list that we can change.
+
+00:37.940 --> 00:41.740
+However sometimes you will want to create a list of items that cannot change in Python.
+
+00:41.750 --> 00:47.110
+These lists are called tuples So an immutable list has values that cannot change.
+
+00:47.150 --> 00:49.570
+And again these lists are called tuples.
+
+00:49.570 --> 00:53.600
+A tuple is created by using rounded brackets instead of square brackets.
+
+00:53.600 --> 00:55.610
+So let's have a look at how would look.
+
+00:55.710 --> 01:01.520
+You could have a couple of dates which would never change such as birthdates equals rounded brackets
+
+01:01.910 --> 01:09.860
+1 5 4 sorry 7 6 and off I went today.
+
+01:09.860 --> 01:10.580
+I'm still asleep.
+
+01:10.710 --> 01:11.890
+11.
+
+01:12.080 --> 01:17.180
+Once you have created a tuple you can access individual elements by using each item index just like
+
+01:17.210 --> 01:18.300
+in a list.
+
+01:18.320 --> 01:20.710
+So let's have a look at how we do it as well.
+
+01:20.750 --> 01:30.950
+As always we use our print statement print dates square brackets 0 to access the first index and there
+
+01:30.960 --> 01:33.070
+we go one that's tried again.
+
+01:33.080 --> 01:40.690
+Print dates and let's try to toward which we position to 6.
+
+01:40.690 --> 01:41.330
+There we go.
+
+01:41.410 --> 01:42.590
+Perfect.
+
+01:42.670 --> 01:47.410
+Now if you try and change the value of an item inside a tuple you'll get an error.
+
+01:47.440 --> 01:50.020
+The only way to modify a tuple is by overwriting it.
+
+01:50.020 --> 01:51.430
+So let's take a look at that.
+
+01:51.520 --> 01:59.320
+So let's get rid of this here and let's put in a new tuple coordinates and y coordinates.
+
+01:59.320 --> 02:04.450
+Well if you think about the coordinates of a position or a place in the world is very very unlikely
+
+02:04.450 --> 02:05.080
+to change.
+
+02:05.200 --> 02:07.890
+So let's start off at coordinates and let's just put in.
+
+02:07.930 --> 02:10.930
+Let's imagine these are longitude and latitude and let's put in one hundred.
+
+02:10.930 --> 02:15.530
+One thousand and one and five thousand and two.
+
+02:15.790 --> 02:17.380
+Okay perfect.
+
+02:17.390 --> 02:20.730
+Now let's print out our original coordinates.
+
+02:24.490 --> 02:28.680
+Original coordinates C or D and a t s.
+
+02:28.690 --> 02:32.150
+Sometimes my spelling is not the best original coordinates.
+
+02:32.250 --> 02:34.310
+OK let's print them out.
+
+02:34.450 --> 02:35.120
+Prints.
+
+02:35.250 --> 02:41.710
+Oh sorry we need to give this a 4 block for coordinate
+
+02:45.370 --> 02:46.800
+in the coordinates.
+
+02:48.210 --> 02:51.560
+Don't forget your colon which is one of my major flaws.
+
+02:51.570 --> 02:56.340
+I always forget that print coordinate.
+
+02:56.370 --> 03:03.220
+There we go and let's see what that gives us gives us our original coordinates and two coordinates 1001
+
+03:03.980 --> 03:05.790
+five times into perfect.
+
+03:05.790 --> 03:09.250
+So let's come out of here for a loop here and let's do this again.
+
+03:09.420 --> 03:12.560
+So let's print outs so let's enter a new coordinates
+
+03:15.180 --> 03:19.390
+coordinates equal of 2002
+
+03:22.220 --> 03:27.180
+and 7000 and tree perfect.
+
+03:27.220 --> 03:32.640
+Ok so print what we want to do is we want to give this a new line as well just to give us a little bit
+
+03:32.640 --> 03:33.810
+of space when we're trying to read.
+
+03:33.840 --> 03:39.980
+Making a reading level and making reading a little bit clearer and new coordinates
+
+03:43.900 --> 03:51.050
+OK and let's put in a note a for loop for coordinates in coordinates.
+
+03:51.050 --> 03:52.590
+Now if any of this is unfamiliar to you.
+
+03:52.600 --> 03:57.640
+Go back to lecture in the last section on for loops coordinates.
+
+03:57.650 --> 03:59.290
+Don't forget the semi-colon print
+
+04:02.890 --> 04:05.740
+coordinate and let's see what that gives us.
+
+04:05.740 --> 04:06.710
+There we go.
+
+04:07.090 --> 04:10.780
+So like I said the only way to modify a tuple is by overwriting it.
+
+04:10.780 --> 04:15.190
+So first you give it the original coordinates and then you overwrite those coordinates with new ones.
+
+04:15.220 --> 04:19.100
+And as we've just seen just like in the list you can loop true values in a tuple.
+
+04:19.270 --> 04:23.380
+Use tuples when you want to store a set of values that should not be changed during the lifetime of
+
+04:23.380 --> 04:24.400
+your program.
+
+04:24.400 --> 04:26.400
+So that could be initial start of values.
+
+04:26.500 --> 04:31.030
+For example if you were writing a piece of software that was related to a speedometer of a car or some
+
+04:31.030 --> 04:35.830
+sort of moving vehicle the original co-ordinate or the original value of that would be zero.
+
+04:35.860 --> 04:40.540
+And that will never change over its lifetime you will create a new value which will be one two three
+
+04:40.540 --> 04:43.270
+four miles per hour or whatever it might be distance traveled.
+
+04:43.390 --> 04:47.050
+But the original starting position would always be zero.
+
+04:47.080 --> 04:48.170
+So I hope that was helpful.
+
+04:48.220 --> 04:51.610
+And if any questions please do not hesitate to ask me and I'll see you in the next lecture.
+
+04:51.610 --> 04:51.920
+Thank you.

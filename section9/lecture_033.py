@@ -1,5 +1,3 @@
-
-
 print("To continue please log in.")
 
 # Using the if statement

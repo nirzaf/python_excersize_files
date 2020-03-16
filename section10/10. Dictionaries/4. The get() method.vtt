@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.330 --> 00:01.630
+Hi everybody and welcome back.
+
+00:01.680 --> 00:05.190
+Now this lecture we're going to look at another way to retrieve a value from a dictionary.
+
+00:05.370 --> 00:07.810
+And that is using pipings get method.
+
+00:07.830 --> 00:12.630
+Now the good thing about this method is that it has a built in safety net for handling situations where
+
+00:12.630 --> 00:15.040
+you ask for a value of a key that doesn't exist.
+
+00:15.270 --> 00:19.530
+If the key doesn't exist the method returns a default value which you can define.
+
+00:19.530 --> 00:20.190
+So let's have a look.
+
+00:20.190 --> 00:29.370
+So let's first create or dictionary terms equals and let's give it our first key which is integer and
+
+00:29.370 --> 00:35.120
+let's get this integer the value a whole number because that's what an integer is.
+
+00:35.310 --> 00:44.040
+OK now let's print this out using our GET method print terms that guess and we're using does get notation
+
+00:44.310 --> 00:47.530
+because we want this method to act upon the terms dictionary.
+
+00:47.550 --> 00:50.480
+That's why its terms don't get.
+
+00:50.640 --> 00:52.990
+And we want to print integer.
+
+00:53.000 --> 00:55.600
+OK let's have a look.
+
+00:55.600 --> 00:57.780
+There we go a whole number.
+
+00:57.790 --> 01:01.330
+Now what happens if we try an access key that is not in the dictionary.
+
+01:01.450 --> 01:07.180
+Well let's give it a go print terms.
+
+01:07.320 --> 01:09.280
+Get.
+
+01:09.540 --> 01:20.130
+Let's say float like our last example and now we add in a comma not in the dictionary.
+
+01:20.240 --> 01:21.400
+OK and let's see what we get.
+
+01:21.400 --> 01:24.140
+Now let's correct a quick typo.
+
+01:24.140 --> 01:24.860
+There we go.
+
+01:24.860 --> 01:26.360
+Let's see.
+
+01:26.360 --> 01:27.350
+There we go.
+
+01:27.350 --> 01:28.720
+Not in the dictionary.
+
+01:28.760 --> 01:32.790
+By using the get method we are guaranteed to get a value back in this example.
+
+01:32.810 --> 01:36.370
+If the key float wasn't a dictionary we would have gotten that value back.
+
+01:36.380 --> 01:39.230
+But as it was not we instead got our default message.
+
+01:39.380 --> 01:42.230
+If you don't supply a default message you don't get anything back.
+
+01:43.010 --> 01:46.630
+OK so I hope that explained another way to retrieve the value from a dictionary.
+
+01:46.670 --> 01:49.900
+And as always if you have any questions please do not hesitate to ask.
+
+01:50.000 --> 01:51.730
+Thank you and I'll see you in the next lecture.

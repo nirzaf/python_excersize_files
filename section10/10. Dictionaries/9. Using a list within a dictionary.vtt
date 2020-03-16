@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.720 --> 00:02.700
+Hi everybody and welcome back.
+
+00:02.700 --> 00:07.530
+Now we've just seen how to put a dictionary or a set of dictionaries in a list something that is called
+
+00:07.620 --> 00:08.850
+nesting.
+
+00:08.850 --> 00:12.330
+Now let's take a look at putting a list inside a dictionary.
+
+00:12.330 --> 00:15.060
+Let's take purchasing a new car as our example.
+
+00:15.270 --> 00:20.150
+If we were to just use a list all we would have a list is a list of the cars features.
+
+00:20.250 --> 00:24.100
+So alloy wheels side airbags whatever it might be.
+
+00:24.100 --> 00:30.150
+We would just have a list of the car's features but by storing a list in a dictionary the list of features
+
+00:30.150 --> 00:35.670
+can be just one aspect of the car we are purchasing so we could have a dictionary that defines the type
+
+00:35.670 --> 00:39.430
+of car we can have a dictionary defines the type of features and so on.
+
+00:39.480 --> 00:42.340
+In this example we have a car with two kinds of information.
+
+00:42.630 --> 00:48.810
+The standard car features which come with any car purchase and a list of additional actors which any
+
+00:48.810 --> 00:55.970
+consumer can ask for the list of actors is a value associated with the key extras to use the items in
+
+00:55.970 --> 00:56.660
+a list.
+
+00:56.760 --> 01:02.340
+We give the name of the dictionary and the key extras as reward and value in the dictionary instead
+
+01:02.340 --> 01:03.650
+of returning a single value.
+
+01:03.690 --> 01:05.980
+We get a list of the cars extras.
+
+01:06.360 --> 01:08.050
+So let's see how we can do that now.
+
+01:08.310 --> 01:12.120
+We kick off by creating a dictionary that holds info about the car we ordered.
+
+01:12.180 --> 01:20.510
+So let's do that car and let's change that to my forward car.
+
+01:20.650 --> 01:21.710
+Equals.
+
+01:22.210 --> 01:23.240
+OK.
+
+01:23.680 --> 01:26.460
+Let's do a new line so it's nice and clean type.
+
+01:26.460 --> 01:28.040
+So what kind of car did you order.
+
+01:28.390 --> 01:34.680
+Well let's just keep it nice and simple you order the standard four door saloon.
+
+01:35.510 --> 01:36.120
+OK.
+
+01:37.900 --> 01:42.530
+Now the next key We're going to add is extras.
+
+01:42.640 --> 01:49.570
+So have you any have you ordered any extras which are car this is going to be a list of any additional
+
+01:49.570 --> 01:51.400
+extras that you requested.
+
+01:51.400 --> 01:54.030
+So let's see that's Krater list with square brackets.
+
+01:54.130 --> 01:55.040
+And what did you ask for.
+
+01:55.060 --> 01:55.690
+Well you asked for.
+
+01:55.690 --> 01:56.450
+Alloy wheels
+
+01:59.340 --> 02:02.320
+you ask for climate control.
+
+02:02.460 --> 02:07.910
+Don't forget your single quotes because this is just a normal list control.
+
+02:08.880 --> 02:12.180
+Anything else when you ask for the letter.
+
+02:12.180 --> 02:13.350
+Heated seats.
+
+02:13.350 --> 02:16.530
+So again I just forgot the opening single quote the letter.
+
+02:16.530 --> 02:17.930
+Heated seats.
+
+02:18.190 --> 02:19.590
+OK let's leave it at that.
+
+02:19.590 --> 02:20.620
+There we go.
+
+02:20.940 --> 02:21.710
+There's a list.
+
+02:21.720 --> 02:22.290
+Create.
+
+02:22.510 --> 02:24.460
+Let's now print an order of our summary
+
+02:31.080 --> 02:31.480
+print
+
+02:34.590 --> 02:42.240
+the car you ordered is a closer quote.
+
+02:42.310 --> 02:53.550
+Plus car plus type so we're accessing our dictionary and we're accessing the key type from that dictionary.
+
+02:55.360 --> 02:55.810
+Plus
+
+02:58.980 --> 03:05.120
+and actually just put in a space there with the following extras.
+
+03:07.030 --> 03:07.610
+OK.
+
+03:07.640 --> 03:08.960
+So let's see what we do now.
+
+03:09.250 --> 03:14.130
+Well we want to tour extras for extra incar.
+
+03:14.630 --> 03:22.370
+So for any extra in a car dictionary we want to access all our extras.
+
+03:23.380 --> 03:29.070
+Key So we want to access the value of an extra key and we want to print these out.
+
+03:29.100 --> 03:29.490
+Print
+
+03:32.960 --> 03:34.020
+backslash.
+
+03:34.070 --> 03:41.600
+And here's something we haven't used before although we have seen it tab plus extra OK.
+
+03:41.620 --> 03:44.320
+So let's run this now and see what we get.
+
+03:44.350 --> 03:44.830
+Error.
+
+03:44.980 --> 03:45.300
+Error.
+
+03:45.310 --> 03:47.080
+OK so where's our error.
+
+03:47.530 --> 03:49.720
+Well it's telling us it's at line 7.
+
+03:49.720 --> 03:51.360
+So let's have a look at line 7.
+
+03:51.580 --> 03:52.620
+And here we go.
+
+03:52.630 --> 03:54.290
+I forgot my colon.
+
+03:54.580 --> 03:55.100
+OK.
+
+03:55.150 --> 03:55.630
+There we go.
+
+03:55.630 --> 03:56.120
+Correct.
+
+03:56.140 --> 03:57.550
+Let's run it again.
+
+03:57.820 --> 03:58.530
+Another error.
+
+03:58.630 --> 03:59.350
+This is not good.
+
+03:59.350 --> 04:00.890
+Let's have a look.
+
+04:00.910 --> 04:07.150
+So the error is telling me it's on line 12 and it's telling me car is not defined.
+
+04:07.170 --> 04:13.190
+And rightly so because we don't have a dictionary called car we have a dictionary called my ordered
+
+04:13.720 --> 04:14.440
+car.
+
+04:14.460 --> 04:17.450
+There we go on again.
+
+04:17.490 --> 04:26.810
+We have it here in car but it's not car it's my ordered car removed an additional car.
+
+04:26.820 --> 04:33.700
+Let's say you hate the car you ordered is a standard Ford or saloon with the following extras alloy
+
+04:33.700 --> 04:34.100
+wheels.
+
+04:34.110 --> 04:35.410
+Climate control letter.
+
+04:35.410 --> 04:36.510
+Heated seats.
+
+04:36.600 --> 04:41.550
+So as we just don't we have nested list inside the dictionary whenever you want more than one value
+
+04:41.550 --> 04:43.740
+to be associated with a single dictionary.
+
+04:43.740 --> 04:46.220
+You can use lists within that dictionary.
+
+04:46.230 --> 04:48.690
+Very very helpful resource.
+
+04:48.690 --> 04:49.070
+OK.
+
+04:49.080 --> 04:50.040
+Thank you for listening.
+
+04:50.130 --> 04:52.170
+And that brings us to the end of our section on dictionaries.
+
+04:52.190 --> 04:56.130
+But if you have any questions at all please do not hesitate to contact me and I'll see you in the next
+
+04:56.130 --> 04:56.640
+lecture.
+
+04:56.640 --> 04:57.160
+Thank you.

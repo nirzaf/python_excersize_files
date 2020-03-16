@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.880 --> 00:02.430
+Hi everybody and welcome back.
+
+00:02.500 --> 00:06.800
+Now this lecture we're going to look at how to edit and how to delete values in a dictionary.
+
+00:06.970 --> 00:11.740
+So as you can see I've started off with some comments and the name of this program anything the leading
+
+00:11.800 --> 00:13.230
+values in a dictionary.
+
+00:13.630 --> 00:18.820
+So I've pretty written our dictionary here which is called terms equals integer.
+
+00:18.940 --> 00:21.680
+And then as you can see here the value is not quite correct.
+
+00:21.700 --> 00:25.570
+We've given our key integer a value is a number that contains a decimal place.
+
+00:25.580 --> 00:27.650
+But as we know that is not an integer.
+
+00:27.670 --> 00:28.750
+That's actually a float.
+
+00:28.750 --> 00:31.990
+So what we're going to do here now is we are going to edit this.
+
+00:32.080 --> 00:33.070
+And how do we do that.
+
+00:33.250 --> 00:35.740
+Well first let's print this out to make sure it's right.
+
+00:35.750 --> 00:44.490
+Print terms that get integer.
+
+00:44.610 --> 00:46.850
+So let's make sure what we have prints out.
+
+00:47.160 --> 00:47.670
+There we go.
+
+00:47.670 --> 00:49.460
+It's a number that contains a decimal place.
+
+00:49.560 --> 00:50.390
+So that's wrong.
+
+00:50.600 --> 00:55.730
+So what we need to do is just add an end of the line here to edit the value in a dictionary.
+
+00:55.740 --> 01:01.560
+You give the name of the dictionary which is terms along with the key in square brackets and then the
+
+01:01.560 --> 01:04.470
+new value you want to assign to the key.
+
+01:04.470 --> 01:13.200
+So we have terms and we are going to added our integer key or we are going to assign this is the correct
+
+01:13.200 --> 01:16.970
+definition of an integer a whole number.
+
+01:17.210 --> 01:17.910
+OK.
+
+01:18.950 --> 01:21.630
+So let's run this now and see what we get.
+
+01:21.640 --> 01:27.450
+There we go our integer k has been overwritten with a new k a whole number.
+
+01:27.460 --> 01:29.170
+OK so that seems simple enough.
+
+01:29.170 --> 01:31.610
+What about removing key value pairs from a dictionary.
+
+01:31.780 --> 01:33.740
+OK let's have a look at how we do that.
+
+01:34.060 --> 01:36.760
+Let's add in a new key value pair.
+
+01:37.390 --> 01:39.940
+So come on let's add in a string
+
+01:44.510 --> 01:50.660
+that's given its value a sequence of characters.
+
+01:50.660 --> 01:51.330
+There we go.
+
+01:51.380 --> 01:52.490
+Perfect.
+
+01:52.520 --> 01:56.540
+Now that's print caroms
+
+01:59.130 --> 02:02.990
+integer is a number that contains a decimal place string sequence of characters.
+
+02:03.210 --> 02:05.730
+OK let's just remove this line for a moment.
+
+02:07.630 --> 02:10.060
+And let's see about the leading integer.
+
+02:10.300 --> 02:12.780
+Well we don't want a piece of information that say it in a dictionary.
+
+02:12.840 --> 02:18.460
+We can use the delete statement to completely remove the key value pair to use a delete statement.
+
+02:18.480 --> 02:23.070
+We need to only supplied with the name of the dictionary and the key we want to remove so our name of
+
+02:23.070 --> 02:24.090
+the dictionary is.
+
+02:24.080 --> 02:31.660
+Well first we get the delete statement is the name for a dictionary and we want to remove integer.
+
+02:32.270 --> 02:38.110
+And now we want to print terms and hopefully we only get one key value pair here.
+
+02:38.170 --> 02:42.180
+Of string and its value and there we go.
+
+02:42.260 --> 02:43.750
+Perfect.
+
+02:43.890 --> 02:48.020
+So I hope this helped to show you how to edit and remove key value pairs from the dictionary.
+
+02:48.020 --> 02:51.010
+If not please don't hesitate to ask me a question in the Q&amp;A section.
+
+02:51.230 --> 02:53.840
+And as always thank you for listening and I'll see you in the next lecture.

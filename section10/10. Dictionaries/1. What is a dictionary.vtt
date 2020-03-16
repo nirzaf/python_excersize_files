@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.480 --> 00:01.770
+Hi everybody and welcome back.
+
+00:01.770 --> 00:06.940
+Now we're moving into a new section now so we're moving away from lists and we're moving into dictionaries.
+
+00:07.110 --> 00:09.880
+So in this section we're going to look at writing dictionaries.
+
+00:10.230 --> 00:14.390
+So pite and dictionaries allow you to collect pieces of related information.
+
+00:14.490 --> 00:19.580
+So in that sense they are exactly like real war dictionaries where you have words connected to the meanings.
+
+00:19.610 --> 00:22.320
+So let's take a look at a very simple example.
+
+00:22.380 --> 00:23.680
+So here we have our file.
+
+00:23.700 --> 00:26.090
+So as always we start off with some comments.
+
+00:26.130 --> 00:29.080
+Now how do we create a dictionary.
+
+00:29.080 --> 00:31.260
+We're going to call this dictionary book one.
+
+00:32.220 --> 00:36.140
+And then the dictionary is created with curly brackets.
+
+00:36.180 --> 00:38.830
+So the first thing we do is we enter in a key.
+
+00:38.910 --> 00:40.440
+It's what's called a key.
+
+00:40.650 --> 00:42.700
+And we're going to call this key alter.
+
+00:42.810 --> 00:45.960
+So take again back to a real world example in a dictionary.
+
+00:45.960 --> 00:47.310
+You have the word.
+
+00:47.430 --> 00:52.890
+So it is when we have order which isn't Pioneer's known as the key and we are going to sign the key
+
+00:52.960 --> 00:54.510
+the value.
+
+00:54.520 --> 01:00.470
+Tony Stanton so in the real world dictionary we would lock up Oerter and we would see Tony Staunton's
+
+01:00.630 --> 01:04.040
+think of it like that way it helps to think of it as a real world dictionary.
+
+01:04.350 --> 01:10.170
+Now we're going to add in one more value and keys and our values are separated by a comma much like
+
+01:10.170 --> 01:10.810
+a list.
+
+01:11.010 --> 01:17.610
+So this key is going to be price going to assign price the value of 10.
+
+01:17.640 --> 01:21.880
+And because this is an integer we don't need to surround it with quotes.
+
+01:21.920 --> 01:27.180
+Now print and we're going to be printing from a dictionary which is called Book 1.
+
+01:27.470 --> 01:31.100
+And what we want to do is we want to get the order from our dictionary.
+
+01:31.190 --> 01:34.740
+And the key to that is water.
+
+01:35.400 --> 01:36.800
+And that will give us back to value.
+
+01:36.800 --> 01:43.230
+Tony Stanton next we want to print again from a dictionary.
+
+01:43.230 --> 01:43.770
+Book one
+
+01:47.920 --> 01:51.870
+we want to print out the price value.
+
+01:51.990 --> 01:54.690
+Now we know the price is 10.
+
+01:55.650 --> 01:57.800
+OK let's run it.
+
+02:00.130 --> 02:01.210
+There we go.
+
+02:01.210 --> 02:07.690
+Tony Stanton is the author and the price of this book is 10 so let's just have a quick look again.
+
+02:07.790 --> 02:10.510
+We started by naming our dictionary book one.
+
+02:10.550 --> 02:17.870
+We then started with opening curly brackets the first key in a dictionary is order order is run by single
+
+02:17.870 --> 02:18.530
+quotes.
+
+02:18.530 --> 02:21.530
+We don't have a colon followed by the key value.
+
+02:21.530 --> 02:26.120
+So author is the key and after the colon is the key value.
+
+02:26.150 --> 02:31.910
+Tony Stanton so author and Tony standing next to a comma we have price.
+
+02:31.910 --> 02:36.220
+FLATOW next key price and the value of price is 10.
+
+02:36.340 --> 02:41.570
+So keys and the values are separated by a colon on the dictionary book 1 stores the books order and
+
+02:41.570 --> 02:45.780
+price are to print statements access and display that information.
+
+02:45.860 --> 02:49.670
+The next lecture we're gonna have a look at exactly what goes on inside a dictionary.
+
+02:49.780 --> 02:51.180
+But this is a good example.
+
+02:51.280 --> 02:55.210
+So I hope you enjoyed it and if any questions please do not hesitate to contact me and I'll see you
+
+02:55.210 --> 02:55.960
+in the next lecture.

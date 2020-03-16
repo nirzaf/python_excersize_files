@@ -1,0 +1,301 @@
+WEBVTT
+
+00:01.420 --> 00:03.130
+Hi everybody and welcome back.
+
+00:03.130 --> 00:07.450
+Now in this lecture let's create a dictionary of pikemen terms and definitions because I think that
+
+00:07.450 --> 00:08.870
+would actually be helpful.
+
+00:09.340 --> 00:13.160
+So the pilot poems on the left and their means are on the right.
+
+00:13.180 --> 00:15.020
+So let's start off by creating a dictionary.
+
+00:15.080 --> 00:19.720
+And as you can see I've added some comments and you might notice as well back in my Sublime Text Editor
+
+00:20.280 --> 00:25.160
+and that's because I don't need to get any input from a user's perspective so sublime although it's
+
+00:25.180 --> 00:29.950
+a great editor great for writing and great at running small pite and programs you can't give it any
+
+00:29.950 --> 00:30.700
+user input.
+
+00:30.730 --> 00:34.610
+So that's why I switched into Idol for the last few lectures but now I'm back in supply.
+
+00:34.770 --> 00:35.070
+OK.
+
+00:35.100 --> 00:43.820
+So let's create a dictionary and actually let's start off a comment create a dictionary of terms.
+
+00:43.870 --> 00:44.630
+There we go.
+
+00:45.000 --> 00:47.370
+OK so terms equals.
+
+00:47.410 --> 00:55.160
+And as we said Open record brackets and let's put it in our first hand which is variable A B.
+
+00:55.300 --> 01:11.050
+Perfect very close or single quotes colon and its value wrap resents or refers to a value stored in
+
+01:11.260 --> 01:12.340
+memory.
+
+01:12.340 --> 01:13.600
+Okay perfect.
+
+01:13.600 --> 01:20.170
+Now next let's add in and we separate out our key value pairs by a comma a string.
+
+01:20.170 --> 01:22.450
+So what is a string.
+
+01:22.500 --> 01:25.610
+And don't forget your single quotes like I have just on here.
+
+01:25.690 --> 01:32.120
+So we have string colon a sequence.
+
+01:32.570 --> 01:35.830
+And again I just forgot my colons let me just do it up before we go any farther.
+
+01:35.840 --> 01:38.960
+A sequence of characters
+
+01:41.660 --> 01:42.860
+and that's close to us.
+
+01:43.070 --> 01:44.250
+OK there we go.
+
+01:44.270 --> 01:44.740
+Perfect.
+
+01:44.750 --> 01:49.460
+Now we have a dictionary with two keys and two values.
+
+01:49.460 --> 01:53.380
+One of the most frequent things that you'll do with a dictionary is use a key to get it to value.
+
+01:53.570 --> 01:55.550
+So let's take a look now at how we do this.
+
+01:56.600 --> 02:01.140
+The simplest way to retrieve a value from a dictionary is by accessing it with its key.
+
+02:01.220 --> 02:06.050
+To do this you give the name of the dictionary and then place the key inside a set in square brackets.
+
+02:06.050 --> 02:16.290
+So as we saw previously Let's go print the name of our dictionary terms on the key that we want to retrieve
+
+02:16.290 --> 02:17.040
+the value for.
+
+02:17.040 --> 02:22.970
+So we use square brackets single quote variable.
+
+02:24.060 --> 02:26.460
+OK let's run this and see what we get.
+
+02:27.700 --> 02:29.960
+Represents our affairs were of value stored in memory.
+
+02:30.030 --> 02:30.450
+OK.
+
+02:30.460 --> 02:31.530
+So it's working.
+
+02:31.690 --> 02:34.880
+Something to remember here is that this process works only one way.
+
+02:35.050 --> 02:36.220
+Give a key get a value.
+
+02:36.310 --> 02:38.380
+You cannot give a value and get a key.
+
+02:38.410 --> 02:42.040
+Now it will sometimes be necessary to start with an empty dictionary.
+
+02:42.400 --> 02:46.330
+If you try to get a value from a key that doesn't exist you'll generate an error.
+
+02:46.360 --> 02:49.850
+So before you start to access a dictionary Eidur populated or empty.
+
+02:49.900 --> 02:54.120
+It's a good idea to check if a key exist before attempting to retrieve its value.
+
+02:54.130 --> 03:00.730
+You can do this using pikeman in OPERATOR OK let's modify our program here so we can leave our terms
+
+03:00.730 --> 03:01.600
+in place.
+
+03:01.720 --> 03:03.670
+Just add in a couple of spaces and never go.
+
+03:03.700 --> 03:07.050
+If so let's think of a term that we don't have in our dictionary.
+
+03:07.080 --> 03:15.510
+So let's say float is in a floating number if float as we know a float is a number with a decimal point.
+
+03:15.510 --> 03:18.810
+So if float in terms print
+
+03:23.540 --> 03:28.210
+I know what a float is.
+
+03:28.330 --> 03:31.970
+What a dictionary telling us that it has its Or else
+
+03:35.270 --> 03:35.750
+present
+
+03:38.700 --> 03:42.430
+I do not know what that is.
+
+03:42.480 --> 03:43.260
+OK.
+
+03:43.420 --> 03:47.920
+So let's have a look here now just clean that up a little bit and let's run it again.
+
+03:48.440 --> 03:48.810
+OK.
+
+03:48.810 --> 03:53.720
+So as you can see now down the bottom left hand corner we have I do not know what that is.
+
+03:53.850 --> 03:59.010
+And then we have our variable because we have a print line getting our variable here getting the meaning
+
+03:59.010 --> 03:59.940
+of the variable here.
+
+03:59.970 --> 04:01.380
+Apologies.
+
+04:01.530 --> 04:07.560
+So as we do not have the key float in terms we get the we got the message.
+
+04:07.560 --> 04:08.920
+I do not know what that is.
+
+04:08.980 --> 04:10.030
+If it had been in there.
+
+04:10.050 --> 04:11.220
+We've all got the message.
+
+04:11.220 --> 04:12.440
+I know what a float is.
+
+04:12.540 --> 04:16.510
+We can use the in operator with dictionaries and much the same way as we did with less.
+
+04:16.650 --> 04:21.410
+We take the value that we're checking for followed by an followed by the dictionary.
+
+04:21.420 --> 04:22.560
+This creates a condition.
+
+04:22.560 --> 04:24.790
+The condition is true if the key is in the dictionary.
+
+04:24.860 --> 04:26.720
+Otherwise it's false.
+
+04:26.760 --> 04:31.610
+So if you are starting out with an empty dictionary how do we get key value pairs into it.
+
+04:32.010 --> 04:33.520
+OK well let's take a look at that.
+
+04:33.540 --> 04:39.510
+First we create an empty dictionary and that's what an empty dictionary looks like.
+
+04:39.510 --> 04:44.110
+Now terms equals curly bracket with nothing inside it so a dictionary is empty.
+
+04:44.160 --> 04:46.010
+Then we add our key value pairs.
+
+04:46.110 --> 04:49.670
+So let's add terms which is the name for a dictionary.
+
+04:50.040 --> 04:54.490
+And we're at again variable as you can see.
+
+04:54.500 --> 04:57.930
+Single quote brackets and a variable is the key.
+
+04:58.080 --> 05:01.290
+So we want to assign it the value represents
+
+05:05.220 --> 05:13.300
+or refers to a value stored in memory.
+
+05:13.500 --> 05:14.930
+OK perfect.
+
+05:15.090 --> 05:16.330
+What about adding new value.
+
+05:16.430 --> 05:17.670
+Keep a dictionary.
+
+05:18.090 --> 05:22.240
+Well if you've seen the process is the same as if you were starting out with an empty dictionary.
+
+05:22.290 --> 05:24.000
+Adding a new value that we haven't seen.
+
+05:24.000 --> 05:26.740
+Yes times square brackets.
+
+05:26.970 --> 05:29.790
+Single quote integer equals
+
+05:34.740 --> 05:37.250
+a whole number.
+
+05:38.010 --> 05:39.340
+OK there we go.
+
+05:39.520 --> 05:41.700
+Let's print out these terms so print
+
+05:45.740 --> 05:53.930
+terms which is named for a dictionary and we want to guess variable and then we want to print again
+
+05:54.110 --> 06:03.470
+print terms in your let's run that and see what we get.
+
+06:03.510 --> 06:04.650
+There we go bottom left.
+
+06:04.650 --> 06:08.970
+We have our output so there is another way to retrieve the value from a dictionary and that is to use
+
+06:08.970 --> 06:12.640
+pipings get method and that's what we'll be looking at in the next lecture.
+
+06:12.660 --> 06:15.900
+So as always if you have any questions please don't hesitate to contact me.
+
+06:15.900 --> 06:17.850
+Thank you for listening and I'll see you in the next lecture.

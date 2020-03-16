@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.240 --> 00:05.190
+Hi everybody and welcome back down to a previous lecture we saw how to loop through the Keys and value
+
+00:05.190 --> 00:10.410
+pairs of a dictionary and this lecture we're going to look at some other ways to look to a dictionary.
+
+00:10.410 --> 00:16.140
+Let's start off by looping through the keys of a dictionary using the keys method.
+
+00:16.170 --> 00:20.250
+This method is useful when you don't need to use all of the values in a dictionary.
+
+00:20.490 --> 00:21.570
+So let's have a look.
+
+00:21.720 --> 00:23.770
+First let's create a dictionary.
+
+00:24.150 --> 00:28.590
+And as you can see here I've just copied and pasted our birthday months dictionary from the previous
+
+00:28.680 --> 00:36.960
+lecture and what I'm going to do now is out in a for loop for name in birthday months.
+
+00:38.240 --> 00:43.020
+That is and we want the keys because this is the key method.
+
+00:44.790 --> 00:49.700
+Print name title
+
+00:53.130 --> 00:54.450
+and let's see what we get there.
+
+00:57.730 --> 01:01.150
+Tony Pat Mary very very nice.
+
+01:01.150 --> 01:06.280
+Now if you want to loop true the values in a dictionary you can use the values method and let's have
+
+01:06.280 --> 01:11.650
+a look at us for months and birthday months.
+
+01:13.140 --> 01:13.820
+Five use
+
+01:18.050 --> 01:27.550
+we always remember your code and print months thought title that's run out.
+
+01:27.640 --> 01:28.770
+There we go.
+
+01:29.140 --> 01:30.330
+June November may.
+
+01:30.340 --> 01:31.300
+Excellent.
+
+01:31.300 --> 01:35.530
+Using this method pite impose all the values from a dictionary without checking for repeats.
+
+01:35.590 --> 01:39.860
+If you had a dictionary with a massive amount of information this way it would not be very practical
+
+01:40.340 --> 01:41.920
+if you were a dictionary without I.
+
+01:41.950 --> 01:48.360
+We can use what's called a set a set is similar to a list except that each item in the set must be unique.
+
+01:48.400 --> 01:49.810
+And how do we create a set.
+
+01:49.850 --> 01:55.210
+Well let's have a look for when we just need to own and then that.
+
+01:55.240 --> 02:02.350
+That's a word for months in set and the months that values
+
+02:05.920 --> 02:10.580
+cola print months
+
+02:13.490 --> 02:16.530
+thought title and what we get.
+
+02:16.530 --> 02:20.380
+Now we have a set June May November.
+
+02:20.410 --> 02:26.290
+OK so that's printed out our June main November but what happens if we edit our dictionary.
+
+02:26.680 --> 02:29.620
+The set up Mary birthday is in June.
+
+02:29.620 --> 02:30.520
+Let's run it now.
+
+02:30.520 --> 02:33.990
+Actually let's just clear away the space so it's bit more legible.
+
+02:34.080 --> 02:36.170
+Let's run our program again.
+
+02:38.020 --> 02:39.450
+There we go.
+
+02:39.490 --> 02:42.990
+So as you can see at the bottom June is only mentioned once.
+
+02:43.120 --> 02:47.040
+So every value in a set must be unique.
+
+02:47.170 --> 02:51.610
+So June although it's mentioned twice in a dictionary is shown only once.
+
+02:51.610 --> 02:52.880
+Ok I hope that helps.
+
+02:52.940 --> 02:56.740
+And as always if you have any questions please do not hesitate to reach out and ask me.
+
+02:56.740 --> 02:58.660
+Thanks for listening and I'll see you in the next lecture.

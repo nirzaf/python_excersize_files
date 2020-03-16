@@ -1,0 +1,304 @@
+WEBVTT
+
+00:01.920 --> 00:03.400
+Hi everybody and welcome back.
+
+00:03.420 --> 00:08.280
+Now we looked previously at a Book Dictionary which contained a variety of information about one book
+
+00:08.790 --> 00:13.230
+but it had no room to store information about a second book and let alone what would happen if we had
+
+00:13.230 --> 00:18.960
+a torrid and for book or one way to tackle this problem is to make a list of books in which each book
+
+00:18.960 --> 00:21.430
+is a dictionary of information about that book.
+
+00:21.600 --> 00:22.860
+So let's take a look.
+
+00:22.890 --> 00:27.170
+I'm going to pause this letter now and just create three dictionaries of books information.
+
+00:27.210 --> 00:28.960
+So back to you now in just a moment.
+
+00:29.210 --> 00:29.710
+Hey everybody.
+
+00:29.730 --> 00:30.570
+So here we go.
+
+00:30.690 --> 00:33.540
+And you can see my book details.
+
+00:33.770 --> 00:36.190
+So I've created book Zero book one book too.
+
+00:36.420 --> 00:37.590
+So I have name.
+
+00:37.810 --> 00:44.040
+I have book name I have author I have the price and I have the publisher.
+
+00:44.040 --> 00:46.780
+So some solid book details in there.
+
+00:46.800 --> 00:52.240
+Now what we need to do is we need to take each of these books dictionaries and add them to a list.
+
+00:52.340 --> 00:55.240
+So let's collarless books because that's exactly what it is.
+
+00:55.350 --> 01:05.400
+Let's create a list with square brackets and we have book Zero color book one color book to come up.
+
+01:05.820 --> 01:07.920
+And so I know because at the end of our list.
+
+01:07.950 --> 01:08.510
+OK.
+
+01:08.610 --> 01:10.590
+So we have dictionaries and we have a list.
+
+01:10.620 --> 01:16.760
+Now we're going to create a for loop for book and books.
+
+01:16.760 --> 01:24.770
+OK so for each book and books print book OK.
+
+01:25.040 --> 01:26.040
+Now what does that get us.
+
+01:26.150 --> 01:27.230
+Well let's have a look.
+
+01:28.220 --> 01:28.820
+There we go.
+
+01:29.990 --> 01:35.510
+It puts in admittedly not exactly user friendly format but still it outputs all the information from
+
+01:35.540 --> 01:37.630
+each dictionary.
+
+01:37.640 --> 01:40.930
+Let's look at another example and go back to our stationery store program.
+
+01:41.240 --> 01:44.560
+Let's create a new empty list for storing stock items.
+
+01:44.570 --> 01:45.950
+Ok so I've just created a new file.
+
+01:45.950 --> 01:48.640
+And as you can see I have added some comments at the top.
+
+01:48.770 --> 01:58.220
+So the first thing you want to do is create an empty list so stock items or stock items equals and there
+
+01:58.220 --> 01:59.480
+we go an empty list.
+
+01:59.620 --> 02:00.190
+OK.
+
+02:00.290 --> 02:03.650
+Now what we want to do is you want to create some stock items.
+
+02:03.650 --> 02:08.780
+So let's create 50 pens all of the same type of blue ballpoint one ninety nine.
+
+02:08.810 --> 02:10.330
+So let's go ahead and do that.
+
+02:10.430 --> 02:14.390
+So let's add in a comment because this is something that we haven't really done before although we have
+
+02:14.390 --> 02:17.460
+seen it so make 50 blue pants.
+
+02:17.510 --> 02:18.170
+OK.
+
+02:18.560 --> 02:28.190
+So for blue pants in range we've seen the range function before.
+
+02:28.250 --> 02:34.940
+So we're going to go 0 to 50 and that's going to create 50 instances of blue pant colon.
+
+02:35.120 --> 02:36.710
+And what we're going to say is a new blue pen
+
+02:39.890 --> 02:42.050
+equals.
+
+02:42.190 --> 02:44.080
+Now here we go we're creating a dictionary.
+
+02:44.080 --> 02:50.260
+So we get color I'll leave it to you for my American friends blue
+
+02:54.050 --> 02:55.160
+color type
+
+02:59.030 --> 02:59.490
+ballpoint
+
+03:05.900 --> 03:08.000
+comma and then price
+
+03:11.270 --> 03:14.950
+colon one point nine nine.
+
+03:15.080 --> 03:16.410
+There we go OK.
+
+03:17.030 --> 03:19.790
+Next for stock items.
+
+03:19.790 --> 03:22.680
+So for a list stock items.
+
+03:22.820 --> 03:28.750
+So a catch or two new blue pen OK.
+
+03:28.980 --> 03:30.160
+Let's see what that does.
+
+03:30.180 --> 03:32.670
+That's just a little curiosity experiment.
+
+03:32.760 --> 03:41.310
+Let's just print out blue pen print let's print up stock items print stock items and let's see what
+
+03:41.310 --> 03:42.280
+that gives us.
+
+03:44.590 --> 03:45.410
+There we go.
+
+03:45.720 --> 03:51.120
+Fifty Bluepoint Pence all price at 199th.
+
+03:51.340 --> 03:51.660
+OK.
+
+03:51.700 --> 03:52.290
+Not bad.
+
+03:52.310 --> 03:58.030
+So let's remove our print statement there because we don't need it now pipe and considers each of these
+
+03:58.120 --> 03:59.480
+a separate object.
+
+03:59.530 --> 04:02.360
+This allows us to modify each pen individually.
+
+04:02.500 --> 04:03.570
+And why might you ask.
+
+04:03.570 --> 04:05.760
+We want to change each pan individually.
+
+04:05.980 --> 04:07.890
+Well what happens when we sell one.
+
+04:07.930 --> 04:13.660
+Obviously we have to reduce our list by one or if we run a sale and we want to reduce the price of only
+
+04:13.720 --> 04:18.930
+half our stock to change Japan's price we can use a for loop and an IF statement.
+
+04:19.510 --> 04:24.560
+Let's change the price of the first five pounds from one 99 to 99 Cent.
+
+04:24.580 --> 04:27.600
+So let's as we say that's out in the comment here.
+
+04:31.820 --> 04:39.480
+Changing the price of the first five pence.
+
+04:39.640 --> 04:40.630
+OK.
+
+04:41.150 --> 04:46.130
+So for blue and in-stock items.
+
+04:46.340 --> 04:51.200
+So for blue pens in stock items we take the first five call.
+
+04:51.530 --> 04:57.070
+So if these first five blue pens so blue pen is priced as
+
+05:02.370 --> 05:03.390
+1 9 9
+
+05:06.270 --> 05:07.680
+then make its price.
+
+05:07.880 --> 05:08.500
+Blue Pen
+
+05:12.370 --> 05:17.750
+make its price zero point nine nine.
+
+05:18.140 --> 05:18.760
+OK.
+
+05:21.060 --> 05:25.170
+Now what we want to do is we want to print out those four five blue pants.
+
+05:25.170 --> 05:40.670
+So for blue pen and stock items zero to fives we're only working with the first five again print blue
+
+05:40.990 --> 05:41.610
+pen.
+
+05:42.000 --> 05:42.370
+OK.
+
+05:42.380 --> 05:43.520
+Let's see if that works.
+
+05:44.720 --> 05:46.440
+Perfect.
+
+05:46.460 --> 05:47.910
+So we have our colors the same.
+
+05:47.940 --> 05:51.270
+Our prices got 0.9 9 and a type as ballpoint.
+
+05:51.280 --> 05:56.420
+So as you will see it's common to store a number of dictionaries in a list with each dictionary containing
+
+05:56.600 --> 06:02.630
+many kinds of information about one object you might create a dictionary for each user of a website
+
+06:02.840 --> 06:05.780
+and then store individual dictionaries in a list called user.
+
+06:05.780 --> 06:08.290
+So you might create a dictionary of user attributes.
+
+06:08.300 --> 06:15.110
+What we've done here is these two examples we've created a dictionary of books Sortiment a list and
+
+06:15.110 --> 06:17.990
+then we've seen how to change an item in a dictionary.
+
+06:17.990 --> 06:19.170
+Hokus has been helpful.
+
+06:19.250 --> 06:23.060
+And as always if you have any questions please do not hesitate to contact me and I'll see you in the
+
+06:23.060 --> 06:23.670
+next lecture.
+
+06:23.750 --> 06:24.270
+Thank you.

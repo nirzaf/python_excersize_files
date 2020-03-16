@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.330 --> 00:01.690
+Hi everybody and welcome back.
+
+00:01.710 --> 00:07.110
+Now the last lecture we had a very quick introduction into pite and dictionaries the topic of this section
+
+00:07.630 --> 00:11.510
+but in this lecture we're going to look at exactly what's going on inside a dictionary.
+
+00:11.820 --> 00:15.880
+So as we know in a dictionary is a collection of key value pairs.
+
+00:15.900 --> 00:21.920
+Each key is connected to a value and I can use a key to access the value associated with that key a
+
+00:22.070 --> 00:26.010
+key value can be a number a string a list or even an order dictionary.
+
+00:26.220 --> 00:31.530
+You can use any object that you can create in Python as a value in a dictionary dictionary are wrapped
+
+00:31.620 --> 00:34.770
+in curly brackets with a series of key value pairs inside them.
+
+00:34.770 --> 00:38.410
+So as we saw in our last lecture we created a dictionary called Book 1.
+
+00:38.570 --> 00:39.780
+So let's just do that again.
+
+00:39.780 --> 00:49.120
+Book 1 equals nine curly brackets and now we have a first key which we called Oerter.
+
+00:49.130 --> 00:51.980
+And as you can see that is wrapped in single quotes.
+
+00:52.290 --> 00:59.130
+Each key is separated by a colon and the value that we want to assign to this key is Tony and the author's
+
+00:59.130 --> 00:59.940
+name.
+
+00:59.940 --> 01:03.870
+I wish I'd written a book and let's just close out of a key value pair.
+
+01:03.870 --> 01:07.020
+It is a set of values associated with each other.
+
+01:07.210 --> 01:11.800
+When you provide a key pipefitters the value associated with that key we showed up in the last letter
+
+01:11.800 --> 01:17.200
+where we asked to print the order and we got totally stoned and in return every key is connected to
+
+01:17.200 --> 01:21.610
+its value by a colon an individual key value pairs are separated by commas.
+
+01:21.640 --> 01:24.660
+So let's add in and note a key value pair comma.
+
+01:25.050 --> 01:26.110
+Let's call this from price
+
+01:29.100 --> 01:32.450
+and that's assigned to value 10.
+
+01:32.460 --> 01:35.920
+You can store as many key value pairs as you want in a dictionary.
+
+01:35.940 --> 01:38.700
+The simplest dictionary has only one key value pair.
+
+01:38.760 --> 01:43.170
+If you're anything like me then right now you're wondering what's the difference between lists or tuple
+
+01:43.470 --> 01:44.940
+and dictionaries.
+
+01:44.940 --> 01:45.680
+What dictionary.
+
+01:45.750 --> 01:47.880
+You don't store information in a sequence.
+
+01:47.880 --> 01:50.130
+Instead you store it in pairs.
+
+01:50.130 --> 01:55.500
+And as I said previously piping dictionaries are a lot like real world dictionaries in a real dictionary.
+
+01:55.500 --> 01:58.200
+Each entry is a pair a word and it's definition.
+
+01:58.200 --> 02:00.920
+When you look up a word you get a definition.
+
+02:00.960 --> 02:05.700
+So I hope that explains pite and dictionaries and a little bit more detail for you and a key value pairs
+
+02:05.760 --> 02:08.410
+and how dictionaries are created and the next lecture.
+
+02:08.520 --> 02:11.920
+We're going to be creating dictionaries and then retrieving values from them.
+
+02:12.270 --> 02:14.000
+Thank you for listening and I'll see you in the next lecture.

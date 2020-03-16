@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.990 --> 00:02.750
+Hi everybody and welcome back.
+
+00:02.750 --> 00:06.010
+In a previous lecture we had a program working out our birthday month.
+
+00:06.260 --> 00:07.430
+Let's revisit that now.
+
+00:07.460 --> 00:10.280
+Only this time let's use dictionaries to do it.
+
+00:10.550 --> 00:12.480
+So let's create a dictionary.
+
+00:12.830 --> 00:16.790
+Very thing months equals.
+
+00:16.850 --> 00:21.930
+I'm going to make this Lebert easier to read by separating out a key value pairs on the individual lines.
+
+00:21.980 --> 00:30.260
+So Tony and that's given it the value November I should say give me the value of November.
+
+00:30.560 --> 00:32.420
+It doesn't sound very good.
+
+00:32.600 --> 00:35.320
+Make and aligned with a comma and then a new line.
+
+00:35.390 --> 00:38.690
+Let's go Pat let's give him June
+
+00:41.650 --> 00:49.720
+comma and their line and then let's go Mary quote Don't forget the single quotes Tony.
+
+00:49.800 --> 00:52.350
+Mary and let's give her May.
+
+00:52.580 --> 00:53.760
+So there we go.
+
+00:53.760 --> 00:56.450
+And again you can close this line here with a comma.
+
+00:56.480 --> 01:00.980
+So this dictionary is now broken out over several lines which I think makes it easier to read.
+
+01:00.980 --> 01:03.160
+Just remember to end your lines with a comma.
+
+01:03.440 --> 01:06.880
+So just for clarity and just make sure everything works let's print this out.
+
+01:06.950 --> 01:10.660
+Print birthday months.
+
+01:10.670 --> 01:11.150
+There we go.
+
+01:11.150 --> 01:14.010
+Tony November marry May June.
+
+01:14.090 --> 01:18.130
+Each case a person's name and each value is separate a month.
+
+01:18.230 --> 01:21.150
+So let's now see how we can loop through this dictionary.
+
+01:21.350 --> 01:26.180
+So as we discussed before your pardon programs can be used to store not just a few pieces of information
+
+01:26.360 --> 01:28.360
+but thousands and millions.
+
+01:28.490 --> 01:32.420
+When your dictionary start to reach a certain size you're going to want the ability to loop through
+
+01:32.420 --> 01:33.170
+them.
+
+01:33.170 --> 01:38.750
+You have the ability to look to your dictionaries in several ways you can loop true key value pairs
+
+01:39.320 --> 01:42.490
+you can loop through its keys or you can loop through its values.
+
+01:42.530 --> 01:45.260
+Let's start looping through key value Paris.
+
+01:45.270 --> 01:47.190
+Now let's create a new dictionary.
+
+01:47.600 --> 01:50.720
+Let's first get this a comet looping through
+
+01:53.350 --> 01:58.150
+key value pairs so we know what this one is doing.
+
+01:58.420 --> 02:02.140
+Now a new dictionary is called Book one that's called name
+
+02:08.660 --> 02:10.590
+Elon Musk.
+
+02:10.820 --> 02:11.880
+I've used this book before.
+
+02:11.870 --> 02:15.290
+So you think I only have the one book but I have a few but I just happen to like this book and it's
+
+02:15.290 --> 02:18.300
+on my desk as we are talking right now.
+
+02:18.410 --> 02:25.070
+Orser is Ashley SAGAL The Vance VAMC comment.
+
+02:25.070 --> 02:27.400
+Don't forget your comma at the end of your line.
+
+02:27.510 --> 02:28.070
+Price
+
+02:32.330 --> 02:40.940
+one four point nine nine and we don't need to surround that in quotes and publisher and don't forget
+
+02:41.360 --> 02:47.790
+your quote here because we do need to surround it in quotes Virgin Books
+
+02:51.280 --> 02:51.790
+OK.
+
+02:51.830 --> 02:52.560
+There we go.
+
+02:52.850 --> 02:55.110
+Let's just print this out make sure it's working.
+
+02:55.130 --> 03:01.320
+Print the O book one.
+
+03:01.320 --> 03:02.390
+There we go.
+
+03:02.480 --> 03:03.500
+Publisher of Virgin Books.
+
+03:03.500 --> 03:05.290
+Name and Address.
+
+03:05.300 --> 03:06.910
+Now do we have a dictionary created.
+
+03:07.160 --> 03:12.590
+Let's create a for loop and in a for loop we create the names of two variables that will hold the key
+
+03:12.680 --> 03:13.620
+and the value.
+
+03:13.700 --> 03:20.750
+So we have four and then the names of the two variables key and value add these two variables will hold
+
+03:20.750 --> 03:23.320
+the key and the value in each key value pair.
+
+03:23.570 --> 03:25.670
+We can choose any names you want for these two variables.
+
+03:25.670 --> 03:28.170
+Our program will run just as well as we call them.
+
+03:28.190 --> 03:35.880
+X and y so key and value in book 1 that items
+
+03:38.600 --> 03:42.830
+and color print and apprentice on a new line
+
+03:45.380 --> 03:50.830
+backslash and key plus key.
+
+03:50.910 --> 03:52.720
+So all this should look very familiar.
+
+03:52.720 --> 03:56.000
+Print value
+
+03:58.710 --> 03:59.760
+plus value
+
+04:02.460 --> 04:07.590
+OK now and as part of a statement we include the name of the dictionary followed by the method item
+
+04:08.510 --> 04:11.160
+This returns a list of key value pairs.
+
+04:11.380 --> 04:12.570
+The for loop then stores.
+
+04:12.580 --> 04:18.100
+Each of these pairs into two variables provided we don't use the variables to print each key followed
+
+04:18.100 --> 04:18.840
+by its value.
+
+04:18.850 --> 04:20.540
+So let's see how this looks.
+
+04:20.980 --> 04:21.550
+And there we go.
+
+04:21.550 --> 04:22.060
+Very nice.
+
+04:22.060 --> 04:23.150
+Nice and clean.
+
+04:23.170 --> 04:30.330
+So publisher Vergine book's author Ashley Vance name Elon Musk and then the price when we run this program.
+
+04:30.330 --> 04:34.540
+You'll notice that the key value pairs are not returned in the order in which they start in which they
+
+04:34.540 --> 04:35.530
+were stored.
+
+04:35.530 --> 04:40.120
+This is because it doesn't care about the order in which key value pairs are stored.
+
+04:40.120 --> 04:43.520
+Looping through all key value pairs works particularly well for dictionaries.
+
+04:43.600 --> 04:48.760
+Like our birthday months which stores the same kind of information for many different keys.
+
+04:48.930 --> 04:53.460
+If we look to the month's dictionary we get the name of each person in the dictionary on their birthday
+
+04:53.460 --> 04:54.020
+months.
+
+04:54.060 --> 05:00.690
+So let's do that now let's get at this let's remove the print birthday months line and let's go for
+
+05:01.270 --> 05:03.380
+key value.
+
+05:03.390 --> 05:06.410
+And as we set these variables can be anything but we leave them as they are.
+
+05:10.940 --> 05:21.760
+In birthday month items print now more we're going to do here is we're just going to change just fractionally.
+
+05:21.890 --> 05:25.460
+So we're going to say in print and again we're going to give it a new line.
+
+05:25.460 --> 05:28.820
+So we're going to say print them we're going to say name
+
+05:34.190 --> 05:38.400
+ke I'll go print it again.
+
+05:39.820 --> 05:40.790
+I'm going to say money
+
+05:46.030 --> 05:47.970
+jumped the line there by mistake.
+
+05:48.210 --> 05:51.250
+I'm going to say plus value.
+
+05:51.390 --> 05:54.240
+Now let's run this and see what we get.
+
+05:54.240 --> 05:55.000
+There we go.
+
+05:55.820 --> 05:59.040
+Past June Tony November.
+
+05:59.280 --> 06:00.150
+Mary.
+
+06:00.370 --> 06:01.210
+Very nice.
+
+06:01.210 --> 06:03.690
+So as you can see they're looping through a dictionary.
+
+06:03.700 --> 06:07.450
+It's very simple and the open format is very nice and very clean.
+
+06:07.450 --> 06:09.350
+Thanks for listening and I'll see you in the next lecture.

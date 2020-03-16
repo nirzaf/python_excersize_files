@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.210 --> 00:04.620
+Hi everybody and welcome back and this delightfully short lecture we're going to be looking at how to
+
+00:04.620 --> 00:07.820
+count the number of items put in one of your lists.
+
+00:08.000 --> 00:12.890
+So as you can see here I have started off with at least 30 days from our last lecture I want I'm going
+
+00:12.900 --> 00:15.750
+to do is just add in some quick comments.
+
+00:16.590 --> 00:18.080
+So I'm going to add in today's date
+
+00:20.900 --> 00:28.850
+25th of October 2016 and just let me spaced that out so it's nice and clean.
+
+00:28.980 --> 00:35.870
+Next myself of the author and then the name of this program
+
+00:39.050 --> 00:44.530
+how to find the length of a list.
+
+00:44.870 --> 00:45.300
+OK.
+
+00:45.320 --> 00:45.910
+Perfect.
+
+00:46.800 --> 00:49.390
+So we have a list here which I took from our last letter.
+
+00:49.410 --> 00:50.330
+You can do the same.
+
+00:50.430 --> 00:59.350
+And I'm just going to add in a comment list of days of the week probably unnecessary as it's very very
+
+00:59.350 --> 01:05.320
+obvious what this is but nonetheless just do it because I like putting comments in for clarity.
+
+01:05.350 --> 01:10.270
+Now we mentioned earlier that when dealing with list you can be dealing with hundreds of thousands if
+
+01:10.270 --> 01:11.660
+not millions of items.
+
+01:11.710 --> 01:16.750
+So Soltani of pite and to provide us with a way of quickly and easily finding the length of a list by
+
+01:16.750 --> 01:25.020
+using the length function which looks like this perfect as we get more and more friends and other birthday
+
+01:25.020 --> 01:25.800
+months to our list.
+
+01:25.800 --> 01:28.770
+It would be handy to know how many elements are in it.
+
+01:28.890 --> 01:31.770
+So how do we apply the length function to our list.
+
+01:31.860 --> 01:33.360
+Well let's have a look.
+
+01:33.360 --> 01:37.860
+We start off with a simple print statement print open and close brackets.
+
+01:37.950 --> 01:42.890
+And we then open bracket and pass it the name of the list we want to count.
+
+01:43.080 --> 01:46.540
+So in this case it's birthday days.
+
+01:46.620 --> 01:47.070
+There we go.
+
+01:47.070 --> 01:52.380
+Make sure you have two closing brackets here and let's print that and they have a bottom left hand side
+
+01:52.660 --> 01:53.170
+five.
+
+01:53.180 --> 01:55.950
+So there are five days of the week in our list.
+
+01:56.180 --> 01:56.530
+OK.
+
+01:56.550 --> 02:01.770
+Let's add in the weekend day Saturday and Sunday.
+
+02:02.120 --> 02:06.150
+And I've left out the opening single quote and I'll disclose that.
+
+02:06.150 --> 02:06.690
+There we go.
+
+02:06.700 --> 02:09.450
+Comma separated out and Sunday.
+
+02:10.470 --> 02:11.180
+Perfect.
+
+02:11.310 --> 02:13.080
+Run our program again.
+
+02:13.080 --> 02:13.600
+There we go.
+
+02:13.620 --> 02:18.520
+Seven nice quick easy lecture on how to find a number of elements in any list.
+
+02:18.630 --> 02:20.100
+Thank you and I'll see you in the next lecture.

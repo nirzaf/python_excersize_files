@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00.270 --> 00:01.930
+Hi everybody and welcome back.
+
+00:01.950 --> 00:06.240
+Now this just a quick lecture to catch up on something that I said I would do in a previous lecture
+
+00:06.300 --> 00:09.570
+but then promptly forgot which I often do.
+
+00:09.630 --> 00:13.010
+We're going to add in some comments to the code we wrote in our previous lecture.
+
+00:13.020 --> 00:17.640
+So what I have here is the code from our last lecture which is our birthday months and let's just start
+
+00:17.640 --> 00:18.340
+off at the top.
+
+00:18.360 --> 00:19.650
+So we're just going to put in
+
+00:22.570 --> 00:34.560
+and we're just going to put in today's day 24 of the 10th 2016 and for American friends you can write
+
+00:34.560 --> 00:38.650
+that the way where you're going to put in some more comments here.
+
+00:39.240 --> 00:47.670
+And we're just going to put it in the author which is me Tony Stuart I'm just going to play in the name
+
+00:47.670 --> 00:48.290
+of our program
+
+00:51.110 --> 01:05.870
+and we're going to say anything less or we should say how do you know how to edit lists OK.
+
+01:05.870 --> 01:11.790
+Now let's move down to our code and let's have a sort of first line was in months and we created a list.
+
+01:11.840 --> 01:13.240
+So let's add uncomment here
+
+01:16.230 --> 01:21.010
+creating a list of months.
+
+01:21.090 --> 01:22.110
+Perfect.
+
+01:22.110 --> 01:23.040
+Now our next line
+
+01:26.480 --> 01:28.030
+was printing
+
+01:30.790 --> 01:31.690
+our list.
+
+01:31.860 --> 01:34.890
+Now just a quick note on comments here.
+
+01:34.920 --> 01:39.180
+You don't want to be overzealous with your comments so you don't have to comment absolutely everything
+
+01:39.390 --> 01:40.710
+because it's a beginner's course.
+
+01:40.710 --> 01:45.300
+I'm just going to write a comment on the print statement but for experienced programmers comment here
+
+01:45.510 --> 01:46.830
+is probably not necessary.
+
+01:46.920 --> 01:58.190
+And then the next piece of code where you have changing an element E.A. of our list.
+
+01:58.530 --> 01:59.230
+Perfect.
+
+01:59.250 --> 02:02.730
+I won't come into print statement here because we've already done that previously.
+
+02:02.730 --> 02:10.610
+Now next comment using the append method.
+
+02:10.950 --> 02:12.380
+Perfect.
+
+02:12.410 --> 02:14.840
+Again we won't comment the print statement.
+
+02:15.420 --> 02:27.000
+We'll add in the comment here and that comment is creating an empty list.
+
+02:27.220 --> 02:28.450
+The next piece our comment.
+
+02:28.450 --> 02:31.300
+Well we've already used the append method.
+
+02:31.450 --> 02:39.090
+So we'll just keep going down and we'll add in a comment here and we'll say using the insert method
+
+02:44.500 --> 02:45.230
+excellent.
+
+02:45.310 --> 02:54.700
+And then finally we have our delete statement and we'll just adding a comment here using the delete
+
+02:58.020 --> 02:59.800
+statement.
+
+03:00.150 --> 03:02.900
+Perfect.
+
+03:02.930 --> 03:08.330
+So now when somebody reviews this code or if we were to send it on to somebody they would know when
+
+03:08.330 --> 03:11.810
+the code was written who was written by and what the name and program is.
+
+03:11.990 --> 03:16.490
+And wrote our code then we have a set of let We have a set of comments which tells people what each
+
+03:16.490 --> 03:18.420
+section of code does.
+
+03:18.440 --> 03:22.730
+Now as you learn more and your knowledge of Python increased You may not have to common that you may
+
+03:22.730 --> 03:27.660
+not have to make such obvious comments but because we're all beginners here it's necessary but we'll
+
+03:27.680 --> 03:29.440
+adapt as we learn and move forward.
+
+03:29.570 --> 03:30.970
+Thank you and I'll see you in the next lecture.

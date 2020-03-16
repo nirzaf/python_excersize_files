@@ -1,0 +1,292 @@
+WEBVTT
+
+00:00.240 --> 00:02.070
+Hi everybody and welcome back.
+
+00:02.070 --> 00:08.220
+Now in this lecture we're going to touch on a previous topic which is printing out our lists but we're
+
+00:08.220 --> 00:10.850
+going to look at a much more efficient way to do it.
+
+00:10.860 --> 00:14.110
+So I've got started here as well as you can see I've added in the usual comments at the top.
+
+00:14.130 --> 00:22.810
+Today's date the name my name and the name of this program so previously we create a list of months
+
+00:22.860 --> 00:24.410
+and we're going to do that again now.
+
+00:24.460 --> 00:27.830
+So months equals opening closing square brackets.
+
+00:27.830 --> 00:31.430
+And what I'm going to do now is just paste in a list of months so you can do the same.
+
+00:31.460 --> 00:35.190
+You don't want to sit here and watch me type through all of those.
+
+00:35.260 --> 00:40.810
+Now as we saw in previous lecture the only way to print out one or all of the months was to do it individually
+
+00:40.840 --> 00:44.110
+like this print months
+
+00:47.230 --> 00:49.450
+and then identify the elements which we want to print.
+
+00:49.450 --> 00:51.810
+So in this case zero and let's have a look January.
+
+00:51.810 --> 00:52.840
+There we go.
+
+00:53.200 --> 00:56.610
+But in this lecture we are going to learn about looping through an entire list.
+
+00:56.650 --> 00:58.000
+So you don't have to do this line.
+
+00:58.080 --> 01:04.060
+This print statement every time platens for loop is used every time you want to perform the same action
+
+01:04.150 --> 01:06.160
+with every item in a list.
+
+01:06.160 --> 01:10.280
+So in this example we want to print out each month instead of doing it individually.
+
+01:10.390 --> 01:12.070
+Let's use a for loop.
+
+01:12.070 --> 01:13.960
+So let's have a look at how we do that.
+
+01:14.020 --> 01:19.090
+Let's start off the comments so we know what we're doing because this is a new concept using a for loop
+
+01:21.400 --> 01:23.640
+to print a list.
+
+01:23.680 --> 01:24.410
+Perfect.
+
+01:24.670 --> 01:25.400
+OK.
+
+01:25.570 --> 01:32.660
+So we start off our for loop with a block of code like this for month and that's an individual item
+
+01:32.660 --> 01:40.300
+will in our list month in months which is the name of our list colon every four loop has to be closed
+
+01:40.300 --> 01:41.020
+with a colon.
+
+01:41.050 --> 01:43.220
+And what that does is it Spuyten.
+
+01:43.330 --> 01:46.100
+This is where the body of the loop is.
+
+01:46.150 --> 01:48.870
+And as you can see it indented automatically for us.
+
+01:49.090 --> 01:50.230
+So next we say print
+
+01:54.450 --> 01:57.280
+that's going to do is it's going to print out the individual element.
+
+01:57.300 --> 02:02.900
+So at line 8 which is just here we define a for loop.
+
+02:02.950 --> 02:08.570
+Here we are telling piking to take them on from our list of months and stored in a variable called Month.
+
+02:08.570 --> 02:10.420
+We didn't help Huyton on the next line.
+
+02:12.370 --> 02:17.520
+To print the value that was just stored in month and repeats this process for every item in the list
+
+02:18.230 --> 02:21.710
+for every month in the list of months print the month name.
+
+02:21.740 --> 02:23.960
+Is that's exactly what we're telling the computer to do.
+
+02:24.010 --> 02:30.240
+And let's have a look and see how this runs beautiful every month from her list printed with only two
+
+02:30.240 --> 02:31.050
+lines of code.
+
+02:31.900 --> 02:35.710
+Looping is a beautiful thing because it allows your programs to automate repetitive tasks.
+
+02:35.710 --> 02:38.590
+Let's extend our previous months example by doing a little more.
+
+02:38.590 --> 02:39.230
+What are forwarded.
+
+02:39.280 --> 02:46.180
+So let's update our print statement here print month that title so we'll capitalize the first letter
+
+02:46.180 --> 02:47.480
+of each month.
+
+02:47.590 --> 02:53.440
+Don't forget like I have just done your opening and closing brackets at the end of title plus open closing
+
+02:53.530 --> 02:54.730
+and double quotes.
+
+02:54.730 --> 02:59.070
+Space is the name of a month.
+
+02:59.080 --> 02:59.770
+Here we go.
+
+02:59.780 --> 03:02.620
+So let's have a look and see how that runs.
+
+03:02.740 --> 03:03.410
+Brilliant.
+
+03:03.420 --> 03:04.660
+January is named a month.
+
+03:04.660 --> 03:05.950
+December is a name for money.
+
+03:06.070 --> 03:11.740
+So as you can see very easy to automate repetitive tasks that you might have to do over and over again.
+
+03:11.880 --> 03:13.730
+So let's take a closer look at our for loop.
+
+03:13.810 --> 03:17.750
+It starts with a line for month in months.
+
+03:17.800 --> 03:18.900
+This is the start of a loop.
+
+03:18.940 --> 03:23.390
+When you hit return your plight in code editor should automatically indent the next line which then
+
+03:23.410 --> 03:27.290
+reads print monster title and the rest of the code that we have here.
+
+03:28.340 --> 03:32.840
+Indentation is usually important to write in and we'll discuss why in the later lecture in the first
+
+03:32.840 --> 03:37.190
+line we are telling people to go out and get the first value from a list of months and stored in the
+
+03:37.190 --> 03:39.410
+variable month.
+
+03:39.440 --> 03:46.470
+So here obviously the first value is January and then read the next line and print out the current value
+
+03:46.470 --> 03:51.750
+of the month of February then it goes back to the first line of the loop and repeats the same process
+
+03:51.960 --> 03:54.380
+until there are no more values in the list.
+
+03:54.420 --> 04:01.000
+So the process of elimination Truda loop when they're not when there are no more values left in the
+
+04:01.000 --> 04:03.180
+list pikemen those the next line.
+
+04:03.210 --> 04:05.470
+And their example there is nothing after the for loop.
+
+04:05.500 --> 04:08.410
+So our program ends our indentation here.
+
+04:08.770 --> 04:14.410
+If there was more and a for loop there would be a new line here at the indentation new line but we don't
+
+04:14.410 --> 04:19.060
+have anything here Spuyten knows that this is the end of the for loop.
+
+04:19.060 --> 04:24.100
+So we're in your loop you can do just about anything and he can write as many lines of code in it so
+
+04:24.100 --> 04:27.570
+we could have as many new lines here as we wanted.
+
+04:27.580 --> 04:33.160
+And once are indented and considers them part of our for a loop every indented line after month and
+
+04:33.160 --> 04:38.710
+month is considered as I just said by Spuyten to be inside the loop on each indented line is executed
+
+04:38.890 --> 04:43.540
+once for each value in a list which means you can do as much work as you like with each value in the
+
+04:43.540 --> 04:44.280
+list.
+
+04:44.350 --> 04:46.200
+So let's beef up a program with the following.
+
+04:46.360 --> 04:51.760
+Let's first just print out our list of months and put each month on a new line.
+
+04:51.760 --> 04:58.740
+So we'll leave it at that title plus backslash new line.
+
+04:58.740 --> 04:59.420
+Perfect.
+
+04:59.430 --> 05:02.240
+And don't forget we need to still because this is a character.
+
+05:02.250 --> 05:09.590
+New lines are considered characters we need to put that in opening and closing quotes next print open
+
+05:09.590 --> 05:18.500
+closing double quote the next month is leave a space there and let's see how that looks.
+
+05:18.500 --> 05:19.490
+Very nice.
+
+05:19.500 --> 05:23.710
+January next month is February next month as March next month of April and so on and so on.
+
+05:23.720 --> 05:28.610
+So as we just discussed if you don't put anything after your for loop your program just ends.
+
+05:28.710 --> 05:33.320
+But most of the time you'll want to give your users some feedback and the lines of code after the for
+
+05:33.320 --> 05:37.240
+loop that are not indented executed once without repetition.
+
+05:37.260 --> 05:37.670
+Print
+
+05:41.250 --> 05:46.190
+good bye nice and at the very end.
+
+05:47.060 --> 05:47.970
+Goodbye.
+
+05:48.020 --> 05:50.290
+OK so that's an introduction in the for for loop.
+
+05:50.330 --> 05:53.170
+We're going to be using that quite extensively in the rest of this course.
+
+05:53.390 --> 05:55.910
+So don't worry we'll be getting much more into it later on.
+
+05:55.910 --> 05:57.790
+Thanks for listening and I'll see you in the next lecture.

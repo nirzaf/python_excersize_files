@@ -1,0 +1,220 @@
+WEBVTT
+
+00:01.020 --> 00:03.110
+Hi everybody and welcome back.
+
+00:03.150 --> 00:06.190
+Now with this lecture we're going to look at creating a list of numbers.
+
+00:06.330 --> 00:09.330
+So I just started off as usual with some comments at the top.
+
+00:09.420 --> 00:13.780
+I'm going to look at how we can use the list function to convert a series of numbers into a list.
+
+00:13.800 --> 00:18.990
+So in the last lecture we saw that the range function simply prints out a series of numbers but we can
+
+00:18.990 --> 00:22.340
+use the list function to convert that series of numbers into a list.
+
+00:22.350 --> 00:25.520
+So let's have a look at that now and let's start off at a comment.
+
+00:25.860 --> 00:30.950
+Converting numbers into a list.
+
+00:31.050 --> 00:31.490
+Perfect.
+
+00:31.530 --> 00:40.260
+So numbers equals list open brackets range open brackets.
+
+00:40.260 --> 00:42.460
+And in this range let's place 1 to 6.
+
+00:42.840 --> 00:45.980
+And don't forget to close off with two closing brackets.
+
+00:46.030 --> 00:51.150
+Now print numbers.
+
+00:51.400 --> 00:57.210
+There we go a list of numbers so instead of the series we have a list 1 2 3 4 5.
+
+00:57.430 --> 00:59.050
+So we can do more with the range function.
+
+00:59.290 --> 01:03.160
+Let's print out a list of odd numbers between one on one hundred and one.
+
+01:03.190 --> 01:04.500
+So let's have a look.
+
+01:06.180 --> 01:07.130
+Odd numbers.
+
+01:09.710 --> 01:11.450
+Equals list
+
+01:13.950 --> 01:14.890
+range.
+
+01:17.860 --> 01:19.390
+One to One Hundred and One
+
+01:22.230 --> 01:23.640
+and Two and explain the two.
+
+01:23.640 --> 01:27.030
+Now in just a moment and let's print that out.
+
+01:27.440 --> 01:35.360
+Can print that out whatever my print statement so print odd numbers and there we go all odd numbers
+
+01:35.450 --> 01:36.890
+up to 100 in one.
+
+01:37.100 --> 01:41.520
+And in this example the range function starts at 1 and then adds two to us.
+
+01:41.770 --> 01:44.900
+So the last value we have in the range here is to.
+
+01:45.110 --> 01:50.250
+It adds to repeatedly until it reaches our pass at the end value of 101.
+
+01:50.330 --> 01:53.940
+The range function can be used to create almost any set of numbers that you want.
+
+01:54.110 --> 01:57.730
+Here's an example of how to create a list of the first 10 square numbers.
+
+01:59.370 --> 02:04.920
+So don't forget that in Python to act abstract symbols represent exponents and we saw that back when
+
+02:04.920 --> 02:06.290
+we started to put numbers.
+
+02:06.330 --> 02:17.580
+So let's create an empty list so squares equals an opening closing square brackets for value in range
+
+02:18.790 --> 02:20.790
+one to 11.
+
+02:21.350 --> 02:23.370
+And I forgot in my opening bracket there.
+
+02:23.370 --> 02:30.750
+So don't make that mistake to remove that space colon I used to always forget the colon so don't forget
+
+02:30.750 --> 02:34.380
+that and if you do get an error it's probably because you made a typo or you just left out the code
+
+02:34.380 --> 02:36.780
+on which is an easy thing to do.
+
+02:36.840 --> 02:40.700
+Square equals value.
+
+02:40.930 --> 02:52.250
+So the value in the range to 10 squares equals append Square.
+
+02:52.250 --> 02:54.080
+So all of this should be very familiar to you.
+
+02:54.120 --> 03:00.830
+Let's not go back to the previous lectures and have a look and then print squares.
+
+03:00.830 --> 03:01.900
+So let's have a look.
+
+03:02.970 --> 03:03.930
+Well we have an error.
+
+03:03.950 --> 03:05.270
+And where is our error.
+
+03:05.450 --> 03:07.120
+A pen is not defined.
+
+03:07.430 --> 03:08.930
+And why is a pen not the find.
+
+03:09.020 --> 03:14.540
+Well because I have an equal sign and as we know it doesn't work that way.
+
+03:14.570 --> 03:19.540
+So the Panthers are square and that should be that append.
+
+03:19.580 --> 03:20.170
+There we go.
+
+03:20.180 --> 03:22.720
+Let's have a look and there we go.
+
+03:22.850 --> 03:27.340
+In our third list we have a list of squared numbers 1 to 11.
+
+03:27.470 --> 03:28.700
+Not bad.
+
+03:28.760 --> 03:30.380
+So what else can we do with a list of numbers.
+
+03:30.440 --> 03:31.490
+Well let's create a new list.
+
+03:31.520 --> 03:35.320
+The IGY and let's call it less digits the IGY itx digits.
+
+03:35.420 --> 03:39.940
+And let's go one two three four five.
+
+03:39.950 --> 03:40.720
+Perfect.
+
+03:40.730 --> 03:42.670
+So there we have a list of digits.
+
+03:42.740 --> 03:51.030
+How about finding the minimum number in a list corrent minimum and mam's for short digits.
+
+03:51.030 --> 03:55.370
+T i g i t s have a look.
+
+03:55.700 --> 03:57.110
+There we go our last line here.
+
+03:57.110 --> 03:59.850
+Number one the minimum number in our list.
+
+04:00.170 --> 04:02.070
+What about the maximum.
+
+04:02.370 --> 04:05.350
+Let's just change minimum max and a x
+
+04:08.770 --> 04:09.910
+5.
+
+04:09.910 --> 04:14.080
+How about one more the sum.
+
+04:14.400 --> 04:15.640
+There we go 15.
+
+04:15.660 --> 04:17.340
+Some of the digits in our list.
+
+04:17.370 --> 04:22.190
+So that's been a brief introduction into a list of numbers and how we can use the range function.
+
+04:22.200 --> 04:26.850
+And for loops to manipulate them we'll come back to this topic again in future lectures.
+
+04:26.850 --> 04:27.300
+Thank you.
+
+04:27.300 --> 04:28.830
+And I look forward to seeing you in the next lecture.

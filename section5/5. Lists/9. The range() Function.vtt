@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.740 --> 00:07.250
+Hi everybody and welcome back in this lecture we're going to kick off our section on numbered lists.
+
+00:07.330 --> 00:12.550
+I'm going to start with the range function so you can use this function to generate a list of numbers.
+
+00:12.610 --> 00:17.050
+So as you can see to get us started I've just entered in some comments to date the author and the name
+
+00:17.050 --> 00:23.410
+of the program the range function we're going to add in one more comment here to get us started using
+
+00:25.210 --> 00:28.840
+the range function.
+
+00:28.840 --> 00:29.800
+Perfect.
+
+00:29.800 --> 00:38.300
+So our first line for value in range 1 to 5.
+
+00:38.630 --> 00:40.880
+So this code should be very familiar with you.
+
+00:40.880 --> 00:45.020
+Now obviously the first thing you should notice is that it's a for loop.
+
+00:45.020 --> 00:47.380
+If you haven't noticed that or if this is unfamiliar to you.
+
+00:47.390 --> 00:50.260
+Go back to the last lecture and have a review.
+
+00:50.300 --> 00:55.130
+Our next line obviously is indented because when we have a for loop which is close to the colon your
+
+00:55.130 --> 00:57.830
+editor will usually indent the line for you.
+
+00:57.830 --> 00:59.850
+So print value
+
+01:03.830 --> 01:04.440
+perfect.
+
+01:04.460 --> 01:07.650
+Now you would think that the output would be 1 2 3 4 5.
+
+01:07.820 --> 01:12.980
+And if you did think that you were wrong because in this example the range function prints the numbers
+
+01:13.070 --> 01:13.910
+1 through four.
+
+01:14.000 --> 01:19.880
+So you can see it here in the bottom left 3:59 the range function starts counting at the first value
+
+01:20.120 --> 01:24.980
+which is 1 and then stops when it reaches the second last value because it stops at the second last
+
+01:24.980 --> 01:29.830
+value the output never contains the end number which in this case would have been 5.
+
+01:29.840 --> 01:34.840
+So if I change five to six and run it again which on the Mac is controlled and be commanded be sorry.
+
+01:35.000 --> 01:37.370
+I get one two three four five.
+
+01:37.480 --> 01:41.440
+So that's a quick introduction into the start of this section which is numerical lists and using the
+
+01:41.440 --> 01:44.810
+range function to Karaite on the range of numbers that you want.
+
+01:44.830 --> 01:49.110
+And the next lecture we're going to be talking about creating a list of numbers so I'll see you there.
+
+01:49.120 --> 01:50.770
+Thanks for listening and I'll see you in the next lecture.

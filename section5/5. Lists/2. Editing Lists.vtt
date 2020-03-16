@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.510 --> 00:02.000
+Hi everybody and welcome back.
+
+00:02.260 --> 00:05.760
+Now so far we've created a very simple list of months.
+
+00:05.970 --> 00:10.800
+But as you start to write bigger and more complex programs your list will need to be more dynamic more
+
+00:10.800 --> 00:16.580
+flexible which means that you will want to create lists and then add remove and elements as your program
+
+00:16.580 --> 00:22.290
+is running that's create a new list one that stores the birthday months of friends and family.
+
+00:22.290 --> 00:23.590
+So here we go as always.
+
+00:23.610 --> 00:34.160
+Let's start off our name birthday months and that equals and let's just add in a few days a few months
+
+00:34.160 --> 00:35.920
+of birthdays of friends and family.
+
+00:35.930 --> 00:47.910
+So April as always opening closing single quotes comment to separate out the elements May and November.
+
+00:48.010 --> 00:49.100
+Okay perfect.
+
+00:49.140 --> 00:52.820
+Let's just print out our list just to make sure everything's working
+
+00:59.460 --> 01:00.030
+and there we go.
+
+01:00.030 --> 01:04.680
+Bottom left hand corner there is a list formatted that.
+
+01:04.880 --> 01:09.990
+Now let's imagine that we've made a typo when spelling April so instead of spending April with an A.
+
+01:10.010 --> 01:12.460
+We spelt it with an S Sproule.
+
+01:13.210 --> 01:13.780
+OK.
+
+01:13.850 --> 01:15.610
+And again we'll print this out.
+
+01:16.040 --> 01:18.920
+OK and here we can see in the bottom left hand corner our typo.
+
+01:18.920 --> 01:22.210
+In April instead of a we've got an S.
+
+01:22.250 --> 01:25.560
+How do we change the value of this first element to correct a typo.
+
+01:25.700 --> 01:29.210
+Well we could just remove this here altogether.
+
+01:29.880 --> 01:31.860
+But let's imagine we're in a program running.
+
+01:32.030 --> 01:38.820
+What we need to do is we need to modify the first element of this list and to do that we use the change
+
+01:38.820 --> 01:43.780
+method you can use this method to change any element of a list and not just the Force One.
+
+01:43.800 --> 01:47.760
+So we're going to use it here and the first one but you can use it for other elements in the list by
+
+01:47.760 --> 01:50.020
+simply replacing the index number.
+
+01:50.100 --> 01:58.620
+So let's have a look at the months on we want to change position 0 because that's April equals.
+
+01:58.850 --> 02:03.610
+And now let's put in our correct spelling of April and because we haven't put a new print line we still
+
+02:03.610 --> 02:04.460
+get her.
+
+02:04.630 --> 02:10.930
+We still get our misspelled April let's put in a new print line and let's run it again.
+
+02:10.930 --> 02:12.010
+And there we go.
+
+02:12.040 --> 02:17.500
+So you can see our first list has our April with a spelling mistake on our second is corrected.
+
+02:17.500 --> 02:18.390
+Not too bad.
+
+02:19.990 --> 02:22.560
+Now let's add an element to our list.
+
+02:23.420 --> 02:27.200
+So we've just made a new friend and you want to add their money to your birthday list.
+
+02:27.260 --> 02:28.220
+How we do that.
+
+02:28.410 --> 02:31.330
+Well we use what's called the append method.
+
+02:31.400 --> 02:39.930
+So again we access our list birthday months we go does a p p e n d and then we'll in the brackets open
+
+02:39.960 --> 02:42.650
+closing single quotes and we put in the month that we want to add.
+
+02:42.680 --> 02:47.510
+So in this case let's say June and then we once again we print out our month's
+
+02:50.390 --> 02:56.300
+rent a month and we run that and now we can see in the bottom left hand corner our list now has one
+
+02:56.300 --> 02:57.270
+additional month.
+
+02:57.320 --> 02:59.920
+June.
+
+03:00.090 --> 03:01.800
+So what happens if you have no friends.
+
+03:01.910 --> 03:04.630
+You just arrive in a new town and you've no Birdie's to add to your list.
+
+03:04.860 --> 03:14.140
+Well you can create an empty list just like this so Birthday months equals a space that is to make it
+
+03:14.250 --> 03:15.160
+easier to read.
+
+03:15.330 --> 03:17.820
+Equals opening closing square brackets.
+
+03:17.820 --> 03:21.390
+Now we have an empty list so let's print that as
+
+03:26.680 --> 03:31.680
+perfect as you can see now our line of output here is moving through all our work.
+
+03:31.960 --> 03:37.030
+And the last piece here the last line here is an empty list called Birthday months.
+
+03:37.060 --> 03:41.200
+But now you've made a friend and you want to add their birthday month to your list.
+
+03:41.200 --> 03:42.170
+How do you do it.
+
+03:42.490 --> 03:47.890
+Well the append method works just as well on an empty list as it does with a list that already has elements
+
+03:47.950 --> 03:48.610
+in it.
+
+03:48.940 --> 03:50.890
+So let's take our birthday list again.
+
+03:50.890 --> 03:52.330
+Birthday months.
+
+03:52.390 --> 04:00.550
+Pand again opening closing brackets opening closing single quotes a U G U S T.
+
+04:00.550 --> 04:02.460
+So your new friend was born in August.
+
+04:02.890 --> 04:08.710
+Let's print this out again.
+
+04:09.420 --> 04:14.400
+Perfect August has now been added to our list of birthday months so most of your programs are going
+
+04:14.400 --> 04:18.330
+to start off in an empty list because after all you don't know what date or your users will want to
+
+04:18.330 --> 04:22.370
+store the append method as an element to the end of a list.
+
+04:22.470 --> 04:25.920
+But what if you want to add a new element to a specific position in your list.
+
+04:26.130 --> 04:31.140
+Well let's take a look so at the moment we've got one month August in our list.
+
+04:31.140 --> 04:32.570
+But now we've made yet another friend.
+
+04:32.610 --> 04:35.220
+We're on a roll and their birthday is in May.
+
+04:35.220 --> 04:38.020
+How do you add this month to your list before August.
+
+04:38.100 --> 04:39.740
+Because August is already in there.
+
+04:39.840 --> 04:45.930
+What you can do so by using the insert method you can use the insert method by set by specifying the
+
+04:45.930 --> 04:48.680
+index of the new element and its value.
+
+04:48.690 --> 04:54.280
+So let's again take our birthday months so Birthday months.
+
+04:54.360 --> 05:03.550
+Insert as we said before when using a method in python you have dot and then the method name followed
+
+05:03.550 --> 05:05.200
+by brackets.
+
+05:05.200 --> 05:10.900
+So here we have done insert and we want to put this into position 0 which is the first position in their
+
+05:10.900 --> 05:11.430
+list.
+
+05:13.050 --> 05:18.440
+Comma and then opening closing single codes like before and closing brackets.
+
+05:18.510 --> 05:21.450
+Now let's print out our birthday month list
+
+05:25.030 --> 05:25.780
+and there we go.
+
+05:25.810 --> 05:31.240
+Our last line may August perfect so we're doing well.
+
+05:31.300 --> 05:35.590
+We're making friends and we're adding them to our list so we've discussed changing adding elements to
+
+05:35.590 --> 05:36.190
+a list.
+
+05:36.190 --> 05:37.300
+Now what about removing them.
+
+05:37.300 --> 05:38.500
+So we've just found out what a friend.
+
+05:38.530 --> 05:42.650
+OK so we're not doing too well we've just found that one of our two friends no longer want to remember
+
+05:42.650 --> 05:43.260
+it apparently.
+
+05:43.330 --> 05:44.890
+How do you remove it from your list.
+
+05:44.920 --> 05:50.530
+Well we use the lead statement and let's have a look at that in operation using the delete statement
+
+05:50.670 --> 05:54.890
+you can remove an item from any position in the list so long as you know its index.
+
+05:54.910 --> 06:00.580
+So let's delete the birthday month let's delete position 1.
+
+06:00.770 --> 06:02.180
+So we want to take out August
+
+06:05.290 --> 06:06.950
+let's print out our birthday once again
+
+06:10.140 --> 06:10.850
+and there we go.
+
+06:10.860 --> 06:15.820
+Now a list of birthday months only contains one month and that may.
+
+06:15.980 --> 06:18.050
+OK so now we move forward into a list.
+
+06:18.060 --> 06:22.680
+We've seen how to change add and remove elements in the next letter that will continue on with our learning
+
+06:22.680 --> 06:23.490
+of lists.
+
+06:23.670 --> 06:27.180
+I will dive much deeper in with some new methods and new functions.
+
+06:27.180 --> 06:27.660
+Thank you.
+
+06:27.720 --> 06:29.220
+I look forward to seeing you in the next lecture.

@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.850 --> 00:04.900
+Hi everybody and welcome back this lecture we're going to talk about how to copy a list.
+
+00:04.930 --> 00:08.800
+So there are various reasons why you might want to copy a list might want to make a copy because you
+
+00:08.800 --> 00:10.060
+don't want to alter the original.
+
+00:10.090 --> 00:12.200
+You might be making a back up whatever it is.
+
+00:12.310 --> 00:14.610
+This lecture is going to show us how to do it.
+
+00:14.920 --> 00:20.440
+So to copy a list you create a slice that includes the entire original list.
+
+00:20.550 --> 00:23.040
+So it's a full slice of the original list.
+
+00:23.040 --> 00:26.280
+You can create a slice by omitting the first and second index.
+
+00:26.520 --> 00:31.230
+And by doing this you are telling Python to make a slice that starts at the first item and ends with
+
+00:31.230 --> 00:31.950
+the last.
+
+00:31.950 --> 00:33.930
+So let's take a look at how that's done.
+
+00:33.930 --> 00:36.370
+First we create our list names.
+
+00:36.390 --> 00:42.560
+Equals open closing square brackets opening quote opening closing single quotes Tony.
+
+00:42.810 --> 00:50.770
+Frank just put that in there if I wanted to work.
+
+00:50.780 --> 00:59.630
+Mary Mark Mary and Carl perfect.
+
+00:59.640 --> 01:01.450
+We have a list now.
+
+01:01.950 --> 01:06.900
+Let's create a new variable called first names because obviously these names are first names first names
+
+01:07.950 --> 01:09.250
+he calls names.
+
+01:09.270 --> 01:11.580
+So we're going to work on the names list.
+
+01:11.580 --> 01:20.840
+And as I said we leave out the first and second index and we just put in a colon let's print first names
+
+01:21.050 --> 01:22.590
+and let's have a look at what we get.
+
+01:22.940 --> 01:24.160
+We should get our full list
+
+01:27.210 --> 01:28.460
+perfect.
+
+01:28.470 --> 01:33.750
+Now we have a copy of our list which we can address and perform manipulations on without affecting the
+
+01:33.750 --> 01:34.780
+original list.
+
+01:34.790 --> 01:36.560
+A very very handy piece of code.
+
+01:36.750 --> 01:39.140
+Thanks for listening and I look forward to seeing you in the next lecture.

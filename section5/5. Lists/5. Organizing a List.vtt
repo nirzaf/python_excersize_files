@@ -1,0 +1,247 @@
+WEBVTT
+
+00:00.540 --> 00:02.440
+Hi everybody and welcome back.
+
+00:02.490 --> 00:07.140
+Now previously we worked a list called Birthday months where we store them on our friends and families
+
+00:07.140 --> 00:11.750
+birthdays the Munsen this list can and did appear in any order.
+
+00:11.770 --> 00:13.670
+So let's just take a normal list of birthday months.
+
+00:13.740 --> 00:17.450
+But before we do that let's add in some comments.
+
+00:17.490 --> 00:18.390
+So today's date
+
+00:21.070 --> 00:28.630
+24th of October 2016 followed by the author which is me and it's going leave it or the name is going
+
+00:28.630 --> 00:30.920
+to write in is daunting because I know who I am.
+
+00:31.050 --> 00:33.860
+Followed by the program name.
+
+00:33.860 --> 00:38.190
+This is organizing a list.
+
+00:38.640 --> 00:39.090
+OK.
+
+00:39.090 --> 00:39.860
+Perfect.
+
+00:40.050 --> 00:49.090
+Now so let's just create a list and let's start off the comment again creating a list of months.
+
+00:49.290 --> 00:50.170
+Perfect.
+
+00:50.190 --> 00:51.910
+And let's now do that.
+
+00:52.000 --> 00:58.390
+So a birthday month equals that's open and close or square brackets.
+
+00:58.410 --> 01:02.340
+Let's start in close with a single quote and let's go.
+
+01:02.370 --> 01:09.970
+May come up opening closing single quote November and that's adding one more which can be.
+
+01:10.000 --> 01:13.800
+June Judis as you can see are in complete random order.
+
+01:13.800 --> 01:14.810
+So let's have a look.
+
+01:15.090 --> 01:18.990
+So how can we go about sorting these now using some of pipings methods.
+
+01:19.290 --> 01:22.730
+Well Peyton sort method makes it pretty simple to sort a list.
+
+01:22.800 --> 01:28.990
+So what we can do is we can take our list which has birthday months and we can apply the sort method.
+
+01:29.010 --> 01:32.650
+So does sort then we can print it out.
+
+01:32.650 --> 01:37.050
+Print birthday months and let's print that.
+
+01:37.070 --> 01:38.990
+So that's sort of them alphabetically.
+
+01:38.990 --> 01:44.060
+You can also sort a list in reverse alphabetical order by passing the argument reverse equals truth
+
+01:44.300 --> 01:45.360
+to the sort method.
+
+01:45.380 --> 01:46.870
+So let's see how we do that.
+
+01:47.080 --> 01:58.190
+And it's out in a comment using the reverse sort method and how do we do that.
+
+01:58.210 --> 02:03.190
+Well we take our bird months so let's just take this list here copied and pasted.
+
+02:03.220 --> 02:03.780
+There we go.
+
+02:03.780 --> 02:08.030
+Birthday months and let's go.
+
+02:08.050 --> 02:18.940
+Birthday month sort of that sort of reverse equals true with a capital T.
+
+02:18.940 --> 02:23.830
+Now let's print out a month's print birthday months.
+
+02:24.890 --> 02:26.540
+Okay perfect.
+
+02:26.560 --> 02:32.010
+So you can see our first list here has all of them alphabetically and you can see our next list has
+
+02:32.020 --> 02:34.740
+reversed that so reverse alphabetical order.
+
+02:34.780 --> 02:35.740
+Perfect.
+
+02:35.770 --> 02:36.850
+So a good start.
+
+02:36.850 --> 02:39.000
+So two ways to sort lists right there.
+
+02:39.960 --> 02:46.150
+Now any time we use either of these methods to sort of to sort reverse our list are permanently altered.
+
+02:46.290 --> 02:51.120
+So that means we can no longer but go back to the original format of the list or the original order
+
+02:51.210 --> 02:52.320
+of the list.
+
+02:52.530 --> 02:58.510
+But you can temporarily sort of list using the sorted method s.o. or TPD.
+
+02:58.530 --> 02:59.820
+So how do we use that.
+
+03:00.120 --> 03:02.170
+Well let's create a new list now so we can see.
+
+03:02.250 --> 03:05.700
+So we'll use Berty months again and paste it in.
+
+03:05.940 --> 03:09.960
+And then what we will say is print sorted
+
+03:13.200 --> 03:20.920
+birthday months OK and let's run up up next there we go the list is sorted alphabetically as it was
+
+03:20.920 --> 03:22.430
+in our very first example.
+
+03:22.830 --> 03:26.880
+But in the first example that list is now permanently sorted in our nesting.
+
+03:26.880 --> 03:29.680
+In this example it's only temporarily sorted.
+
+03:29.680 --> 03:31.490
+So let's see if we print it again.
+
+03:31.570 --> 03:36.560
+Print birthday months.
+
+03:36.980 --> 03:37.940
+There you go.
+
+03:37.970 --> 03:42.050
+You can see now that the list has reversed has reverted to its original order.
+
+03:42.230 --> 03:45.310
+So when you want to apparently order a list use a sort for.
+
+03:45.320 --> 03:51.920
+Use the sort methods and when you want to temporarily organize a list use the sorted method.
+
+03:51.920 --> 03:54.670
+Now one final way to sort a list is in reverse.
+
+03:54.740 --> 03:56.270
+So what is reverse.
+
+03:56.270 --> 03:59.120
+Because we've seen alphabetical and we've seen reverse alphabetical.
+
+03:59.240 --> 04:01.230
+Well reverse is exactly that.
+
+04:01.250 --> 04:04.560
+It's the list exactly in reverse order.
+
+04:04.850 --> 04:07.040
+So let's see how we can do that actually for this.
+
+04:07.040 --> 04:08.500
+Let's create a new list.
+
+04:08.520 --> 04:17.870
+So let's have birthday days equals opening closing square brackets open closing single quote.
+
+04:18.110 --> 04:19.020
+So let's go Monday
+
+04:21.700 --> 04:22.250
+Tuesday
+
+04:25.550 --> 04:26.930
+Wednesday.
+
+04:30.640 --> 04:34.480
+Thursday and Friday.
+
+04:35.470 --> 04:35.920
+OK.
+
+04:35.950 --> 04:38.740
+So that's the days of the week obviously in perfect order.
+
+04:38.740 --> 04:39.930
+Now let's reverse them.
+
+04:40.060 --> 04:52.450
+So birthday months sorry birthdays that reverse and print birthday days and let's have a look at what
+
+04:52.450 --> 04:53.490
+we get.
+
+04:53.500 --> 04:59.680
+Perfect Friday Thursday Wednesday Tuesday Monday so our list exactly in reverse order so I hope you
+
+04:59.680 --> 05:01.540
+found that helpful as you can see.
+
+05:01.540 --> 05:06.370
+There are several ways to easily and quickly organize a list in Python and I'll come back to this in
+
+05:06.370 --> 05:07.330
+future lectures.
+
+05:07.330 --> 05:08.040
+Thanks for listening.
+
+05:08.040 --> 05:09.580
+I look forward to seeing you in the next lecture.

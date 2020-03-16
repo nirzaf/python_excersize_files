@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.930 --> 00:05.920
+Hi everybody and welcome back in the next couple of lectures we're going to look at how to work with
+
+00:05.920 --> 00:08.020
+specific parts of a list.
+
+00:08.020 --> 00:12.670
+So we've seen how to work through all the elements of a list but did you know that you can also work
+
+00:12.670 --> 00:15.310
+with a specific group of items within a list.
+
+00:15.310 --> 00:17.790
+Well no you didn't because I haven't explained that to you yet.
+
+00:17.890 --> 00:23.110
+And that's what this lecture is all about pite and caused this specific group a slice.
+
+00:23.350 --> 00:27.930
+So think of your whole list as a full pizza and we only want to work with part of that list.
+
+00:27.970 --> 00:31.130
+So we only want to work with one slice to make a slice.
+
+00:31.150 --> 00:36.220
+You specify the index of the first and last elements that you want to work with as with the range function
+
+00:36.460 --> 00:41.320
+pite and stopped one item before the last index you specify.
+
+00:41.320 --> 00:45.180
+So let's first create a list of names and then print out a specific group.
+
+00:45.190 --> 00:46.440
+So here's my list of names.
+
+00:46.510 --> 00:47.400
+You can create your own.
+
+00:47.410 --> 00:49.120
+I just copied this from an area lecture.
+
+00:49.290 --> 00:51.360
+But you can enter in any names that you want.
+
+00:51.530 --> 00:53.890
+So let's print out a specific group.
+
+00:53.890 --> 01:01.440
+So print and obviously we're working with the list name so print from named now open close square brackets
+
+01:01.730 --> 01:03.270
+0 to 2.
+
+01:03.300 --> 01:04.770
+And let's see what that gives us.
+
+01:06.140 --> 01:08.020
+It gives us Tony and Deirdre.
+
+01:08.120 --> 01:12.690
+So as we said stops before the last one so you would expect it to go 0.
+
+01:12.740 --> 01:16.180
+Tony 1 Deirdre to send.
+
+01:16.310 --> 01:17.020
+But it doesn't.
+
+01:17.120 --> 01:20.680
+It stops before the last number that we specified which was to which would be sent in.
+
+01:20.720 --> 01:24.800
+So it gives 0 1 what we wanted the middle two names from our list.
+
+01:24.800 --> 01:27.920
+Let's have a look at how we would do it at present.
+
+01:28.550 --> 01:31.120
+1 to 3.
+
+01:31.130 --> 01:33.050
+Don't forget your opening closing brackets
+
+01:37.050 --> 01:40.660
+that shouldn't be there and run well error.
+
+01:40.650 --> 01:41.670
+Where is that error.
+
+01:41.680 --> 01:44.300
+I didn't tell it what list to take it from.
+
+01:44.410 --> 01:46.970
+And we're taking it from names.
+
+01:47.020 --> 01:47.790
+There we go.
+
+01:47.950 --> 01:52.790
+Deirdre and Senate I hope you can understand these names or Irish names Deirdre and so on and so hope
+
+01:52.790 --> 01:53.970
+it makes sense to you.
+
+01:54.310 --> 01:59.260
+If you want to save yourself some time typing you can leave out the first index in a slice that will
+
+01:59.260 --> 02:02.140
+automatically start to slice at the start of your list.
+
+02:02.170 --> 02:03.130
+And how does that look.
+
+02:05.300 --> 02:08.700
+Print names.
+
+02:08.720 --> 02:11.480
+Open close square brackets COLANERI.
+
+02:11.570 --> 02:12.480
+What does that give us.
+
+02:13.960 --> 02:16.110
+Tony there just sent perfect.
+
+02:16.150 --> 02:20.210
+You can do something similar when you want to create a slice that includes the end of a list.
+
+02:20.320 --> 02:21.790
+So let's have a look.
+
+02:21.790 --> 02:24.490
+Print names.
+
+02:24.520 --> 02:27.970
+Open close square brackets to colon and run at 7.
+
+02:28.000 --> 02:31.100
+And Carol gives us the last two looks good looks good.
+
+02:31.150 --> 02:37.240
+This syntax allows you to output all of the elements from any point in your list to the end regardless
+
+02:37.240 --> 02:38.580
+of the length of the list.
+
+02:38.590 --> 02:44.410
+So it's very handy if we have a list of millions of users we could use print usernames or print names
+
+02:44.800 --> 02:49.360
+to call on clothes square brackets and that would tell us the last two people in the list.
+
+02:49.360 --> 02:51.010
+So it doesn't matter how big the list is.
+
+02:51.010 --> 02:56.920
+We can get the last two or last five or last 10 we've mentioned previously that a negative index returns
+
+02:56.920 --> 02:59.760
+an element a certain distance from the end of a list.
+
+02:59.770 --> 03:03.410
+So this means you can output on the slice from the end of a list.
+
+03:03.460 --> 03:08.620
+So what if we wanted to output the last tree named to read that a wretched for app where we go print
+
+03:08.620 --> 03:09.110
+names
+
+03:12.040 --> 03:18.720
+print names opening close square brackets minus tree color and let's see what that gives us.
+
+03:19.770 --> 03:22.150
+Lovely last three names that have registered.
+
+03:22.230 --> 03:27.450
+So there are some great ways to print out specific items from our lists in the next letter.
+
+03:27.480 --> 03:32.130
+We'll look at how we loop through a slice to make things even easier and quicker for yourselves.
+
+03:32.370 --> 03:33.840
+Thank you and I'll see you in the next lecture.

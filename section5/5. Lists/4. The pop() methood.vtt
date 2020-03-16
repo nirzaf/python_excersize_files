@@ -1,0 +1,478 @@
+WEBVTT
+
+00:00.660 --> 00:01.230
+Hi everybody.
+
+00:01.230 --> 00:02.630
+You're very welcome back.
+
+00:02.700 --> 00:07.380
+Now in this lecture we're going to follow one from the previous lecture and what we did in the last
+
+00:07.380 --> 00:12.630
+one was the very last piece of code we wrote was about deleting an element from a list.
+
+00:12.630 --> 00:18.090
+Now when you use the delete statement and you remove an element from a list that's it it's gone forever.
+
+00:18.360 --> 00:21.140
+You can no longer use that element it's gone.
+
+00:21.450 --> 00:25.740
+But could there ever be a time when you might want to remove an item from a list but then still want
+
+00:25.740 --> 00:26.870
+to use that item.
+
+00:27.210 --> 00:28.420
+Well think about it.
+
+00:28.470 --> 00:30.800
+Have you ever unsubscribed from an email list.
+
+00:30.820 --> 00:36.120
+Well hopefully not mine but if you have you'll know that your email address is still kept in a list
+
+00:36.660 --> 00:37.920
+of subscribers.
+
+00:38.130 --> 00:42.810
+So when you unsubscribe from an email list your email address is removed and it is then placed in the
+
+00:42.810 --> 00:44.880
+list usually called on subscribers.
+
+00:44.880 --> 00:46.170
+Or something similar.
+
+00:46.560 --> 00:48.030
+But how is this accomplished.
+
+00:48.030 --> 00:52.700
+Because we saw in our last example want to use the delete statement to remove an element from a list.
+
+00:52.740 --> 00:54.570
+It's no longer available to use.
+
+00:54.960 --> 00:58.890
+Well to accomplish this you can use something called the pop method.
+
+00:58.980 --> 01:04.790
+Now the pop method removes the last item in a list but let you work with that item after removing it.
+
+01:05.740 --> 01:08.870
+So let's create a new list and then start popping.
+
+01:09.210 --> 01:11.430
+But before we do that let's add in some comments.
+
+01:11.580 --> 01:12.810
+So let's start with today's date
+
+01:19.070 --> 01:20.680
+9:36 2016
+
+01:25.080 --> 01:26.130
+author.
+
+01:26.920 --> 01:27.630
+Here's me
+
+01:33.050 --> 01:35.170
+or you in this case.
+
+01:35.510 --> 01:42.170
+If you want to put me in as the odor no problem and then let's add in the name of this program and the
+
+01:42.170 --> 01:47.740
+name of this program is using the pop method
+
+01:50.680 --> 01:51.170
+perfect.
+
+01:51.170 --> 01:53.490
+So let's get started with a pop method.
+
+01:54.680 --> 01:57.930
+Let's create a new list and let's call this list subscribers.
+
+02:01.560 --> 02:04.500
+And in our list let's add in some e-mail addresses.
+
+02:04.500 --> 02:11.450
+So let's open and close with single quotes Tony at example dot com.
+
+02:11.460 --> 02:12.100
+Let's add a note.
+
+02:12.180 --> 02:13.270
+Let's add in another one.
+
+02:13.290 --> 02:16.360
+And as always let's separate out the elements of a list with a comma.
+
+02:16.570 --> 02:21.780
+Opening closing single quotes John example.
+
+02:21.950 --> 02:26.240
+Com come.
+
+02:26.690 --> 02:27.520
+Again a comment.
+
+02:27.540 --> 02:34.940
+Opening closing single quotes and one more merry example does come perfect.
+
+02:34.950 --> 02:37.940
+So these are the subscribers to our e-mail list.
+
+02:38.190 --> 02:39.260
+And just to verify.
+
+02:39.260 --> 02:41.000
+Let's print these out.
+
+02:41.060 --> 02:43.150
+Princeps gripers.
+
+02:43.160 --> 02:43.720
+There we go.
+
+02:43.730 --> 02:47.690
+Bottom left hand corner a list of the people's email addresses that we have.
+
+02:47.690 --> 02:50.180
+So now let's pop a subscriber from our list.
+
+02:51.570 --> 02:56.920
+And here's how we do that part subscriber.
+
+02:56.920 --> 03:04.570
+So we're creating a variable and we're calling it pop subscriber equals subscribers which is the name
+
+03:04.570 --> 03:07.660
+of our list because that's the list we want to remove an element from
+
+03:10.520 --> 03:13.690
+that GOP brackets.
+
+03:13.690 --> 03:18.910
+And as I said at the start to lecture the pop method will remove the last element from the list.
+
+03:18.910 --> 03:22.630
+So what we've done is we've created a variable called Pop subscriber.
+
+03:22.630 --> 03:29.090
+And in that variable we are going to save the element that we pop from the list or remove from the list
+
+03:29.210 --> 03:30.340
+of subscribers.
+
+03:30.380 --> 03:34.670
+And in this case it's going to be the last element which is Mary at example dot com.
+
+03:34.700 --> 03:36.740
+So now again let's print out our subscribers
+
+03:41.390 --> 03:46.360
+and as we can see the last one from our list has been popped off.
+
+03:46.360 --> 03:52.770
+So Mary is no longer in our list because in the real world she may have clicked unsubscribe and let's
+
+03:52.780 --> 03:58.720
+print out our variable pop subscriber to make sure that Mary hasn't been popped off and saved into variable
+
+03:58.870 --> 04:01.000
+pop subscriber let's print that
+
+04:04.210 --> 04:09.080
+pop subscriber and indeed there she is.
+
+04:09.210 --> 04:10.840
+Mary an example that come.
+
+04:10.970 --> 04:16.890
+So now you get an idea of how an unsubscribe function might work in an e-mail facility or anything similar
+
+04:16.890 --> 04:17.560
+like that.
+
+04:17.610 --> 04:18.900
+So just to recap what we did.
+
+04:18.960 --> 04:23.980
+We popped the value from our list and we then started in the variable pop subscriber.
+
+04:24.000 --> 04:27.780
+Next we printed our list of subscribers to show that value had been removed.
+
+04:27.780 --> 04:31.200
+We then printed out the pop value and showed that we can still use it.
+
+04:31.260 --> 04:34.250
+And isn't that stored in the variable pop subscriber.
+
+04:34.290 --> 04:36.200
+So how might this pop method be useful.
+
+04:36.450 --> 04:40.710
+Well as you've already said imagine that it's part of an email subscriber program and you want to know
+
+04:40.860 --> 04:45.840
+who your most recent subscriber is this is scriber copy last on your list.
+
+04:45.840 --> 04:51.840
+We can use the pop method to print the message telling you who your last subscriber was this feature
+
+04:51.850 --> 04:57.160
+is commonplace among many e-mail subscription software not to mention millions upon millions of pieces
+
+04:57.190 --> 04:58.170
+of software.
+
+04:58.630 --> 05:02.630
+So what if we wanted to use the pop method to show us the subscriber on our list.
+
+05:02.650 --> 05:03.640
+This can be done.
+
+05:03.640 --> 05:08.920
+In fact you can use the pop method to remove an item in a list at any position by including the index
+
+05:08.920 --> 05:11.440
+of the item you want to remove in brackets.
+
+05:11.440 --> 05:13.650
+So again we have our subscribers list.
+
+05:13.690 --> 05:15.640
+So let's just copy this list out.
+
+05:19.690 --> 05:20.750
+And let's place it here
+
+05:23.730 --> 05:30.210
+perfect and now let's call out the first scriber on our list.
+
+05:30.230 --> 05:33.950
+So again we create a variable and we're going to call this variable for subscriber
+
+05:36.470 --> 05:39.580
+equals and we're working on our subscribers list obviously.
+
+05:39.680 --> 05:44.420
+So we put in the name of our list subscribers and we want to find out the first subscriber.
+
+05:44.450 --> 05:51.320
+So Doug pop like we had used in previous examples we slacked out the first element from our list which
+
+05:51.320 --> 05:53.890
+is zero position zero.
+
+05:54.500 --> 05:56.780
+So we start by popping the first subscriber in a list.
+
+05:56.840 --> 06:00.770
+We then print the message about that subscriber let's print that out.
+
+06:00.770 --> 06:17.920
+Print open closing single quotes your first subscriber was brackets Plus first subscriber And now let's
+
+06:17.920 --> 06:19.760
+close that off with a full stop.
+
+06:20.110 --> 06:27.110
+Open closing double quotes full stop and let's run that perfect.
+
+06:27.190 --> 06:31.100
+So as you can see down here your first subscriber was Tony St..
+
+06:31.190 --> 06:32.820
+Tony and example dot com.
+
+06:32.900 --> 06:35.310
+So a very handy nifty little feature.
+
+06:35.390 --> 06:39.890
+One thing to keep in mind is that each time you pop night in from a list it's no longer stored in the
+
+06:39.890 --> 06:41.450
+original list.
+
+06:41.450 --> 06:45.960
+Most of the time you won't know the position of the value you want to remove from a list.
+
+06:45.980 --> 06:49.850
+We know the positions here because we just got a list of e-mail addresses and we can see them right
+
+06:49.850 --> 06:50.710
+in front of us.
+
+06:50.990 --> 06:55.510
+But what happens when you're working with a list of hundreds of thousands or millions of values.
+
+06:55.820 --> 06:58.640
+If you note the value of the item you want you want to remove.
+
+06:58.670 --> 06:59.920
+You can use Remove method.
+
+06:59.920 --> 07:02.560
+So let's stick with a list of e-mail subscribers.
+
+07:02.630 --> 07:07.670
+And again let's just paste it in again so that it's fall up again.
+
+07:07.670 --> 07:11.860
+And that's printer subscribers just to make sure they are all in their print subscribers.
+
+07:13.590 --> 07:14.760
+Let's just clear out
+
+07:17.870 --> 07:25.450
+let's run our code there we go our list is back to its original form here at our last line tree.
+
+07:25.510 --> 07:27.610
+Tree email address is in earnest.
+
+07:27.610 --> 07:28.070
+OK.
+
+07:28.420 --> 07:33.700
+Let's use to remove so we may not know the index or the position of the value in a list but we might
+
+07:33.700 --> 07:35.980
+know the e-mail address the piece of data.
+
+07:36.160 --> 07:40.860
+Let's go subscriber's.
+
+07:41.030 --> 07:51.880
+Remove and let's remove John example dot com OK.
+
+07:54.320 --> 08:01.170
+Now let's print out subscribers again print subscribers and let's have a look.
+
+08:01.430 --> 08:01.970
+Perfect.
+
+08:01.970 --> 08:03.690
+Here we go we can see our last line here.
+
+08:03.710 --> 08:05.970
+So we have our list and this time it's one out.
+
+08:05.990 --> 08:07.460
+John an example dot com.
+
+08:07.520 --> 08:11.870
+So like the pop method you can use the Remove method to work with a value that's being removed from
+
+08:11.870 --> 08:12.540
+a list.
+
+08:12.790 --> 08:13.070
+OK.
+
+08:13.070 --> 08:16.920
+Now as we've done previously Let's reset our list of subscribers.
+
+08:16.950 --> 08:21.860
+When I say reset I just mean copy and paste it to the end of your code as a next line to be executed
+
+08:21.920 --> 08:22.720
+in your program.
+
+08:22.880 --> 08:31.810
+So what we want to do now is create a variable called subscribed by mistake subscribed by mistake and
+
+08:31.820 --> 08:39.080
+we are going to assign this variable the value of Tony as example dot com.
+
+08:39.080 --> 08:44.300
+So now that we have assigned the value Tony at example dot com to the variable subscribed by mistake.
+
+08:44.300 --> 08:46.190
+We need to remove that from our list.
+
+08:46.220 --> 08:47.370
+So let's do that now.
+
+08:47.740 --> 08:49.600
+So we're working on a subscriber's list.
+
+08:49.760 --> 08:54.420
+Got remove and we're going to remove subscribe by mistake.
+
+08:54.650 --> 08:56.090
+Perfect.
+
+08:56.100 --> 09:00.510
+And let's have a look how it prints out print subscribers.
+
+09:03.180 --> 09:03.930
+Great.
+
+09:03.980 --> 09:07.430
+You can see the last line here is our list.
+
+09:07.790 --> 09:10.620
+And Tony at example dot com has been removed.
+
+09:10.690 --> 09:13.000
+Now let's see if we can still use that variable.
+
+09:13.050 --> 09:14.270
+So it's quite by mistake.
+
+09:14.320 --> 09:16.410
+So let's print out a message and we're going to do it.
+
+09:16.420 --> 09:18.690
+We're going to put this on a new line.
+
+09:18.760 --> 09:29.370
+So as we've seen previously backslash newline this person never going to put in put subscribe by mistake
+
+09:33.820 --> 09:37.240
+did not mean to sign up.
+
+09:37.670 --> 09:41.620
+OK let's see what I get us.
+
+09:41.620 --> 09:42.970
+There we go.
+
+09:42.970 --> 09:48.730
+Our last line in our program this person Tony an example dotcom did not mean to sign up.
+
+09:48.970 --> 09:53.620
+So most of this code is familiar to you after creating a list of subscribers we created a variable called
+
+09:53.620 --> 09:59.290
+subscribed by mistake and assigned it the value Tony an example dotcom we don't use this variable to
+
+09:59.290 --> 10:02.040
+tell pite in which value to remove from our list.
+
+10:02.080 --> 10:05.810
+We then used our subscriber by mistake variable to print the message.
+
+10:05.890 --> 10:06.460
+Boom.
+
+10:06.490 --> 10:08.070
+Very very nice work.
+
+10:08.080 --> 10:09.310
+That's it for the pop method.
+
+10:09.430 --> 10:14.000
+If you have any questions please do not hesitate to ask me if you're having trouble with any content.
+
+10:14.020 --> 10:18.060
+Please try out the activities at the end of this section or just shoot me a message.
+
+10:18.070 --> 10:20.410
+Thanks for listening and I look forward to seeing you in the next lecture.

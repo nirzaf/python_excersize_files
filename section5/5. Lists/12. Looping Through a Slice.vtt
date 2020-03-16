@@ -1,0 +1,112 @@
+WEBVTT
+
+00:01.200 --> 00:02.810
+Hi everybody and welcome back.
+
+00:02.820 --> 00:05.410
+So the last lecture we looked at slicing a list.
+
+00:05.460 --> 00:08.480
+So in this lecture we're going to look at looping through that slice.
+
+00:08.520 --> 00:11.400
+So we make things even easier and more automated for you.
+
+00:11.580 --> 00:13.710
+So we kick off as always just with some comments.
+
+00:13.890 --> 00:18.370
+And as you can see the name of this program is looping through a slice and we'll continue now with another
+
+00:18.420 --> 00:31.150
+comment that will be looping through a slice with a sari with a for loop.
+
+00:31.170 --> 00:31.930
+There we go.
+
+00:32.160 --> 00:34.590
+So let's start off with our list of names which we need.
+
+00:34.590 --> 00:42.480
+So names equals square brackets Tony come up open causing single quotes.
+
+00:42.480 --> 00:49.750
+Frank comma Mary and Carl.
+
+00:49.780 --> 00:50.590
+There we go.
+
+00:50.620 --> 00:51.530
+List of names.
+
+00:51.700 --> 00:52.250
+OK.
+
+00:52.360 --> 00:55.850
+So we want to print these out or we want to print out a slice of them.
+
+00:55.900 --> 01:00.350
+So print open closing double quote.
+
+01:00.470 --> 01:06.860
+Here are the names of the last tree registrations.
+
+01:07.460 --> 01:12.050
+OK so let's imagine we have a web app and we have our own dashboard our own management system behind
+
+01:12.050 --> 01:12.320
+us.
+
+01:12.440 --> 01:16.130
+And we want to have a look at where we want to print to our screen every time we log in the last few
+
+01:16.130 --> 01:17.550
+registrations to our up.
+
+01:17.570 --> 01:18.490
+This is how that would work.
+
+01:18.560 --> 01:23.120
+And we have our FOR loop for name in names.
+
+01:23.320 --> 01:24.010
+OK.
+
+01:25.300 --> 01:27.870
+Now we're using our slice tree.
+
+01:27.880 --> 01:33.820
+The last tree registrations colon print open and closing brackets.
+
+01:34.010 --> 01:38.090
+Name that title opening closing brackets.
+
+01:38.360 --> 01:40.580
+Let's have a look.
+
+01:40.580 --> 01:41.340
+Boom.
+
+01:41.540 --> 01:42.890
+Very very nice.
+
+01:42.890 --> 01:46.280
+Here are the names or last tree registrations Tony.
+
+01:46.280 --> 01:48.760
+Frank Mary and all capsulizes as well.
+
+01:48.770 --> 01:53.900
+So a nice little piece of code there that you can use in your programs to loop through names or the
+
+01:53.900 --> 01:58.560
+last few items in a list or whatever it might be doesn't even matter how big the list is.
+
+01:58.860 --> 01:59.290
+OK.
+
+01:59.390 --> 02:01.650
+So I hope you found that enjoyable and I'll see you in the next lecture.
+
+02:01.730 --> 02:02.210
+Thank you.

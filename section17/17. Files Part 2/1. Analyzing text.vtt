@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.540 --> 00:03.020
+Hi everybody and welcome back.
+
+00:03.040 --> 00:06.010
+Now we're moving into a new section which is phials part two.
+
+00:06.190 --> 00:09.940
+And in the section we're going to look at some more advanced topics of working with files.
+
+00:10.060 --> 00:15.640
+So this lecture is called analyzing text and we can analyze text files containing large amounts of information
+
+00:15.640 --> 00:18.350
+such as you've guessed it books.
+
+00:18.850 --> 00:21.370
+And did you know that I couldn't bear that org.
+
+00:21.430 --> 00:27.460
+You can download the text files of classic books and this program will use the string method split which
+
+00:27.460 --> 00:34.640
+can build a list of words from a string to split method separate a string into parts wherever it finds
+
+00:34.640 --> 00:38.210
+a space and stores all the parts of a string in a list.
+
+00:38.230 --> 00:40.320
+Let's have a look at how we can do that.
+
+00:40.840 --> 00:41.840
+Let's start off with.
+
+00:41.910 --> 00:44.620
+Filename equals in quotes.
+
+00:44.660 --> 00:53.240
+Pete cliff and if anybody has not read wondering Heights Well I highly recommend that.
+
+00:53.530 --> 00:58.870
+And now is the time to get reading and he cliff is one of the main characters from watering heights.
+
+00:59.880 --> 01:03.810
+So try it open.
+
+01:03.830 --> 01:04.540
+What are we opening.
+
+01:04.540 --> 01:07.380
+Well we're opening our file name which is our file.
+
+01:07.410 --> 01:16.260
+Cliff has a file object so as to where you file object
+
+01:19.060 --> 01:21.580
+contents what you want to do with the contents.
+
+01:21.820 --> 01:26.890
+Because what we want to assign the contents file object and then we want to read that contents
+
+01:30.830 --> 01:41.290
+now like in a previous lectures except file not found.
+
+01:41.330 --> 01:43.030
+So if we got a file not found error
+
+01:47.240 --> 01:52.390
+message equals sorry.
+
+01:54.360 --> 02:02.560
+The file plus file name we're building in some nice area features here.
+
+02:04.530 --> 02:05.460
+Cannot be found
+
+02:09.080 --> 02:10.910
+cannot be found.
+
+02:13.030 --> 02:17.020
+If we go next print message
+
+02:20.860 --> 02:22.810
+else.
+
+02:24.320 --> 02:27.040
+Words equals content.
+
+02:27.050 --> 02:28.950
+Never going to count the words in our file.
+
+02:29.000 --> 02:30.210
+Words that split
+
+02:35.830 --> 02:44.510
+the number of words equals Eliane which is lengths that counts the number of words.
+
+02:44.680 --> 02:45.400
+Then print
+
+02:49.410 --> 02:50.030
+the file
+
+02:53.230 --> 02:54.580
+plus filename
+
+02:57.590 --> 02:59.870
+plus approximately
+
+03:06.100 --> 03:10.370
+proximately plus.
+
+03:10.560 --> 03:22.810
+Now we need to convert our number of words to a string so string number words plus words.
+
+03:23.210 --> 03:27.650
+OK now let's run this and make sure it works for us.
+
+03:29.450 --> 03:34.540
+Define heatless Dotty XTi has approximately one hundred eighteen thousand eight hundred ninety nine
+
+03:34.540 --> 03:35.060
+words in it.
+
+03:35.080 --> 03:38.980
+OK so a lot of words Dario's That's how many words are in our file.
+
+03:39.070 --> 03:41.030
+He claimed that he XTi.
+
+03:41.290 --> 03:42.950
+So how were we able to do that.
+
+03:43.000 --> 03:44.910
+But let's just have a quick run to a file.
+
+03:45.130 --> 03:50.790
+So we started off at a variable filename and we signed up the text he Cliff Dotti x T.
+
+03:50.950 --> 03:52.770
+Then we have our try block.
+
+03:52.870 --> 03:56.560
+So with open file names are open or variable fun name which is our file.
+
+03:56.560 --> 03:59.310
+He clicked that the X day as File object.
+
+03:59.560 --> 04:02.630
+Then we create a variable content's equals a file object out read.
+
+04:02.650 --> 04:06.500
+So read the entire file object in the contents.
+
+04:06.660 --> 04:14.610
+If we cannot find a file we output an error message sorry the file cannot be found otherwise to words.
+
+04:14.610 --> 04:20.670
+So then we assign contents that split as we mentioned earlier on the split method separate the string
+
+04:20.670 --> 04:25.560
+into parts where ever it finds the space and stores all the parts of a string in a list.
+
+04:25.560 --> 04:27.890
+So we have contents that split.
+
+04:28.140 --> 04:30.460
+To words the variable words.
+
+04:30.540 --> 04:31.640
+Then we have another variable.
+
+04:31.650 --> 04:38.470
+The number of words equals the length of words and then we simply print out the file name and a string
+
+04:38.560 --> 04:39.590
+number of words.
+
+04:40.700 --> 04:45.320
+So a lot coming together put an excellent piece of code an excellent little program.
+
+04:45.320 --> 04:46.120
+Thanks for listening.
+
+04:46.120 --> 04:48.600
+Do you have any questions please do not hesitate to contact me.

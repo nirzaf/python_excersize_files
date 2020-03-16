@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.650 --> 00:02.280
+Hi everybody and welcome back.
+
+00:02.300 --> 00:07.300
+Now in this lecture we're going to talk about storing data and specifically storing data using Jaison
+
+00:07.330 --> 00:09.180
+does dump function.
+
+00:09.240 --> 00:15.050
+So most of our programs will allow users to input certain types of information when users close a program
+
+00:15.080 --> 00:19.970
+will almost always want to save the information they entered a simple way to do that involves using
+
+00:19.970 --> 00:26.390
+the on module the JCL module allows you to dump simple pite and data structures into a file and load
+
+00:26.390 --> 00:27.710
+the data from that file.
+
+00:27.770 --> 00:33.050
+The next time the program runs you can also use JS on to share data between different pite and programs
+
+00:33.820 --> 00:38.550
+the adjacent data format is not specific to Python so let's have a look and get started.
+
+00:38.630 --> 00:41.720
+And as I said we're going to start with the chase on that don't function.
+
+00:41.720 --> 00:47.510
+So we write a short program to store a set of numbers and this program will use JS on that dump which
+
+00:47.510 --> 00:50.620
+takes two arguments a piece of data to store and a File object.
+
+00:50.630 --> 00:52.290
+It can use to store the data.
+
+00:52.520 --> 00:53.260
+So how do we do that.
+
+00:53.270 --> 01:00.880
+Where we start off with import so import J-Zone next.
+
+01:00.940 --> 01:02.500
+That's a phone number.
+
+01:05.560 --> 01:11.580
+ECOs Let's go one two three four five six seven eight nine.
+
+01:11.580 --> 01:12.140
+There we go.
+
+01:12.140 --> 01:13.820
+And zero for good luck.
+
+01:14.430 --> 01:22.470
+Now filename equals that same phone number.
+
+01:23.080 --> 01:32.370
+Jason and we go with open file name.
+
+01:32.380 --> 01:33.790
+I'm gonna be writing to this file.
+
+01:33.830 --> 01:38.080
+We want to open it and write mode as File object
+
+01:43.260 --> 01:45.150
+Jason but dump
+
+01:52.820 --> 01:57.630
+phone numbers file object.
+
+01:57.670 --> 01:58.130
+OK.
+
+01:58.150 --> 01:59.880
+So let's run that and see what happens.
+
+01:59.930 --> 02:06.500
+We get an error because I've left out an S here and we run it again and there we go.
+
+02:06.530 --> 02:09.550
+So we have no output but something has happened.
+
+02:09.560 --> 02:11.020
+So what does this program do.
+
+02:11.270 --> 02:14.880
+Well first we import adjacent modules and then create a list of numbers.
+
+02:16.030 --> 02:20.700
+So here we go here and it's just one big number within our list a phone number.
+
+02:21.040 --> 02:25.290
+We don't use a file name to store the numbers.
+
+02:25.330 --> 02:30.300
+Then we open the file in right mode which allows adjacent module to write data to the file.
+
+02:30.340 --> 02:32.950
+So we're doing that here.
+
+02:32.970 --> 02:38.190
+We then use the adjacent that don't function to store a list of numbers to find them in the file phone
+
+02:38.190 --> 02:38.800
+numbers.
+
+02:38.850 --> 02:39.440
+Jason.
+
+02:39.510 --> 02:44.910
+So over here the left hand side our program has created a chase on file phone number dodgiest on.
+
+02:44.910 --> 02:46.160
+And there we go.
+
+02:46.200 --> 02:47.560
+Our number is there.
+
+02:47.970 --> 02:52.160
+Never write a program that uses JS on that load to read the list back into memory.

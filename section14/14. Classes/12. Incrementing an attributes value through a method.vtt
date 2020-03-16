@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00.930 --> 00:02.410
+Hi everybody and welcome back.
+
+00:02.460 --> 00:06.690
+Now this lecture got a look at how to increment the attributes value true method.
+
+00:06.690 --> 00:10.830
+So there will be times when you want to increment and attribute value by a certain amount rather than
+
+00:10.830 --> 00:12.700
+set an entirely new value.
+
+00:13.680 --> 00:19.360
+So let's say we have our e-reader and we're on the Amazon Web site and we buy a new e-book.
+
+00:19.410 --> 00:24.260
+So obviously our library count is going to go up by whatever number of books we've just bought.
+
+00:24.270 --> 00:30.930
+So we have 50 books on our e-reader and we buy one Democrat 51 books on an e-reader or 52 or 53 depending
+
+00:30.930 --> 00:34.480
+on how much or how many e-books we have just purchased.
+
+00:34.650 --> 00:40.170
+So let's now create a method that allows us to pass this incremental amount and add that value to our
+
+00:40.170 --> 00:41.740
+library count reading.
+
+00:41.760 --> 00:42.850
+So let's create a method now.
+
+00:42.870 --> 00:51.330
+So I have the code from our last lecture lecture in 93 I believe and let's say the F increment library
+
+00:51.900 --> 00:59.230
+count because that's what we're doing we're in incrementing the amount of books in our library and we
+
+00:59.230 --> 01:05.230
+have self as always we're going to be adding in a new primary here and that is going to be purchased
+
+01:07.000 --> 01:10.730
+e-books because that's what we're doing we're buying new e-books.
+
+01:10.870 --> 01:13.190
+Don't forget your code and like I just did.
+
+01:13.210 --> 01:13.990
+There we go.
+
+01:14.200 --> 01:27.700
+And our comment is that our new e-books e-books e-books to our library count that being how many books
+
+01:27.700 --> 01:29.140
+Kindle shows that we have.
+
+01:29.280 --> 01:29.950
+OK.
+
+01:30.280 --> 01:35.860
+So what we do here when we say self and it's our library count are modifying So library count.
+
+01:35.860 --> 01:37.070
+There we go.
+
+01:37.470 --> 01:43.930
+Equals sorry plus equals because we're incrementing purchased e-books.
+
+01:43.930 --> 01:49.270
+Now with that on what we do what we go down here and as we saw in the last lecture this piece of code
+
+01:49.270 --> 01:52.200
+here sets our library count to 48.
+
+01:52.240 --> 01:58.150
+So it means that Inari Kindle e-reader we have 48 books in our library but let's just say we just bought
+
+01:58.360 --> 01:59.520
+five new e-books.
+
+01:59.530 --> 02:04.120
+We can get a bit of a spending spree on Amazon and we just bought five new e-books.
+
+02:04.120 --> 02:07.080
+How do we increment that using the method that we just created.
+
+02:07.150 --> 02:15.040
+Well we'd say my new e-reader that increment so incremental library count and what we want to do what
+
+02:15.040 --> 02:16.920
+we want incremental by five.
+
+02:17.920 --> 02:25.510
+And then we want to put our new reed library count so my new e-reader same is just above that Reed library
+
+02:25.510 --> 02:26.010
+count.
+
+02:26.050 --> 02:30.120
+So nothing too new here brackets command and we run this.
+
+02:30.130 --> 02:32.580
+There we go.
+
+02:32.780 --> 02:37.150
+You have 48 books in your Kindle library which we did before we went on our spending spree.
+
+02:37.370 --> 02:40.840
+And now we have 50 tree books in our Kindle library.
+
+02:40.880 --> 02:48.230
+Now let's just recap our new method incremental library count and line tarty takes in a number of purchased
+
+02:48.260 --> 02:53.830
+e-books and adds this value to self-taught library count I'd line 24.
+
+02:53.840 --> 02:55.220
+As we've done all along.
+
+02:55.490 --> 03:02.140
+We create a new instance of my new e-reader and we set that value to line 40.
+
+03:02.140 --> 03:08.380
+We do an incremental library count and pass it the value 5.
+
+03:08.550 --> 03:15.210
+So that means now after spending spree we have fifty three e-books which we can see in our output.
+
+03:15.210 --> 03:19.140
+I hope that was easy and easy enough to understand and as always if you have any questions please do
+
+03:19.140 --> 03:20.670
+not hesitate to contact me.
+
+03:20.670 --> 03:22.570
+Thanks for listening and I'll see you in the next lecture.

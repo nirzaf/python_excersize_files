@@ -1,0 +1,292 @@
+WEBVTT
+
+00:00.180 --> 00:01.720
+Hi everybody and welcome back.
+
+00:01.720 --> 00:07.200
+Now in our last lecture we saw how to import an entire module into our main program and what that meant
+
+00:07.410 --> 00:11.070
+was that every function from the module was available in our main program.
+
+00:11.280 --> 00:14.710
+And this lecture we're going to look at importing just specific functions.
+
+00:14.760 --> 00:16.440
+Only one function.
+
+00:16.440 --> 00:17.710
+So let's look at how we do it.
+
+00:17.940 --> 00:22.020
+Well as you can see on the left hand side here I still have my books to buy modules open and I still
+
+00:22.020 --> 00:26.910
+have the force function that we had in our last lecture but I've also copied and pasted in a function
+
+00:26.910 --> 00:28.010
+from a previous lecture.
+
+00:28.020 --> 00:29.880
+That function is book description.
+
+00:30.060 --> 00:35.190
+And again I've removed the last couple of lines which fed information to the function and I remove the
+
+00:35.190 --> 00:37.170
+function's calling statement as well.
+
+00:37.170 --> 00:39.460
+So again if I were to run this now it doesn't do anything.
+
+00:39.570 --> 00:40.440
+You can see here.
+
+00:40.590 --> 00:43.390
+Zap zero doesn't do a thing.
+
+00:43.410 --> 00:50.160
+Now how do we import one specific function from our module of which we have two functions into our main
+
+00:50.160 --> 00:50.780
+program.
+
+00:50.940 --> 00:52.710
+Well let's look at how we do that now.
+
+00:52.770 --> 01:00.680
+So I'm going to change our first line and I'm going to say from so from books to buy so very English
+
+01:00.680 --> 01:06.740
+friendly so from our program books to buy from our Mudgal books to buy import and what function do I
+
+01:06.740 --> 01:07.820
+want to import.
+
+01:07.820 --> 01:09.370
+Well let's start off at our first function.
+
+01:09.380 --> 01:11.750
+So import books available.
+
+01:11.930 --> 01:12.670
+OK.
+
+01:12.890 --> 01:18.440
+So that is very English readable or very user friendly readable I suppose you might say from the Mudgal
+
+01:18.440 --> 01:24.440
+books to buy import function books available now because we are told that much information we can remove
+
+01:24.440 --> 01:26.770
+the module name here books to buy.
+
+01:26.770 --> 01:29.340
+So all we need is the function name books available.
+
+01:29.510 --> 01:31.890
+And the arguments that we are going to pass to it.
+
+01:32.060 --> 01:33.540
+So let me run this.
+
+01:33.560 --> 01:34.200
+There we go.
+
+01:34.280 --> 01:36.330
+The following titles available is available to buy.
+
+01:36.350 --> 01:39.570
+Elon Musk The Everything Store so very very simple.
+
+01:39.620 --> 01:45.880
+Now we could change that again and we could say import book description let's just do it.
+
+01:46.430 --> 01:53.930
+Book Description book DSC or IPT book description and we need to change this here.
+
+01:53.930 --> 01:57.920
+So actually I'll remove this line for the moment book description
+
+02:02.980 --> 02:08.960
+and the information that we have the past is the art or name because as we see here a book type is already
+
+02:08.960 --> 02:09.980
+a default setting.
+
+02:09.980 --> 02:13.970
+So we have the auto name so the auto name in this case let's say Ashley Vance
+
+02:16.640 --> 02:21.760
+somewhere Ashley Vance's ears burning listening to the wood all the time.
+
+02:21.770 --> 02:23.990
+We mentioned her name in these letters.
+
+02:24.200 --> 02:30.020
+So on this program there we go is a nonfiction book the author of this book is Ashley Vance.
+
+02:30.020 --> 02:36.530
+So as you can see there we're importing boat modules one a boat functions one at a time so we're only
+
+02:36.530 --> 02:39.030
+importing specific functions.
+
+02:39.110 --> 02:45.080
+Book Description and in the previous piece of code books available now the last lecture we imported
+
+02:45.140 --> 02:46.880
+the entire module into our program.
+
+02:46.910 --> 02:51.700
+But let's just say our module has one hundred functions in it and we only wanted to import two of them.
+
+02:51.710 --> 02:52.390
+How would we do that.
+
+02:52.400 --> 02:56.360
+Well we have to write separate from statements would we have to write separate programs and bring them
+
+02:56.360 --> 02:57.040
+all together.
+
+02:57.210 --> 03:01.350
+Probably we can separate out our functions and import more than one function with a comma.
+
+03:01.490 --> 03:02.340
+So here we go.
+
+03:02.360 --> 03:04.940
+Book Description actually let's just change the order of this.
+
+03:05.150 --> 03:07.190
+Let's go back to books available.
+
+03:08.340 --> 03:09.840
+Books available.
+
+03:09.840 --> 03:17.960
+So we're importing the first one books available comma books book description.
+
+03:17.960 --> 03:19.690
+There we go.
+
+03:19.750 --> 03:23.990
+So let's see when we do that stair runs fine.
+
+03:24.000 --> 03:28.500
+But without our force functions let's add in some information on a first function and a first function
+
+03:28.560 --> 03:31.080
+is books available.
+
+03:31.530 --> 03:32.340
+And let's go.
+
+03:32.340 --> 03:33.090
+Elon Musk
+
+03:36.240 --> 03:37.260
+and that's just oh.
+
+03:37.300 --> 03:37.780
+Elon.
+
+03:37.830 --> 03:39.890
+Oh don't be too happy with us.
+
+03:40.080 --> 03:40.730
+OK.
+
+03:40.890 --> 03:42.750
+Now let's just add in a line here.
+
+03:42.780 --> 03:51.700
+Print statement print and let's say this is our first function.
+
+03:52.970 --> 03:53.900
+Here we go.
+
+03:54.300 --> 03:54.990
+OK.
+
+03:55.220 --> 04:03.260
+And let's add another print statement here and say Print this is don't forget our opening double quotes.
+
+04:03.380 --> 04:08.230
+This is our second function.
+
+04:10.400 --> 04:15.160
+There we go and let's see what happens now when we run this there.
+
+04:15.290 --> 04:19.640
+This is our first function the following titles available by Elon Musk.
+
+04:19.640 --> 04:20.770
+And this is our second function.
+
+04:20.780 --> 04:21.850
+That's not exactly tidy.
+
+04:21.850 --> 04:23.430
+And why is that all the way up there.
+
+04:23.530 --> 04:28.550
+Once because they haven't put in a new line here because this much dysfunction in the module over here
+
+04:28.550 --> 04:29.220
+has a new line.
+
+04:29.240 --> 04:36.230
+Let's just remove that new line this and let's just put in a new line here new line.
+
+04:36.290 --> 04:37.810
+There we go and run it again.
+
+04:38.180 --> 04:42.500
+There you go Big cleaner and I've left in a backsliders.
+
+04:42.510 --> 04:45.660
+Let me just take that as we go and run it again.
+
+04:46.200 --> 04:46.710
+OK.
+
+04:46.710 --> 04:50.440
+The cleaner This is our first function to Fulham title is available to buy.
+
+04:50.450 --> 04:54.840
+Elon Musk and you can see that that is our first function comes from here.
+
+04:54.840 --> 04:59.180
+This is our second function this nonfiction book The order of this book is actually Vance.
+
+04:59.250 --> 05:01.800
+OK so we've broken that up quite nicely there actually.
+
+05:02.250 --> 05:06.440
+So that is how you inport specific functions into your main programs.
+
+05:06.570 --> 05:10.850
+So like I said you can import as many functions as you want using a comma.
+
+05:10.860 --> 05:16.050
+So if your if your module program took your module here has one hundred functions and you only want
+
+05:16.050 --> 05:17.260
+to try for them.
+
+05:17.280 --> 05:19.000
+You can do that with a comma.
+
+05:19.020 --> 05:20.090
+Hope all that made sense.
+
+05:20.130 --> 05:22.020
+If not please don't hesitate to ask me.
+
+05:22.020 --> 05:23.740
+I look forward to seeing you in the next lecture.
+
+05:23.790 --> 05:24.120
+Thank you.

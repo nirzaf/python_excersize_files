@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00.270 --> 00:03.720
+Hi everybody welcome back in this lecture and the next few to follow.
+
+00:03.780 --> 00:09.230
+We're going to look at how to modify attribute values under several ways to change attribute values.
+
+00:09.420 --> 00:12.270
+First you can change the value directly to an instance.
+
+00:12.270 --> 00:16.570
+Then you can set the value to a method or you can increment the value to a method.
+
+00:16.770 --> 00:18.470
+Let's look at each one of these in turn.
+
+00:18.690 --> 00:22.490
+And in this lecture we're going to start off with modifying and attribute value directly.
+
+00:22.550 --> 00:27.810
+So as you can see here I have the same class open from our last lecture and goes gonna change our name
+
+00:27.810 --> 00:32.910
+for a program here from setting a default value which it was in our last letter to modifying
+
+00:35.480 --> 00:36.680
+and attributes
+
+00:39.400 --> 00:43.810
+value directly.
+
+00:44.020 --> 00:44.930
+And how do we do that.
+
+00:45.130 --> 00:50.680
+Well modifying an attribute value directly is the simplest way to modify the value of an attribute because
+
+00:50.680 --> 00:53.730
+we can access the attribute directly to an instance.
+
+00:54.130 --> 00:57.280
+In this latter we are going to set our library count to a new value.
+
+00:57.280 --> 00:59.550
+So let's just say we're set it to 36.
+
+00:59.560 --> 01:01.590
+So we have 26 e-books in our library.
+
+01:01.610 --> 01:02.730
+And how do we do that.
+
+01:03.040 --> 01:07.060
+So what we do is we scroll down to the bottom and let's just add in a space here because this is the
+
+01:07.060 --> 01:08.510
+part we're going to modify.
+
+01:08.800 --> 01:15.630
+So my new e-reader don't read library count brackets so let's just change just now we're going to do
+
+01:15.670 --> 01:21.320
+is my new e-reader So library count equals 36.
+
+01:21.380 --> 01:28.180
+They're going to say my new e-reader that color method again we live we can't.
+
+01:28.180 --> 01:28.700
+There we go.
+
+01:28.750 --> 01:30.810
+Let's run down and see what we've got.
+
+01:30.820 --> 01:33.460
+You have 36 books in your Kindle library.
+
+01:33.510 --> 01:34.080
+OK.
+
+01:35.390 --> 01:37.190
+So line 29 here.
+
+01:37.220 --> 01:44.750
+We use da notation to access the e-readers library count attribute and set add value directly.
+
+01:44.750 --> 01:51.590
+This line tells plotted to take the instance of my new e-reader find the attribute library account associated
+
+01:51.590 --> 01:55.040
+with it and set the value of that attribute to 36.
+
+01:55.070 --> 01:59.060
+Sometimes you'll want to use this direct method but there will be other times when you want to write
+
+01:59.060 --> 02:00.990
+a method that updates the value for you.
+
+02:01.130 --> 02:03.270
+And in the next lecture we're going to take a look at that.
+
+02:03.440 --> 02:05.220
+Thanks for listening and I'll see you in the next lecture.

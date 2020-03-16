@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00.640 --> 00:02.490
+Hi everybody and welcome back.
+
+00:02.530 --> 00:07.750
+Now in this lecture we're going to look at filling a dictionary with a user's input so we can prompt
+
+00:07.810 --> 00:12.520
+as many times as we would like for user input with each Pastorale a while loop.
+
+00:12.820 --> 00:17.770
+Let's look now at a property renting program in which each passed through the loop prompts the users
+
+00:17.830 --> 00:23.230
+for property details which store the data we got in a dictionary because we want to connect each property
+
+00:23.440 --> 00:24.660
+with a particular user.
+
+00:24.880 --> 00:28.560
+So as you can see at the top I started off with some comments just the basics.
+
+00:28.590 --> 00:35.480
+Now the first thing we're going to do is we're going to create an empty dictionary create an empty dictionary.
+
+00:36.560 --> 00:37.020
+OK.
+
+00:37.030 --> 00:39.520
+And how we do that is we're going to call this rental properties
+
+00:42.580 --> 00:46.920
+he calls on our curly brackets now.
+
+00:47.150 --> 00:51.590
+Next thing we're going to do as we saw in the previous lecture is we're going to set a flag so set a
+
+00:51.590 --> 00:54.650
+flag to indicate
+
+00:57.910 --> 01:01.030
+we are taking applications for rental properties.
+
+01:01.420 --> 01:05.380
+Let's imagine that we are a real estate agency and we are looking for people to let us know if they
+
+01:05.380 --> 01:10.510
+have properties to rent so rental open.
+
+01:10.600 --> 01:11.640
+True.
+
+01:12.460 --> 01:13.600
+OK.
+
+01:14.230 --> 01:17.360
+Now why are rental open is true.
+
+01:22.620 --> 01:29.180
+So why would rental open and just let's add a comment here promp uses for a name and address so prompt
+
+01:29.180 --> 01:36.510
+users prompt for the user's name and address
+
+01:39.870 --> 01:40.530
+OK.
+
+01:41.620 --> 01:49.100
+So users name Eco's actually change that user name calls and put
+
+01:53.040 --> 01:56.400
+double quotes backslash newline.
+
+01:56.530 --> 01:58.140
+What is your name.
+
+02:00.460 --> 02:01.120
+OK.
+
+02:01.390 --> 02:03.320
+Now that he uses rental property
+
+02:06.120 --> 02:09.390
+that he goes and put on received the property
+
+02:12.180 --> 02:21.110
+what is the address of the property that you have to rent.
+
+02:21.690 --> 02:22.800
+OK there we go.
+
+02:22.800 --> 02:26.400
+Now what we want to do as we said at the beginning of this lecture is we want to store the responses
+
+02:26.400 --> 02:29.590
+from the users sort of responses in a dictionary
+
+02:37.050 --> 02:42.210
+so rental properties then we have our user name
+
+02:45.570 --> 02:47.000
+equals rental property
+
+02:52.660 --> 02:53.640
+OK.
+
+02:53.690 --> 02:58.920
+Now we'd like to do next is we'd like to ask if the user knows anybody else who might like to rent out
+
+02:58.920 --> 02:59.380
+a property.
+
+02:59.370 --> 03:00.360
+So we're looking for business
+
+03:19.260 --> 03:22.770
+repeat equals and put
+
+03:26.810 --> 03:29.140
+double quotes backslash and New Line
+
+03:32.580 --> 03:32.890
+do.
+
+03:32.950 --> 03:43.520
+No I only want who might like to rent out their property
+
+03:47.220 --> 03:49.520
+OK perfect.
+
+03:49.650 --> 03:53.760
+Now if Pete is no
+
+03:57.240 --> 04:05.930
+then Rantel open and I forgot my colon there then Rantel open becomes Fulks and a program will end.
+
+04:05.930 --> 04:10.460
+As we saw on a previous lecture so we're really putting together a lot of elements that we've seen in
+
+04:10.460 --> 04:21.480
+previous lectures and what that would mean then is adding our property is complete.
+
+04:22.200 --> 04:24.240
+So what we want to do is we want to print.
+
+04:24.340 --> 04:32.580
+We're going to use a nice little trick here so print new line backslash and we're going to go one to
+
+04:32.590 --> 04:41.830
+trade space property to rent one to three times a bracket.
+
+04:41.830 --> 04:45.130
+So for want to create a loop.
+
+04:45.370 --> 04:53.720
+So for user name and the rental property in rental properties
+
+04:58.070 --> 05:00.070
+items so we're looping as you can see
+
+05:02.700 --> 05:03.150
+print
+
+05:06.950 --> 05:16.140
+user name plus has plus then the rental property
+
+05:18.750 --> 05:23.690
+plus open quote space to rent.
+
+05:23.810 --> 05:26.720
+OK so this is probably one of the biggest programs that we've written so far.
+
+05:27.610 --> 05:30.240
+I want I'm going to do is because we need user input.
+
+05:30.280 --> 05:33.370
+I'm going to write I'm going to open this up in our idle program.
+
+05:33.580 --> 05:35.940
+So bear with me for one moment while I open up idle.
+
+05:36.130 --> 05:41.170
+OK so here we are now an idle and let's cross our fingers and toes and run it.
+
+05:41.670 --> 05:42.370
+What is your name.
+
+05:42.380 --> 05:44.750
+Well my name is Tony Stone.
+
+05:45.050 --> 05:45.860
+OK.
+
+05:46.060 --> 05:48.250
+What is the address of the property that you have to rent.
+
+05:48.250 --> 05:50.590
+Well my property is one main street
+
+05:53.480 --> 05:56.690
+do I know do you know anyone who might like to rent out their property.
+
+05:56.690 --> 05:57.530
+No I don't.
+
+05:57.530 --> 05:58.460
+Not at the moment.
+
+05:59.460 --> 06:00.450
+Property to rent.
+
+06:00.450 --> 06:06.390
+Tony Stanton has 101 Main Street to rent so you can see how in the larger scale and larger thinking
+
+06:06.390 --> 06:08.940
+of a web application this can come into play.
+
+06:08.940 --> 06:15.000
+This could become a link into and we could click it to show more details of the property or even we
+
+06:15.000 --> 06:18.420
+can click on to use a name and that would bring us into the user name to show us all the properties
+
+06:18.420 --> 06:20.790
+that they have to rent because it could be a big company.
+
+06:20.790 --> 06:25.500
+So that is probably one the biggest programs we've written so far and it really is an excellent coming
+
+06:25.500 --> 06:28.890
+together of everything that we've learned so far throughout the course.
+
+06:28.900 --> 06:30.210
+I hope that all made sense.
+
+06:30.210 --> 06:34.440
+If not please do not hesitate to contact me and thank you for listening and I'll see you in the next
+
+06:34.440 --> 06:34.970
+lecture.

@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.330 --> 00:01.820
+Hi everybody and welcome back.
+
+00:01.890 --> 00:06.120
+Now so far we've been storing our functions in our main programs but we can go a step forward in this
+
+00:06.270 --> 00:09.310
+by storing our functions in a separate file called a module.
+
+00:09.360 --> 00:14.220
+We can then import that module into our main program an import statement tells Python to make the code
+
+00:14.220 --> 00:16.740
+in our module available in the currently running program.
+
+00:17.980 --> 00:22.450
+Storing your functions in a separate file allows you to reuse them in different programs and to also
+
+00:22.540 --> 00:25.390
+share them out with many different developers.
+
+00:25.420 --> 00:27.000
+So there are several ways to import a module.
+
+00:27.010 --> 00:28.740
+And let's take a look at one now.
+
+00:29.050 --> 00:32.600
+In this lecture we're going to look at how to import an entire module.
+
+00:32.650 --> 00:39.340
+So as you can see here I have my comments and actually today is that tend to just change over here to
+
+00:39.340 --> 00:44.740
+the tent so you can see that jeweled screened my ID for this lecture and we'll get that down in a few
+
+00:44.740 --> 00:45.500
+minutes.
+
+00:45.910 --> 00:50.800
+So the name of this lecture is our module because it's going to be our module and then importing an
+
+00:50.800 --> 00:52.280
+entire module.
+
+00:52.300 --> 00:55.620
+So the first thing you need to do is to create a module and how do you do that.
+
+00:55.780 --> 01:00.820
+Well as you can see here I've come back to a previous lecture and I take it our function books available
+
+01:00.900 --> 01:03.310
+and pasted it in here.
+
+01:03.360 --> 01:07.690
+Now I've renamed this file sorry I've named this far because it's a new file.
+
+01:07.740 --> 01:13.890
+I've named this file books by IPY so module is a file ending in Y and it contains the code you want
+
+01:13.890 --> 01:15.980
+to import into your program.
+
+01:16.110 --> 01:18.430
+So this module here now is ready to be imported.
+
+01:18.480 --> 01:19.990
+Well it's almost ready to be imported.
+
+01:20.010 --> 01:22.030
+We have to make a couple of small changes.
+
+01:22.170 --> 01:28.380
+First we need to remove these two lines here and we remove those because we are going to be passing
+
+01:28.380 --> 01:34.230
+information from our main program modules simply contains our function only so that removes them.
+
+01:34.230 --> 01:39.450
+So as you can see now this is just our function and because we don't know how many books our main program
+
+01:39.450 --> 01:45.000
+is going to pass need to add in the Asterix stuff so that our function will take an arbitrary number
+
+01:45.000 --> 01:46.810
+of books from our program.
+
+01:46.830 --> 01:47.960
+So this is now a module.
+
+01:47.970 --> 01:49.000
+There we go.
+
+01:49.530 --> 01:54.690
+Let's say that and if we run it nothing happens so you can see here it runs without error but it doesn't
+
+01:54.780 --> 01:58.650
+output anything because there are no arguments passed to our books parameter.
+
+01:58.650 --> 02:00.450
+OK so that's a module created.
+
+02:00.600 --> 02:02.380
+So I hope that made sense now.
+
+02:02.420 --> 02:03.900
+Make a separate file.
+
+02:04.230 --> 02:06.810
+And I've done so here called Showbox available.
+
+02:06.810 --> 02:11.190
+Now make a separate file and I've done so here called shoebox available and it's worth saying at this
+
+02:11.190 --> 02:15.880
+point that both your module and your main program file have to be in the same directory.
+
+02:15.930 --> 02:18.070
+Otherwise your program is not going to run.
+
+02:18.480 --> 02:21.710
+So how do we import the module into a main file.
+
+02:21.780 --> 02:29.920
+Well we start off with import and then the module name and our module name is books to buy.
+
+02:30.360 --> 02:34.210
+OK let's see what happens if we run that nothing.
+
+02:34.240 --> 02:36.070
+Same as if we were actually run our Mudgal.
+
+02:36.070 --> 02:38.880
+It's empty because we haven't passed any information to a module.
+
+02:38.890 --> 02:41.650
+So in essence our module is running from our main program.
+
+02:42.130 --> 02:47.450
+When pliancy is the import keyword followed by the name of the module it knows to open the file box
+
+02:47.470 --> 02:52.030
+that by P Y and copy all the functions from it into our program.
+
+02:52.060 --> 02:57.490
+Now to actually call the function from the imported module entered the name of the module so the name
+
+02:57.490 --> 02:59.350
+of the module is books to buy.
+
+02:59.410 --> 02:59.950
+There we go.
+
+02:59.950 --> 03:02.190
+And as we said at the top import books to buy.
+
+03:02.200 --> 03:06.430
+So now we're going to tell the file that we've opened books that buy what modules we want from it and
+
+03:06.430 --> 03:07.620
+we do what it does.
+
+03:07.900 --> 03:14.080
+And in the name of the module books available books available.
+
+03:14.300 --> 03:16.070
+OK there we go.
+
+03:16.150 --> 03:17.720
+Now what happens if we just run this now.
+
+03:17.750 --> 03:19.200
+Well let's take a look.
+
+03:19.370 --> 03:23.850
+Nothing because again we haven't passed any information into the box parameter so let's have a look.
+
+03:23.860 --> 03:24.920
+Fixing that now.
+
+03:25.200 --> 03:31.340
+Then we follow our books available with brackets quotes and let's give it the name of the book Pilon
+
+03:31.920 --> 03:32.700
+mosque.
+
+03:32.990 --> 03:34.190
+OK.
+
+03:34.280 --> 03:38.010
+Now we're starting to look like it's going to pass information so let's run this.
+
+03:38.210 --> 03:38.920
+And there we go.
+
+03:38.930 --> 03:40.760
+The falling title is available to buy.
+
+03:40.820 --> 03:42.760
+Elon Musk OK.
+
+03:42.860 --> 03:46.180
+Let's try adding in some more information.
+
+03:46.700 --> 03:50.000
+The Everything Store here we go.
+
+03:50.000 --> 03:51.130
+Let's run it again.
+
+03:51.530 --> 03:52.610
+OK very good.
+
+03:52.820 --> 03:55.840
+So let's just recap quickly on what we've done.
+
+03:56.030 --> 04:01.850
+We copied and pasted a program from a previous lecture and removed everything but the actual function.
+
+04:01.990 --> 04:05.680
+So we removed the print and the information that we're feeding into the parameters.
+
+04:06.020 --> 04:10.680
+So once that's done that is now a module and a module is like any other pipe and program in that it's
+
+04:10.720 --> 04:15.160
+saved with a P Y but it only contains functions.
+
+04:15.160 --> 04:20.230
+Next we create a new file show books available duppy why we told this file that we want to import the
+
+04:20.230 --> 04:21.880
+module books to buy.
+
+04:21.910 --> 04:25.610
+That's the file name from our code over here from our file over here.
+
+04:25.750 --> 04:29.470
+Then to call the actual function we set books by which is the file name.
+
+04:29.470 --> 04:36.590
+So it's telling piping to go to this file then go to this function would in the module and insert the
+
+04:36.590 --> 04:37.830
+following information.
+
+04:37.940 --> 04:44.300
+The following arguments into the parameters would end the function once we do it as it runs.
+
+04:44.450 --> 04:49.840
+OK so I hope that made sense in the next lecture will look at importing specific functions not just
+
+04:49.930 --> 04:51.370
+the entire module.
+
+04:51.370 --> 04:53.010
+Thanks for listening and I'll see you in the next letter.

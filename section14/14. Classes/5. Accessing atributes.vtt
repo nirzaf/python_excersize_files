@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.360 --> 00:04.350
+Hi everybody and welcome back in this lecture we're going to look at accessing attributes.
+
+00:04.350 --> 00:08.100
+But for us it's something that I want to do which I neglected to do in our last lecture that is add
+
+00:08.100 --> 00:09.960
+a comment to the code we added.
+
+00:10.200 --> 00:17.420
+So creating an instance of our book class.
+
+00:17.560 --> 00:19.150
+There we go.
+
+00:19.180 --> 00:24.070
+Make sure we know what we're doing at each step through this course to access the attributes of an instance.
+
+00:24.180 --> 00:25.870
+You use dot notation.
+
+00:26.130 --> 00:27.450
+So what does that look like.
+
+00:27.450 --> 00:28.920
+Well it looks like this.
+
+00:28.920 --> 00:40.770
+My book dush name or copy my book price price or publisher or any other attribute that we have.
+
+00:40.770 --> 00:43.740
+Now if we round up now nothing happens.
+
+00:43.860 --> 00:48.500
+So how do we put that into something that actually works and gives us information back.
+
+00:48.580 --> 00:50.310
+Well let's just remove that for the moment.
+
+00:50.580 --> 01:02.020
+So we say print and let's just say what are we doing we are reading so I'm I'm currently reading
+
+01:04.890 --> 01:07.870
+plus my book.
+
+01:07.870 --> 01:16.870
+Those are quotes first plus my book the name of the title.
+
+01:17.010 --> 01:17.500
+OK.
+
+01:17.510 --> 01:22.170
+And our brackets for a title plus full stop.
+
+01:22.170 --> 01:25.110
+Now let's see what that gives us.
+
+01:25.110 --> 01:25.620
+There we go.
+
+01:25.620 --> 01:28.050
+I'm currently reading Elon Musk.
+
+01:28.050 --> 01:33.630
+This syntax demonstrates how Python finds an attribute value pite and looks at the instance my book
+
+01:33.840 --> 01:37.050
+and then find the attribute name associated with my book.
+
+01:37.050 --> 01:40.970
+This is the same attribute referred to as self-taught name in the class book.
+
+01:41.070 --> 01:45.690
+So up here we have self-taught name self-doubt price self-doubt publisher so you can really see the
+
+01:45.690 --> 01:48.210
+power of classes starting to come out of neuron.
+
+01:48.240 --> 01:52.680
+We created one instance of a book and now we've used that instance here.
+
+01:52.710 --> 01:58.220
+My book name this could be my book Doc price lets out in another sentence.
+
+01:58.220 --> 02:06.400
+Print this book cost and let's leave a quote there.
+
+02:06.400 --> 02:14.910
+Plus my book price and because price is an integer we need to just first make this a string.
+
+02:15.050 --> 02:22.050
+So as or brackets plus full stop.
+
+02:22.080 --> 02:23.890
+There we go and close our brackets.
+
+02:24.210 --> 02:25.360
+Let's run this again.
+
+02:25.680 --> 02:32.580
+This book cost oh coast so where ever got that go wouldn't be it Tony program without a spelling error.
+
+02:32.580 --> 02:38.360
+This book costs fourteen point ninety nine and we can even put in a dollar sign here dollars.
+
+02:39.000 --> 02:41.160
+This book cost fourteen ninety nine dollars.
+
+02:41.160 --> 02:41.610
+There we go.
+
+02:41.610 --> 02:47.320
+So you can really see the power of the attribute coming out here when we're accessing them.
+
+02:47.420 --> 02:51.320
+Now in the next election we're going to look at how the a method and how we can give our class even
+
+02:51.320 --> 02:53.550
+more power and our programs even more power.
+
+02:53.660 --> 02:55.530
+So thanks for listening and I'll see you in the next lecture.

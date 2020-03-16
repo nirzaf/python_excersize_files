@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.520 --> 00:02.200
+Hi everybody and welcome back.
+
+00:02.200 --> 00:06.340
+Now in our last lecture recreate the upper class and I still have it open here so you can see it here.
+
+00:06.340 --> 00:10.030
+Class book than all the code within.
+
+00:10.030 --> 00:14.100
+So in our previous section we were looking at functions and a function that is part of a class.
+
+00:14.110 --> 00:15.330
+It's called a method.
+
+00:15.550 --> 00:20.110
+So here's our first function DSF and I-T.
+
+00:20.110 --> 00:24.470
+So this is the method that we have three more methods down below it.
+
+00:24.790 --> 00:29.890
+So the init method is a special Spuyten method that runs automatically whenever we create a new instance
+
+00:30.160 --> 00:32.200
+based on the book class.
+
+00:32.260 --> 00:35.950
+This method has two leading underscores and two trailing underscores.
+
+00:35.980 --> 00:40.420
+This helps Python's method name from conflicting with our method names.
+
+00:40.870 --> 00:45.670
+We define the init method to have four parameters self name price and publisher.
+
+00:45.760 --> 00:46.870
+So here we are here.
+
+00:47.380 --> 00:48.620
+Nothing new so far.
+
+00:49.860 --> 00:55.080
+The self method is required and the method definition and a must come first before the auto parameters
+
+00:55.430 --> 00:57.120
+and must be included in definition.
+
+00:57.120 --> 01:02.160
+Because when pipe because the method later to create an instance of a book the Met call would automatically
+
+01:02.160 --> 01:04.080
+pass the sound argument.
+
+01:04.380 --> 01:09.900
+Every method call associated with a class automatically passed itself which is a reference to the instance
+
+01:10.020 --> 01:11.150
+itself.
+
+01:11.220 --> 01:16.420
+It gives the individual instance access to the attributes and methods in the class.
+
+01:16.530 --> 01:23.340
+When we make an instance of book pite more call the NF method from the class will pass book and name
+
+01:23.370 --> 01:28.410
+price and publisher self is pass automatically so we don't need to pass it whenever we want to make
+
+01:28.410 --> 01:33.990
+an instance from the book class will provide values only for the last tray parameters name price and
+
+01:33.990 --> 01:42.360
+publisher are tree variables defined here name price and publisher have the prefix itself and the variable
+
+01:42.360 --> 01:45.820
+prefix itself is available to every method in the class.
+
+01:46.080 --> 01:48.390
+So only these variables here are available to.
+
+01:48.390 --> 01:54.790
+And it is Mattos below will also be able to access these variables to any instance from the class self
+
+01:54.820 --> 01:59.790
+the name equals name takes the value stored in the parameter name and stores it in the variable name
+
+02:00.030 --> 02:03.430
+which is then a taxi the instance being created.
+
+02:03.650 --> 02:09.950
+The same process happens with south'ard price and self-publisher variables that are accessible to instances
+
+02:09.950 --> 02:12.720
+like this are called attributes.
+
+02:12.750 --> 02:16.860
+The book class has treated a method defined we can see them here.
+
+02:16.940 --> 02:24.320
+Hi back soft back on the netbook because these methods don't need additional information like a name
+
+02:24.320 --> 02:25.100
+or a publisher.
+
+02:25.130 --> 02:30.860
+We just find a way to have one parameter self the instances we create later will have access to these
+
+02:30.860 --> 02:31.660
+methods.
+
+02:31.670 --> 02:37.540
+In other words they'll be able to open or close or have more descriptions or more functions.
+
+02:37.670 --> 02:39.180
+But for now they don't do much.
+
+02:39.200 --> 02:43.640
+They simply print a message saying that this is a hard back or soft back or an e-book.
+
+02:43.640 --> 02:46.610
+This concept can be extended to realistic situations.
+
+02:46.610 --> 02:52.430
+If this class were part of an online bookstore these methods would contain code such as revues description
+
+02:52.430 --> 02:53.010
+of the book.
+
+02:53.060 --> 02:56.710
+Whether you can look inside the book digitally and so on and so forth.
+
+02:57.490 --> 03:01.810
+Now in our next lecture we're going to be looking at making an instance of a class but that's it for
+
+03:01.810 --> 03:07.720
+now and this lecture which mainly just describes the body of our class time listing if any questions
+
+03:07.750 --> 03:09.840
+please let me know and I'll see you in the next lecture.

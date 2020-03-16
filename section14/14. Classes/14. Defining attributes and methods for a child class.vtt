@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.420 --> 00:02.180
+Hi everybody and welcome back.
+
+00:02.220 --> 00:07.820
+Now once we have a class that inherits from a parent class like we just did in our last lecture we can
+
+00:07.830 --> 00:13.680
+at any new attributes and methods necessary to differentiate the child from the parent.
+
+00:14.100 --> 00:22.020
+Let's now add an attribute that is specific to kindle fire e-readers for example a color screen and
+
+00:22.020 --> 00:24.640
+then we will add a method to report on this attributes.
+
+00:25.790 --> 00:30.200
+We store to screen and write a method that prints a description of the screen.
+
+00:31.100 --> 00:32.510
+So let's go and do that now.
+
+00:32.510 --> 00:34.000
+So where do we start.
+
+00:34.460 --> 00:39.740
+Well let's start down here with our Kindle e-reader class so our child class and for us what we need
+
+00:39.740 --> 00:42.790
+to do is we need to add a new attribute.
+
+00:43.280 --> 00:57.270
+So in dev in a method that's out in screen resolution equals the screen resolution of a kindle fire
+
+00:57.370 --> 01:02.460
+when we're looking at anyway is 12 18 by seven by eight.
+
+01:02.970 --> 01:03.450
+There we go.
+
+01:03.450 --> 01:04.590
+Perfect.
+
+01:04.590 --> 01:10.530
+Now the next thing we want to do is we want to add in self variable the whole screen resolution.
+
+01:10.530 --> 01:16.040
+And we do that by entering into following Self touch screen resolution
+
+01:18.450 --> 01:24.750
+equals you guessed it screen resolution that's just separate out super matted pillows or superfunction
+
+01:24.750 --> 01:25.510
+bloat.
+
+01:25.860 --> 01:28.150
+OK that looks good.
+
+01:28.150 --> 01:29.790
+And now we want to create a method.
+
+01:30.180 --> 01:31.150
+So we go here.
+
+01:31.350 --> 01:32.410
+This is adding some space.
+
+01:32.430 --> 01:33.840
+So it's a little bit cleaner.
+
+01:33.840 --> 01:45.510
+We want to create a method so that describe screen and that takes a parameter self call.
+
+01:45.610 --> 01:47.640
+OK so what is this going to do.
+
+01:47.680 --> 02:00.510
+Well it's going to print out some marketing copy you know so just a marketing text about the Kindle
+
+02:01.350 --> 02:02.380
+Fire.
+
+02:03.160 --> 02:10.350
+OK to close that off now then we say print and way I get that a couple of paper print.
+
+02:10.350 --> 02:12.730
+Habit I suppose print.
+
+02:13.150 --> 02:21.000
+Now let's say Fire HD 8 and I get no royalties from Amazon for doing this.
+
+02:21.000 --> 02:26.610
+It's just that I have an e-reader So it's a handy example for a hasty eight features a wide screen
+
+02:29.980 --> 02:31.750
+and we want to close our brackets.
+
+02:32.030 --> 02:33.500
+Plus self
+
+02:36.210 --> 02:39.960
+screen resolution OK.
+
+02:40.010 --> 02:46.860
+Now let's just add in something simple at the end plus the screen.
+
+02:47.420 --> 02:48.330
+There we go.
+
+02:48.470 --> 02:49.470
+Full stop.
+
+02:49.490 --> 02:50.880
+OK.
+
+02:51.230 --> 02:53.870
+So that's what our method does going to print out this line here.
+
+02:53.930 --> 02:55.310
+Now how do we call this method.
+
+02:55.310 --> 02:56.510
+Well let's just clean this up a little bit.
+
+02:56.510 --> 02:58.580
+Take out a few of those blank lines.
+
+02:58.680 --> 03:03.070
+Now my Kindle Fire DOS.
+
+03:03.200 --> 03:09.240
+That's called a method the scribe screen brackets and fingers crossed.
+
+03:09.290 --> 03:11.640
+Error not a simple error there.
+
+03:11.640 --> 03:12.600
+No silly error.
+
+03:12.720 --> 03:14.360
+I indented too much.
+
+03:14.720 --> 03:15.360
+There we go
+
+03:18.790 --> 03:19.790
+that see.
+
+03:19.940 --> 03:27.000
+So we have our first description here so our long description name that we don't the previous lecture
+
+03:27.270 --> 03:33.720
+followed by fire Hastey 8 features a wide screen 12 8 by a hundred hates the screen and let's just put
+
+03:33.720 --> 03:37.050
+in a new line here just to separate it out a little bit.
+
+03:37.170 --> 03:37.920
+There we go.
+
+03:38.380 --> 03:39.220
+That's nice and clean.
+
+03:39.240 --> 03:41.320
+Let's run through what we just did.
+
+03:41.450 --> 03:47.930
+At 9:37 we added a new attribute screen resolution ECOs 12 eighty eight hundred.
+
+03:48.330 --> 03:54.510
+This attribute will be associated with all instances created from the Kindle Fire class but won't be
+
+03:54.510 --> 03:57.970
+associated with any instances of e-reader.
+
+03:58.110 --> 04:03.060
+So it's only associated with the Kindle Fire class so very handy separating out different functions.
+
+04:03.060 --> 04:06.900
+There are different features and then that line 44.
+
+04:07.170 --> 04:13.890
+We added a method called describe screen that prints information about our screen when we call this
+
+04:13.890 --> 04:14.210
+method.
+
+04:14.230 --> 04:18.690
+We get a description that is clearly specific to the Kindle Fire screen.
+
+04:18.690 --> 04:23.910
+What's great about a child class Kindle Fire is that there is no limit to how much we can specialize
+
+04:23.910 --> 04:28.710
+and customize it to the Kindle Fire and differentiated from its parent.
+
+04:28.740 --> 04:30.790
+Thanks for listening and I'll see you in the next lecture.

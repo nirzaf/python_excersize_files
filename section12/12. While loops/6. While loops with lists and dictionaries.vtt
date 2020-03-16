@@ -1,0 +1,286 @@
+WEBVTT
+
+00:01.920 --> 00:03.390
+Hi everybody and welcome back.
+
+00:03.390 --> 00:07.480
+Now so far we've been working with only one piece of information at a time.
+
+00:07.500 --> 00:11.850
+We received the user's input and then printed in part or response to it.
+
+00:12.060 --> 00:17.280
+But to keep track of many users and piece and pieces of information we need to use lists and dictionaries
+
+00:17.470 --> 00:22.020
+which are while loops a for loop is very effective for looping through a list.
+
+00:22.320 --> 00:27.360
+But you shouldn't modify a list inside a for loop because Python will lose track of what you are doing
+
+00:27.420 --> 00:31.250
+and the items were in the list to modify a list as you work through it.
+
+00:31.350 --> 00:33.150
+Use a while loop.
+
+00:33.200 --> 00:37.570
+So we've mentioned before email subscription software and let's revisit that example now.
+
+00:38.450 --> 00:43.490
+Consider this scenario a user subscribes to our newsletter and we send them a verification email to
+
+00:43.490 --> 00:45.010
+verify the email address.
+
+00:45.940 --> 00:50.950
+After these users verify themselves how can we move them from our list of verified users to verified
+
+00:50.950 --> 00:51.790
+users.
+
+00:51.850 --> 00:56.680
+One way will be to use a while loop to take users from the unverified list as we verify them and then
+
+00:56.710 --> 00:58.690
+add them to a list of verified users.
+
+00:58.900 --> 01:00.820
+So let's take a look at how that program would look.
+
+01:00.820 --> 01:05.060
+Now we start off the list of unverified users.
+
+01:05.770 --> 01:10.830
+So let's add in our comments.
+
+01:10.870 --> 01:14.140
+OK so I just paused and added in some comments so you can see them there at the top.
+
+01:14.140 --> 01:17.490
+So as I said We start off with a list of unverified users.
+
+01:18.010 --> 01:19.970
+So let's add a comment to say that's what we're doing.
+
+01:22.060 --> 01:27.080
+Create a list of on verified users.
+
+01:27.720 --> 01:28.570
+OK.
+
+01:29.080 --> 01:35.170
+So unconfirmed users equals.
+
+01:35.230 --> 01:38.570
+OK so let's go back to our reliable Tony.
+
+01:38.730 --> 01:42.850
+Frank don't forget your single quotes.
+
+01:42.850 --> 01:46.450
+Very easy to forget even you're trying to go move to something promptly.
+
+01:46.720 --> 01:47.440
+Mary.
+
+01:47.680 --> 01:48.200
+OK.
+
+01:48.370 --> 01:52.150
+So a list of people who are subscribed to our newsletter but have not yet confirmed that they actually
+
+01:52.150 --> 01:53.620
+want it.
+
+01:53.650 --> 02:03.890
+Now another one an empty list to hold confirmed users.
+
+02:03.900 --> 02:04.430
+OK.
+
+02:04.530 --> 02:05.540
+Perfect.
+
+02:06.120 --> 02:13.670
+Let's create that list now confirmed users equals an empty list.
+
+02:13.670 --> 02:14.760
+There we go.
+
+02:14.840 --> 02:20.420
+Now we're going to create a while loop which runs as long as the list of unconfirmed users is not empty.
+
+02:20.420 --> 02:22.810
+So while unconfirmed
+
+02:26.200 --> 02:26.890
+current user
+
+02:33.180 --> 02:33.720
+equals
+
+02:36.310 --> 02:37.270
+unconfirmed user
+
+02:40.440 --> 02:41.840
+that pop.
+
+02:41.850 --> 02:44.620
+Now you might remember the pop method from an earlier lecture.
+
+02:44.730 --> 02:50.220
+And what that's going to do is it's going to take a user from unconfirmed users list and pop it into
+
+02:50.220 --> 02:52.120
+the variable current user.
+
+02:52.350 --> 02:56.780
+So when that's done print verifying
+
+02:59.830 --> 03:09.650
+user space plus current user data titles we want to capitalize their name
+
+03:12.970 --> 03:18.050
+and then we say confirmed users know we're accessing our confirmed users list that append.
+
+03:18.130 --> 03:21.300
+So add to that list current user.
+
+03:21.400 --> 03:23.280
+So all very straightforward.
+
+03:24.040 --> 03:34.730
+And now to print out our users we are just out in a statement display all confirmed users.
+
+03:34.810 --> 03:35.480
+OK.
+
+03:35.480 --> 03:39.260
+And in that we place print and paste this on a new line
+
+03:42.190 --> 03:50.430
+backslash and the following users have been confirmed
+
+03:55.930 --> 03:56.440
+today.
+
+03:56.510 --> 04:03.070
+We're going to do is going to look for confirmed use or in confirmed users
+
+04:05.980 --> 04:06.370
+present
+
+04:10.060 --> 04:12.620
+confirmed user data title.
+
+04:12.880 --> 04:13.560
+OK.
+
+04:13.750 --> 04:16.410
+So let's run this program and see what we get.
+
+04:18.740 --> 04:21.990
+Well an error pand and I've misspelt a Pand.
+
+04:22.090 --> 04:22.910
+OK.
+
+04:23.140 --> 04:25.960
+Remove the A and let's run it again.
+
+04:26.200 --> 04:31.620
+Verifying user Mary verifying user Frank verifying user Tony to follow users have been confirmed.
+
+04:31.630 --> 04:33.260
+OK so there's an interesting error.
+
+04:33.460 --> 04:37.560
+The following years have been confirmed but didn't matter type of string object.
+
+04:37.600 --> 04:40.090
+OK so let's see what that error is.
+
+04:40.090 --> 04:41.120
+Here we go.
+
+04:41.140 --> 04:45.220
+The title isn't working correctly so let's just add in our brackets which I forgot.
+
+04:45.220 --> 04:46.200
+Run it again.
+
+04:46.310 --> 04:46.900
+And there we go.
+
+04:46.900 --> 04:47.700
+Perfect.
+
+04:47.710 --> 04:49.140
+So let's just have a look at our program.
+
+04:49.150 --> 04:52.020
+So first we create a list of unconfirmed users.
+
+04:52.030 --> 04:57.430
+So again imagine our software scenario our e-mail software scenario and we have Tony Frank Ameri who
+
+04:57.430 --> 05:01.530
+clicked yes subscribe to the newsletter but they have not yet confirmed.
+
+05:01.670 --> 05:04.340
+So a list of confirmed users is empty.
+
+05:04.720 --> 05:11.920
+So while we have unconfirmed users create a variable current user and add to that variable unconfirmed
+
+05:11.920 --> 05:20.110
+users that pop out in one unconfirmed user at a time and then print verifying to user plus the current
+
+05:20.110 --> 05:20.790
+user.
+
+05:20.980 --> 05:26.770
+When that's done go to our confirmed users list which at the moment is empty and append panda in the
+
+05:26.770 --> 05:27.610
+current user.
+
+05:27.760 --> 05:32.450
+So that seems very simple and very straightforward and it is once you type this out and run it a couple
+
+05:32.450 --> 05:35.460
+of times you'll realize how simple it is.
+
+05:35.470 --> 05:42.010
+Finally we display all confirmed users and to do that we loop through or confirm use a list and print
+
+05:42.020 --> 05:47.040
+out each user in Title Case and you can see the result here.
+
+05:47.050 --> 05:52.360
+So in our program because Mary is the last of the unconfirmed users in the list.
+
+05:52.370 --> 05:57.430
+So you can see or hear Mary out of her and last her name will be forced be removed and stored in current
+
+05:57.430 --> 05:59.510
+user and atatürk confirmed user list.
+
+05:59.510 --> 06:02.520
+So indeed you can see or hear and or confirmed views a list Mary.
+
+06:02.910 --> 06:04.750
+So I hope you found this letter interesting.
+
+06:04.750 --> 06:09.210
+I certainly did as it's more advancement on what we've been building up to so far.
+
+06:09.280 --> 06:13.210
+As always if you have any questions please do not hesitate to contact me and I'll see you in the next
+
+06:13.210 --> 06:13.630
+lecture.
+
+06:13.690 --> 06:14.040
+Thank you.

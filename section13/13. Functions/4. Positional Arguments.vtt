@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.450 --> 00:04.620
+Hi everybody and welcome back in this lecture we're looking at positional arguments.
+
+00:04.780 --> 00:10.020
+So when we call a function and Python plight must match each argument in the function call with a parameter
+
+00:10.050 --> 00:11.740
+in the function definition.
+
+00:11.760 --> 00:15.140
+So the simplest way to do this is based on the order of arguments provided.
+
+00:15.210 --> 00:20.500
+So we saw at the last lecture values match this way are called positional arguments.
+
+00:20.510 --> 00:26.760
+See how this works consider a function that displays information about the one and only book topic the
+
+00:26.760 --> 00:30.040
+function tells us what type of book each one is and the author.
+
+00:30.060 --> 00:32.260
+So let's have a look at how we might do this.
+
+00:32.280 --> 00:35.140
+So as always we have some comments at the top.
+
+00:35.170 --> 00:46.390
+Let's now put in another comment creating our function and as we know we started off with DPF.
+
+00:46.500 --> 00:47.130
+I'm going to go.
+
+00:47.130 --> 00:51.790
+Book Description.
+
+00:51.790 --> 01:00.680
+Now we're going to put into practice here book type and also name.
+
+01:00.860 --> 01:03.280
+There we go there are two parameters.
+
+01:03.330 --> 01:10.480
+Don't forget your code next our triple double quotes which sounds like an oxymoron display.
+
+01:14.000 --> 01:16.290
+Book information.
+
+01:17.270 --> 01:19.250
+Let me close it off for quotes again.
+
+01:19.250 --> 01:21.330
+Now what do we actually want this function to do.
+
+01:21.470 --> 01:28.540
+Well for us we wanted to print and we want this to print on a new line.
+
+01:28.610 --> 01:39.800
+This book is a plus book type plus postop.
+
+01:39.820 --> 01:44.080
+OK so this book is or could be a science fiction it could be nonfiction it could be fiction it could
+
+01:44.080 --> 01:47.340
+be romance whatever it is whatever argument we pass into the parameter.
+
+01:47.350 --> 01:50.160
+That's what will be the next we want to print
+
+01:53.100 --> 01:53.720
+the author
+
+01:56.390 --> 02:03.200
+of this book is space plus name
+
+02:05.780 --> 02:07.450
+title make it nice and clean.
+
+02:07.520 --> 02:10.270
+Don't forget your brackets at the end of that title.
+
+02:10.490 --> 02:13.420
+Plus full stop.
+
+02:13.640 --> 02:16.510
+OK now we have to color function.
+
+02:16.700 --> 02:19.660
+So we have our function is called Book Description.
+
+02:20.210 --> 02:23.710
+And as we said we now need to match our arguments.
+
+02:23.750 --> 02:26.100
+So our first parameter is book type.
+
+02:26.210 --> 02:28.380
+So our argument must match that.
+
+02:28.580 --> 02:29.570
+So what is a book type.
+
+02:29.570 --> 02:33.790
+Well nonfiction is a book type.
+
+02:33.890 --> 02:35.790
+The next parameter is Autor name.
+
+02:35.790 --> 02:37.110
+So let's go.
+
+02:37.110 --> 02:39.980
+Ashley Vance.
+
+02:40.240 --> 02:44.840
+And in case you're wondering what book it is it's the everything store about an Amazon.
+
+02:45.130 --> 02:46.000
+OK so there we go.
+
+02:46.090 --> 02:47.580
+Let's run that and see what we get.
+
+02:49.850 --> 02:51.150
+This book is nonfiction.
+
+02:51.230 --> 02:56.150
+The author of this book is Ashley Vance and it's called lies and everything stereo that is very very
+
+02:56.150 --> 02:59.160
+nice very clean and a very handy function there.
+
+02:59.750 --> 03:04.810
+So what in functions and what inner programs we can call a function as many times as needed.
+
+03:05.700 --> 03:11.030
+So let's go again and let's go book description again.
+
+03:12.960 --> 03:16.660
+And let's say this is fiction.
+
+03:17.160 --> 03:25.080
+Don't forget your arguments have to be surrounded in single quotes and the author of this is Dan Brown.
+
+03:25.440 --> 03:30.400
+I'm sure most people are familiar with Dan Brown's work the Da Vinci Code and most recently inferno.
+
+03:30.930 --> 03:32.070
+OK here we go.
+
+03:32.070 --> 03:33.000
+Commanded Bay.
+
+03:33.090 --> 03:35.280
+There we are two little paragraphs.
+
+03:35.280 --> 03:36.350
+This book is nonfiction.
+
+03:36.360 --> 03:38.420
+The author of this book is Ashley Vance.
+
+03:38.430 --> 03:39.420
+This book is nonfiction.
+
+03:39.420 --> 03:40.350
+This book is fiction.
+
+03:40.380 --> 03:44.410
+The author of this book is Dan Brown as we can just see now.
+
+03:44.810 --> 03:50.990
+We have a promotors open our definition of our function book type and author name and an inner function
+
+03:50.990 --> 03:57.850
+call which is book description we put in our two arguments which must match our parameters.
+
+03:57.920 --> 04:00.940
+So as you can see and it's good idea and not to forget.
+
+04:00.970 --> 04:03.090
+Order matters in positional arguments.
+
+04:03.110 --> 04:07.320
+If we were a first order they would appear in our program in the wrong order.
+
+04:07.370 --> 04:11.570
+So always keep that in mind if you see any errors or any unexpected output.
+
+04:11.570 --> 04:13.790
+Thanks for listening and I'll see you in the next lecture.

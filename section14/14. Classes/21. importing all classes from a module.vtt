@@ -1,0 +1,43 @@
+WEBVTT
+
+00:01.370 --> 00:06.170
+Hi everybody and welcome back down this short lecture we're going to talk about how to import all classes
+
+00:06.170 --> 00:13.160
+from a module with a simple line of syntax so we can import every class from a module using the following
+
+00:13.160 --> 00:13.980
+syntax.
+
+00:14.150 --> 00:23.140
+So from lecture 100 import and then we have our X asterisked symbol.
+
+00:23.150 --> 00:24.830
+So you might remember it is from functions.
+
+00:24.910 --> 00:30.760
+What we just need to do with the program we create in the last lecture is remove lecture that 100 from
+
+00:30.770 --> 00:32.200
+our two instances.
+
+00:32.230 --> 00:32.740
+Here we go.
+
+00:32.750 --> 00:34.650
+That's done that's run.
+
+00:35.000 --> 00:35.800
+There we go.
+
+00:35.810 --> 00:36.620
+Simple enough.
+
+00:36.710 --> 00:40.700
+I don't really recommend this approach because when it comes to errors and troubleshooting you won't
+
+00:40.700 --> 00:44.000
+know which class is causing the error.
+
+00:44.000 --> 00:45.800
+Thanks for listening and I'll see you in the next lecture.

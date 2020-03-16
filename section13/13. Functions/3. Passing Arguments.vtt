@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00.700 --> 00:06.100
+Hi everybody and welcome back this lecture it's just a short lecture to explain some more about passing
+
+00:06.130 --> 00:07.770
+arguments to a function.
+
+00:08.150 --> 00:11.230
+So a function definition can have multiple parameters.
+
+00:11.230 --> 00:16.840
+And as we saw previously the username here is what's called a parameter sort of function as we just
+
+00:16.840 --> 00:21.600
+said can have multiple parameters a function call may then need multiple arguments.
+
+00:21.610 --> 00:23.270
+So here we only have one parameter.
+
+00:23.440 --> 00:27.440
+So that means we only need to give it one argument which is here.
+
+00:27.590 --> 00:32.490
+But what happens if we had multiple parameters like user name use Name one two and three we would have
+
+00:32.490 --> 00:33.190
+to go.
+
+00:33.270 --> 00:35.350
+Name one name to name three.
+
+00:35.520 --> 00:39.540
+So it makes sense that we can pass arguments to our functions in a number of ways.
+
+00:39.720 --> 00:45.000
+We can use positional arguments keyword arguments and list and dictionaries of values.
+
+00:45.030 --> 00:48.320
+So the next few lectures we're going to be looking at each one of those in turn.
+
+00:48.450 --> 00:50.370
+Thanks for listening and I'll see you in the next lecture.

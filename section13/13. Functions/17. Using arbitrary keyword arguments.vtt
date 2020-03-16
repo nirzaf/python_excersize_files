@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.360 --> 00:01.920
+Hi everybody and welcome back.
+
+00:01.920 --> 00:05.210
+Now in this lecture we're going to look at using arbitrary keyword arguments.
+
+00:05.360 --> 00:10.320
+So sometimes you want to accept an arbitrary number of keyword arguments but you won't know in advance
+
+00:10.410 --> 00:14.270
+what kind of information will be passed to the function.
+
+00:14.450 --> 00:15.000
+This happens.
+
+00:15.000 --> 00:20.310
+You can write functions that except as many key value pairs as a calling statement provides in this
+
+00:20.310 --> 00:26.760
+coming code sample the function c profile always takes in a first and last name which is the first and
+
+00:26.760 --> 00:28.430
+the last name of a passenger.
+
+00:28.550 --> 00:31.920
+But it also accepts an arbitrary number of keyword arguments as well.
+
+00:31.920 --> 00:33.690
+So let's take a look at how it works.
+
+00:33.870 --> 00:40.320
+So let's define our function so see profile what we're doing here is we're building up everything that
+
+00:40.320 --> 00:44.070
+we know about a particular person you're sitting in a particular seat.
+
+00:44.100 --> 00:46.280
+So let's go so let's say See profile.
+
+00:46.530 --> 00:47.790
+So we have their first name.
+
+00:47.970 --> 00:49.350
+Well Brackett is the wrong way.
+
+00:49.350 --> 00:59.480
+So first name we'd have the last name and then we have to Asterix and we call this seat info.
+
+00:59.550 --> 01:01.460
+Actually we won't call this passenger info.
+
+01:01.620 --> 01:04.960
+It's more user friendly passenger info.
+
+01:05.210 --> 01:08.370
+OK there we go call them we put in a description
+
+01:11.110 --> 01:12.060
+build a dictionary
+
+01:15.380 --> 01:19.010
+containing all passenger information
+
+01:25.140 --> 01:26.100
+information Dirigo
+
+01:29.840 --> 01:31.330
+OK.
+
+01:32.820 --> 01:39.310
+So far us our profile has to be empty because we don't accept the information at so profile.
+
+01:41.330 --> 01:46.150
+So there we go an empty dictionary next profile.
+
+01:47.950 --> 01:58.480
+Takes in first name.
+
+01:58.950 --> 02:04.040
+So we have to get the key first name and the value first.
+
+02:04.110 --> 02:07.300
+Next our profile takes in.
+
+02:07.350 --> 02:11.130
+Last name exact same as above.
+
+02:11.190 --> 02:18.570
+Key last name because the last name of our parameters in our function.
+
+02:19.160 --> 02:19.820
+OK.
+
+02:19.820 --> 02:25.760
+So for the key and the value in
+
+02:28.440 --> 02:29.330
+passenger info
+
+02:32.640 --> 02:41.530
+so whatever items we put in there want to look through the profile of key
+
+02:45.930 --> 02:48.990
+it's going to equal the value.
+
+02:49.010 --> 02:52.920
+Now we're going to return the profile
+
+02:57.980 --> 03:01.010
+now so our passenger profile.
+
+03:01.040 --> 03:02.630
+So everything we know about the passenger
+
+03:07.740 --> 03:11.670
+equal seat profile.
+
+03:11.690 --> 03:12.740
+So who's going to be in the seat.
+
+03:12.740 --> 03:15.580
+Well first it's going to be my sent my first name.
+
+03:15.640 --> 03:16.240
+Tiny no.
+
+03:16.280 --> 03:22.170
+Tony Staunton OK.
+
+03:22.790 --> 03:28.010
+Now what about what about putting in arguments that we didn't know ahead of time like we the beginning
+
+03:28.010 --> 03:29.030
+of this lecture.
+
+03:29.030 --> 03:33.230
+Well we want to give them a seat number.
+
+03:33.230 --> 03:45.110
+Seat number equals let's say 36 again and let's say breakfast ordered breakfast ordered
+
+03:47.840 --> 03:48.560
+equals.
+
+03:48.710 --> 03:50.490
+Yes.
+
+03:50.930 --> 03:51.860
+OK.
+
+03:51.980 --> 03:53.330
+Now let's see how this runs.
+
+03:53.510 --> 04:01.550
+And what we get out of it so to do that we say print passenger profile.
+
+04:01.910 --> 04:06.990
+OK fingers crossed didn't work.
+
+04:07.050 --> 04:13.560
+Was a plane crossed our fingers didn't work because that's a Dutch after Tony and it should be a comma.
+
+04:14.270 --> 04:19.630
+Now there we go a dictionary of everything that we know about this passenger.
+
+04:19.820 --> 04:22.200
+So the first name is Tony the last name is Staunton.
+
+04:22.220 --> 04:25.050
+They've ordered breakfast under seat number is 36.
+
+04:25.100 --> 04:26.160
+Very very nice.
+
+04:26.180 --> 04:29.560
+So we're going to look at putting all this together now in a bigger program later on.
+
+04:29.630 --> 04:34.130
+It takes practice to learn to use different types of arguments correctly and to know when to use each
+
+04:34.130 --> 04:35.120
+type of argument.
+
+04:35.270 --> 04:38.060
+For now use the simplest approach that gets the job done.
+
+04:38.060 --> 04:39.860
+Thanks for listening and I'll see you in the next lecture.

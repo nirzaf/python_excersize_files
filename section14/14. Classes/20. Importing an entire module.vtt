@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.560 --> 00:02.190
+Hi everybody and welcome back.
+
+00:02.210 --> 00:08.040
+Now in this lecture we're going to look at how to import an entire module so we can import entire modules
+
+00:08.090 --> 00:12.170
+and then access the classes we need using dot notation.
+
+00:12.170 --> 00:16.730
+This approach is simple and results and code that it's easy to read because every call that creates
+
+00:16.730 --> 00:19.490
+an instance of a class includes the module name.
+
+00:19.490 --> 00:23.560
+This approach also has the benefit of avoiding naming conflicts would.
+
+00:23.580 --> 00:26.420
+And he would and he heard a name used in the current file.
+
+00:26.510 --> 00:27.950
+So here's how we do it.
+
+00:27.950 --> 00:30.030
+So I still have a file open from The Last Lecture.
+
+00:30.050 --> 00:31.580
+So I just take this one here.
+
+00:31.670 --> 00:38.060
+I just delete the second half of this line and I say instead of saying import or something from I say
+
+00:38.060 --> 00:39.600
+inport.
+
+00:39.700 --> 00:48.160
+Now what we want to do is we want to access the e-reader class and lecture 100 using duck notation lecture
+
+00:48.180 --> 00:49.860
+100 Dutch.
+
+00:50.150 --> 00:55.850
+Now we do the same here lecture one hundred does.
+
+00:56.120 --> 00:57.530
+OK seems simple enough.
+
+00:57.560 --> 00:58.790
+Let's see how it runs.
+
+00:59.980 --> 01:02.630
+It runs perfect.
+
+01:02.730 --> 01:07.810
+So you can see here at the first line we import the entire lecture 100 module.
+
+01:07.890 --> 01:10.700
+We don't use the module name followed by the class names.
+
+01:10.710 --> 01:11.360
+You can see it here.
+
+01:11.370 --> 01:12.920
+Mudgal name is lecture 100.
+
+01:13.050 --> 01:13.800
+E-reader.
+
+01:13.980 --> 01:16.830
+Module name one hundred Kindle Fire.
+
+01:16.830 --> 01:18.470
+I hope that was simple enough to understand.
+
+01:18.480 --> 01:21.810
+And as always if you have any questions please do not hesitate let me know.
+
+01:21.810 --> 01:23.530
+Thank you and I'll see you in the next lecture.

@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00.300 --> 00:04.830
+Hi everybody and welcome back and this lecture we're going to look at using a try except block to handle
+
+00:04.830 --> 00:06.660
+the error that we saw in the last lecture.
+
+00:06.810 --> 00:07.960
+The 0 division error.
+
+00:08.090 --> 00:10.740
+So as we saw in The Last Lecture We cannot divide by zero.
+
+00:10.740 --> 00:18.240
+So when we tried to print five divided by zero we got an error and there it is there are zero division
+
+00:18.240 --> 00:18.590
+error.
+
+00:18.630 --> 00:19.620
+Let's remove that.
+
+00:19.890 --> 00:22.570
+So how can we handle that using a try except block.
+
+00:22.860 --> 00:26.160
+Well we go try colon print.
+
+00:26.580 --> 00:29.050
+So here's where we know the error is going to come up.
+
+00:29.220 --> 00:33.150
+So whenever we think an error might occur we can write a try except block the handle exceptions that
+
+00:33.150 --> 00:34.450
+we think might arise.
+
+00:34.470 --> 00:41.340
+So we think this might arise in error so we're going to put in the try except block except what we have
+
+00:41.340 --> 00:48.520
+here is our 0 0 division error.
+
+00:49.110 --> 00:51.380
+There we go colon.
+
+00:51.540 --> 00:53.740
+And what we want to happen if this error occurs.
+
+00:53.790 --> 01:03.260
+What we wanted to say is you cannot divide by zero.
+
+01:03.280 --> 01:04.560
+Here we go.
+
+01:04.900 --> 01:05.810
+Print.
+
+01:05.830 --> 01:13.270
+You don't have to put this in but I just put this in for completion sake print please enter an order
+
+01:13.270 --> 01:13.950
+number.
+
+01:14.350 --> 01:14.790
+OK.
+
+01:14.830 --> 01:15.320
+There we go.
+
+01:15.340 --> 01:17.060
+Let's roll this and see what happens.
+
+01:17.580 --> 01:17.850
+OK.
+
+01:17.860 --> 01:20.340
+You kind of divide by zero please and reduce the number.
+
+01:20.350 --> 01:24.750
+So if this were part of a larger program our use would know to try and note a number other than zero
+
+01:26.370 --> 01:31.530
+one more code follows a try except block the program or continue to run as we just seen here.
+
+01:31.530 --> 01:32.880
+Please enter another number.
+
+01:33.170 --> 01:38.150
+So that's how we can use a try except block to anticipate and help control errors.
+
+01:38.340 --> 01:40.290
+Thanks for listening and I'll see you in the next lecture.

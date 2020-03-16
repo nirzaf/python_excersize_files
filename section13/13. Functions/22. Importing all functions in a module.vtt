@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00.210 --> 00:01.880
+Hi everybody and welcome back.
+
+00:01.890 --> 00:06.270
+Now just last year we're going to look at another way to import all functions in a module so you can
+
+00:06.270 --> 00:11.890
+tell applying to import every function in the module using the Asterix operator that symbol there.
+
+00:11.910 --> 00:14.210
+So how do we put that into our import statement.
+
+00:14.280 --> 00:25.340
+Well we say from books to buy from our module books to buy books to buy import Actrix import everything.
+
+00:25.500 --> 00:26.660
+Let's run that.
+
+00:26.670 --> 00:27.150
+There we go.
+
+00:27.150 --> 00:27.720
+Runs fine.
+
+00:27.720 --> 00:30.840
+I just clean this window here and import there.
+
+00:30.900 --> 00:36.000
+It runs the Asterix in the import statement tells and to copy every function from the module books to
+
+00:36.000 --> 00:39.930
+buy into our main program file because every function is imported.
+
+00:39.930 --> 00:43.300
+You can call each function by name without using dot notation.
+
+00:43.410 --> 00:45.300
+I don't recommend using this approach.
+
+00:45.300 --> 00:50.520
+The best approach is to import the functions or functions you want or import entire my module using
+
+00:50.520 --> 00:56.070
+dot notation and make your code a lot easier to read and a lot more user friendly for other programmers.
+
+00:56.070 --> 00:58.210
+Thanks for listening and I'll see you in the next lecture.

@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.820 --> 00:02.600
+Hi everybody and welcome back.
+
+00:02.640 --> 00:06.910
+Did you know that functions can alter return lists and dictionaries.
+
+00:06.910 --> 00:07.780
+No you didn't.
+
+00:07.930 --> 00:10.280
+Well let's explain how you can do that.
+
+00:10.450 --> 00:11.900
+Let's look at a new example.
+
+00:12.100 --> 00:16.590
+So as always let's start off with our comments.
+
+00:16.810 --> 00:23.630
+Today's date the 7th of the 11th 2016 which just happens to be my birthday.
+
+00:23.650 --> 00:26.540
+Thank you very much.
+
+00:26.560 --> 00:34.420
+And what better way to spend my birthday than teaching you guys returning a dictionary.
+
+00:35.310 --> 00:36.500
+OK.
+
+00:37.090 --> 00:38.050
+So let's have a look.
+
+00:38.170 --> 00:40.410
+Let's create a new function.
+
+00:40.410 --> 00:42.620
+Build a book.
+
+00:42.760 --> 00:48.490
+OK you should come as no surprise that our program our example program and this lecture is involving
+
+00:48.520 --> 00:49.220
+a book.
+
+00:49.330 --> 00:52.240
+So that's how the book name.
+
+00:52.460 --> 00:57.540
+That's the author of the publisher.
+
+00:58.610 --> 01:11.660
+OK don't forget your colon and don't open up at your comments create a dictionary of book information.
+
+01:11.930 --> 01:12.650
+OK.
+
+01:12.660 --> 01:13.730
+Those a comment.
+
+01:14.060 --> 01:16.470
+So book equals.
+
+01:16.750 --> 01:20.930
+Here we open our dictionary so we have name
+
+01:24.350 --> 01:27.250
+and again don't forget dictionaries are key value pairs.
+
+01:27.410 --> 01:31.610
+So we have the K name and then the value will be name.
+
+01:31.610 --> 01:32.210
+Here we go.
+
+01:32.240 --> 01:38.280
+Separated with a comma as all dictionary key value pairs are then we have an alter
+
+01:40.850 --> 01:43.280
+and that will be our order.
+
+01:43.700 --> 01:44.480
+Perfect.
+
+01:44.480 --> 01:47.000
+So far so good comma.
+
+01:47.170 --> 01:48.370
+Then we have our publisher
+
+01:52.370 --> 01:54.310
+colon publisher.
+
+01:55.270 --> 01:57.060
+OK so you can see what I'm doing here.
+
+01:57.070 --> 02:04.120
+And then we have return.
+
+02:04.200 --> 02:05.970
+Now what exactly this can do for us.
+
+02:05.970 --> 02:12.770
+Well if we say my book is called Build a book.
+
+02:12.840 --> 02:15.640
+OK so what are we doing here.
+
+02:15.780 --> 02:18.360
+We're adding values into our book function.
+
+02:18.360 --> 02:19.590
+So let's go.
+
+02:19.590 --> 02:20.360
+Name of the book.
+
+02:20.370 --> 02:20.900
+Let's go.
+
+02:20.910 --> 02:25.190
+Elon Musk and sorry this has to be surrounded in quotes.
+
+02:25.230 --> 02:26.100
+Elon Musk
+
+02:29.460 --> 02:31.830
+The answer is actually Vance
+
+02:39.260 --> 02:41.750
+and the publisher is Vergine books.
+
+02:44.010 --> 02:46.010
+OK.
+
+02:46.310 --> 02:52.740
+I mean just take it out there for readability and then print my book and let's see what we get from
+
+02:52.740 --> 02:57.640
+dush we get an error of course we do of course you know line 11.
+
+02:57.670 --> 03:00.160
+That is an easy simple silly error.
+
+03:00.480 --> 03:04.260
+I'M SO EXCITED IT'S MY BIRTHDAY that I'm losing the run of myself here.
+
+03:04.560 --> 03:07.230
+So print my book.
+
+03:07.230 --> 03:08.060
+There we go.
+
+03:08.210 --> 03:11.820
+Actually Van's publisher version books name Elon Musk.
+
+03:12.190 --> 03:18.540
+So dysfunction Bill's book takes in the the name the author the publisher and it puts these values into
+
+03:18.540 --> 03:19.470
+a dictionary.
+
+03:19.820 --> 03:24.210
+This function takes in simple textual information and puts it into a more meaningful data structure
+
+03:24.600 --> 03:29.370
+so that you can work with that later on and do more than just printing it as we've done here.
+
+03:29.370 --> 03:32.400
+We could easily extend this function to accept other values about a book.
+
+03:32.580 --> 03:38.120
+Even the book's content its summary ratings whatever might be in the in the dictionary here.
+
+03:38.190 --> 03:39.300
+So I hope that made sense.
+
+03:39.300 --> 03:41.240
+Thanks for listening and I'll see you in the next lecture.

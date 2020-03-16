@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.940 --> 00:03.400
+Hi everybody and welcome back.
+
+00:03.440 --> 00:08.160
+Now so far we've seen several different types of arguments including position on an arbitrary.
+
+00:08.180 --> 00:11.340
+Now we do have to believe we're implied and to mix those two together.
+
+00:11.630 --> 00:16.070
+So we want the function to accept several different kinds of arguments the parameters that can accept
+
+00:16.160 --> 00:19.850
+arbitrary numbers of arguments must be placed last.
+
+00:19.910 --> 00:23.770
+So as we saw in our last one we had airplane requests from a passenger.
+
+00:23.840 --> 00:28.670
+So we would have to put asterisks request last in our parameters list.
+
+00:28.760 --> 00:33.950
+So we'll see how that looks now in a second what pite and then does is it match just a position on keyword
+
+00:33.950 --> 00:37.590
+arguments and then connects the remaining arguments in the final parameter.
+
+00:37.700 --> 00:39.800
+So let's have a look at how we would do that.
+
+00:39.800 --> 00:44.920
+So as always the f you can see my comments at the top positional arbitrary arguments together.
+
+00:45.410 --> 00:51.910
+So what we're going to do here now is we're going to push our passenger request on a seat number to
+
+00:51.900 --> 00:52.300
+get it.
+
+00:52.370 --> 00:53.260
+So let's do that now.
+
+00:53.270 --> 00:58.760
+So we're going to assign seat.
+
+00:59.020 --> 01:02.600
+So we have seats and then we will have requests
+
+01:07.130 --> 01:08.270
+as always with our clients
+
+01:11.000 --> 01:15.070
+assign a seat and requests
+
+01:18.010 --> 01:19.700
+to a passenger.
+
+01:20.710 --> 01:22.740
+OK close that off now.
+
+01:22.750 --> 01:23.350
+So print
+
+01:29.520 --> 01:38.220
+backslash newline the sign seat and what we'll do now is because seat is going to be a number.
+
+01:38.300 --> 01:45.450
+So they say assigned seats base plus we'd have to change that's seat number into a string string seat
+
+01:48.580 --> 01:49.030
+plus
+
+01:52.410 --> 01:55.910
+Fahlman Quest's.
+
+01:56.150 --> 02:04.010
+Plus don't forget your quotes to make this back into a string assigned seat number actually put seat
+
+02:04.010 --> 02:06.850
+number into us so assigned seat number
+
+02:10.260 --> 02:17.630
+took up his seat number 0 0 1 the following passenger
+
+02:20.400 --> 02:22.310
+requests.
+
+02:22.350 --> 02:26.210
+OK there we go and close that off.
+
+02:26.290 --> 02:31.880
+So for request in request.
+
+02:31.910 --> 02:33.430
+So like we had in the last lecture
+
+02:36.320 --> 02:36.800
+Prince
+
+02:41.110 --> 02:43.680
+hyphen class request
+
+02:46.470 --> 02:55.010
+and now what we need to do is we need to call our definitions so sign seat get a seat number of bombs
+
+02:55.020 --> 02:56.230
+my birthday yesterday.
+
+02:56.380 --> 02:57.360
+Thirty six.
+
+02:57.360 --> 03:01.610
+Not saying anything about my age and let's give them a window seat.
+
+03:03.980 --> 03:04.700
+OK.
+
+03:05.010 --> 03:07.270
+Let's see if that works.
+
+03:07.280 --> 03:08.120
+There we go.
+
+03:08.120 --> 03:12.290
+Assigned seat number 36 the following passenger request a window seat.
+
+03:12.320 --> 03:16.940
+So once again we can build on the previous lectures that we've done and we can look at building up a
+
+03:16.970 --> 03:20.840
+complete program as we move to all these functions.
+
+03:20.840 --> 03:22.720
+Thanks for listening and I'll see you in the next lecture.

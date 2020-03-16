@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.210 --> 00:01.410
+Everybody and welcome back.
+
+00:01.410 --> 00:04.790
+This is just a brief lecture to improve upon our past and your creation program.
+
+00:04.800 --> 00:09.620
+In our last lecture so as I said at the end of our last lecture we can add in a loop the loop to our
+
+00:09.630 --> 00:10.780
+passenger request.
+
+00:10.800 --> 00:12.900
+So we're starting from scratch to help our muscle memory.
+
+00:12.900 --> 00:14.100
+So crate passenger
+
+00:17.830 --> 00:24.760
+Asterix to allow for an arbitrary number of arguments to pass to the parameter requests and our function
+
+00:24.760 --> 00:25.930
+summary as always
+
+00:28.430 --> 00:33.710
+summarized passenger requests and we go.
+
+00:33.710 --> 00:37.000
+Close it off print.
+
+00:40.550 --> 00:48.560
+New Line this passenger is capitalized that this passenger has requested
+
+00:52.960 --> 00:58.660
+as requested Colon's space for request
+
+01:01.320 --> 01:02.270
+in requests
+
+01:05.680 --> 01:06.100
+print
+
+01:09.450 --> 01:12.270
+put in a little hyphen just to make our code nice and clean.
+
+01:12.320 --> 01:13.940
+Plus requests
+
+01:17.490 --> 01:21.660
+now find that we call our function Craig passenger
+
+01:24.590 --> 01:25.220
+window seat
+
+01:31.810 --> 01:32.570
+top of plane
+
+01:35.650 --> 01:41.590
+and breakfast.
+
+01:41.750 --> 01:44.420
+Now let's see what happens when we run this.
+
+01:44.430 --> 01:44.940
+There we go.
+
+01:44.940 --> 01:50.070
+This passenger has requested window seat type of plane breakfast and you can imagine combining this
+
+01:50.070 --> 01:55.080
+little program with our programs from previous lectures where we checking in passengers and we're able
+
+01:55.080 --> 01:57.720
+to say passenger Tony Stodden has checked in.
+
+01:57.780 --> 01:59.070
+He has requested the following.
+
+01:59.070 --> 02:03.330
+Window seat type of plane breakfast so you can really see lecture by lecturer.
+
+02:03.330 --> 02:07.350
+We're building upon what we've learned we're adding structured what we've learned and we have the ability
+
+02:07.350 --> 02:09.930
+to expand and approve our programs.
+
+02:09.930 --> 02:10.940
+I hope this helps.
+
+02:10.980 --> 02:14.370
+As always if you've any questions please let me know and I'll see you in the next lecture.
+
+02:14.370 --> 02:14.950
+Thank you.

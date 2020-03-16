@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00.480 --> 00:01.980
+Hi everybody and welcome back.
+
+00:01.980 --> 00:05.860
+Now we're moving into a new section and that section is called exceptions.
+
+00:06.090 --> 00:08.760
+So what happens while running our programs and error occurs.
+
+00:08.760 --> 00:14.010
+Well we've already seen several pilot errors during these lectures so intentional and most not intentional
+
+00:14.810 --> 00:19.350
+pite and use of special objects called exceptions to manage errors that arise during the running of
+
+00:19.350 --> 00:20.120
+a program.
+
+00:20.460 --> 00:25.350
+We can write code to handle exceptions and our programs will continue to run if we don't our programs
+
+00:25.350 --> 00:30.810
+will stop and show a traceback which includes a report of the exception that was raised exceptions are
+
+00:30.810 --> 00:36.140
+handled with try except blocks a try except block as applied and do something.
+
+00:36.210 --> 00:40.140
+But it also tells Python what to do if an exception is raised.
+
+00:40.250 --> 00:42.730
+Try except blocks when things go wrong.
+
+00:42.810 --> 00:47.610
+Users will see a helpful error message instead of the ugly traceback message that we've seen so far.
+
+00:47.940 --> 00:52.710
+So let's jump right in and have a look at how we start creating these helpful error messages.
+
+00:52.720 --> 00:53.840
+I see you in the next lecture.

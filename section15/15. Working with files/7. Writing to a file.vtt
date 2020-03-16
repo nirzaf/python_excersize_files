@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.330 --> 00:04.620
+Hi everybody and welcome back in this lecture we're going to be talking about how to write to a file
+
+00:04.710 --> 00:07.490
+and specifically how to write to an empty file.
+
+00:07.770 --> 00:11.340
+Now obviously one of the simplest ways to save data is to write to a file.
+
+00:11.340 --> 00:15.910
+This way whatever information you save to a file is available even after your program closes.
+
+00:16.290 --> 00:20.780
+So to write an empty file we need to first call open like we did previously.
+
+00:20.880 --> 00:24.130
+For the second argument telling Python that we want to write to the file.
+
+00:24.360 --> 00:31.920
+So let's take a look now at a simple example where we start off with a file name variable filename equals.
+
+00:32.040 --> 00:33.310
+Well I'm just going to give it a name now.
+
+00:33.330 --> 00:37.620
+So programming that T x t.
+
+00:37.620 --> 00:40.500
+So that's what our file is going to be called.
+
+00:40.840 --> 00:46.520
+We're open to put in a file name ferryboat come up w.
+
+00:46.630 --> 00:58.700
+So you can probably guess what W stands for as File object underscore object call it so file object.
+
+00:59.070 --> 01:03.660
+Rice let's give it something simple to write to a file.
+
+01:03.680 --> 01:11.040
+Hello my name is Tony or whatever your name is.
+
+01:11.040 --> 01:16.530
+Now let's run and say let's say even run us and as you can see down the bottom left nothing outputted
+
+01:16.570 --> 01:18.090
+but a file did run.
+
+01:18.240 --> 01:23.130
+And if you noticed on the left hand side of my file listing here a new file popped in called programming
+
+01:23.130 --> 01:25.770
+that XTi and I click on that.
+
+01:25.770 --> 01:27.620
+Here we have our insert message.
+
+01:27.660 --> 01:30.230
+Hello my name is Tony saved to a file.
+
+01:31.940 --> 01:34.680
+So in this example I called Open has two arguments.
+
+01:34.850 --> 01:36.690
+The first argument is still the name of the file.
+
+01:36.710 --> 01:42.560
+We want to open the second argument w tells pide that we want to open a file in write mode.
+
+01:42.560 --> 01:49.250
+If I leave out this Ogwyn Python opens the file in read only mode by default you can open a file in
+
+01:49.250 --> 01:56.680
+read mode or write mode W or append mode a or in a mode that allows you to read and write to a file
+
+01:57.080 --> 02:03.470
+or plus the open function automatically creates the file you're writing to it.
+
+02:03.530 --> 02:04.630
+If it doesn't exist.
+
+02:04.670 --> 02:11.000
+However if it does exist and you open the file in right w mode will erase the file before returning
+
+02:11.000 --> 02:12.410
+the file object.
+
+02:12.440 --> 02:13.460
+This line here.
+
+02:13.460 --> 02:14.570
+Line 8.
+
+02:14.570 --> 02:18.490
+We use the write method on the file object to write a string to the file.
+
+02:18.500 --> 02:23.090
+Now it's worth noting at this point the pipe and can only write strings with text file if you want to
+
+02:23.090 --> 02:24.310
+store numbers in a text file.
+
+02:24.320 --> 02:29.000
+You have to convert them to a string format using the string bracket function.
+
+02:29.000 --> 02:31.060
+Thanks for listening and I'll see you in the next lecture.

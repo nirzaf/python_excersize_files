@@ -1,0 +1,61 @@
+WEBVTT
+
+00:01.130 --> 00:02.710
+Hi everybody and welcome back.
+
+00:02.720 --> 00:08.330
+Now we come an enormous way since we first fired up our pipeline ID or shell.
+
+00:08.330 --> 00:12.470
+I think if you look back now we've just completed 100 lectures so that is quite an accomplishment so
+
+00:12.470 --> 00:14.440
+well done on getting this far.
+
+00:14.840 --> 00:19.820
+Now it's time to take a learning and a program to another level in this section.
+
+00:19.850 --> 00:21.440
+We're moving into a new section.
+
+00:21.650 --> 00:26.340
+We're going to learn to work with files that our programs can quickly analyze lots of data.
+
+00:26.630 --> 00:30.650
+So this section is going to be of interest to pretty much everybody taking this course because we're
+
+00:30.650 --> 00:32.890
+going to start to get really interactive now.
+
+00:34.160 --> 00:38.690
+By learning to work with files and saving data our programs take on another dimension and become easier
+
+00:38.690 --> 00:40.180
+for people to use.
+
+00:40.190 --> 00:47.360
+There was so much information available in textfiles population news numbers whether property game results
+
+00:47.490 --> 00:48.810
+election results.
+
+00:48.810 --> 00:53.210
+Everything there's so much information out there and we're going to look at the Explorers and data sets
+
+00:53.270 --> 00:54.620
+as we move to that section.
+
+00:55.630 --> 01:00.610
+When we want to work with information in a text file the first step is to read the file into memory.
+
+01:00.700 --> 01:05.320
+We can read the entire contents of a file or we can work through a file one line at a time.
+
+01:05.320 --> 01:09.580
+Our first lecture is going to explore reading an entire file.
+
+01:09.580 --> 01:11.470
+So let's jump right in and get started.
+
+01:11.470 --> 01:13.360
+Thanks for listening and I'll see you in the next lecture.

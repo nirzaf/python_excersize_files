@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.770 --> 00:02.290
+Hi everybody and welcome back.
+
+00:02.600 --> 00:07.580
+Now there is another option to exit the while loop and that is to exit immediately without running any
+
+00:07.580 --> 00:08.870
+of the remaining code.
+
+00:08.870 --> 00:11.170
+This option is called the break statement.
+
+00:11.210 --> 00:16.220
+Let's look at an example in this program we ask users to enter the books they read recently.
+
+00:16.250 --> 00:25.550
+So what we have is promt equals new line.
+
+00:25.550 --> 00:37.690
+Please enter the name of a book you have read recently.
+
+00:37.740 --> 00:40.420
+OK so far so good.
+
+00:40.630 --> 00:41.080
+Prompt
+
+00:44.770 --> 00:50.420
+new line to quit type q.
+
+00:50.620 --> 00:58.230
+Now why don't you book input prompt.
+
+01:00.910 --> 01:03.970
+OK so simple enough so for now if book
+
+01:07.060 --> 01:07.960
+is equal to Q
+
+01:11.080 --> 01:12.300
+break.
+
+01:12.550 --> 01:21.530
+So if somebody understand Q A program will stop immediately else print.
+
+01:22.100 --> 01:23.570
+You have recently
+
+01:27.640 --> 01:32.350
+read space close or double quotes plus book
+
+01:35.080 --> 01:36.210
+dart title
+
+01:40.470 --> 01:47.870
+plus plus what now k.
+
+01:48.110 --> 01:50.180
+Let's say that and see what it gets us say.
+
+01:50.180 --> 01:56.030
+Now let's run please the name of a book you have read recently.
+
+01:56.050 --> 02:02.220
+So as you can probably guess and a bit of a Bach lover and I won't enter Elon Musk as I have done before.
+
+02:02.290 --> 02:04.050
+I will answer is the.
+
+02:04.090 --> 02:09.170
+Just so you know that I do read or books the Ferrum error.
+
+02:09.190 --> 02:09.910
+Error error.
+
+02:09.910 --> 02:14.960
+So where we got an error book typo I've misspelled title.
+
+02:14.960 --> 02:17.050
+OK let's have a look here.
+
+02:17.050 --> 02:18.260
+There we go.
+
+02:18.280 --> 02:20.460
+You've recently read plus book title.
+
+02:20.470 --> 02:23.110
+So let's say that and let's run it again.
+
+02:25.520 --> 02:31.200
+So far.
+
+02:31.710 --> 02:34.370
+Did not just spell that wrong again that I did.
+
+02:36.060 --> 02:38.710
+OK let's hope that's it.
+
+02:38.740 --> 02:45.880
+No what I'm going to do is I'm going to enter in a different box name so you know that I have even more
+
+02:45.880 --> 02:51.510
+than two books and they're in Titan which is a very big book about Rockefeller.
+
+02:51.510 --> 02:55.560
+There you go you've recently read Huyton present name of a book you've read recently pressed you to
+
+02:55.560 --> 02:55.870
+quit.
+
+02:55.890 --> 02:58.120
+Q Perfect.
+
+02:58.140 --> 03:01.530
+So another way to exit out of a while loop.
+
+03:01.530 --> 03:07.190
+So as you can see here we just jump back into our code so as you can see here our loop starts with while
+
+03:07.210 --> 03:10.760
+true and will run forever unless it reaches a break statement.
+
+03:10.770 --> 03:16.200
+The loop will continue until Q Is entered the break statement can be used in any of pipings loops which
+
+03:16.200 --> 03:20.160
+is a very nice handy piece of code and it's nice and clean and easy to write.
+
+03:20.570 --> 03:23.400
+OK thank you for listening and I'll see you in the next letter.

@@ -1,0 +1,199 @@
+WEBVTT
+
+00:01.270 --> 00:02.650
+Hi everybody and welcome back.
+
+00:02.650 --> 00:06.870
+Now in this lecture you're going to be looking at setting default values within a function.
+
+00:06.880 --> 00:11.020
+So when you create a function you can define default value for each parameter.
+
+00:11.020 --> 00:15.940
+If an argument for a parameter is provided in the function call Python uses that argument.
+
+00:15.940 --> 00:18.680
+If not it uses the parameters default value.
+
+00:18.710 --> 00:20.780
+So let's go back to our book program.
+
+00:21.430 --> 00:27.450
+So as always start out with T.F. book description.
+
+00:27.750 --> 00:35.140
+Now what we're going to put in is her name so of her name and then we're going to have a default value
+
+00:35.140 --> 00:42.300
+here book type equals nonfiction
+
+00:44.950 --> 00:45.340
+OK.
+
+00:45.350 --> 00:46.080
+So there we go.
+
+00:46.090 --> 00:54.310
+Nothing to drastically new there no open air quotes display book information
+
+00:57.950 --> 00:59.510
+closer quotes.
+
+00:59.600 --> 01:14.610
+And as always print OpenTable double quote backslash newline this book is a closer quote Plus book type
+
+01:16.080 --> 01:19.680
+plus full stop OK.
+
+01:19.770 --> 01:31.850
+Next print the author of this book is closer quote.
+
+01:31.950 --> 01:34.190
+Plus her name
+
+01:37.310 --> 01:39.050
+OK and I've made a typo.
+
+01:39.090 --> 01:40.000
+Here's what you can see.
+
+01:40.010 --> 01:46.260
+I've mistype my e and names just changed us and change it here so we don't have any conflict errors.
+
+01:46.310 --> 01:51.620
+Often name named title brackets close or break and plus
+
+01:54.910 --> 01:55.850
+full stop.
+
+01:56.230 --> 01:58.930
+OK now onto the interesting part.
+
+01:58.960 --> 02:02.080
+Our function call so Book Description.
+
+02:02.080 --> 02:09.530
+Nothing new here and our author is Ashley Vance.
+
+02:10.210 --> 02:17.530
+OK so I'm only putting in one argument here because back in our function description we set a default
+
+02:17.530 --> 02:24.540
+value of book type nonfiction so we don't need to pass the argument from a function call of book type.
+
+02:24.540 --> 02:27.930
+That's Rundell all error.
+
+02:27.930 --> 02:29.210
+What did we get.
+
+02:29.260 --> 02:30.820
+Line 11.
+
+02:30.820 --> 02:32.440
+Here we are instead of putting in a full stop.
+
+02:32.440 --> 02:33.450
+I put it in a comma.
+
+02:33.460 --> 02:34.050
+There we go.
+
+02:34.240 --> 02:35.840
+OK so let's run this again.
+
+02:36.340 --> 02:37.110
+There we go.
+
+02:37.120 --> 02:38.260
+This book is nonfiction.
+
+02:38.260 --> 02:40.270
+The author of this book is Ashlee Vance.
+
+02:40.330 --> 02:46.270
+So as you can see because we put in a default value in our parameters book type we don't need to mention
+
+02:46.270 --> 02:49.060
+book type in our function called down here.
+
+02:49.120 --> 02:54.420
+Also another important thing to note here is that we have changed the order of the parameters.
+
+02:54.430 --> 03:00.790
+This is because default values makes it necessary to specify a type of book as an argument.
+
+03:00.790 --> 03:03.840
+The only argument left in the function call is the author's name.
+
+03:03.870 --> 03:06.650
+Python still interprets this as a position argument.
+
+03:06.820 --> 03:11.500
+So if the function is called which is an author's name the argument will match up with the first parameter
+
+03:11.560 --> 03:13.870
+listed in the function's definition.
+
+03:13.870 --> 03:17.810
+This is the reason the first primary needs to be alternate.
+
+03:17.810 --> 03:21.280
+The simplest way to use this function is provide just an author's name and a function call which you've
+
+03:21.280 --> 03:22.430
+just done.
+
+03:22.450 --> 03:25.290
+Actually that's how we go.
+
+03:25.430 --> 03:30.510
+If we wanted to override our default value of nonfiction for pop type we could do the following into
+
+03:30.510 --> 03:33.380
+our function call and are in a new argument.
+
+03:33.410 --> 03:40.380
+So actually events come up book type equals fiction.
+
+03:41.150 --> 03:42.110
+So let's see now.
+
+03:42.110 --> 03:47.680
+So as you can see I'd be wrong that this book this book is a fiction book.
+
+03:47.810 --> 03:51.680
+I need to tidy that up so what I'm going to do now here is just correct that this is a
+
+03:55.410 --> 03:56.760
+fiction.
+
+03:56.770 --> 03:57.270
+There we go.
+
+03:57.270 --> 03:58.380
+Let's run it again.
+
+03:58.770 --> 04:03.840
+This is a fiction and I should say book they're not fiction fiction book.
+
+04:03.840 --> 04:04.230
+There we go.
+
+04:04.230 --> 04:05.910
+It is a fiction book.
+
+04:05.970 --> 04:07.680
+The author of this book is actually Vantz.
+
+04:07.800 --> 04:13.500
+So as you can see here by entering in an argument book type equals fiction we override our parameters
+
+04:13.500 --> 04:15.430
+default value.
+
+04:15.620 --> 04:16.900
+So I hope you found that useful.
+
+04:16.940 --> 04:20.080
+And as always if you have any questions please do not hesitate to contact me.

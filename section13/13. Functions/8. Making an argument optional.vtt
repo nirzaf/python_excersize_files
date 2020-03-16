@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00.510 --> 00:04.930
+Hi everybody and welcome back this lecture we're going to look at making arguments optional.
+
+00:04.970 --> 00:07.060
+So so far we've all been required.
+
+00:07.080 --> 00:08.910
+We're going to look now at making them optional.
+
+00:09.090 --> 00:11.070
+So let's take a look and jump right in.
+
+00:11.070 --> 00:16.610
+So as you can see I've amended my commentary making arguments optional so sometimes can make sense and
+
+00:16.610 --> 00:21.030
+make an argument optional so that people using the function can choose to provide extra information
+
+00:21.120 --> 00:25.300
+only if they want to we can use default values to make an argument optional.
+
+00:25.620 --> 00:29.070
+Let's update our get formatted name to include a middle name.
+
+00:29.070 --> 00:29.710
+So let's go.
+
+00:29.710 --> 00:35.260
+So def format a name.
+
+00:36.070 --> 00:44.410
+And so as we had previously first name middle name and now last name.
+
+00:44.940 --> 00:47.310
+So just one update there.
+
+00:47.720 --> 00:49.730
+Don't forget your colon and our quotes
+
+00:52.230 --> 00:54.150
+return a full name.
+
+00:55.820 --> 01:05.830
+So full name equals first name plus space plus middle name
+
+01:09.430 --> 01:13.420
+plus space plus last name
+
+01:16.340 --> 01:23.830
+and their return and spell it correctly this time not like our last lecture return phone name title
+
+01:26.420 --> 01:27.080
+OK.
+
+01:28.870 --> 01:30.030
+It's like we didn't the last one.
+
+01:30.060 --> 01:36.390
+Teacher equals formatted name Tony
+
+01:40.060 --> 01:45.320
+James which is my middle name name of my grandad started.
+
+01:45.680 --> 01:46.430
+OK.
+
+01:47.590 --> 01:50.990
+Print teacher.
+
+01:52.020 --> 01:53.530
+Let's run us.
+
+01:53.650 --> 01:54.300
+There we go.
+
+01:54.310 --> 02:00.610
+Tony James Dandan neatly and cleanly formatted that this function can handle the first middle and last
+
+02:00.610 --> 02:01.360
+name.
+
+02:01.360 --> 02:05.590
+However middle names are not always needed and as this function is at the moment it would not work if
+
+02:05.590 --> 02:08.600
+you try to use it without a middle name to make the middle name.
+
+02:08.600 --> 02:13.360
+Option B can give the middle name argument an empty default value and ignore the argument unless it
+
+02:13.360 --> 02:19.500
+is provided with a value the next code example we set the default value of a name to an empty string
+
+02:19.740 --> 02:21.800
+and move it to the end of the list of parameters.
+
+02:21.840 --> 02:24.180
+So let's have a look at exactly how we do it.
+
+02:24.750 --> 02:28.670
+Well let's take this much code here so delete does.
+
+02:28.680 --> 02:31.100
+So we're starting just the need to comment again.
+
+02:31.410 --> 02:31.830
+Let's go.
+
+02:31.830 --> 02:37.500
+So if middle name so if we got a middle name well then fullname
+
+02:40.520 --> 02:48.740
+will be first name plus space plus middle name
+
+02:51.650 --> 02:55.400
+space plus last name.
+
+02:58.120 --> 03:13.530
+Otherwise else our full name is going to be first name plus space plus last name and then a return value
+
+03:13.530 --> 03:18.640
+is going to be return phone name that title.
+
+03:18.690 --> 03:21.590
+So right away we can handle it with or without a middle name.
+
+03:21.840 --> 03:25.620
+OK now let's call our formatted names so teacher.
+
+03:25.650 --> 03:26.520
+Just like last one.
+
+03:26.570 --> 03:28.820
+Format a name.
+
+03:29.160 --> 03:36.630
+So it's going to have Tony as a first name Staunton as a second name and know the word Name the middle
+
+03:36.630 --> 03:37.330
+name sorry.
+
+03:37.500 --> 03:39.470
+Well that's going to be James just like the last example.
+
+03:39.480 --> 03:44.670
+But before we put that in we need make a change in the parameters of our function so we need to just
+
+03:44.670 --> 03:46.410
+remove the middle name from here.
+
+03:46.520 --> 03:54.160
+So let me just command an X that and now we need to put it in here and explain why now in a moment and
+
+03:54.160 --> 03:56.770
+what we need to do is because middle name is optional.
+
+03:56.820 --> 03:58.850
+We now need to give that an empty string.
+
+04:00.820 --> 04:02.180
+And that's it don't now.
+
+04:02.320 --> 04:07.390
+So middle name now its default value is an empty string so it's not provided for middle name but just
+
+04:07.390 --> 04:08.620
+take an empty string value.
+
+04:10.060 --> 04:15.520
+Here we finish this off with James and that's the middle name.
+
+04:18.080 --> 04:23.380
+Now and the reason we've changed the order of these is because middle name may not often be provided.
+
+04:23.450 --> 04:25.040
+Some users may or may not provide it.
+
+04:25.210 --> 04:29.450
+And because of that we moved at the end of our function called the end of our arguments in our function
+
+04:29.450 --> 04:30.380
+call.
+
+04:31.010 --> 04:35.770
+OK so let's print teacher and let's see what we got.
+
+04:35.780 --> 04:36.530
+There we go.
+
+04:36.530 --> 04:37.930
+Tony James Staunton.
+
+04:38.270 --> 04:43.740
+So Tony Stanton James so reordered into first name middle name last name.
+
+04:43.980 --> 04:45.400
+OK so far so good.
+
+04:45.530 --> 04:53.690
+So what happens when we don't have a middle name teacher equals former name.
+
+04:53.720 --> 04:57.440
+Tony stander.
+
+04:57.650 --> 04:58.120
+Here we go.
+
+04:58.130 --> 05:04.070
+Let's see what that gives us like gives us an error because I am too ahead of myself and I forgot my
+
+05:04.070 --> 05:05.140
+print statement.
+
+05:05.390 --> 05:06.990
+And let's see what that gives us.
+
+05:08.080 --> 05:08.900
+There we go.
+
+05:08.950 --> 05:14.560
+Our second one here Tony Standen so we don't have to put an ad middle name the middle name is now a
+
+05:14.560 --> 05:17.120
+default option for a user.
+
+05:17.120 --> 05:22.090
+Optional values allow function to handle a wide range of user cases while letting function calls remain
+
+05:22.150 --> 05:24.160
+as simple as possible.
+
+05:24.220 --> 05:25.630
+So I hope all that made sense.
+
+05:25.630 --> 05:30.010
+As always if you have any questions please not hesitate to contact me and I'll see you in the next lecture.
+
+05:30.010 --> 05:30.330
+Thank you.

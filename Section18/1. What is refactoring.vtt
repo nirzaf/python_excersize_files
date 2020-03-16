@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00.390 --> 00:02.040
+Hi everybody and welcome back.
+
+00:02.040 --> 00:08.310
+Now the last lecture we combined two programs into one program that improved both the programs and that's
+
+00:08.310 --> 00:13.590
+something that's called refactoring refactoring means to go over your old code and make improvements
+
+00:13.740 --> 00:16.920
+with the things you've learned along your programming journey.
+
+00:16.920 --> 00:22.230
+So as I've said before in previous lectures getting your code doing what you need to do is your top
+
+00:22.230 --> 00:27.550
+priority but there will come a point when your code will work and you'll recognize it can be improved.
+
+00:27.600 --> 00:29.590
+And this is when refactoring comes in.
+
+00:29.790 --> 00:34.120
+Refactoring makes your code cleaner easier to understand and easier to extend.
+
+00:34.120 --> 00:39.450
+So when you're finished of course don't be afraid to revisit your old programs and see if and how you
+
+00:39.450 --> 00:40.590
+can improve them.
+
+00:40.590 --> 00:42.400
+Thanks for listening and I'll see you in the next lecture.

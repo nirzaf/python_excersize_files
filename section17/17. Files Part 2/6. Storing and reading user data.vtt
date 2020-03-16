@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.750 --> 00:02.220
+Hi everybody and welcome back.
+
+00:02.220 --> 00:06.840
+Now let's look an example of storing user data so that when you use or close the program their info
+
+00:06.840 --> 00:07.800
+is not lost.
+
+00:07.980 --> 00:10.440
+Well then write a program to read it back.
+
+00:10.440 --> 00:11.340
+So how do we kick off.
+
+00:11.340 --> 00:16.050
+Well I've created a new file called storing user storing and reading user data and as you can see here
+
+00:16.080 --> 00:18.030
+I just changed my description in the comments.
+
+00:18.360 --> 00:22.320
+So for us like last lectures we import Jason.
+
+00:22.590 --> 00:29.900
+Next we create a very user name equals input.
+
+00:30.120 --> 00:34.010
+What is your user name.
+
+00:35.540 --> 00:42.970
+Next file names are creating a filename variable equals quote username.
+
+00:43.250 --> 00:46.010
+Jason.
+
+00:46.050 --> 00:56.200
+Now with open file name w surrounded by single quotes as File object
+
+01:00.230 --> 01:06.880
+colon J sunder dump or adjacent that dump method like we saw in previous lectures.
+
+01:06.970 --> 01:07.580
+Username
+
+01:10.120 --> 01:11.150
+file object
+
+01:13.930 --> 01:17.350
+print.
+
+01:17.410 --> 01:22.230
+Thank you.
+
+01:22.490 --> 01:23.300
+Remember you
+
+01:28.740 --> 01:32.100
+when you come back.
+
+01:32.350 --> 01:33.320
+OK there we go.
+
+01:34.650 --> 01:39.180
+Now let's say that not going to write and I'm going to jump on over to Idylls because as we know we're
+
+01:39.180 --> 01:41.230
+now a blank cannot take user input.
+
+01:41.240 --> 01:42.850
+So copy this and I'll see you in a second.
+
+01:42.850 --> 01:43.420
+In idle.
+
+01:43.530 --> 01:44.360
+OK welcome back.
+
+01:44.380 --> 01:50.390
+We are an idle and let's run this program what is your user name.
+
+01:50.390 --> 01:52.780
+Tony S Thank you.
+
+01:52.780 --> 01:54.210
+I'll remember you when you come back.
+
+01:54.280 --> 01:57.870
+OK so how do you get that information back out to the user.
+
+01:57.910 --> 01:58.750
+Well let's take a look.
+
+01:58.750 --> 02:00.930
+Let's jump on over back into our program.
+
+02:01.060 --> 02:02.250
+So here we are back and.
+
+02:02.290 --> 02:06.090
+And what we want to do is read our username back out to our user.
+
+02:06.340 --> 02:19.420
+So import J some file name equals quotes user name that Jason will have to the file name from a program
+
+02:19.420 --> 02:21.610
+previously with open
+
+02:24.660 --> 02:30.450
+file name as File object.
+
+02:30.450 --> 02:31.500
+There we go.
+
+02:31.660 --> 02:40.680
+Kholo username equals Jason Tarsh load.
+
+02:40.900 --> 02:44.370
+What are we loading we're loading our file object print
+
+02:48.660 --> 02:49.470
+Welcome back
+
+02:52.590 --> 03:00.650
+plus username plus exclamation in quotes of course.
+
+03:00.680 --> 03:03.660
+Now let's run a program and see what happens.
+
+03:03.680 --> 03:04.340
+There we go.
+
+03:04.340 --> 03:05.030
+Welcome back.
+
+03:05.060 --> 03:05.730
+Tony Yes.
+
+03:05.810 --> 03:06.400
+Excellent.
+
+03:06.500 --> 03:10.940
+So we've taken in what a user wants to be the user name and we put it back to the screen when they log
+
+03:10.940 --> 03:11.420
+back in.
+
+03:11.420 --> 03:15.740
+So this can work in any program where you're taking any user name and work on them back.
+
+03:15.860 --> 03:17.660
+Once they log back in.
+
+03:17.660 --> 03:22.580
+So in this one this program we use Jason that low to read information stored and username but Jason
+
+03:22.820 --> 03:28.070
+into the Facebook username and I put that back to the screen let's look at combining these two programs
+
+03:28.070 --> 03:32.630
+together sort of combine the two programs let's just get rid of what we have here.
+
+03:32.700 --> 03:37.010
+Let's start off with our import Jason.
+
+03:37.390 --> 03:40.010
+Filename equals
+
+03:42.600 --> 03:46.740
+user name Jason.
+
+03:47.220 --> 03:49.960
+Letter space there should be no space there Jason.
+
+03:50.280 --> 03:54.430
+Next we're going to implement something that we've seen previously try.
+
+03:54.780 --> 03:57.740
+So you can guess what that is wide open.
+
+03:58.320 --> 03:58.880
+So what are we doing.
+
+03:58.880 --> 04:03.120
+We're opening our file name file object
+
+04:07.280 --> 04:13.310
+username equals Jason load
+
+04:17.530 --> 04:18.820
+file object.
+
+04:19.320 --> 04:20.170
+OK.
+
+04:20.650 --> 04:23.010
+Now what happens if we don't find that file.
+
+04:23.500 --> 04:25.450
+Well we say except
+
+04:28.950 --> 04:32.080
+the file not found error
+
+04:35.780 --> 04:38.200
+username equals
+
+04:42.630 --> 04:46.760
+input.
+
+04:46.960 --> 04:52.350
+What is your username then.
+
+04:52.380 --> 04:57.890
+With open file name
+
+05:00.990 --> 05:05.700
+w because we want to write it as file as File object.
+
+05:05.710 --> 05:06.790
+Jason dump
+
+05:11.320 --> 05:19.760
+user name file object to put the file object into a file username and then print
+
+05:23.980 --> 05:26.100
+Thank you.
+
+05:26.100 --> 05:33.450
+I will remember you when you come back.
+
+05:33.460 --> 05:34.370
+There we go.
+
+05:37.880 --> 05:46.980
+Outs print.
+
+05:47.020 --> 05:49.300
+Welcome back.
+
+05:49.300 --> 05:54.180
+Plus user name plus quotes.
+
+05:54.220 --> 05:55.120
+Exclamation mark.
+
+05:55.120 --> 05:56.070
+There we go.
+
+05:56.180 --> 05:59.200
+That saved us now and hoping to Idol and see how it runs.
+
+05:59.230 --> 06:04.120
+We are back in Idol and let's run this program what is your username.
+
+06:04.230 --> 06:05.990
+Tony S.
+
+06:06.250 --> 06:06.730
+Thank you.
+
+06:06.730 --> 06:08.280
+I remember you when you come back.
+
+06:08.620 --> 06:11.220
+OK so does it actually remember us when we come back.
+
+06:11.260 --> 06:12.590
+Well let's take a look.
+
+06:12.640 --> 06:15.610
+Let's close this let's run this program again.
+
+06:15.610 --> 06:16.300
+There we go.
+
+06:16.300 --> 06:17.750
+Welcome back Tony.
+
+06:17.890 --> 06:18.740
+Perfect.
+
+06:18.760 --> 06:21.040
+Now in this program there is no new code.
+
+06:21.160 --> 06:23.160
+Just two previous examples combined.
+
+06:23.290 --> 06:25.140
+We began by importing Jaison.
+
+06:25.180 --> 06:30.250
+We then tried to open the file username that Jason that this file exists we use named back into memory
+
+06:30.490 --> 06:34.090
+and we then print the message welcoming welcoming back the user.
+
+06:34.090 --> 06:36.040
+It is the first time the user runs a program.
+
+06:36.070 --> 06:41.180
+Then the file user name but JCL will not exist and a file not found error might occur.
+
+06:41.420 --> 06:46.060
+Client will then move on to the access block where we prompt the user to enter the user name.
+
+06:46.060 --> 06:50.280
+We then use JSM that dump method to store to use name and print a greeting.
+
+06:50.320 --> 06:53.010
+So that's a combination of the previous two examples.
+
+06:53.200 --> 06:58.060
+And not only is that a combination of the last two files but is also something called refactoring which
+
+06:58.060 --> 07:00.090
+is work to improve our programs.
+
+07:00.220 --> 07:02.200
+And we'll talk about that briefly in the next section.
+
+07:02.320 --> 07:04.330
+Thanks for listening and I'll see you in the next lecture.

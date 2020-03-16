@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.770 --> 00:05.390
+Hi everybody and welcome back in this lecture we're going to look at how to modify an attribute value
+
+00:05.400 --> 00:11.870
+to a method so we can have methods that update certain attributes for us instead of accessing the attributes
+
+00:11.870 --> 00:17.060
+that directly like we did in the last lecture we can pass the new value to a method that handles the
+
+00:17.060 --> 00:18.420
+updating inherently.
+
+00:18.560 --> 00:19.970
+So let's look another example.
+
+00:20.150 --> 00:25.790
+So as you can see I have my class e-reader here and I just remove the last few lines from The Last Lecture.
+
+00:25.790 --> 00:31.790
+So in this example we are going to modify our e-reader class with the addition of a new method and let's
+
+00:31.790 --> 00:33.230
+add that method now.
+
+00:33.230 --> 00:34.700
+So here we go.
+
+00:37.010 --> 00:48.420
+And it goes here the F I'm going to call this update library count so you can tell from our name.
+
+00:48.570 --> 00:54.990
+I'm going to have solve this is going to take a new parameter and we're going to call it book can't
+
+00:55.080 --> 01:00.940
+actually e-book can't because that's what it's doing counting our e-books for our library.
+
+01:01.000 --> 01:03.990
+Colin we have to give it a description.
+
+01:04.200 --> 01:06.060
+Set the library.
+
+01:07.110 --> 01:09.150
+And there we go.
+
+01:10.690 --> 01:12.200
+Now what we wanted to do.
+
+01:12.220 --> 01:14.450
+Well we wanted to take our library count.
+
+01:14.560 --> 01:18.310
+So self-taught library count.
+
+01:18.760 --> 01:19.670
+I'm going to give us.
+
+01:19.780 --> 01:26.210
+We're going to make it equal to or e-book count so how many e-books that we actually have now and how
+
+01:26.210 --> 01:27.970
+do we call this how do we make this work.
+
+01:28.100 --> 01:38.220
+Well we got to the end of our program and we say my new e-reader does updates library count and what
+
+01:38.220 --> 01:39.690
+value do we want to pass for a method.
+
+01:39.690 --> 01:44.630
+What we want to pass let's say 48 so we have 48 books we get 48 books are doing well.
+
+01:44.670 --> 01:53.410
+My new e-reader that and we want to call our previous method we just read library count read library
+
+01:53.410 --> 01:54.870
+count brackets.
+
+01:54.880 --> 01:57.200
+OK let's see what we get.
+
+01:57.200 --> 01:58.010
+There you go.
+
+01:58.090 --> 02:00.490
+You have 48 books in your library.
+
+02:00.490 --> 02:06.730
+So in this example we modify our e-reader class with the addition of update library count here.
+
+02:06.790 --> 02:13.910
+This method takes in AIM and the Count and stores it in self-taught library count at line 33.
+
+02:14.200 --> 02:18.730
+We call update library count and give it 48 as an argument.
+
+02:18.730 --> 02:24.520
+It sets the library count to 48 and read library count prints out the new reading.
+
+02:24.520 --> 02:25.650
+Hope that made sense.
+
+02:25.660 --> 02:28.290
+It's another simple way to modify an attribute value.
+
+02:28.660 --> 02:29.380
+Thank you for listening.
+
+02:29.380 --> 02:33.350
+And if any questions please do not hesitate to contact me and I'll see you in the next lecture.

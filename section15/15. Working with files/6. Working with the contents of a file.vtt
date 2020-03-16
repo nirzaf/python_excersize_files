@@ -1,0 +1,160 @@
+WEBVTT
+
+00:03.320 --> 00:04.750
+Hi everybody and welcome back.
+
+00:04.760 --> 00:09.830
+Now in our last lecture we looked at reading the contents of a file into a list and it was this program
+
+00:09.830 --> 00:10.560
+here.
+
+00:10.670 --> 00:12.230
+So I run it again.
+
+00:12.230 --> 00:17.420
+I get the contents of my file in a list and as I said even though it looks like the output of previous
+
+00:17.420 --> 00:20.630
+lectures before it out it's very different because it's in a list.
+
+00:20.630 --> 00:23.830
+And once we have our information in a list we can start to work with it.
+
+00:23.930 --> 00:25.040
+So let's see what can we do.
+
+00:25.040 --> 00:30.260
+Well if you go back to the section on lists you'll get some ideas of what we can do such as popping
+
+00:30.260 --> 00:33.710
+items from the list sorting lists and so on and so on.
+
+00:33.710 --> 00:35.420
+So let's just start here with print
+
+00:38.340 --> 00:39.410
+backslash new line.
+
+00:39.420 --> 00:43.230
+Let's add in some hyphens just so we can separate out a different list.
+
+00:43.230 --> 00:45.510
+I don't know where it starts and ends.
+
+00:45.660 --> 00:46.550
+New line again.
+
+00:46.570 --> 00:47.770
+And there we go.
+
+00:47.790 --> 00:53.260
+So let's just say that we want to remove an item from our list.
+
+00:53.260 --> 00:53.910
+How do we do that.
+
+00:53.920 --> 00:55.580
+Well let's use the pop method.
+
+00:56.020 --> 01:03.340
+So pop movies or pop movie equals lines that pop.
+
+01:03.520 --> 01:07.100
+So we used this method way back when in our section so go back there.
+
+01:07.100 --> 01:11.740
+Now have a lot to do and get some ideas of how you can start to manipulate the information from a file.
+
+01:11.830 --> 01:13.280
+When you put it into a list.
+
+01:13.360 --> 01:14.110
+So with that there.
+
+01:14.110 --> 01:15.820
+Now let's look at your list again.
+
+01:15.820 --> 01:18.730
+So for line in lines
+
+01:24.660 --> 01:28.590
+line dot strip OK.
+
+01:28.620 --> 01:30.800
+Let's run that and see what we got.
+
+01:30.810 --> 01:31.550
+There we go.
+
+01:31.550 --> 01:33.490
+So let me just move this up a little bit.
+
+01:33.570 --> 01:39.780
+So there's a first list and that is 12 12 item long list there.
+
+01:39.810 --> 01:45.330
+Now as you can see at the end of our second list Max Foster who directed Quantum of Solace has been
+
+01:45.330 --> 01:47.120
+removed from our list.
+
+01:47.120 --> 01:47.740
+OK.
+
+01:48.020 --> 01:51.070
+So there's one example.
+
+01:51.110 --> 01:52.000
+What else can we do.
+
+01:52.130 --> 01:56.310
+Well let's just copy this and create a new line again.
+
+01:56.630 --> 01:57.510
+There we go.
+
+01:57.770 --> 02:08.030
+Let's say we want to sort our list alphabetically sorted list equals lines that sort.
+
+02:08.030 --> 02:09.480
+And again let's look at your list.
+
+02:09.510 --> 02:12.270
+So for line in lines.
+
+02:12.500 --> 02:12.970
+Print line
+
+02:16.140 --> 02:19.180
+dot strip removing any and all whitespace.
+
+02:19.410 --> 02:20.580
+That's Ramdass.
+
+02:20.970 --> 02:21.480
+And there we go.
+
+02:21.480 --> 02:24.290
+Now let me just expand this up again.
+
+02:25.230 --> 02:29.260
+You can see here now that our target list has been arranged alphabetically.
+
+02:29.430 --> 02:30.030
+OK.
+
+02:30.030 --> 02:33.780
+So I hope that gives you an example of what you can do once you have your files contents read into a
+
+02:33.780 --> 02:34.440
+list.
+
+02:34.440 --> 02:38.710
+So if you want more ideas on what you can do with your files go back to the section on list.
+
+02:38.760 --> 02:42.150
+Have a look there and get some ideas on how you can manipulate your list.
+
+02:42.150 --> 02:43.890
+Thanks for listening and I'll see you in the next Lechter.

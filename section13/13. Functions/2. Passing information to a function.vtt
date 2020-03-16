@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.760 --> 00:02.470
+Hi everybody and welcome back.
+
+00:02.470 --> 00:07.960
+Now we can update our Hello world function from our last lecture to not only say hello world but also
+
+00:07.960 --> 00:11.090
+give us back a name for a function to do this.
+
+00:11.140 --> 00:15.400
+We enter a username in the brackets of the function's definition of def.
+
+00:15.430 --> 00:16.260
+Hello world.
+
+00:16.390 --> 00:18.050
+So let's just do that now.
+
+00:18.610 --> 00:22.760
+So we started off again so we have our comments and we're going to start from scratch again.
+
+00:22.990 --> 00:24.860
+DPF Hello world.
+
+00:27.650 --> 00:31.580
+And now in the last one we know we know information to pass into our brackets what we're going to do
+
+00:31.780 --> 00:32.590
+now.
+
+00:33.160 --> 00:39.470
+So we add user name by adding user name here we allow a function to accept and the value of user name
+
+00:39.470 --> 00:43.700
+we specify our function now expects us to provide a value for user name.
+
+00:43.700 --> 00:45.320
+Each time we call it.
+
+00:45.350 --> 00:49.010
+So again let's describe our function and we do that with three double quotes
+
+00:54.920 --> 00:56.730
+showing a user name.
+
+00:57.440 --> 00:58.090
+OK.
+
+00:58.100 --> 01:02.500
+And because of a treatable quote again this time we go print Hello
+
+01:07.810 --> 01:10.580
+plus user name.
+
+01:10.660 --> 01:14.080
+Don't forget our title that we saw at the very beginning.
+
+01:14.200 --> 01:17.310
+Plus post-up.
+
+01:17.520 --> 01:18.250
+OK.
+
+01:18.490 --> 01:24.030
+The variable use a name and definition of hello world is an example of a parameter a piece of information.
+
+01:24.040 --> 01:28.180
+The function needs to do its job and then to finish off a program we enter in again.
+
+01:28.180 --> 01:29.320
+Hello world.
+
+01:29.480 --> 01:33.840
+But we must pass it some more information that we're going to give it or use name here Tony.
+
+01:34.060 --> 01:39.130
+The value Tony is an example of an argument an argument is a piece of information that is passed from
+
+01:39.130 --> 01:42.750
+a function call to a function or a function call is here.
+
+01:42.880 --> 01:49.590
+Hello world and this here beginning with F is our function when we call the function.
+
+01:49.590 --> 01:53.880
+We place the value we want the function to work with in the brackets.
+
+01:53.940 --> 01:56.630
+In this example the argument Tony was passed at a function.
+
+01:56.700 --> 01:57.560
+Hello world.
+
+01:57.730 --> 02:00.850
+And the value was stored in the parameter username.
+
+02:00.960 --> 02:03.480
+So let's run this and see what we get.
+
+02:03.510 --> 02:04.120
+There we go.
+
+02:04.230 --> 02:09.330
+Hello Tony capsulized would a full stop so not a very simple example.
+
+02:09.340 --> 02:14.700
+An introduction to functions this time about how we can pass information to a function and later lectures.
+
+02:14.770 --> 02:19.740
+We look at how we can do this dynamically without having the predefined argument as we did here.
+
+02:20.020 --> 02:21.880
+Thank you for listening and I'll see you in the next Lechter.

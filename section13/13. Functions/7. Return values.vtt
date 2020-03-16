@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.360 --> 00:01.700
+Hi everybody and welcome back.
+
+00:01.710 --> 00:06.150
+Now in this lecture we're going to be looking at returning a value so a function doesn't always have
+
+00:06.150 --> 00:07.750
+to display its output directly.
+
+00:07.950 --> 00:13.050
+Instead it can process some data and return a value or a set of values the value to a function returns
+
+00:13.130 --> 00:14.910
+is called the return value.
+
+00:14.910 --> 00:19.500
+The return statement takes a value from inside a function and sends it back to the line to call the
+
+00:19.500 --> 00:20.530
+function.
+
+00:20.530 --> 00:23.840
+So let's take a look in the example and let's start off with something simple.
+
+00:23.970 --> 00:26.050
+Let's format a name.
+
+00:26.340 --> 00:34.110
+So as always I've opened up with some comments and let's define our function so formatted name.
+
+00:34.110 --> 00:35.700
+That's our function name.
+
+00:35.700 --> 00:41.030
+So what do we have we have our first name and we have our last name.
+
+00:41.710 --> 00:43.860
+OK and there we go.
+
+00:44.220 --> 00:47.240
+Then we describe our function with our three quotes.
+
+00:47.240 --> 00:47.850
+Return
+
+00:51.720 --> 00:58.180
+return a formatted name close with quotes.
+
+00:58.800 --> 01:01.480
+OK so what this is going to be it's gonna become a fun name.
+
+01:01.770 --> 01:03.400
+So full name equals.
+
+01:03.530 --> 01:04.820
+And what's it gonna be.
+
+01:04.840 --> 01:13.030
+It's going made up our first name plus a space Don't forget you have to add into space and our last
+
+01:13.030 --> 01:13.670
+name.
+
+01:14.120 --> 01:24.000
+OK and when we wanted to return full name we want to make sure that everything is properly uppercase.
+
+01:24.170 --> 01:25.540
+Let's work on calling this now.
+
+01:25.550 --> 01:35.020
+So let's say a teacher which is myself I suppose equals formatted name I want to format that and let's
+
+01:35.030 --> 01:38.610
+give it two values Tony and start.
+
+01:38.660 --> 01:40.640
+Obviously this can be your name.
+
+01:40.680 --> 01:45.510
+Print teacher.
+
+01:45.510 --> 01:46.180
+There we go.
+
+01:46.220 --> 01:48.440
+Let's call that now and see what we get.
+
+01:50.800 --> 01:51.380
+Error.
+
+01:51.560 --> 01:52.190
+Why.
+
+01:52.380 --> 01:55.290
+Well that is because I misspelt return which is appalling.
+
+01:55.310 --> 01:56.260
+Apologies for that.
+
+01:56.510 --> 01:57.880
+So let's run it again.
+
+01:58.460 --> 01:59.350
+And there we go.
+
+01:59.460 --> 02:03.000
+A nice clean formatted output of a name.
+
+02:03.050 --> 02:08.150
+So what you can imagine this is a application so an online form or signing a web app or whatever it
+
+02:08.140 --> 02:10.420
+might be and the user when the entry into name.
+
+02:10.460 --> 02:15.500
+We don't know if you're going to Andrine Tony uppercase lowercase Staunton or briquets lowercase.
+
+02:15.530 --> 02:20.170
+What this does is it ensures that the output is the same formatted way each time.
+
+02:20.300 --> 02:25.130
+Let's look at another example and let's look at a user name.
+
+02:25.340 --> 02:26.480
+So let's have a look here.
+
+02:26.480 --> 02:28.640
+So again we start off defining our function.
+
+02:28.640 --> 02:29.960
+Get formatted
+
+02:33.530 --> 02:40.100
+username OK and as username is going to be somebody's email address or entity or SS email address.
+
+02:40.120 --> 02:41.190
+OK.
+
+02:41.840 --> 02:50.840
+And as always with our quotes return a formatted username.
+
+02:50.850 --> 02:53.150
+Here we go closer quote.
+
+02:53.360 --> 03:03.360
+So a user name equals email address dot strip and if you remember district when you use a string strips
+
+03:03.370 --> 03:09.280
+out all the whitespace or somebody puts in whitespace before or after your email address.
+
+03:09.280 --> 03:10.360
+Obviously that's not going to work.
+
+03:10.390 --> 03:12.680
+This will strip out any error like that.
+
+03:12.790 --> 03:26.460
+So return username than user equals get formatted username and let's give it Tony an example.
+
+03:26.990 --> 03:28.200
+Dotcom.
+
+03:28.250 --> 03:30.310
+And don't forget you need to enclose this in quotes.
+
+03:30.310 --> 03:31.420
+Let me just do that now.
+
+03:31.420 --> 03:35.280
+Quote And let's just add in some whitespace here.
+
+03:35.360 --> 03:38.050
+So let's just add and there we go.
+
+03:38.120 --> 03:40.850
+Print user.
+
+03:41.020 --> 03:47.030
+OK now if it doesn't work we should have a big chunk of whitespace to the right of our email address
+
+03:47.110 --> 03:49.420
+that runs.
+
+03:49.510 --> 03:50.110
+There we go.
+
+03:50.120 --> 03:51.870
+No whitespace here.
+
+03:51.890 --> 03:53.730
+Very very nice.
+
+03:53.780 --> 03:59.860
+So that's how again you can clean up user input related to an email address or a username.
+
+04:00.060 --> 04:01.200
+So I hope that makes sense.
+
+04:01.290 --> 04:05.580
+Thanks for listening and as always if you have any questions please do not hesitate to contact me and
+
+04:05.580 --> 04:06.800
+I'll see you in the next lecture.

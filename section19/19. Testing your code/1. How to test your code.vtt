@@ -1,0 +1,388 @@
+WEBVTT
+
+00:02.880 --> 00:04.470
+Hi everybody and welcome back.
+
+00:04.470 --> 00:07.560
+Now the next few lectures we're going to talk about testing your code.
+
+00:07.980 --> 00:12.060
+So whenever you write a function or class in Spuyten You could also write tests to make sure that they
+
+00:12.060 --> 00:13.650
+work as expected.
+
+00:13.650 --> 00:18.360
+The advantage of writing tests is that when it comes time for users to start using your programs you
+
+00:18.360 --> 00:20.360
+can be certain that they work as expected.
+
+00:21.070 --> 00:26.690
+You will also be able to test new code as is out to ensure it does not affect your programs in an unexpected
+
+00:26.690 --> 00:27.350
+way.
+
+00:27.350 --> 00:33.200
+Let's start off by testing a function to start testing we need some code that's right now a simple function
+
+00:33.270 --> 00:36.490
+that takes in the first and last name and returns them cleanly format.
+
+00:36.620 --> 00:42.040
+So TGF get formatted name.
+
+00:42.620 --> 00:47.960
+What are the parameters first last there we go.
+
+00:47.960 --> 00:56.190
+Don't forget our colon generate a formatted name.
+
+00:56.590 --> 00:57.360
+OK.
+
+00:58.760 --> 01:01.760
+So that's create a very full name.
+
+01:02.270 --> 01:07.950
+Equals first Plus space.
+
+01:09.720 --> 01:16.150
+But it's not a plus it's an underscore Plus space plus last name.
+
+01:16.710 --> 01:18.860
+And we go return
+
+01:21.650 --> 01:24.060
+full name title.
+
+01:24.940 --> 01:25.540
+OK.
+
+01:26.730 --> 01:29.570
+Now to check that our function here works as we expected.
+
+01:29.670 --> 01:31.590
+Let's create a program that use it.
+
+01:31.590 --> 01:34.230
+So here I am now in my program that's going to test our functions.
+
+01:34.230 --> 01:35.180
+So let's get started.
+
+01:35.220 --> 01:37.740
+Let's write a program now to test our function.
+
+01:38.010 --> 01:38.820
+So from
+
+01:41.360 --> 01:52.200
+test function one import gets formatted name.
+
+01:52.310 --> 01:57.650
+Let's just double check you get formatted names so we're importing that function print
+
+02:01.160 --> 02:08.220
+into Q to quit this program.
+
+02:08.220 --> 02:08.990
+There we go.
+
+02:10.280 --> 02:11.370
+Now we're putting in a flag.
+
+02:11.390 --> 02:12.530
+So while true
+
+02:15.620 --> 02:18.100
+our first name equals input
+
+02:22.100 --> 02:29.060
+backslash and New Line Please enter your first name.
+
+02:29.060 --> 02:30.010
+There we go.
+
+02:32.480 --> 02:41.390
+Next if first is q then we're going to break.
+
+02:41.530 --> 02:44.330
+Don't forget your colon break.
+
+02:44.330 --> 02:46.350
+There we go.
+
+02:46.350 --> 02:48.980
+Last equals our last name equals the input.
+
+02:48.980 --> 02:54.530
+Again we'll be looking for input from the user and we putting this on a nice clean new line backslash.
+
+02:54.560 --> 03:00.780
+And please enter your last name.
+
+03:00.910 --> 03:02.520
+There we go again.
+
+03:02.560 --> 03:08.950
+If the last Q column break.
+
+03:10.010 --> 03:11.830
+Now we want to call it function.
+
+03:12.340 --> 03:13.660
+So format name
+
+03:17.430 --> 03:27.750
+name ECOs get formatted name what premolars passing where we're passing our first or last input from
+
+03:27.750 --> 03:29.310
+the user.
+
+03:29.380 --> 03:29.770
+Print
+
+03:33.120 --> 03:36.660
+your name is because you didn't know your name.
+
+03:36.660 --> 03:39.050
+Plus formatted name
+
+03:42.450 --> 03:43.860
+plus full stop.
+
+03:43.990 --> 03:46.590
+Not to give out a cleanly formatted name.
+
+03:46.650 --> 03:47.300
+Funny.
+
+03:47.520 --> 03:50.480
+OK so let's jump on over to idle and run this program.
+
+03:50.760 --> 03:51.800
+OK so here we are.
+
+03:51.960 --> 03:52.940
+Let's run this program.
+
+03:53.010 --> 03:54.600
+Here's our program running.
+
+03:54.600 --> 03:59.610
+Tony Stonehill your name is Tony Stanton.
+
+03:59.660 --> 04:03.070
+Q Okay so everything is running as we expect.
+
+04:03.850 --> 04:07.150
+But what have you wanted to modify our program to include a middle name.
+
+04:07.150 --> 04:10.990
+We want to make sure that our new code does not break our function.
+
+04:10.990 --> 04:15.490
+We can test it manually like we just did but that will get very tedious having to test it every time
+
+04:15.490 --> 04:20.970
+we made a change to help us out and provides a way of automating the testing for functions output.
+
+04:21.160 --> 04:22.070
+Let's take a look.
+
+04:23.350 --> 04:28.750
+The model unit tests from the plight and standard library provides tools for testing your code a unit
+
+04:28.750 --> 04:33.520
+test verifies that one specific aspect of a function's behavior is working.
+
+04:33.520 --> 04:37.920
+A test case is a collection of unit tests that they get to prove that a function behaves as it's supposed
+
+04:37.920 --> 04:41.340
+to to write a test case for a function.
+
+04:41.550 --> 04:44.960
+We import to unit test module and the function we want to test.
+
+04:45.150 --> 04:50.070
+We then create a class that inherits from UNIT TEST TEST CASE and write a series of methods to test
+
+04:50.070 --> 04:51.690
+different aspects of our functions.
+
+04:51.780 --> 04:57.360
+Let's look at a test case with one method that verifies that the function get name works correctly and
+
+04:57.380 --> 05:01.730
+provide you with a forced laugh and say OK everybody so here we are back and so polite.
+
+05:01.740 --> 05:07.740
+And as I just said let's start with import units test.
+
+05:07.740 --> 05:15.450
+Here we go now from test function underscore one which is were which was our first file you can see
+
+05:15.450 --> 05:23.850
+the name appear import get formatted name which was the function we Roche.
+
+05:24.150 --> 05:32.810
+Next we have a class names test case.
+
+05:32.810 --> 05:33.920
+I'm going to explain all this now.
+
+05:33.930 --> 05:35.350
+Just a few minutes.
+
+05:35.370 --> 05:43.670
+So units got sorry units test that test case.
+
+05:43.890 --> 05:48.880
+CONAN And what's the description for this tests.
+
+05:50.880 --> 05:52.530
+For the test function one
+
+05:58.530 --> 05:59.350
+y.
+
+05:59.550 --> 06:00.160
+There we go.
+
+06:02.130 --> 06:04.630
+Next we define what we define a function.
+
+06:04.920 --> 06:09.390
+And what are we doing where we're testing our first and our last name
+
+06:12.320 --> 06:13.540
+one parameter self
+
+06:19.360 --> 06:26.100
+test first and last names we go.
+
+06:26.120 --> 06:27.290
+So for about a name
+
+06:31.550 --> 06:37.280
+equals get formatted name what information do we pass up when we pass.
+
+06:37.280 --> 06:39.020
+Tony stomata
+
+06:41.820 --> 06:43.470
+should be lower case.
+
+06:47.710 --> 06:54.880
+Now next self assert equal
+
+06:58.030 --> 06:59.810
+format a name.
+
+07:00.040 --> 07:01.220
+What's the output we expect.
+
+07:01.220 --> 07:02.780
+Well we expect it to look like this.
+
+07:02.780 --> 07:09.090
+Tony Stanton And finally what should have moved the bracket there now.
+
+07:09.100 --> 07:14.100
+And finally unit test that main.
+
+07:14.560 --> 07:16.640
+OK let's run this now and see what we get.
+
+07:17.020 --> 07:18.460
+OK successful test.
+
+07:18.460 --> 07:23.660
+If you look at the output here the first dot means we've run one test then we have a line break.
+
+07:23.740 --> 07:26.540
+You can say round one test in zero seconds and finished.
+
+07:26.540 --> 07:30.940
+Ok perfect so a function works performs the way we expect it to.
+
+07:30.940 --> 07:36.420
+Now let's just look back over this program and go through some of the bits that might be new to us at
+
+07:36.480 --> 07:37.360
+line 5.
+
+07:37.450 --> 07:40.330
+We import you to test followed by the functions we want to test.
+
+07:40.330 --> 07:44.100
+So these are the functions here we want to test next.
+
+07:44.140 --> 07:47.520
+We create a class called names test case here.
+
+07:47.560 --> 07:53.730
+This class will contain a series of tests for format a name you can name the class anything you want
+
+07:53.760 --> 07:57.690
+but try and call it something related to the function you are about to test and use the word test in
+
+07:57.690 --> 07:58.730
+the class name.
+
+07:59.160 --> 08:02.770
+The class must inherit from the class unit test that test case.
+
+08:02.880 --> 08:06.140
+So pite knows how to run our tests names.
+
+08:06.150 --> 08:12.240
+Test case contains a single method here which tests one aspect of format a name.
+
+08:12.250 --> 08:17.620
+This method is called a test for his last name and the method starting with test will be run automatically
+
+08:17.620 --> 08:20.050
+when we run unit tests that p y.
+
+08:20.060 --> 08:24.850
+So when we run this file into a test method we call the function we want to test and store a return
+
+08:24.850 --> 08:25.230
+value.
+
+08:25.240 --> 08:27.790
+We're interested in testing here at 9:15.
+
+08:27.790 --> 08:33.960
+We use a separate method this method verifies that the result we receive matches the results we expected.
+
+08:34.000 --> 08:39.340
+Which in this case it does we know to get format a name is supposed return a capitalized properly based
+
+08:39.340 --> 08:40.110
+name.
+
+08:40.180 --> 08:44.420
+We expect the value in formatted name to be Tony started to test this.
+
+08:44.440 --> 08:51.890
+We use unit test assert equal method and pansit format the name of Tony start in the line unit test.
+
+08:51.940 --> 08:55.000
+Main towns to run test in this file.
+
+08:55.090 --> 08:57.430
+So that's a brief introduction to tests.
+
+08:57.580 --> 09:02.260
+I could write a whole lecture series on tests but this is just an introduction to whet your appetite
+
+09:02.320 --> 09:06.490
+and let you know that tests are available automated to help you with your work.
+
+09:06.490 --> 09:08.360
+Thanks for listening and I'll see you in the next lecture.

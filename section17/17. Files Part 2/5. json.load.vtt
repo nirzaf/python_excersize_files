@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00.930 --> 00:04.130
+So how do we use Jason load to read or list back into memory.
+
+00:04.140 --> 00:08.670
+Well as you can see here I've created a new file called Jason download and I just change the title to
+
+00:08.670 --> 00:10.590
+working with Jason download.
+
+00:10.620 --> 00:11.810
+So what we do.
+
+00:11.820 --> 00:16.250
+Well again the first thing we need to do is import Jason.
+
+00:16.610 --> 00:17.090
+OK.
+
+00:17.100 --> 00:21.350
+Now the file name again so we're creating a variable equals.
+
+00:21.390 --> 00:23.760
+I'm always a fun name from The Last Lecture phone number
+
+00:26.260 --> 00:27.770
+Jason.
+
+00:28.570 --> 00:29.730
+OK.
+
+00:30.490 --> 00:35.050
+And with open pass or variable file name or just reading this.
+
+00:35.050 --> 00:39.480
+There's no need to put in an attribute file name as File object
+
+00:44.540 --> 00:47.370
+colon phone numbers.
+
+00:49.460 --> 00:54.370
+Equals Jason dot load.
+
+00:54.460 --> 00:57.710
+I to be loading what we're loading the file object variable.
+
+00:57.910 --> 01:01.100
+Then print phone numbers or printer or file.
+
+01:01.180 --> 01:06.760
+Print out the contents of a file that we've just created and now load it back into memory that's run
+
+01:06.760 --> 01:07.930
+this.
+
+01:07.960 --> 01:08.810
+There we go.
+
+01:09.040 --> 01:11.950
+1 2 3 4 5 6 7 8 9 0.
+
+01:11.950 --> 01:18.100
+So we've just seen how to create a file that saves user input and then have to load that file back into
+
+01:18.100 --> 01:20.240
+memory and output that back to the user.
+
+01:20.410 --> 01:26.600
+So here just a quick recap we make sure to read from the same file for name phone number.
+
+01:26.810 --> 01:34.390
+Then we open the file in read only mode and because we pass no attribute here such as W A or or it automatically
+
+01:34.390 --> 01:40.100
+opens in read only mode we don't use the adjacent download function here to load the information stored
+
+01:40.100 --> 01:44.090
+in our file and we store it in the variable phone numbers.
+
+01:44.480 --> 01:49.850
+And then here we print phone numbers so not too complicated but very very helpful.
+
+01:49.890 --> 01:51.810
+And an excellent program to know.
+
+01:52.010 --> 01:53.960
+So thanks for listening and I see you in the next lecture.

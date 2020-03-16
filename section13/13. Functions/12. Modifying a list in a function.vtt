@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.390 --> 00:01.840
+Hi everybody and welcome back.
+
+00:01.860 --> 00:03.450
+Now this lecture is a nice big chunky one.
+
+00:03.480 --> 00:04.850
+So let's get straight in.
+
+00:05.010 --> 00:08.390
+And this lecture is all about modifying a list within a function.
+
+00:08.700 --> 00:13.620
+So when we pass a list to a function the function can modify that list any changes we make the list
+
+00:13.650 --> 00:15.450
+within the function are permanent.
+
+00:15.660 --> 00:20.460
+Let's look an example consider an airline checking in system.
+
+00:20.490 --> 00:25.140
+So we have two types of passengers passengers that are not checked in on passengers that are checked
+
+00:25.140 --> 00:25.850
+in.
+
+00:25.860 --> 00:28.250
+So our software is going to do two things.
+
+00:28.380 --> 00:30.970
+It's going to list out the passengers who are not checked in.
+
+00:31.020 --> 00:35.460
+It's going to take them from the not checked in list and it's going to move them in to a chaplain list
+
+00:35.550 --> 00:41.720
+so passengers who are being confirmed to check in we're going to do this using two functions each one
+
+00:41.720 --> 00:43.000
+doing a specific job.
+
+00:43.100 --> 00:45.610
+One will handle do not check them passengers.
+
+00:45.810 --> 00:50.540
+And one will handle the checked passengers and each will print out a summary of passengers not checked
+
+00:50.540 --> 00:52.390
+in and checked in.
+
+00:52.400 --> 00:53.650
+So let's get started.
+
+00:54.020 --> 00:55.310
+That's the final function.
+
+00:55.310 --> 00:57.230
+So the passengers
+
+01:01.550 --> 01:08.890
+are going to have two parameters in here not checked and not checked and checked in
+
+01:11.600 --> 01:14.250
+OK.
+
+01:14.860 --> 01:16.770
+So let's give it description.
+
+01:16.890 --> 01:26.420
+Simulate passengers who are not checked in.
+
+01:26.420 --> 01:27.290
+Now here we go.
+
+01:27.670 --> 01:28.380
+So while
+
+01:31.160 --> 01:36.270
+not checked in now we're going to create a new variable here.
+
+01:36.450 --> 01:39.010
+So why not check in our current passenger.
+
+01:39.010 --> 01:41.460
+So imagine you're walking up to the check in desk at an airport.
+
+01:41.470 --> 01:43.240
+You are the current passenger.
+
+01:43.240 --> 01:44.230
+So our current passenger
+
+01:47.710 --> 01:49.540
+equals not checked in.
+
+01:49.570 --> 01:53.090
+Obviously you are not checked in yet you have just walked up to the check in desk.
+
+01:53.270 --> 01:58.640
+So what we want to do are not checked in passengers as pop each one from the list as they check in.
+
+01:58.660 --> 02:04.270
+So let's just add in a comment here simulates checking a passenger in
+
+02:08.620 --> 02:09.480
+and how do we do that.
+
+02:09.490 --> 02:17.620
+Well we give a print message print open up a quote checking in passenger
+
+02:20.470 --> 02:25.060
+and then we have colon space plus current passenger
+
+02:29.930 --> 02:37.970
+checked in pand Corrin passenger OK.
+
+02:38.360 --> 02:41.450
+Let's just briefly run through this wild statement again.
+
+02:41.450 --> 02:43.810
+So while are not checked and passengers.
+
+02:44.320 --> 02:46.920
+So for any passengers who are not checked in.
+
+02:47.360 --> 02:51.800
+Create a new variable called current passenger and assign that variable.
+
+02:51.980 --> 02:57.250
+One passenger at a time from are not checked in list so are popping off from the list one at a time.
+
+02:57.350 --> 02:58.340
+Next.
+
+02:58.340 --> 03:02.580
+Print out a message that says checking in passenger and current passenger.
+
+03:02.750 --> 03:08.660
+Then once that's done move the current passenger into our checked end list so that all sounds pretty
+
+03:08.670 --> 03:13.320
+straightforward and exactly what would happen if you were a passenger who is checking in at an airport.
+
+03:13.610 --> 03:16.850
+Now our second function show checked
+
+03:20.170 --> 03:22.460
+I spelt that right check in passengers.
+
+03:22.510 --> 03:26.760
+So you can tell straight away what this function is going to do.
+
+03:26.940 --> 03:27.430
+Checked in
+
+03:30.630 --> 03:32.300
+don't forget your colon.
+
+03:33.240 --> 03:42.840
+Open up your comments show all the passengers who have checked in.
+
+03:43.580 --> 03:48.030
+Know you've checked in at the front desk you've obviously been moved to checked in list because you've
+
+03:48.030 --> 03:49.920
+got your boarding pass or whatever it might be.
+
+03:49.920 --> 03:51.540
+And then you've gone through security.
+
+03:51.540 --> 03:52.200
+So print
+
+03:55.470 --> 04:01.360
+backslash and nice new line the following passengers.
+
+04:04.160 --> 04:06.350
+Have been checked in
+
+04:12.190 --> 04:12.650
+OK.
+
+04:12.680 --> 04:13.630
+What's next.
+
+04:13.640 --> 04:20.720
+Well for passengers in checked in or checked enlist print
+
+04:23.340 --> 04:27.150
+passengers something similar to what we've seen before.
+
+04:27.210 --> 04:34.040
+Now we want to create our two lists not checked in equals.
+
+04:34.250 --> 04:37.760
+We're going to do one passenger at the moment which is going to be myself just to make sure that we're
+
+04:37.760 --> 04:39.020
+working OK.
+
+04:39.380 --> 04:40.670
+Tony Staunton
+
+04:43.420 --> 04:45.830
+checked in is empty.
+
+04:46.060 --> 04:46.720
+Why is it empty.
+
+04:46.720 --> 04:50.860
+Because we're going to move to the list of non checked in passengers to checked in.
+
+04:50.890 --> 04:53.540
+So wandless will become the order essentially.
+
+04:53.740 --> 04:55.420
+Now we call two functions.
+
+04:55.420 --> 05:03.310
+First function is passengers and in that function we have to we passed two arguments not checked in
+
+05:04.090 --> 05:06.590
+and checked in.
+
+05:06.590 --> 05:08.410
+Next we call a second function.
+
+05:08.420 --> 05:13.920
+Show checked in passengers were only passing that one argument checked in.
+
+05:13.930 --> 05:16.110
+Now there's a lot going on there.
+
+05:16.150 --> 05:19.200
+Let's run this and keep our fingers crossed.
+
+05:19.580 --> 05:22.370
+And we have an error at line 18.
+
+05:22.600 --> 05:26.250
+That's the for passengers checked in.
+
+05:26.260 --> 05:29.150
+I forgot my colon.
+
+05:29.370 --> 05:32.660
+It's always one of my downfalls for getting the call and I don't know why going too fast.
+
+05:32.670 --> 05:39.050
+I suppose I do run it again like 19 print passengers because I forgot my colon it didn't invent.
+
+05:39.200 --> 05:40.830
+Let's try it again.
+
+05:40.830 --> 05:41.550
+Third time lucky.
+
+05:41.550 --> 05:44.330
+There we go check again passenger Tony Staunton.
+
+05:44.370 --> 05:46.260
+The following passengers have been checked in.
+
+05:46.320 --> 05:47.140
+Tony Staunton.
+
+05:47.280 --> 05:49.290
+OK so let's just expand out our list here.
+
+05:49.290 --> 05:51.880
+Now let's go with Sam.
+
+05:52.170 --> 05:53.340
+Mary Murphy
+
+05:57.470 --> 06:07.930
+let's go which Frank Waters and let's add one more for luck and let's go with Sam Smith no relation
+
+06:07.930 --> 06:08.850
+to the singer.
+
+06:08.890 --> 06:10.200
+Let's run this again.
+
+06:10.690 --> 06:11.190
+There we go.
+
+06:11.190 --> 06:12.880
+Checking in passenger Sam Smith.
+
+06:12.880 --> 06:18.300
+Frank Waters Mary Murphy Tony Staunton the fallen passengers have been checked into the space.
+
+06:18.310 --> 06:19.860
+And Frank so we can just remove that.
+
+06:20.110 --> 06:25.690
+So again let's just run through this quickly through this code to make sure we understand exactly what's
+
+06:25.690 --> 06:27.040
+going on.
+
+06:27.100 --> 06:31.510
+So we start off by defining our first function and this function is going to simulate passengers who
+
+06:31.510 --> 06:32.820
+are not checked in.
+
+06:32.830 --> 06:36.320
+Our function has two parameters not checked in and checked in.
+
+06:36.670 --> 06:42.530
+So while we have passengers in our not checked in the current passenger equals not checked in pop.
+
+06:42.600 --> 06:48.070
+So no one passenger at a time from our checked and not checked in list to the current passenger then
+
+06:48.400 --> 06:55.020
+print a message saying checking in passenger current passenger next move the current passenger into
+
+06:55.020 --> 06:56.030
+our checked in list.
+
+06:56.170 --> 06:56.680
+OK.
+
+06:56.680 --> 06:57.740
+Simple.
+
+06:58.390 --> 07:00.090
+Well kind of simple.
+
+07:00.700 --> 07:06.250
+Following that we have our second function show checked in passengers that has one parameter checked
+
+07:06.250 --> 07:06.900
+in.
+
+07:07.300 --> 07:12.100
+So our comment here so all the passengers who have checked in print the following passengers checked
+
+07:12.100 --> 07:12.700
+in.
+
+07:12.700 --> 07:15.860
+So four passengers in our checked in list print passengers.
+
+07:15.880 --> 07:17.150
+So that's a simple loop.
+
+07:17.340 --> 07:21.010
+We're looping through the passengers and are checked in list until there are none left.
+
+07:21.010 --> 07:27.400
+Following that we create two lists not checked in and checked in and then finally we call two functions
+
+07:27.560 --> 07:33.730
+pass that the arguments needed not checked in and checked in which are lists essentially our first list
+
+07:34.180 --> 07:36.750
+as a list of three or four not checked them passengers.
+
+07:36.940 --> 07:38.770
+On our second list is empty.
+
+07:39.100 --> 07:45.040
+But when we go through our functions the second list checked in is full of our passengers and other
+
+07:45.040 --> 07:45.520
+passengers.
+
+07:45.520 --> 07:47.840
+A lot of checked in checked out whatever it might be.
+
+07:47.980 --> 07:51.930
+So run to this function and through this program a couple of times to make sure that you understand
+
+07:51.930 --> 07:55.190
+it and you have any questions please do not hesitate to contact me.
+
+07:55.300 --> 07:55.750
+Thank you.
+
+07:55.750 --> 07:57.020
+And I'll see you in the next lecture.

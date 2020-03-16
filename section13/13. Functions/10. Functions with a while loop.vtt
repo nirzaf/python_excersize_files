@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.890 --> 00:03.020
+Hi everybody and welcome back.
+
+00:03.020 --> 00:06.440
+Now in this lecture we're going to look at using a while loop what are functions.
+
+00:06.650 --> 00:11.820
+So what are functions we can use only in all of appliance data structures that we've just got so far.
+
+00:12.080 --> 00:17.200
+So now this lecture lets out a one loop to one of our previous program which was our formatted name
+
+00:17.210 --> 00:17.880
+program.
+
+00:18.050 --> 00:24.260
+So what I've done is I've gone out and I copied and pasted back in here are formatted name program or
+
+00:24.260 --> 00:26.100
+code from an earlier lecture.
+
+00:26.180 --> 00:31.370
+And the only thing I've changed is I've had that underscore to the front of our function name.
+
+00:31.370 --> 00:33.960
+So go ahead and do that now.
+
+00:35.150 --> 00:36.460
+OK welcome back.
+
+00:36.470 --> 00:40.040
+So once you have that copy and paste it don't what you need to do is you need to add in the following
+
+00:40.700 --> 00:41.440
+wild fruit.
+
+00:41.430 --> 00:42.600
+So we're using our flag.
+
+00:42.980 --> 00:46.220
+Wild fruit print
+
+00:49.610 --> 00:52.090
+backslash and so new line.
+
+00:52.100 --> 00:54.100
+What is your name.
+
+00:54.700 --> 00:55.160
+OK.
+
+00:55.180 --> 00:59.150
+Close or quote's closer brackets.
+
+00:59.150 --> 01:00.050
+So first name
+
+01:03.770 --> 01:07.370
+equals import because we're taking input from the user this time.
+
+01:07.460 --> 01:10.100
+That's why I'm in my idle and not my subline Id
+
+01:13.020 --> 01:13.660
+first name
+
+01:22.160 --> 01:25.090
+last name equals input
+
+01:31.170 --> 01:32.220
+last name.
+
+01:32.720 --> 01:33.210
+OK.
+
+01:33.230 --> 01:35.750
+Closer quotes close our brackets.
+
+01:35.750 --> 01:37.230
+Next we want our format names.
+
+01:37.230 --> 01:45.350
+Let's create a variable formatted name to take our functions are formatted name equals get formatted
+
+01:45.350 --> 01:50.900
+name and the arguments of pass that are first name
+
+01:54.050 --> 01:55.460
+and last name.
+
+01:56.040 --> 01:58.280
+OK there we go.
+
+01:58.350 --> 01:59.730
+And then finally print
+
+02:03.290 --> 02:03.790
+backslash.
+
+02:03.800 --> 02:05.660
+And so we have a nice clean line.
+
+02:05.840 --> 02:16.580
+Hello come space closer quotes plus formatted name plus
+
+02:22.940 --> 02:24.560
+exclamation point closer brackets.
+
+02:24.620 --> 02:24.950
+OK.
+
+02:24.990 --> 02:27.050
+Let's run that and see what we get.
+
+02:27.050 --> 02:30.470
+First we have to save it and then run it.
+
+02:31.370 --> 02:32.950
+OK what is your name first name.
+
+02:32.960 --> 02:36.340
+Tony last name standon.
+
+02:37.060 --> 02:39.130
+OK let's just give it a go first name.
+
+02:39.140 --> 02:43.530
+Jim last name Smith OK.
+
+02:43.520 --> 02:49.050
+So as you can see here I did lowercase Jim lowercase Smith and it gave me a nice clean formatted.
+
+02:49.090 --> 02:53.840
+Jim Smith but you might notice now it was a problem.
+
+02:54.040 --> 03:00.240
+Frank Murphy our program just keeps going keeps going keeps going there is no way to exit this program
+
+03:00.250 --> 03:03.730
+there's no break there's no there's no way to quit There's no way to stop.
+
+03:03.730 --> 03:04.700
+So how do we do that.
+
+03:04.840 --> 03:10.950
+Well let's look at changing our wild statement now and adding in the option to quit our program.
+
+03:10.960 --> 03:15.970
+So let me close this kill it yes kill what we want to do.
+
+03:15.970 --> 03:20.650
+Now if you want to edit this with our new code and how do we do that for us you need to just zap all
+
+03:20.650 --> 03:21.520
+of this here.
+
+03:21.670 --> 03:23.270
+So let's zap this.
+
+03:23.280 --> 03:24.290
+Here we go.
+
+03:24.540 --> 03:27.760
+And we need to keep our wild through.
+
+03:27.860 --> 03:28.630
+We have print
+
+03:31.530 --> 03:32.520
+backslash and
+
+03:35.670 --> 03:38.170
+what is your name so similar as before.
+
+03:38.170 --> 03:44.000
+Question macros are quote bracket's print and this is a different part now.
+
+03:46.320 --> 03:47.050
+Press Q
+
+03:51.610 --> 03:57.280
+At any time to quit this program
+
+04:01.220 --> 04:03.010
+so now we are back to our first name.
+
+04:03.010 --> 04:07.650
+So first name he quotes and put
+
+04:14.230 --> 04:14.770
+us name
+
+04:21.400 --> 04:23.720
+and we're going to say no here if first name
+
+04:27.650 --> 04:28.430
+is Q..
+
+04:28.520 --> 04:34.100
+So somebody typed in Q break so forget your colon break.
+
+04:36.970 --> 04:41.060
+And going do something very similar with our last name so last name equals input
+
+04:43.730 --> 04:53.000
+brackets quote last name closer quote closer brackets if last name
+
+04:56.360 --> 04:57.180
+is q.
+
+04:57.410 --> 05:10.730
+So if the user types in Q break so now we can actually exit our program so format name equals get formatted
+
+05:10.730 --> 05:11.060
+name
+
+05:15.770 --> 05:16.440
+first name
+
+05:19.660 --> 05:20.510
+last name.
+
+05:23.100 --> 05:24.750
+Close brackets and then print
+
+05:28.470 --> 05:36.900
+backslash and hello Comus space close or quote Plus formatted name
+
+05:41.500 --> 05:44.110
+plus exclamation point.
+
+05:44.780 --> 05:45.710
+Close quote.
+
+05:45.910 --> 05:50.490
+OK so now let's just have a quick look what we total user here is at the time press cute.
+
+05:50.500 --> 05:52.400
+Exit the program then.
+
+05:52.420 --> 05:56.660
+We've asked for user input of our first name and we've added an if statement here.
+
+05:56.710 --> 05:58.480
+If the first name is q.
+
+05:58.690 --> 06:02.030
+Break down for us of someone whose name happens to be Q We're out of luck.
+
+06:02.260 --> 06:07.530
+So if first name is q break and then the same last name is last name is q break.
+
+06:07.550 --> 06:10.270
+Otherwise print out Hello under formatted name.
+
+06:10.270 --> 06:12.920
+Now let's save this and run it and see what we get.
+
+06:15.060 --> 06:16.020
+What is your name.
+
+06:16.290 --> 06:23.860
+So Tony your case stones in lowercase nicely formatted Q quits.
+
+06:23.910 --> 06:24.920
+Nothing happens.
+
+06:25.030 --> 06:27.610
+So in this lecture we've looked at a couple of pieces now.
+
+06:27.840 --> 06:32.610
+We've looked at how to put a wire loop into our functions and also how to use the break statement to
+
+06:32.610 --> 06:34.770
+exit programs whenever the user wants.
+
+06:34.770 --> 06:36.780
+Thanks for listening and I'll see you in the next lecture.

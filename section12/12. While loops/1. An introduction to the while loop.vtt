@@ -1,0 +1,76 @@
+WEBVTT
+
+00:00.750 --> 00:02.100
+Hi everybody and welcome back.
+
+00:02.160 --> 00:06.240
+Now we've seen the for loop which takes a collection of items and executes a block of code once for
+
+00:06.240 --> 00:07.940
+each item in the collection.
+
+00:07.950 --> 00:12.620
+While loops don't as long or while a certain condition is true.
+
+00:12.780 --> 00:16.320
+Use a while loop to count from 1 to 10.
+
+00:16.320 --> 00:20.730
+So let's add in our comments first.
+
+00:20.780 --> 00:23.060
+Today's date is the second of November.
+
+00:23.060 --> 00:27.520
+Hard to believe that it's not very long till Christmas.
+
+00:27.590 --> 00:30.670
+The order is myself or you.
+
+00:32.320 --> 00:38.180
+Oh and using while loops.
+
+00:38.200 --> 00:39.900
+OK so let's have a look.
+
+00:41.470 --> 00:49.120
+So first you want to set our current number so variable current number is 1.
+
+00:49.360 --> 00:52.000
+Next we're going to introduce a while loop.
+
+00:52.000 --> 01:05.460
+So while our current number is less than or equal to 10 due to following print the current number and
+
+01:05.460 --> 01:12.000
+each time that happens at 1 and 1 record number so increase every time for a while loop.
+
+01:12.000 --> 01:13.850
+1 2 3 4 and so on.
+
+01:13.890 --> 01:16.110
+So let's run this and see what it looks like.
+
+01:16.110 --> 01:16.920
+Nice.
+
+01:17.100 --> 01:22.110
+OK so that is very simple introduction into a WHILE loop and a very effective demonstration.
+
+01:22.110 --> 01:27.670
+We start counting from one by setting the value of the current number to 1 the while loop is then set
+
+01:27.670 --> 01:31.690
+to run as long as the value of current number is less than or equal to 10.
+
+01:31.690 --> 01:35.110
+The code inside the loop prints the value of the current number and then adds 1.
+
+01:35.140 --> 01:37.750
+So a nice quick little introduction into why loops to here.
+
+01:37.800 --> 01:40.720
+I'm gonna be using them an awful lot in this section.
+
+01:40.720 --> 01:42.460
+Thanks for listening and I'll see you in the next Lechter.

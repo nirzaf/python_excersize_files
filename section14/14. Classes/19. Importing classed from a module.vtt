@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.630 --> 00:01.830
+Hi everybody and welcome back.
+
+00:01.830 --> 00:06.810
+Now in this lecture we're going to look at importing multiple classes from a module so we can import
+
+00:06.840 --> 00:11.830
+as many classes that we need into a program file if we want to make a regular e-reader.
+
+00:12.000 --> 00:18.780
+And then a Kindle Fire e-reader in the same file we need to import both classes e-reader and Kindle
+
+00:18.780 --> 00:19.320
+Fire.
+
+00:19.350 --> 00:20.620
+So let's do that now.
+
+00:20.670 --> 00:25.530
+So import Now as you can see on the right hand side I just have my program as we've done in the last
+
+00:25.530 --> 00:32.070
+couple of lectures all their so on the left hand side import from lecture 100.
+
+00:32.220 --> 00:34.650
+And I'm just incrementing these lectures as I go.
+
+00:34.650 --> 00:40.130
+The last one was 99 to before that 98 sorry and that should be from.
+
+00:40.290 --> 00:44.460
+So from lecture 100 hundred import now.
+
+00:44.470 --> 00:46.850
+So how do we import multiple classes.
+
+00:46.860 --> 00:54.260
+Well the reader is the first class we want to import come on Kindle Fire.
+
+00:54.260 --> 00:58.230
+So there are two classes now imported from lecture 100.
+
+00:58.230 --> 01:06.360
+Now how do we use the two classes where we say let's say my my black and white so my BW e-reader and
+
+01:06.390 --> 01:09.680
+that's what a Kindle Paperwhite e-reader is it's black and white.
+
+01:09.800 --> 01:17.130
+So my e-reader equals e-readers Let's call that class our first e-reader class or our main class.
+
+01:17.140 --> 01:18.350
+I suppose our parent.
+
+01:18.510 --> 01:19.430
+And then what do we have.
+
+01:19.440 --> 01:28.400
+Well let's make Amazon and my brackets want run way around as my ID has highlighted that its model is
+
+01:28.400 --> 01:30.720
+paper weight.
+
+01:31.550 --> 01:39.500
+Don't forget quote's paper weight backlight so it has a backlight so adjustable as we've seen previously
+
+01:39.500 --> 01:45.280
+adjustable back light next.
+
+01:45.710 --> 01:51.280
+And several months of battery life.
+
+01:51.320 --> 01:52.570
+There we go.
+
+01:53.240 --> 01:57.520
+And then it's screen type is tray hundred deep.
+
+01:57.620 --> 01:58.650
+There we go.
+
+01:58.670 --> 02:05.530
+Now how would we call this what we would say after I close my quote We would say
+
+02:09.350 --> 02:23.200
+my BW e-reader does get e-reader get underscore e-reader underscore name brackets that see what happens
+
+02:23.200 --> 02:25.010
+if we run this.
+
+02:25.070 --> 02:25.610
+There we go.
+
+02:25.610 --> 02:29.170
+Amazon paperweight just put back like seven months of battery life.
+
+02:29.230 --> 02:32.810
+Now let's call our Kindle Fire class.
+
+02:33.010 --> 02:36.610
+So my color e-reader
+
+02:39.800 --> 02:49.630
+equals Kindle Fire bracket's my make is Amazon same because these are from the same company.
+
+02:49.650 --> 02:51.980
+It's like different model phones or something like that.
+
+02:52.110 --> 03:01.030
+And this one is called a Kindle Fire Don't forget your quote Kindle Fire.
+
+03:01.030 --> 03:03.240
+There we go.
+
+03:03.250 --> 03:11.360
+Next it has a color the backlight has a color screen so we'll just leave that as color screen color
+
+03:11.360 --> 03:14.420
+screen.
+
+03:14.700 --> 03:22.250
+It's battery life is 12 hours so 12 hours of battery.
+
+03:22.940 --> 03:28.710
+And finally it's screen is 12:18 by 800.
+
+03:29.480 --> 03:40.530
+Now and again we call that we say print my color e-reader don't get e-reader name brackets.
+
+03:40.580 --> 03:42.430
+Let's run that and see what we got.
+
+03:43.100 --> 03:44.320
+Amazon Kindle Fire.
+
+03:44.450 --> 03:45.310
+Perfect.
+
+03:45.320 --> 03:47.290
+So we import most of our classes from a module.
+
+03:47.290 --> 03:52.840
+By separating each class with a comment once we've imported the necessary class we're free to make as
+
+03:52.840 --> 03:55.450
+many instances of each class as we need.
+
+03:55.810 --> 03:57.680
+So thanks for listening and I'll see you in the next lecture.

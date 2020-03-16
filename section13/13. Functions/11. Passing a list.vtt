@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.480 --> 00:01.920
+Hi everybody and welcome back.
+
+00:01.920 --> 00:07.360
+Now it is often necessary and sometimes very very useful to be able to pass a list to your functions.
+
+00:07.470 --> 00:11.650
+Your function will then have direct access to the list and it's all of its contents.
+
+00:11.700 --> 00:13.880
+So let's get started now by doing exactly that.
+
+00:13.920 --> 00:19.010
+And as you can see here my comments passing at least to a function.
+
+00:19.970 --> 00:23.040
+Okay perfect so we start off defining our function DPF.
+
+00:23.140 --> 00:25.140
+This is going to be an online book retailer.
+
+00:25.620 --> 00:27.100
+So let's go books available.
+
+00:27.150 --> 00:31.010
+So we want to be able to display a list of books available to our users that they can buy.
+
+00:31.180 --> 00:44.280
+So books available and this will have one parameter box then are come and show a list of books available
+
+00:44.520 --> 00:45.110
+to buy.
+
+00:45.360 --> 00:47.780
+Okay perfect.
+
+00:47.820 --> 00:53.040
+Next we create a for loop for book and books
+
+00:56.200 --> 01:03.680
+we create the variable books in stock which is just a whole list of books really books in stock equals
+
+01:06.710 --> 01:10.580
+the following title is available
+
+01:13.270 --> 01:13.980
+Dubai.
+
+01:14.300 --> 01:15.290
+OK.
+
+01:15.900 --> 01:20.120
+Space plus book title.
+
+01:20.130 --> 01:22.210
+Make sure it's capitalized where necessary.
+
+01:22.590 --> 01:23.980
+Plus full stop
+
+01:26.550 --> 01:27.820
+perfect.
+
+01:28.120 --> 01:30.920
+Then we print that variable.
+
+01:30.960 --> 01:36.920
+We want to print that line out for every book that will go into our list books in stock.
+
+01:36.960 --> 01:40.450
+We go now to wrap this up.
+
+01:40.530 --> 01:45.420
+We create our list of books so this will be a list of books that we have in stock that will be available
+
+01:45.420 --> 01:48.240
+to display on the Web site and purchased by the user.
+
+01:48.240 --> 01:54.610
+So let's just call it available equals let's populate our list.
+
+01:54.660 --> 01:55.410
+Elon Musk
+
+01:59.910 --> 02:02.280
+come up the everything store
+
+02:06.060 --> 02:09.840
+come up and the growth map.
+
+02:09.990 --> 02:11.920
+Nice new addition to our list of books.
+
+02:11.940 --> 02:13.110
+OK there we go.
+
+02:13.110 --> 02:15.450
+Then finally books are available.
+
+02:15.450 --> 02:18.790
+So we're calling our function to that function.
+
+02:18.840 --> 02:19.920
+We pass our list.
+
+02:19.920 --> 02:24.560
+So Available Now let's print this out and see what happens.
+
+02:24.780 --> 02:26.530
+The Fulham title is available to buy.
+
+02:26.640 --> 02:29.430
+Elon Musk The Everything Store to grow up.
+
+02:29.430 --> 02:34.620
+So we start off by creating books available which is our function it expects a list of books available
+
+02:34.650 --> 02:39.990
+which is stores in the parameter books to function loops through the list it receives and puts each
+
+02:39.990 --> 02:42.610
+book in an available to buy message.
+
+02:42.690 --> 02:48.860
+We define a list of books and then pass a list of books to books available in our function call.
+
+02:48.870 --> 02:53.240
+I hope that made sense if not please don't hesitate to ask me in the Q and A section.
+
+02:53.460 --> 02:56.060
+And as always thank you for listening and I'll see you in the next lecture.

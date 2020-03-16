@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00.570 --> 00:02.540
+Hi everybody and welcome back.
+
+00:02.550 --> 00:05.740
+Now we're modeling something from the real world in our code.
+
+00:05.760 --> 00:09.230
+You may find that you're adding more and more detail to a class.
+
+00:09.300 --> 00:13.140
+You'll find that you have a growing list of attributes and methods and that your files are becoming
+
+00:13.140 --> 00:14.680
+increasingly lengthy.
+
+00:14.800 --> 00:19.720
+The situation you might recognize a part of one class can be written as a separate class.
+
+00:19.800 --> 00:23.360
+You can break large classes into smaller classes that work together.
+
+00:23.730 --> 00:27.350
+Let's say we continue adding detail to our Kindle Fire class.
+
+00:27.510 --> 00:33.140
+We might notice that we're adding many attributes and methods specific to the screen.
+
+00:33.230 --> 00:36.660
+We can move these attributes and methods to a separate class called screen.
+
+00:36.800 --> 00:41.530
+Then we can use a screen instance as an attribute in the Kindle Fire class.
+
+00:41.750 --> 00:43.480
+So let's take a look at how we would do that.
+
+00:43.620 --> 00:48.380
+But for us we need to create our screen class and we do it at just above our class for kindle fire so
+
+00:48.380 --> 00:49.230
+we do not hear it.
+
+00:49.250 --> 00:54.750
+Give yourself some room to work and we say class screen.
+
+00:54.780 --> 00:55.590
+There we go.
+
+00:56.250 --> 00:58.710
+Colin and what are the comments for this.
+
+00:58.710 --> 01:00.230
+Well what is the description.
+
+01:00.240 --> 01:11.500
+This will create a class to model the screen of a Kindle Fire.
+
+01:11.890 --> 01:12.770
+Sounds simple.
+
+01:13.050 --> 01:14.540
+Let's hope so.
+
+01:14.560 --> 01:22.470
+Next we call in a method DPF underscore underscore and I-T and what attributes we have in there.
+
+01:22.470 --> 01:32.340
+We have South then we have screen resolution.
+
+01:32.610 --> 01:50.650
+Now we go I'm giving us a default value of 12:08 by 800 OK that's not in our current initialize screens.
+
+01:51.660 --> 02:00.440
+Attributes So as you can guess you could add in more attributes here if you wanted to the screen and
+
+02:00.530 --> 02:07.940
+what attributes will a screen have where else self select self that screen resolution equals screen
+
+02:07.940 --> 02:08.470
+resolution.
+
+02:08.480 --> 02:12.080
+So we've seen this previously when creating classes.
+
+02:12.290 --> 02:20.780
+Now we need a method to describe our screen and look enough Actually we already have one down here described
+
+02:20.780 --> 02:23.530
+screen let's just copied us.
+
+02:23.730 --> 02:26.530
+Take that away and put it in here.
+
+02:27.500 --> 02:28.410
+There we go.
+
+02:28.660 --> 02:32.710
+And just while we're here does a couple of things we need to do on our Kindle Kindle Fire class.
+
+02:32.750 --> 02:33.960
+We need to remove this line.
+
+02:33.960 --> 02:38.090
+Line 55 because we have put that in line 40.
+
+02:38.240 --> 02:45.430
+Take that as and now in our method we don't need screen resolution here either because we put that into
+
+02:45.430 --> 02:47.370
+its own screen class.
+
+02:47.380 --> 02:48.120
+There we go.
+
+02:49.790 --> 02:57.440
+There's those couple of lines or a couple of details removed and we've added in our describe screen
+
+02:57.890 --> 02:58.700
+method.
+
+02:58.760 --> 03:04.560
+Now let's just remove these blank lines here just clean it up a little less perfect.
+
+03:07.350 --> 03:12.440
+Now how do we call this new class and how do we put it together with our Kindle Fire class.
+
+03:12.510 --> 03:16.950
+Well let's go down to the very bottom and what we need to do in our Kindle Fire class is we need to
+
+03:16.950 --> 03:21.160
+say self got five screen
+
+03:24.600 --> 03:40.540
+equals screen and we go down here now let's leave out the fire dust in place and say fire screen equals
+
+03:41.190 --> 03:44.230
+right fire screen that describe
+
+03:47.160 --> 03:49.500
+screen brackets.
+
+03:49.500 --> 03:51.900
+Now let's run it and see what we guess.
+
+03:52.450 --> 03:53.130
+Perfect.
+
+03:55.220 --> 04:01.280
+We have our first line Kindle Fire describing our Kindle Fire and then we have a second line.
+
+04:01.350 --> 04:06.570
+My Hastey eight beaches are wide screen 12 12 8 by a hundred hates the screen.
+
+04:06.900 --> 04:12.230
+So let's just run through this little bit and recap on what we've done to try to find a new class called
+
+04:12.230 --> 04:16.000
+Screen this new class doesn't inherit from any other classes.
+
+04:16.490 --> 04:23.860
+The init method at line thirty eight here has one parameter screen resolution.
+
+04:24.200 --> 04:30.210
+In addition to self design actual parameter that sets the screen resolution size to 12 8 by a hundred
+
+04:30.320 --> 04:36.530
+if no value is provided the method described screen has been moved to this class as well.
+
+04:36.650 --> 04:46.260
+Seen here at line 42 there we now in the Kindle Fire class on line 46 We now have an attribute called
+
+04:46.740 --> 04:50.680
+self that fire screen that's at line 55.
+
+04:50.760 --> 04:57.430
+This line tells Peyton to create a new instance of screen what a default size of 12 A.D. by hundred.
+
+04:57.450 --> 05:03.480
+Because we're not specifying a volume and store that instance in the attribute self-doubt fire screen.
+
+05:03.480 --> 05:06.640
+This will happen every time the init method is called.
+
+05:06.770 --> 05:13.950
+And the other Kindle Fire engines will now have a screen insense created automatically which is very
+
+05:13.950 --> 05:14.800
+handy.
+
+05:14.820 --> 05:19.290
+Then we create a kindle fire and sword and very well my Kindle Fire.
+
+05:19.530 --> 05:20.260
+Nothing new there.
+
+05:20.280 --> 05:25.160
+We've seen that in previous lectures when we want to describe the screen we need to work through the
+
+05:25.170 --> 05:28.000
+screens attributes and we do that here.
+
+05:29.230 --> 05:36.940
+My Kindle fire that fire screen data scribed screen this line plating to look at the instance of my
+
+05:36.940 --> 05:43.570
+Kindle Fire find it screen attributes and call the method described screen that's associated with the
+
+05:43.570 --> 05:45.800
+screen instance stored in the attribute.
+
+05:46.420 --> 05:50.710
+Now this looks like a lot of actual work but now we can describe the screen in as much detail as we
+
+05:50.710 --> 05:55.180
+want without Katra without cluttering our Kindle Fire class.
+
+05:55.240 --> 06:00.010
+Some approaches are more efficient than others but it takes practice and time and patience to find the
+
+06:00.010 --> 06:04.680
+most efficient representations as long as the code is doing what you want it to do.
+
+06:04.750 --> 06:06.010
+Then you're on the right track.
+
+06:06.040 --> 06:10.090
+Thank you for listening and has always if you have any questions please do not hesitate to contact me.

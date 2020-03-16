@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.270 --> 00:01.880
+Hi everybody and welcome back.
+
+00:01.920 --> 00:07.380
+Now we've just seen how to store a single class in a module but inside a module we can store as many
+
+00:07.380 --> 00:09.030
+classes as we need.
+
+00:09.030 --> 00:13.470
+Although each class in a module should ideally be related to each other in some way.
+
+00:13.470 --> 00:15.980
+So on my right hand side I have a new module.
+
+00:16.290 --> 00:19.770
+Here it is here and I just need to change the comments at the top.
+
+00:20.760 --> 00:27.460
+I'm going to call that storing multiple modules.
+
+00:27.570 --> 00:33.300
+So what I don't as you can see is I've imported the full e-reader program.
+
+00:33.570 --> 00:37.910
+So we have class Kindle Fire class screen and class e-reader.
+
+00:37.980 --> 00:40.880
+They're all there to treat class that we've created over the last few lectures.
+
+00:40.980 --> 00:45.600
+And as you can see down the bottom there's nothing out so I've removed all new instances or print statements
+
+00:45.690 --> 00:46.620
+anything like that.
+
+00:46.620 --> 00:50.400
+All I have at the core classes so I've done that.
+
+00:50.550 --> 00:54.300
+OK so over on the left hand side here we have my reader Doppie y.
+
+00:54.300 --> 00:55.660
+So an empty program.
+
+00:55.830 --> 01:00.840
+Let's look about bring in a couple of classes from a right hand side program or from our module I should
+
+01:00.840 --> 01:01.380
+say.
+
+01:01.410 --> 01:14.150
+So how do we do to where we say from Lechter underscore '99 import Kindle Fire.
+
+01:14.250 --> 01:16.580
+OK so we're going to import the class.
+
+01:16.580 --> 01:19.500
+Kindle Fire which inherits from e-reader.
+
+01:19.520 --> 01:32.100
+Now what we need to do what we need save my Kindle Fire equals Kindle Fire and then we put in our details.
+
+01:32.100 --> 01:33.530
+Amazon is the manufacturer
+
+01:36.940 --> 01:42.020
+and we go it's a Kindle Fire.
+
+01:42.340 --> 01:46.080
+Don't forget your opening closing quote Kindle Fire.
+
+01:49.530 --> 01:50.600
+It has a color screen
+
+01:54.650 --> 01:56.350
+it has a 12 hour battery life
+
+02:01.060 --> 02:04.940
+and then its screen is 12:18 by a hundred resolution.
+
+02:04.940 --> 02:05.760
+So let's go.
+
+02:05.800 --> 02:07.570
+Let's put that in there as well.
+
+02:07.570 --> 02:08.680
+And what we do next.
+
+02:08.800 --> 02:21.280
+Well we simply say print my Kindle Fire dot guess underscore e-reader name brackets Rhondda us and there
+
+02:21.280 --> 02:21.580
+we go.
+
+02:21.580 --> 02:24.730
+Amazon Kindle Fire color screen 12 hour battery life.
+
+02:24.730 --> 02:27.100
+Twelve hundred thirty eight by eight on the screen type.
+
+02:27.340 --> 02:28.720
+So what else can we do.
+
+02:29.260 --> 02:34.130
+Well as we've seen we have over here is world class green and in it we have a method called describe
+
+02:34.140 --> 02:34.650
+screen.
+
+02:34.750 --> 02:35.950
+So let's see what we can do with that.
+
+02:35.970 --> 02:43.140
+Well we can say print my Kindle Fire dot fire screen
+
+02:49.590 --> 02:53.430
+thus described screen
+
+02:56.250 --> 02:58.200
+and let's see what that gives us.
+
+02:58.200 --> 03:02.900
+There we go it gives us more information on our screen far hates the 8 features a wide screen.
+
+03:02.910 --> 03:09.180
+Twelve hundred twelve eighty by 800 hates the screen and that is Polin because over here in our class
+
+03:09.180 --> 03:16.140
+Kindle Fire we have fire screen equals screen on our class here screen has the method described screen.
+
+03:16.140 --> 03:17.550
+So I hope that makes sense.
+
+03:17.700 --> 03:22.080
+As you can see here we could create separate files for a normal Kindle Fire a Kindle Fire.
+
+03:22.080 --> 03:27.370
+We could go on and create other classes or methods that describe our candidates and their features.
+
+03:27.390 --> 03:29.100
+I hope all that made sense.
+
+03:29.160 --> 03:30.950
+Thanks for listening and I'll see you in the next lecture.

@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.390 --> 00:01.670
+Hi everybody and welcome back.
+
+00:01.680 --> 00:07.120
+Now as we just had an introduction lecture and the lecture we're going to be creating our book class.
+
+00:07.370 --> 00:12.720
+So each instance created from the book class will store and name a price and a publisher I don't have
+
+00:12.720 --> 00:16.190
+the ability to be a hardback soft black or an e-book.
+
+00:16.310 --> 00:20.270
+So let's look at creating the book class now like we did with our functions.
+
+00:20.280 --> 00:22.720
+We start off by defining our class.
+
+00:22.890 --> 00:31.670
+So instead of T.F. we have C L S S and the name of our class book two brackets colon.
+
+00:32.230 --> 00:34.410
+Now we put in our description
+
+00:38.640 --> 00:43.680
+class to create a book and we close the description and that's done in the same way that we did with
+
+00:43.880 --> 00:45.160
+functions.
+
+00:45.180 --> 00:54.430
+Next we have a function DPF So this is familiar to us all underscore underscore and I t underscore underscore.
+
+00:54.450 --> 00:59.190
+Now I'll explain more about this what this function is in just a short while.
+
+00:59.190 --> 01:02.340
+So what we put in next is our parameters self.
+
+01:02.410 --> 01:06.810
+Let's get back to that now and a second but we then we have the name of our book The Price of our book
+
+01:09.170 --> 01:12.890
+and the publisher OK.
+
+01:13.220 --> 01:15.880
+Don't forget our COLA.
+
+01:16.300 --> 01:19.630
+And again like when we were defining functions we have to put in a description
+
+01:28.320 --> 01:32.040
+here we have initialized the name price and publisher
+
+01:34.860 --> 01:37.070
+attributes.
+
+01:37.110 --> 01:42.200
+Now just follow along with me I'm going to explain everything in detail in just a few minutes.
+
+01:42.240 --> 01:42.750
+No.
+
+01:42.760 --> 01:56.340
+So self-taught name equals name self stock price equals price oh Slough self
+
+01:59.060 --> 02:03.350
+equals price self-taught publisher
+
+02:06.030 --> 02:08.970
+equals publisher.
+
+02:08.970 --> 02:10.100
+There we go.
+
+02:10.150 --> 02:11.980
+These actually just need to be indented.
+
+02:12.030 --> 02:16.590
+I don't know why they didn't indent after a function description but we indent them now just to make
+
+02:16.590 --> 02:18.370
+sure our program runs without error.
+
+02:18.690 --> 02:30.820
+Now next we create functions describe different parts of the book so we have hard back self Colan
+
+02:35.280 --> 02:38.030
+simulates a hard back
+
+02:42.580 --> 02:51.370
+ok print self name title or name in a book.
+
+02:56.080 --> 02:59.640
+Plus is a hardback
+
+03:03.830 --> 03:08.650
+and as always when we have comments when we have strings we need to put in quotes
+
+03:12.590 --> 03:16.090
+and we go now and get a function.
+
+03:16.100 --> 03:21.390
+So if back I was about to write software self back
+
+03:26.500 --> 03:28.120
+no simulate
+
+03:32.380 --> 03:37.120
+a book being a self back
+
+03:43.200 --> 03:48.480
+print self name title
+
+03:51.600 --> 03:58.460
+plus quotes is a self back book.
+
+03:58.760 --> 04:01.890
+And then finally we're going to have one more.
+
+04:02.000 --> 04:06.430
+And this is going to be our e-book book Self
+
+04:09.910 --> 04:10.510
+simulate
+
+04:13.400 --> 04:14.610
+an e-book.
+
+04:15.110 --> 04:17.340
+OK almost there.
+
+04:17.410 --> 04:21.080
+Now don't worry there's a lot of code here but don't worry we're going to go through it now in detail
+
+04:21.310 --> 04:23.050
+in just a few moments.
+
+04:23.090 --> 04:23.720
+Self-taught.
+
+04:23.780 --> 04:29.820
+Name that title plus
+
+04:32.750 --> 04:34.930
+is an e-book.
+
+04:34.940 --> 04:39.800
+OK now so like I just said there's a lot going on here but we've become very familiar with all of that
+
+04:39.810 --> 04:41.180
+by the end of this section.
+
+04:41.270 --> 04:42.550
+There was also some familiar parents.
+
+04:42.560 --> 04:44.950
+So don't be too scared and let's jump in.
+
+04:44.960 --> 04:47.660
+We start off by defining our class called book.
+
+04:47.690 --> 04:53.240
+So here we go at line 5 we define our class in pite and capitalize names refer to a class.
+
+04:53.270 --> 04:58.490
+So we capitalized the name book the brackets in the class definition are empty because we're creating
+
+04:58.490 --> 05:00.130
+this class from scratch.
+
+05:00.380 --> 05:03.470
+We then write a simple description of what the class does.
+
+05:03.470 --> 05:09.590
+So a class to create a book in the next lecture we're going describe I an I.T. method which is a special
+
+05:09.590 --> 05:14.510
+pipe method that runs automatically whenever we create a new instance based on our pop class.
+
+05:14.510 --> 05:15.530
+So thanks for listening.
+
+05:15.530 --> 05:19.510
+I hope this wasn't too scary but stick with me and we'll get through this together.
+
+05:19.520 --> 05:20.560
+See you in the next lecture.

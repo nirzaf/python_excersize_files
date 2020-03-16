@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.270 --> 00:02.530
+Hi everybody and welcome back.
+
+00:02.620 --> 00:06.830
+Now in this lecture we're going to be looking at how to set a default value for an attribute.
+
+00:07.030 --> 00:12.700
+So every attribute in a class needs an initial value even if that value is zero or an empty string.
+
+00:12.970 --> 00:18.160
+When setting a default value it makes sense to specify this initial value in the body of the init method.
+
+00:18.490 --> 00:23.170
+If we do this for an attribute we don't have to include a parameter for that attribute.
+
+00:23.200 --> 00:26.470
+So we are going to add in a default value for a new attribute here.
+
+00:26.470 --> 00:30.810
+So we're going to go self does and what is it going to be when going to be a library count.
+
+00:31.000 --> 00:34.370
+So this is going to count how many books we have in our the library.
+
+00:34.390 --> 00:37.070
+I'm going to set the default value of this to zero.
+
+00:37.210 --> 00:40.380
+And that makes sense because when you buy a new Kindle you're not going to have any books in it.
+
+00:40.420 --> 00:44.710
+So the initial amount of books in your Kindle library is going to be zero.
+
+00:44.710 --> 00:49.840
+And because we've done it here and we've set a default value to zero we don't have to put in a new parameter
+
+00:50.050 --> 00:50.820
+up here.
+
+00:50.980 --> 00:56.750
+So we just add in an attribute called Library count that always start with a value of zero.
+
+00:56.770 --> 01:02.130
+We're also adding Now a new method that helps us read each Kindles library count.
+
+01:02.140 --> 01:04.830
+So let's do that here Jeff.
+
+01:04.900 --> 01:09.730
+And let's call this reed library helpful if I spelt it right.
+
+01:09.730 --> 01:11.660
+Redelivery count OK.
+
+01:16.220 --> 01:18.990
+Colon and let's describe this method.
+
+01:19.040 --> 01:30.970
+So show the amount of e-books in our Kindle library every go close that.
+
+01:31.010 --> 01:32.110
+So what we wanted to show.
+
+01:32.160 --> 01:37.680
+Well if anybody is familiar with e-readers you know that under homescreen it'll say on this device or
+
+01:37.680 --> 01:41.500
+in this library are 20 books 50 books 101 books.
+
+01:41.580 --> 01:46.560
+But obviously as we have just created this e-reader the amount of books in the library is going to be
+
+01:46.560 --> 01:48.510
+zero.
+
+01:48.630 --> 02:00.410
+You have them we go plus now it's going to be a string because we're putting as self does library count
+
+02:02.740 --> 02:03.800
+plus.
+
+02:03.850 --> 02:16.240
+So you have there could be zero copy panicle be 20 books in your Kindle for Kindle library.
+
+02:16.240 --> 02:17.290
+There we go.
+
+02:17.890 --> 02:19.650
+So what we want to do now.
+
+02:20.050 --> 02:22.810
+Well now we have a lockdown here.
+
+02:22.810 --> 02:28.080
+We can leave as we have in our last lecture my new e-reader alone we can leave print my new e-reader
+
+02:28.120 --> 02:33.610
+get you either name or not we want to do is we want to again call our new e-reader.
+
+02:33.610 --> 02:40.380
+And we wanted to read our library count brackets that's around us and see what we got.
+
+02:40.390 --> 02:41.270
+There we go.
+
+02:41.620 --> 02:47.500
+So we have like from our last lecture our big descriptive name and then we have zero books in Arkana
+
+02:47.560 --> 02:48.380
+library.
+
+02:48.880 --> 02:52.120
+So we have zero books on that again.
+
+02:52.330 --> 02:54.680
+You have zero books and your Kindle library.
+
+02:54.760 --> 02:59.140
+So obviously as we download books that'll go to one two three four and we'll look at something about
+
+02:59.140 --> 03:00.580
+doing that later.
+
+03:00.640 --> 03:06.240
+So it can cause the end of matter to create a new instance it stores to make the model of the backlight
+
+03:06.280 --> 03:11.170
+the battery the screen type as attributes like it did in the previous example then pipe and create a
+
+03:11.170 --> 03:14.490
+new attribute called Library count which we have here.
+
+03:15.530 --> 03:19.470
+That line 15 and it set its initial value to zero.
+
+03:19.470 --> 03:23.970
+We also have a new method called Read library count at line 22.
+
+03:23.970 --> 03:24.840
+There we go.
+
+03:24.870 --> 03:26.120
+So I hope all that made sense.
+
+03:26.160 --> 03:29.820
+As always if you have any questions please don't hesitate to contact me and I'll see you in the next
+
+03:29.820 --> 03:30.330
+lecture.
+
+03:30.330 --> 03:30.680
+Thank you.

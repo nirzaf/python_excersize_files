@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.270 --> 00:01.620
+Hi everybody and welcome back.
+
+00:01.620 --> 00:04.660
+Now this lecture we're going to look at making a list from afar.
+
+00:04.860 --> 00:08.970
+So as you can see I've created a new file here called making a list from a file and I've just given
+
+00:08.970 --> 00:11.190
+it the title making a list from a file.
+
+00:11.640 --> 00:18.840
+In previous lectures we've been using with open to start our programs and when we use with the file
+
+00:18.840 --> 00:23.290
+object returned by Open is only available inside the block that contains it.
+
+00:23.430 --> 00:28.320
+If you want to retain access to a file's contents outside the block we can store defined lines in a
+
+00:28.320 --> 00:31.140
+list inside the block and then work with that list.
+
+00:31.140 --> 00:37.020
+Let's look an example that stores the lines of movies line by line itx in a list inside the block and
+
+00:37.020 --> 00:38.960
+then print the lines outside the block.
+
+00:39.030 --> 00:40.270
+And how do we get started.
+
+00:40.380 --> 00:45.060
+Well we start with our file name variable equals movies.
+
+00:47.530 --> 00:48.960
+Line by line.
+
+00:49.120 --> 00:54.040
+I should probably shorten this down push no matter what we have for the moment that XTi.
+
+00:54.100 --> 01:01.000
+Next we have with open file names who are variable and there is file object.
+
+01:01.090 --> 01:16.870
+So nothing new so far called next lines equals a File object that read like brackets and then we remove
+
+01:16.870 --> 01:19.910
+an then so forward line in line.
+
+01:21.320 --> 01:29.160
+Let's call it print line dot strip brackets.
+
+01:29.160 --> 01:32.030
+Now let's run this and see what we guess.
+
+01:32.040 --> 01:33.170
+There we go.
+
+01:33.240 --> 01:38.370
+Now this looks like the same output as the last lecture and in appearance wise it is.
+
+01:38.400 --> 01:43.860
+But now this information is all stored in a list and we can start to modify and do things this list
+
+01:43.860 --> 01:49.920
+that we've seen in previous lectures such as work on the first five films in the list work on the last
+
+01:49.920 --> 01:52.180
+five of the list or start searching through the list.
+
+01:52.350 --> 01:56.810
+But we look at how to manipulate information and things like that a little later on.
+
+01:57.360 --> 02:01.650
+So let's just run through this program and have a look at some of the some of the bits that we may not
+
+02:01.650 --> 02:02.580
+have seen before.
+
+02:03.790 --> 02:11.010
+So at line 8 here the Red Line method takes each line from the file and stores it in a list.
+
+02:11.020 --> 02:17.860
+This list is then stored in lines which we can continue to work with after the block ends here at line
+
+02:17.860 --> 02:22.180
+10 are using a simple for loop to print each line from lines.
+
+02:22.270 --> 02:26.680
+So although the output looks the same it is very very different from the previous lecture.
+
+02:26.680 --> 02:28.600
+Thanks for listening and I'll see you in the next lecture.

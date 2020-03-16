@@ -1,0 +1,154 @@
+WEBVTT
+
+00:00.270 --> 00:04.690
+Hi everybody and welcome back and this lecture we're going to be looking at keyword arguments.
+
+00:04.890 --> 00:10.500
+So a keyword argument is a name value pair that your past will function you directly associate the name
+
+00:10.560 --> 00:12.390
+and the value in the argument.
+
+00:12.390 --> 00:16.110
+So when you pass the argument to the function there is no confusion.
+
+00:16.180 --> 00:20.130
+Also with keyword arguments the key word order does not matter.
+
+00:20.170 --> 00:21.980
+So let's have a look at how we will do this.
+
+00:22.920 --> 00:28.260
+So I start off with some comments positional arguments but this is going to change now to keyword arguments
+
+00:28.660 --> 00:31.400
+position arrogance was our last lecture.
+
+00:31.560 --> 00:33.800
+Keyword arguments Dario.
+
+00:33.840 --> 00:38.240
+Now let's start off by creating our function.
+
+00:38.240 --> 00:40.140
+Create a function.
+
+00:40.580 --> 00:41.470
+Perfect.
+
+00:41.510 --> 00:42.150
+And how do we do it.
+
+00:42.170 --> 00:43.430
+Well DPF.
+
+00:43.760 --> 00:51.650
+I'm going to stick with our book function or book description book description so we have book type
+
+00:54.650 --> 00:56.340
+and we have Oerter.
+
+00:56.720 --> 00:58.730
+OK there we go.
+
+00:58.760 --> 00:59.570
+Don't forget your colon.
+
+00:59.570 --> 01:06.570
+So then we have our tree quotes display Boake information.
+
+01:06.620 --> 01:09.530
+You always have to put in a description of your function.
+
+01:09.530 --> 01:11.460
+Now what do we want the function to do.
+
+01:11.480 --> 01:12.290
+Like a last lecture.
+
+01:12.290 --> 01:17.970
+We want to print a quote backslash new line.
+
+01:17.970 --> 01:20.970
+This is a lever.
+
+01:20.980 --> 01:29.270
+Quote There comes a quote there plus type plus book Space book.
+
+01:29.320 --> 01:30.670
+Forget reforming a sentence here.
+
+01:30.670 --> 01:32.950
+So in your quote you still need your spaces.
+
+01:32.950 --> 01:36.220
+Then we print the author
+
+01:39.050 --> 01:44.960
+is gone is the OT or is space plus water.
+
+01:44.980 --> 01:45.390
+Here we go.
+
+01:45.390 --> 01:50.050
+Plus postop OK.
+
+01:50.360 --> 01:51.440
+Those are brackets.
+
+01:51.720 --> 01:55.070
+No book description.
+
+01:55.260 --> 01:59.310
+So we're calling our function here is a function call and like we said here now what we're going to
+
+01:59.310 --> 02:04.080
+do is add in keyword arguments in the syntax of a name value pair.
+
+02:04.200 --> 02:10.420
+So we have both type and a of type type is nonfiction.
+
+02:11.480 --> 02:22.310
+So you can see now what I mean by keyword arguments and or author equals Brad Stone.
+
+02:22.520 --> 02:31.530
+OK so you can see here now that like previous lectures we start by creating our function.
+
+02:31.560 --> 02:33.300
+Next we have our two parameters book.
+
+02:33.300 --> 02:34.650
+Type an order.
+
+02:34.890 --> 02:36.210
+Then when we call our function.
+
+02:36.210 --> 02:42.270
+So when our functions call which is here we have book type equals nonfiction an order equals Broadstone.
+
+02:42.360 --> 02:43.520
+So there's no confusion here.
+
+02:43.530 --> 02:46.840
+Now as to what author and book type are.
+
+02:47.030 --> 02:50.700
+Let's run this and see what we get.
+
+02:50.700 --> 02:52.980
+There we go this nonfiction book.
+
+02:52.980 --> 02:58.230
+The author is Brad Stone and like an older electorate we clean this up by use the title method and other
+
+02:58.230 --> 02:59.720
+items within our function.
+
+02:59.740 --> 03:01.040
+Hope you found his lecture helpful.
+
+03:01.110 --> 03:04.430
+And as always if you have any questions please do not hesitate to contact me.
+
+03:04.530 --> 03:04.860
+Thank you.

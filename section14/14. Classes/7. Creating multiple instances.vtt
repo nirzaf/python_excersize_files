@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.660 --> 00:02.220
+Hi everybody and welcome back.
+
+00:02.220 --> 00:03.050
+Now we're in our class.
+
+00:03.060 --> 00:06.670
+We can create as many instances as we want from our class.
+
+00:06.780 --> 00:09.820
+So let's create a second book called your book.
+
+00:10.500 --> 00:11.280
+So here we go.
+
+00:11.280 --> 00:12.210
+So your book
+
+00:14.770 --> 00:22.210
+equals book and let's give it some different names so let's say I'm it's the it's The Everything Store
+
+00:22.800 --> 00:24.810
+and I'm just looking for it now on my bookshelf.
+
+00:25.040 --> 00:32.130
+And OK here we go so we have The Everything Store.
+
+00:32.270 --> 00:32.810
+Here we go.
+
+00:32.810 --> 00:33.920
+There is its name.
+
+00:33.930 --> 00:36.040
+Then we have its price let's say 999
+
+00:39.280 --> 00:40.870
+that's an integer nine point nine.
+
+00:40.870 --> 00:41.650
+Sorry that's a float.
+
+00:41.650 --> 00:45.980
+Nine point nine nine because as a decimal place and then the publisher and I just just keep it in gonna
+
+00:46.040 --> 00:48.370
+say Virgen books because I can't remember who publishes it.
+
+00:48.400 --> 00:50.980
+And from that distance from my bookshelf I can see it.
+
+00:51.220 --> 00:52.310
+So there we go.
+
+00:52.390 --> 00:55.230
+We have created your book now.
+
+00:55.250 --> 00:56.340
+How do we call that.
+
+00:56.510 --> 00:59.990
+Well like we did previous lecture we just go back to calling our method.
+
+00:59.990 --> 01:05.810
+So your book and let's call it and let's say you're reading a hard back book.
+
+01:05.960 --> 01:11.980
+So your book does hardback brackets.
+
+01:12.050 --> 01:12.820
+There we go.
+
+01:13.250 --> 01:15.760
+The Everything Store is a hardback book.
+
+01:16.040 --> 01:20.570
+So even if we use the same name price and polish for the second book it will still create a separate
+
+01:20.570 --> 01:22.030
+instance from the book class.
+
+01:22.220 --> 01:26.960
+You can make as many instances from the one class you need as long as you give each instance a unique
+
+01:27.020 --> 01:31.800
+variable name or as long as it occupies a unique spot in a list or dictionary.
+
+01:31.820 --> 01:36.790
+So as you can see very easy to create instances and then very easy to call the methods for those interested
+
+01:36.950 --> 01:38.040
+within her code.
+
+01:38.060 --> 01:39.850
+Thanks for listening and I'll see you in the next lecture.

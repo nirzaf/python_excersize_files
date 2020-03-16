@@ -1,0 +1,145 @@
+WEBVTT
+
+00:01.170 --> 00:02.850
+Hi everybody and welcome back.
+
+00:02.880 --> 00:08.220
+Now with this short lecture we're going to look at how to remove all instances of a specific value from
+
+00:08.220 --> 00:10.140
+a list using a while loop.
+
+00:10.140 --> 00:14.740
+So previously we used to remove method to remove a specific value from alecks.
+
+00:14.790 --> 00:19.300
+This worked well because we only wanted to remove one specific value from a list.
+
+00:19.710 --> 00:23.280
+But what if we want to remove all instances of a value from a list.
+
+00:23.280 --> 00:24.390
+How would we go about that.
+
+00:24.480 --> 00:25.570
+Well let's take a look.
+
+00:25.770 --> 00:26.620
+OK Commons.
+
+00:26.630 --> 00:32.490
+And now let's create a list that we want remove items from LET'S GO books.
+
+00:32.700 --> 00:36.590
+So we haven't been following and following along and should be very obvious by now that I am a mass
+
+00:36.610 --> 00:37.720
+of Buchler.
+
+00:37.800 --> 00:39.170
+So let's go.
+
+00:39.540 --> 00:43.560
+OK so let me just look across my bookshelf now and have a look at some books are going.
+
+00:43.560 --> 00:49.020
+OK so let's go big data and all of these books I highly recommend you read.
+
+00:49.050 --> 00:50.310
+So big data.
+
+00:50.520 --> 00:51.570
+And let's have a look.
+
+00:51.570 --> 00:52.350
+Checklists
+
+00:56.830 --> 00:58.530
+what else.
+
+00:58.540 --> 00:59.560
+And the firm
+
+01:03.890 --> 01:07.260
+now because in this list we are going to remove specific values.
+
+01:07.260 --> 01:12.680
+What I want to do is I want to put a few repeating so after my next book I'm going to start adding in
+
+01:12.830 --> 01:14.210
+some duplications.
+
+01:14.210 --> 01:17.600
+So let's have a look one more book in here and let's see what we have.
+
+01:17.600 --> 01:21.490
+We have Teslas biography so let's go to Tesla.
+
+01:21.550 --> 01:22.120
+OK.
+
+01:24.400 --> 01:29.330
+Now out of this list which do I like the least when I can tell you it's the.
+
+01:29.590 --> 01:32.880
+Sorry if the author happens to be watching this video but it's true.
+
+01:33.040 --> 01:36.900
+So the firm let's just add in a new new lubrication to the fan.
+
+01:36.940 --> 01:42.730
+OK so we consider that the firm has been duplicated three times just for clarity.
+
+01:42.740 --> 01:44.530
+Let's print out our list.
+
+01:44.540 --> 01:47.580
+Print books.
+
+01:47.750 --> 01:48.830
+Let's run that.
+
+01:49.220 --> 01:50.100
+OK so there we go.
+
+01:50.160 --> 01:52.310
+And we can see the firm Debt-Free times.
+
+01:52.570 --> 01:54.780
+OK and let me just remove this print statement.
+
+01:54.920 --> 01:58.400
+So while the firm
+
+02:02.050 --> 02:05.770
+is in box so very easy to read this line here.
+
+02:05.770 --> 02:11.020
+So while the firm is in books books that remove
+
+02:14.100 --> 02:16.450
+the firm OK.
+
+02:16.470 --> 02:23.910
+Still very easy to read print books and let's see what we get.
+
+02:23.910 --> 02:26.020
+Now there we go.
+
+02:26.130 --> 02:26.770
+Excellent.
+
+02:27.540 --> 02:32.980
+A quick and simple way to remove all instances of a set of the same value from a list.
+
+02:33.020 --> 02:33.470
+OK.
+
+02:33.490 --> 02:34.940
+I hope you follow along with that lecture.
+
+02:34.970 --> 02:37.940
+And as always if you have any questions please reach out to me.
+
+02:37.940 --> 02:39.690
+Thanks for listening and I'll see you in the next lecture.

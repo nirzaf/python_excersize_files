@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.420 --> 00:01.710
+Hi everybody and welcome back.
+
+00:01.710 --> 00:05.920
+Now this quick lecture we're gonna discuss how to override methods from the parent class.
+
+00:05.970 --> 00:09.960
+So we're not really going to code in this lecture we're just going to write out a couple of small samples
+
+00:09.960 --> 00:15.510
+of code so we can override any method from our parent class that doesn't fit in with what we're trying
+
+00:15.510 --> 00:18.110
+to model with the child class to do this.
+
+00:18.120 --> 00:22.980
+We define a method in the child class with the same name as the method we want to override from the
+
+00:22.980 --> 00:24.030
+parent class.
+
+00:24.090 --> 00:28.860
+This way pite in this regard the parent class method and only pay attention to the method we defined
+
+00:28.890 --> 00:30.430
+in the child class.
+
+00:30.540 --> 00:34.870
+So let's say our class e-reader has the following method.
+
+00:34.890 --> 00:41.930
+So let's just say DPF and describe backlights
+
+00:44.800 --> 00:45.820
+OK.
+
+00:45.940 --> 00:55.410
+That would have something like uterus to colon and then our comments would be describes the backlights
+
+00:59.460 --> 01:04.420
+of our e-reader that we go print
+
+01:08.840 --> 01:20.110
+the backlight of this of this e-reader allows you to read in the dark.
+
+01:20.470 --> 01:21.790
+OK.
+
+01:23.080 --> 01:27.210
+So we know what that does that that's what this is an imaginary method in our e-reader class.
+
+01:27.370 --> 01:33.400
+So this method at the moment is meaningless and it is also mean for Kindle Fire e-reader because that
+
+01:33.400 --> 01:35.400
+has a color screen it doesn't need a backlight.
+
+01:35.500 --> 01:37.480
+So how would we overwrite that.
+
+01:37.680 --> 01:40.810
+Well let's imagine as I said this is an e-reader class.
+
+01:41.170 --> 01:47.140
+And now let's imagine that the next method that we're going to write is in our Kindle Fire class and
+
+01:47.140 --> 01:48.880
+we will do this.
+
+01:49.000 --> 01:50.920
+The Describe
+
+01:54.750 --> 01:55.380
+backlights
+
+02:01.380 --> 02:01.890
+Comins
+
+02:04.590 --> 02:11.370
+the Kindle Fire does not have a backlight.
+
+02:11.890 --> 02:14.770
+OK those are comments as always then print
+
+02:17.850 --> 02:27.550
+the color screen lets you read in the dark.
+
+02:27.780 --> 02:30.600
+OK so what does all of this mean.
+
+02:31.960 --> 02:36.070
+When you use inheritance you can make your char classes retain what you need and override anything you
+
+02:36.070 --> 02:37.920
+don't need from the parent class.
+
+02:37.930 --> 02:43.780
+So as we just said at the start of this lecture if this method here was in our e-reader class describing
+
+02:43.780 --> 02:50.510
+the backlight of a normal e-reader we would not need this method in our Kindle Fire class and we could
+
+02:50.530 --> 02:53.400
+override that by using the same method name.
+
+02:53.440 --> 02:58.120
+And this way pikeman disregard the parent class method and only pay attention to the method we defined
+
+02:58.150 --> 02:59.450
+in the char class.
+
+02:59.500 --> 03:00.410
+Hope that was helpful.
+
+03:00.490 --> 03:02.620
+Thank you for listening and I'll see you in the next lecture.

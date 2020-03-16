@@ -1,0 +1,136 @@
+WEBVTT
+
+00:01.090 --> 00:02.750
+Hi everybody and welcome back.
+
+00:02.800 --> 00:07.720
+Now we're moving into a new section and that section is all about functions and I would just kick off
+
+00:07.720 --> 00:10.270
+by saying that functions are fantastic.
+
+00:10.300 --> 00:11.920
+They are terrific.
+
+00:11.920 --> 00:17.980
+Functions are named blocks of code that are designed to do one specific job when you want to program
+
+00:18.040 --> 00:24.100
+a specific task that you've defined in the function you call the name responsible for when you need
+
+00:24.100 --> 00:26.720
+to perform the same task multiple times in your program.
+
+00:26.800 --> 00:30.710
+You don't have to type the same code over and over again as we have been doing previously.
+
+00:30.730 --> 00:32.940
+You can just call the required function.
+
+00:32.950 --> 00:35.110
+So now let's take a look at a simple example.
+
+00:35.260 --> 00:36.070
+OK so here we are.
+
+00:36.070 --> 00:37.910
+So let's first off define our function.
+
+00:37.930 --> 00:39.690
+So we do that by DPF.
+
+00:39.700 --> 00:41.310
+Actually I'll add in some comments.
+
+00:41.350 --> 00:47.900
+OK so Collins and so we start by defining our function and we do that by typing DPF for the fine.
+
+00:48.280 --> 00:50.400
+And then it's followed by the name of the function.
+
+00:50.440 --> 00:56.120
+So we're going to call this function Hello World Hello world.
+
+00:56.130 --> 00:59.410
+Now we have no arguments to pass in the brackets so we leave that empty.
+
+00:59.430 --> 01:03.510
+Later on we'll see how we can put information in there next.
+
+01:03.660 --> 01:09.570
+Every function must have a description and we do that by first and bring in tree come tree double quotes
+
+01:09.810 --> 01:11.330
+and giving it a description.
+
+01:13.210 --> 01:14.830
+Displaying Hello world.
+
+01:16.910 --> 01:18.810
+And then Mikko's it with tradeable quotes.
+
+01:18.860 --> 01:23.550
+Next what we want the function to do what we want to print Hello world.
+
+01:23.550 --> 01:26.350
+So this is what we actually want the function to do itself.
+
+01:26.420 --> 01:27.470
+Hello world.
+
+01:27.470 --> 01:29.260
+Then finally we call the function.
+
+01:29.300 --> 01:35.350
+So our function name is hello world hello world.
+
+01:35.350 --> 01:36.810
+We have no arguments to pass.
+
+01:37.010 --> 01:37.740
+So that's it.
+
+01:37.760 --> 01:39.520
+And let's see what happens when we run that.
+
+01:39.950 --> 01:40.810
+OK there we go.
+
+01:40.880 --> 01:41.730
+Hello world.
+
+01:41.970 --> 01:44.320
+Let's just do a very quick recap.
+
+01:44.360 --> 01:50.060
+We defined a function PEF we entered in our function name followed by brackets and a colon.
+
+01:50.120 --> 01:52.190
+We then opened up our function's comment.
+
+01:52.220 --> 01:57.660
+Our function description would treat double quotes displaying Hello World and close it off untradable
+
+01:57.770 --> 01:58.480
+quote.
+
+01:58.490 --> 02:01.010
+Then we entered in what we wanted our function to do.
+
+02:01.010 --> 02:04.300
+So in this case we just wanted to print out a simple Hello World message.
+
+02:04.340 --> 02:07.480
+Following that we call the actual function itself.
+
+02:07.580 --> 02:12.770
+So as we gave her name Hello World to the function we call that again at the end and when we run it
+
+02:12.770 --> 02:14.660
+prints out our function troat this section.
+
+02:14.670 --> 02:19.010
+Now we're going to look at how we can get more features from our functions.
+
+02:19.070 --> 02:21.140
+So thanks for listening and I'll see you in the next lecture.

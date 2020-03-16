@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.420 --> 00:04.980
+Hi everybody and welcome back in the previous lecture we saw how to give a function and and this lecture
+
+00:04.980 --> 00:07.920
+we're going to look at how to give a module an alias.
+
+00:08.520 --> 00:12.850
+So giving a module an alias allows you to call modular functions much more quickly.
+
+00:12.950 --> 00:14.550
+So let's look at how we would do that.
+
+00:14.550 --> 00:19.890
+So as you can see here again left hand side has my module open and on the right hand side I change it.
+
+00:19.890 --> 00:21.770
+Change the code around from a previous lecture.
+
+00:21.870 --> 00:24.740
+So do that now to match what I have on screen.
+
+00:25.020 --> 00:28.980
+So my import statement at the top is import books to buy.
+
+00:29.130 --> 00:31.560
+So import our full Mudgal books to buy.
+
+00:31.650 --> 00:36.480
+So as we saw in the previous lecture by saying import books to buy that opens up every function from
+
+00:36.480 --> 00:37.470
+our module.
+
+00:37.920 --> 00:44.070
+So that's import books to buy and let's get books by an alias let's call it boxed by let's just say
+
+00:44.640 --> 00:49.460
+as books to buy B2B OK books to buy.
+
+00:49.470 --> 00:55.700
+So down here we can remove books by the insert we can be run and there we go.
+
+00:55.710 --> 00:57.850
+Runs perfectly.
+
+00:57.910 --> 01:03.080
+That's just from do to ask books to buy this or for a function the following titles are available to
+
+01:03.080 --> 01:05.150
+buy the everything store.
+
+01:05.150 --> 01:11.300
+So by giving our modules an alias as we have just done it makes a function calls within our main program
+
+01:11.510 --> 01:17.270
+much quicker and much easier to use for a nice nice style tip helped make your program just a little
+
+01:17.270 --> 01:18.460
+bit quicker and cleaner.
+
+01:18.590 --> 01:20.460
+Thanks for listening and I'll see you in the next lecture.

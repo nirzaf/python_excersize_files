@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.360 --> 00:05.060
+Hi everybody and welcome back this lecture we're going to be looking at reading a file line by line
+
+00:05.530 --> 00:10.600
+so that you can see here I have a file now I have a file created called reading line by line up.
+
+00:10.860 --> 00:16.610
+And I have a movie line by line RTX which will be available in the resources and I just have libber
+
+00:16.610 --> 00:20.230
+more information into our movies line by line that he XTi.
+
+00:20.240 --> 00:25.650
+So I've taken out the first 12 movies from the I am the export or data set that I got.
+
+00:25.820 --> 00:28.580
+And again I'll make that dataset available in the resources.
+
+00:29.030 --> 00:33.060
+So when we're reading a file we'll sometimes want to examine each line of the file.
+
+00:33.290 --> 00:37.250
+We might be looking for a second piece of information in the file to perform a certain task.
+
+00:38.290 --> 00:42.680
+We can use a for loop on the file object we examine each line from a file.
+
+00:42.700 --> 00:43.680
+So how would we do that.
+
+00:43.810 --> 00:53.720
+Well like last night you would say create a variable called file name equals let's say movies line by
+
+00:55.250 --> 00:58.230
+line t s t.
+
+00:58.370 --> 00:59.020
+There we go.
+
+00:59.890 --> 01:04.580
+Next we have it open.
+
+01:04.720 --> 01:12.830
+We put in a very file name as File object color.
+
+01:12.940 --> 01:13.780
+There we go.
+
+01:13.780 --> 01:22.320
+Now we create a for loop so for line in file object print line.
+
+01:23.700 --> 01:26.920
+And I see what that gives us that run us.
+
+01:26.980 --> 01:28.520
+There we go.
+
+01:28.900 --> 01:35.140
+We have our information from our movies line by line that XTi all printed out here.
+
+01:35.200 --> 01:40.230
+Now as you can see there's an extra piece of space here and we'll address that now in a few minutes.
+
+01:40.270 --> 01:42.380
+So let's just run through this file really quickly.
+
+01:42.510 --> 01:48.170
+Line five we store the name of the file we're reading into the variable file name a common convention
+
+01:48.170 --> 01:51.860
+I'm working with files the variable font name doesn't represent the actual file.
+
+01:51.850 --> 01:59.240
+It just represents a string telling Python where to find a file offered us here at Line 7 after we call
+
+01:59.240 --> 02:05.230
+open an object representing the file and its contents is stored in the variable file object.
+
+02:05.320 --> 02:09.570
+Again we use the syntax to open and close the file properly.
+
+02:10.780 --> 02:16.650
+Next up line 8 we go through each line in the file by looping over to file object.
+
+02:16.800 --> 02:20.470
+And as I just said when our file prints out you'll notice some new blank lines.
+
+02:20.470 --> 02:25.070
+These appear because an invisible newline character is at the end of each line in the text file.
+
+02:25.150 --> 02:31.000
+The print statement adds its own new line each time we call it so we can remove this by using that strip
+
+02:34.560 --> 02:35.310
+and there we go.
+
+02:37.010 --> 02:38.140
+So I hope that made sense.
+
+02:38.150 --> 02:41.280
+How to access a file and read it line by line using a for loop.
+
+02:41.440 --> 02:43.970
+I'd be looking at this in more detail later on.
+
+02:43.970 --> 02:45.900
+Thanks for listening and I'll see you in the next lecture.

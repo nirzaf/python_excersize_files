@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.390 --> 00:01.890
+Hi everybody and welcome back.
+
+00:01.890 --> 00:06.450
+Now in this lecture and a few more to follow we are going to be looking at inheritance there not the
+
+00:06.450 --> 00:11.010
+kind of inheritance that your granny leaves you some old railway bonds but something that's even more
+
+00:11.010 --> 00:15.270
+valuable maybe it's inheritance within the Python programming language.
+
+00:15.570 --> 00:20.280
+So when writing and using classes it is not necessary every time to start from scratch.
+
+00:20.430 --> 00:25.500
+If the class you're writing is a specialized version of another class you wrote you can use inheritance
+
+00:26.250 --> 00:27.990
+when one class inherits from another.
+
+00:27.990 --> 00:31.800
+It automatically takes on all the attributes and methods of the first class.
+
+00:31.890 --> 00:37.560
+So as you can see here on the left hand side of my screen I have our e-reader class open and I have
+
+00:37.560 --> 00:38.790
+everything down for a method.
+
+00:38.820 --> 00:42.180
+The Increment library count and I deleted the code after that.
+
+00:42.240 --> 00:43.720
+But I have everything down there.
+
+00:43.920 --> 00:48.990
+So when using inheritance the original class is called the parent and this is going to be our parent
+
+00:48.990 --> 00:49.950
+class for this lecture.
+
+00:50.160 --> 00:55.440
+And the new class is called the child class the child class inherits every attribute and method from
+
+00:55.440 --> 00:56.400
+its parent class.
+
+00:56.640 --> 01:00.420
+But it is also free to define new attributes and methods of its own.
+
+01:00.570 --> 01:04.990
+So now let's look at how we would use the inat method for a child class.
+
+01:05.100 --> 01:10.470
+The first task has been creating an instance from a child class is assigned values to all attributes
+
+01:10.560 --> 01:16.950
+in the parent class to do this the init method for a child class needs help from its parent class.
+
+01:17.400 --> 01:23.100
+So let's look at the example let's model and the e-reader and this time let's use the Kindle Fire because
+
+01:23.100 --> 01:25.450
+that's an evolution of what we've been doing so far.
+
+01:25.740 --> 01:31.440
+Let's start by making a simple version of the Kindle Fire class which does everything the e-reader class
+
+01:31.440 --> 01:32.150
+does.
+
+01:32.160 --> 01:34.010
+So how we do that we go.
+
+01:34.390 --> 01:44.410
+Class that should be a small c sorry class Kindle Fire and it's going to is a child of a parent which
+
+01:44.410 --> 01:45.240
+is e-reader.
+
+01:45.270 --> 01:45.940
+There we go.
+
+01:46.030 --> 01:49.840
+E-reader now that's out in description.
+
+01:50.020 --> 01:56.500
+Represents aspects of an e-reader
+
+02:00.080 --> 02:05.960
+specific to a Kindle Fire.
+
+02:05.960 --> 02:11.900
+So if anybody is unfamiliar with a Kindle Fire have a google of it but it's like the original Amazon
+
+02:11.900 --> 02:14.950
+Kindle which was completely black and white book only model.
+
+02:15.140 --> 02:18.130
+But the Kindle Fire has a color screen Internet capabilities.
+
+02:18.200 --> 02:21.640
+So it's like a simple iPad or tablet device.
+
+02:21.710 --> 02:28.370
+And I just want to say a couple actually a bit here actually Kindle Fire Dan have that then initialize
+
+02:31.470 --> 02:32.180
+attributes.
+
+02:32.230 --> 02:36.600
+And I forgot an IDer is a comment so I won't make any odds but it's nice to have our spelling correct
+
+02:36.930 --> 02:38.270
+then initialize attributes
+
+02:41.240 --> 02:41.900
+specific
+
+02:48.590 --> 02:51.030
+to a Kindle Fire.
+
+02:51.130 --> 02:52.110
+OK.
+
+02:52.330 --> 02:56.620
+And close our comments so represent aspect of an e-reader specific to a Kindle Fire.
+
+02:56.630 --> 02:59.680
+And then we will initialize those attributes.
+
+03:00.200 --> 03:00.950
+And how do we do that.
+
+03:00.950 --> 03:05.780
+Well we start off with V.F. underscore underscore and I T.
+
+03:06.390 --> 03:07.320
+And what do we have.
+
+03:07.430 --> 03:17.070
+Well like we said we have to give it the attributes of its parent so that is self seld self make model
+
+03:19.110 --> 03:19.770
+backlights
+
+03:22.680 --> 03:26.270
+battery screen type.
+
+03:26.760 --> 03:29.190
+There we go Kloser brackets.
+
+03:29.610 --> 03:30.680
+Next what we have.
+
+03:30.870 --> 03:36.140
+Well we have to add in our comment and our comment is exactly what this method is going to do.
+
+03:36.150 --> 03:39.410
+It's going to initialize attributes
+
+03:42.860 --> 03:44.660
+but it kinda fire.
+
+03:45.440 --> 03:46.240
+There we go.
+
+03:46.250 --> 03:47.170
+Now here's something new.
+
+03:47.170 --> 03:52.230
+It's a new function and it's called the super function quite quite a name to live up to.
+
+03:52.340 --> 03:58.580
+So super P E or brackets does underscore underscore I N I T.
+
+03:58.880 --> 04:01.310
+And then we put in the same attributes as we just did.
+
+04:01.310 --> 04:08.600
+So make model and don't worry we're going to go through is now in detail and we'll see what everything
+
+04:08.600 --> 04:15.310
+is backlights battery screen type.
+
+04:15.380 --> 04:15.970
+There we go.
+
+04:16.090 --> 04:16.480
+OK.
+
+04:16.490 --> 04:22.190
+Now what we want to do is just have back a couple of there after you hit enter and we want to call my
+
+04:22.190 --> 04:22.940
+kindle fire.
+
+04:22.940 --> 04:24.950
+So we want to create a new variable.
+
+04:24.980 --> 04:27.790
+My Kindle Fire.
+
+04:28.240 --> 04:34.680
+So this is a very equals let's call our class Kindle Fire is our class.
+
+04:35.000 --> 04:36.330
+And what is the Kindle Fire.
+
+04:36.350 --> 04:37.670
+Well it's made by Amazon's.
+
+04:37.670 --> 04:39.570
+That's the make and Zed.
+
+04:39.600 --> 04:46.140
+Oh and maybe Amazon and because we're going to pass these into our parameters.
+
+04:46.140 --> 04:48.630
+We need to put them in quotes.
+
+04:48.750 --> 04:52.590
+Now the model we already know this but it's the Kindle Fire.
+
+04:52.590 --> 04:59.340
+There we go for fire back like let's just say it has a backlog which it obviously does because of the
+
+04:59.340 --> 05:00.050
+color screen.
+
+05:00.050 --> 05:00.660
+Backlights
+
+05:03.770 --> 05:13.520
+comment Patry while it has a 12 hour battery life 12 hour battery life and let's just go simple with
+
+05:13.520 --> 05:15.620
+the screen it's a color screen.
+
+05:16.010 --> 05:21.600
+I'm going to spell this American way for my American friends Kulish green.
+
+05:21.730 --> 05:22.530
+There we go.
+
+05:23.790 --> 05:24.930
+Now what we want to do.
+
+05:24.990 --> 05:25.870
+Well we want to print
+
+05:28.870 --> 05:33.010
+my Kindle Fire print my kindle fire.
+
+05:33.100 --> 05:38.350
+We have to choose a method now to print it and we want to printed in the format of get e-reader name
+
+05:38.830 --> 05:45.990
+which is a method from its parent from our parent class get e-reader name brackets.
+
+05:46.090 --> 05:50.260
+Now let's CD the output that gives us and let's go back to this gives us an error.
+
+05:50.260 --> 05:51.440
+Why does it give us an error.
+
+05:51.670 --> 05:54.780
+Because this indent is one indent too many.
+
+05:54.940 --> 05:56.090
+OK so we run it again.
+
+05:56.120 --> 05:58.020
+Correct at the end then and there we go.
+
+05:58.030 --> 06:08.550
+Amazon Kindle Fire back like 12 hours battery color screen to 12 hours battery life.
+
+06:08.550 --> 06:10.320
+There we go color screen.
+
+06:10.530 --> 06:11.030
+OK.
+
+06:11.190 --> 06:15.900
+So let's recap on what we have just done throughout the very top of our program here.
+
+06:15.960 --> 06:17.890
+We have our e-reader class.
+
+06:18.200 --> 06:22.520
+So when we create a child class the parent class must be part of the current file.
+
+06:22.520 --> 06:25.410
+I must appear before the child class in the file.
+
+06:25.450 --> 06:32.940
+So that's why we start off with our class e-reader which is our parent now down here at line 34 we defined
+
+06:32.940 --> 06:33.940
+the child class.
+
+06:34.080 --> 06:39.840
+Kindle Fire the name of the parent class must be included in the brackets in the definition of the child
+
+06:39.890 --> 06:42.790
+class which we have don't buy including e-reader.
+
+06:42.870 --> 06:50.630
+At 9:37 we have the init method which takes the information required to make an e-reader instance then
+
+06:50.650 --> 06:52.310
+add line 41.
+
+06:52.310 --> 06:56.690
+We have what's called the superfunction which is a special function that helps pite make connections
+
+06:56.690 --> 06:58.940
+between the parent and the child class.
+
+06:58.940 --> 07:05.150
+This line is plankton to call the init method from Kindle Fires parent class which gives a Kindle Fire
+
+07:05.260 --> 07:08.230
+instance all the attributes of its parent class.
+
+07:08.390 --> 07:15.200
+So very handy we don't have to write all the methods of our parent the name Super comes from a convention
+
+07:15.200 --> 07:19.970
+of calling the parent class a superclass and the child class a subclass just in case you're wondering
+
+07:20.930 --> 07:25.940
+to test whether inheritance is working properly can create a Kindle Fire with the same information we
+
+07:25.940 --> 07:31.970
+provided when creating a regular e-reader which we've just done had line for before we make an instance
+
+07:31.970 --> 07:36.530
+of Kindle Fire and store it in my kindle fire.
+
+07:36.670 --> 07:42.390
+This line Townsley in that method defined in Kindle Fire which in turn tells him to call the init method
+
+07:42.450 --> 07:48.660
+defined in our parent class we divide the arguments Amazon Kindle Fire back like 12 hour battery and
+
+07:48.660 --> 07:57.120
+color screen to create the insets the Kindle Fire incense works just like an instance of e-reader.
+
+07:57.120 --> 08:05.040
+So now we can begin defining attributes and methods specific to the Kindle Fire such as Internet capabilities
+
+08:05.410 --> 08:08.340
+the ability to add apps like Facebook or Twitter.
+
+08:08.500 --> 08:10.390
+And we look at doing that in the next lecture.
+
+08:10.390 --> 08:12.350
+Thanks for listening and I'll see you in the next lecture.

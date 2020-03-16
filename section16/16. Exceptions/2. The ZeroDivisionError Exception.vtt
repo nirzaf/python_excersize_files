@@ -1,0 +1,58 @@
+WEBVTT
+
+00:01.310 --> 00:06.000
+Hi everybody and welcome back in this lecture we're going to look at handling the 0 division error.
+
+00:06.060 --> 00:10.580
+So as we all know we can't divide a number by zero but let's give it a try anyway.
+
+00:10.880 --> 00:13.830
+So what we have in this lecture let's print.
+
+00:14.030 --> 00:15.300
+Here we go here.
+
+00:15.560 --> 00:18.450
+Print 5 divided by zero OK.
+
+00:18.560 --> 00:20.860
+Let's run this and see what we get.
+
+00:21.170 --> 00:22.040
+We get an error.
+
+00:22.390 --> 00:22.820
+OK.
+
+00:22.850 --> 00:24.380
+At least that's what we wanted.
+
+00:24.380 --> 00:27.350
+The error reported is a zero division error.
+
+00:27.650 --> 00:29.930
+And you can see that here Zero Division.
+
+00:30.050 --> 00:31.160
+Division by zero.
+
+00:31.250 --> 00:36.290
+And this is an exception object pite and creates this kind of object in response to a situation where
+
+00:36.290 --> 00:38.490
+it can't do what we ask it to do.
+
+00:38.540 --> 00:41.190
+We can use this information to modify our program.
+
+00:41.450 --> 00:44.840
+We are told heighten what to do when this kind of exception occurs.
+
+00:44.840 --> 00:48.900
+Which means that if it were to happen again we would be prepared in the next lecture.
+
+00:49.010 --> 00:52.010
+We're look at handling this one a try except luck.
+
+00:52.010 --> 00:53.760
+Thanks for listening and I'll see you in the next lecture.

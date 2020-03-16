@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.510 --> 00:01.770
+Hi everybody and welcome back.
+
+00:01.770 --> 00:04.010
+So as you can see here we're still in our book class.
+
+00:04.140 --> 00:13.520
+And again like I did in her lecture before going out and a quick comment here accessing attributes.
+
+00:14.670 --> 00:15.340
+No.
+
+00:15.630 --> 00:18.410
+So in this lecture we're going to look at calling methods.
+
+00:18.510 --> 00:19.490
+So what are our methods.
+
+00:19.500 --> 00:25.140
+Well these were methods here TGF sort of the same as functions but inside a class so any function inside
+
+00:25.140 --> 00:27.450
+a class is called a method.
+
+00:27.450 --> 00:29.300
+So at the moment we have four methods.
+
+00:29.580 --> 00:32.810
+The ones we're going to be calling our e-book self back right back.
+
+00:32.820 --> 00:35.070
+So let's look at how we do that now.
+
+00:35.820 --> 00:41.310
+So after we create an instance from a class book after we create an instance from our class book we
+
+00:41.310 --> 00:44.850
+can use that notation to call any method defined in book.
+
+00:44.970 --> 00:49.400
+So let's say does my book is a soft back.
+
+00:49.530 --> 00:51.240
+How do we do that.
+
+00:51.340 --> 00:56.730
+So if that's run that's nothing because I left the brackets.
+
+00:56.730 --> 00:59.780
+Now Elon Musk is a soft back book.
+
+00:59.820 --> 01:01.870
+Nice to call him method.
+
+01:01.870 --> 01:06.610
+Give the name of the instance in this case my book and the method you want to call separated by a touch
+
+01:07.020 --> 01:13.620
+when playing read my book Dorsch self back it looks for the method itself back in the class book and
+
+01:13.620 --> 01:14.870
+runs that code.
+
+01:14.960 --> 01:19.460
+The syntax is quite useful when attributes and methods have been given appropriate descriptive names
+
+01:19.470 --> 01:20.450
+like name price.
+
+01:20.460 --> 01:22.380
+Open close whatever it might be.
+
+01:22.440 --> 01:25.040
+We can easily infer what a block of code is supposed to do.
+
+01:25.050 --> 01:27.240
+Let's call another method here.
+
+01:27.240 --> 01:29.190
+So my book does hardback.
+
+01:29.190 --> 01:30.530
+Let's see what we got.
+
+01:33.070 --> 01:36.610
+My brackets again is a hardback book.
+
+01:36.610 --> 01:42.730
+OK so let's add another method so that C D F and isn't going to be related or ebox what we're going
+
+01:42.730 --> 01:45.730
+to say is e-book reader
+
+01:48.440 --> 01:48.940
+self
+
+01:52.620 --> 01:54.250
+and what we're going to say is for description.
+
+01:54.250 --> 02:00.540
+Simulate an ebook reader and is going to become useful later on.
+
+02:00.540 --> 02:02.330
+Now what does an ebook reader have.
+
+02:02.340 --> 02:07.860
+Well it has battery power it has a backlight it has a touch screen and has a lot of other functions
+
+02:07.860 --> 02:10.560
+that a normal book paper book doesn't have.
+
+02:10.560 --> 02:16.250
+So let's say we're reading the Eli must book print and let's say we have.
+
+02:16.440 --> 02:22.100
+So as we know in e-books we have a library so let's use Let's create a kind of a library listing here.
+
+02:22.110 --> 02:25.570
+So print library.
+
+02:25.630 --> 02:27.180
+There we go.
+
+02:27.180 --> 02:39.010
+And in our library we are going to have our name so that will be self name tough title.
+
+02:39.060 --> 02:40.260
+There we go.
+
+02:40.260 --> 02:45.060
+We're also going to have I forgot my plus symbol there so let's just put that in and in making this
+
+02:45.060 --> 02:45.900
+up as we go.
+
+02:45.900 --> 02:47.540
+So bear with me.
+
+02:47.550 --> 02:48.630
+So what else will our book have.
+
+02:48.630 --> 02:52.620
+Well it's going to have a price because as you know if you're looking down your Kindle or whatever e-book
+
+02:52.620 --> 02:57.000
+reader use in your library you have the name you have the price and you have the publisher.
+
+02:57.000 --> 03:06.000
+So plus self darte sell sell price.
+
+03:06.210 --> 03:07.250
+There we go.
+
+03:07.310 --> 03:17.610
+Price price plus self publisher publisher it to this title.
+
+03:18.240 --> 03:18.860
+OK.
+
+03:18.900 --> 03:22.100
+And then after this we just out in a full stop.
+
+03:22.200 --> 03:24.600
+Plus let's see what we get.
+
+03:24.600 --> 03:25.230
+There we go.
+
+03:25.240 --> 03:27.590
+Now let me just go back to the start of this line.
+
+03:29.110 --> 03:30.690
+E-book print library.
+
+03:30.960 --> 03:31.600
+OK.
+
+03:34.200 --> 03:37.240
+Now so let's remove all of our code here
+
+03:41.420 --> 03:44.370
+including accessing attributes because I'm not going to do that at the moment.
+
+03:44.480 --> 03:50.600
+Let's add in a new comment calling our e-book reader or e-book
+
+03:53.260 --> 03:55.660
+reader method.
+
+03:56.470 --> 03:57.410
+OK.
+
+03:57.580 --> 04:00.070
+So let's do that now.
+
+04:00.100 --> 04:07.610
+And how do we call it like we just seen we say my book does e-book reader brackets and let's see what
+
+04:07.610 --> 04:09.250
+we get in error.
+
+04:09.260 --> 04:13.170
+Of course we do because we have the price and that has to be a string.
+
+04:13.310 --> 04:17.380
+I should have known that I was thinking that as I wrote it but then I just lost my train of thought.
+
+04:17.930 --> 04:19.430
+OK let's run it again.
+
+04:19.430 --> 04:20.330
+There we go.
+
+04:20.330 --> 04:20.890
+Library.
+
+04:20.960 --> 04:28.120
+Elon Musk I've no space there because I have to add in my spaces plus space plus
+
+04:31.180 --> 04:31.920
+another space
+
+04:38.010 --> 04:39.040
+plus another space
+
+04:42.170 --> 04:43.220
+good learning curve.
+
+04:43.340 --> 04:45.530
+First of all there we go.
+
+04:45.530 --> 04:47.110
+Currently I'm so in my library.
+
+04:47.120 --> 04:52.280
+I have lived in Isla Musk forking 99 Virgin Books and what I could do here is I could put in comments
+
+04:52.280 --> 04:55.650
+I could clean this up a little bit if I wanted so I could do that here.
+
+04:58.330 --> 04:59.790
+I don't at start.
+
+04:59.940 --> 05:05.660
+Obviously I need it here after a name.
+
+05:06.060 --> 05:06.850
+There we go.
+
+05:07.110 --> 05:09.730
+Fourteen ninety nine.
+
+05:09.740 --> 05:12.140
+There we go and believe that.
+
+05:12.260 --> 05:14.430
+So let's say it's a little bit cleaner now.
+
+05:15.200 --> 05:16.100
+Ninety nine.
+
+05:16.100 --> 05:22.540
+You can put in our dollar sign as well if we wanted.
+
+05:22.540 --> 05:23.300
+There we go.
+
+05:23.560 --> 05:27.790
+So as you can see here the ebook reader method could come in very handy if we are creating a piece of
+
+05:27.790 --> 05:34.720
+software related to an ebook or if we were an Amazon kind of type of bookselling Web site where we can
+
+05:34.720 --> 05:40.690
+show the different types of books that we sell such as hardback self back or e-book we could call it
+
+05:40.690 --> 05:44.920
+different methods related to the different page that the user is viewing and all we would have to do
+
+05:44.920 --> 05:47.260
+is add in more methods.
+
+05:47.500 --> 05:50.340
+So you can see here now the power of our class.
+
+05:50.410 --> 05:54.100
+I hope you found it useful as always if you have any questions please reach out to me.
+
+05:54.130 --> 05:55.720
+If not I'll see you in the next lecture.
+
+05:55.720 --> 05:56.240
+Thank you.

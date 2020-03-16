@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.580 --> 00:06.400
+Hi everybody and welcome back this quick lecture we're gonna look at how to get a function in an alias.
+
+00:06.610 --> 00:09.050
+So why would we want to give a function an alias.
+
+00:09.280 --> 00:14.320
+Well what happens if the name of your function that you're importing into your main program conflicts
+
+00:14.320 --> 00:17.800
+with an existing name or if the function name is simply too long.
+
+00:18.010 --> 00:23.560
+Well when this happens you can use an alias so that you can see I have my code my two programs open
+
+00:23.560 --> 00:26.700
+from the last lecture and what I'm going to do is I'm going to reduce this down.
+
+00:26.710 --> 00:32.470
+So I'm just gonna remove these two lines here and then I'm gonna remove the function book description
+
+00:32.560 --> 00:34.110
+from our import here.
+
+00:34.390 --> 00:39.450
+And what you do to create an alias is we can leave this import books available.
+
+00:39.660 --> 00:45.190
+So from our module books or buy import books available and it's books available which is the function
+
+00:45.190 --> 00:49.540
+name from over here as you can see books available or function name.
+
+00:49.690 --> 00:58.000
+So I'm going to make this an alias as B.A so be a sure for books available obviously then we just change
+
+00:58.420 --> 01:04.490
+our function name here to B.A. and we run it and see what happens.
+
+01:04.810 --> 01:09.640
+There we go works just as well.
+
+01:09.660 --> 01:13.710
+So here what we've done is we've given a box available function which are calling from our module books
+
+01:13.720 --> 01:14.610
+to buy.
+
+01:14.780 --> 01:18.530
+We're giving books available to function an alias.
+
+01:19.020 --> 01:23.960
+And then instead and then in our code instead of calling books available with the argument.
+
+01:23.970 --> 01:25.770
+Elon Musk We just say.
+
+01:25.830 --> 01:30.050
+And a program works just as well let's just delete that and run it again.
+
+01:30.920 --> 01:31.430
+There we go.
+
+01:31.430 --> 01:38.610
+Elon Musk let's change it just remove any doubts The Everything Store.
+
+01:38.610 --> 01:40.670
+There we go.
+
+01:40.900 --> 01:44.220
+This our first function the following tightness of the by The Everything Store.
+
+01:44.220 --> 01:49.350
+So all you can say see aces can be very helpful if you have conflicting names or if your function names
+
+01:49.440 --> 01:51.060
+are too long for your program.
+
+01:51.060 --> 01:52.980
+Thanks for listening and I'll see you in the next lecture.

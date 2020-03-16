@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.730 --> 00:02.110
+Hi everybody welcome back.
+
+00:02.110 --> 00:05.730
+Now in this lecture we're going to look at using exceptions to prevent crashes.
+
+00:05.810 --> 00:10.360
+I'm going to look at the outlook so handling errors is especially important when the program has more
+
+00:10.360 --> 00:12.530
+work to do after the error occurs.
+
+00:12.610 --> 00:16.910
+After all you don't want your program to crash leaving your users unable to work.
+
+00:16.910 --> 00:18.450
+So let's take a look at an example.
+
+00:18.580 --> 00:23.470
+So we're going to create here is we're going to create a program that divides two numbers.
+
+00:23.470 --> 00:34.970
+So let's say print let's ask for please enter two numbers to be divided.
+
+00:35.030 --> 00:35.710
+Here we go.
+
+00:37.710 --> 00:42.130
+Next we say print enter.
+
+00:42.380 --> 00:42.830
+Q
+
+00:46.420 --> 00:47.430
+To Quit.
+
+00:47.820 --> 00:48.780
+There we go.
+
+00:48.810 --> 00:51.190
+Now what's next we're going to use a flag.
+
+00:51.780 --> 00:52.920
+So while true
+
+00:55.680 --> 00:57.550
+why true first number
+
+01:00.290 --> 01:01.650
+equals import
+
+01:06.590 --> 01:14.660
+new line colon quote new line first number.
+
+01:15.330 --> 01:16.440
+Here we go.
+
+01:16.430 --> 01:20.320
+So enter the first number leave a space that makes it easier.
+
+01:20.400 --> 01:30.270
+Now if our first number is Q Then what we do we know from previous experience we break.
+
+01:30.270 --> 01:33.540
+Don't forget your colon after Q Which I just don't break.
+
+01:33.540 --> 01:34.250
+There we go.
+
+01:34.270 --> 01:36.280
+I mean remove that pass.
+
+01:36.300 --> 01:39.390
+Now we want our second number.
+
+01:39.390 --> 01:43.450
+We're just creating variables here like we've done 100 times before input.
+
+01:43.740 --> 01:44.460
+Second number
+
+01:47.610 --> 01:48.360
+there we go.
+
+01:50.560 --> 02:00.090
+Now again if second number is q then break.
+
+02:00.090 --> 02:01.860
+So X is the program.
+
+02:02.710 --> 02:03.720
+Now answer
+
+02:06.280 --> 02:08.100
+equals can be an end.
+
+02:08.110 --> 02:12.840
+Because we're asking people for numbers first number divided.
+
+02:13.000 --> 02:18.040
+So you see the mathematical operations coming out here and it's divided by the second number as we go
+
+02:19.330 --> 02:21.030
+print.
+
+02:21.490 --> 02:22.150
+Answer.
+
+02:22.180 --> 02:25.880
+So all of this makes perfect sense after what we've done in the previous lectures.
+
+02:26.080 --> 02:31.570
+So let's say this now and then copy it into our Idol program because again we're asking for user input
+
+02:31.990 --> 02:33.300
+and we can't do that here.
+
+02:33.310 --> 02:37.840
+OK so here we are in idle and we have our code as we've just written and let's run this now and see
+
+02:37.840 --> 02:38.810
+what happens.
+
+02:41.560 --> 02:44.600
+Please enter two numbers to be divided into Q to quit.
+
+02:44.620 --> 02:46.540
+So our first number is 5.
+
+02:46.540 --> 02:51.550
+Our second number is zero error but that's exactly what we wanted because this program does not handle
+
+02:51.610 --> 02:52.270
+errors.
+
+02:52.490 --> 02:58.450
+So let's close this now and let's go back to our program here in sublime and let's see how we would
+
+02:58.450 --> 03:04.090
+handle errors so we can make our division program a little more stable by wrapping the line that might
+
+03:04.090 --> 03:09.040
+produce an error in a try except block the error occurs on the line that performs the division.
+
+03:09.130 --> 03:10.470
+So I put it there.
+
+03:10.540 --> 03:15.940
+We'll also include in the else block any code that depends on the try block executing successfully goes
+
+03:15.940 --> 03:16.940
+in the out block.
+
+03:17.050 --> 03:18.920
+So let's have a look at what we would do here.
+
+03:19.090 --> 03:22.990
+So it's around our second number input that the error can occur where a user could enter 0.
+
+03:23.110 --> 03:28.190
+So what we'll do is we'll put a try except block here so we have second numbers.
+
+03:28.210 --> 03:30.040
+Let's just get ourselves a bit of room to work
+
+03:32.740 --> 03:34.120
+so second number.
+
+03:34.120 --> 03:34.580
+Try
+
+03:37.180 --> 03:37.570
+answer
+
+03:40.440 --> 03:51.140
+equals and so this is just what we have down below first number divided by in second number.
+
+03:51.530 --> 03:52.270
+There we go.
+
+03:53.420 --> 04:02.740
+Now except if we guess someone trying to divide by zero zero division error
+
+04:06.390 --> 04:09.840
+then we print.
+
+04:10.560 --> 04:16.090
+You cannot you can't divide by zero.
+
+04:16.480 --> 04:17.460
+OK.
+
+04:19.340 --> 04:19.690
+Else
+
+04:25.330 --> 04:28.120
+print answer.
+
+04:28.720 --> 04:29.790
+OK there we go.
+
+04:31.080 --> 04:34.170
+Let's just remove our code down below because we don't need that anymore.
+
+04:35.140 --> 04:35.430
+OK.
+
+04:35.450 --> 04:39.790
+So what we have here is where do you come potentially enter in 0 which will impact our program.
+
+04:40.060 --> 04:46.170
+We have a try except block so try answer if 0 division error is raised we output.
+
+04:46.190 --> 04:47.540
+You can't divide by zero.
+
+04:47.660 --> 04:49.950
+Or else we print the answer and s w there.
+
+04:49.960 --> 04:54.120
+Cut that just in time before we went and we can run a program.
+
+04:56.240 --> 04:56.910
+There we go.
+
+04:57.100 --> 05:00.350
+So let's move this over to now and see what happens.
+
+05:00.350 --> 05:01.340
+So here we are back in.
+
+05:01.390 --> 05:10.050
+Now let's run this piece into two numbers two to be to be divided into Q to quit first number five second
+
+05:10.050 --> 05:10.950
+number 0.
+
+05:11.250 --> 05:12.580
+You can't divide by zero.
+
+05:12.750 --> 05:13.860
+Excellent.
+
+05:13.860 --> 05:19.420
+So first number 10 second number to 5 beautiful.
+
+05:19.820 --> 05:24.630
+Or try blup now includes the only code that might cause an error and any code that depends on the block
+
+05:24.630 --> 05:29.940
+succeeding is added to the block except block tells platen how to respond when a zero division error
+
+05:29.940 --> 05:33.010
+occurs by anticipating likely sources of errors.
+
+05:33.030 --> 05:38.310
+We can write more robust programs that will continue to run even when they encounter invalid data and
+
+05:38.310 --> 05:40.000
+missing resources.
+
+05:40.140 --> 05:41.430
+So I hope that was helpful.
+
+05:41.430 --> 05:43.200
+Thanks for listening and I'll see you in the next lecture.

@@ -1,0 +1,160 @@
+WEBVTT
+
+00:01.170 --> 00:03.040
+Hi everybody and welcome back.
+
+00:03.090 --> 00:07.950
+Now as we add more and more functionality to our classes our files can get very long.
+
+00:08.040 --> 00:13.770
+We're want to keep our files clean and tidy as possible to help with this pile and let us store classes
+
+00:13.770 --> 00:17.960
+in modules and then import the classes we need into our main program.
+
+00:18.180 --> 00:19.780
+So let's look at how we do that now.
+
+00:20.000 --> 00:23.620
+Well let's create a module containing just our e-reader class.
+
+00:23.880 --> 00:30.360
+So as you can see on the right hand side here I've copied and pasted in just my e-reader class so nothing
+
+00:30.360 --> 00:31.050
+else.
+
+00:31.140 --> 00:35.720
+My e-reader class Plus it's one two three four five methods.
+
+00:35.730 --> 00:36.770
+No print statements.
+
+00:36.780 --> 00:39.880
+No new variables no new instances nothing like that.
+
+00:39.960 --> 00:43.330
+Just my e-reader class and you can see here at the top.
+
+00:43.440 --> 00:49.020
+I've put in a common docstring which just describes the module and this module is a class that represents
+
+00:49.080 --> 00:50.420
+a basic e-reader.
+
+00:50.640 --> 00:55.050
+So this is not a million miles away from what we did or a functions in our last section.
+
+00:55.080 --> 01:00.870
+Now as I've done that here on the right hand side on the left hand side I've created a new file called
+
+01:01.110 --> 01:03.670
+my underscore e-reader.
+
+01:03.850 --> 01:10.040
+And as before make sure both your files as you can see in my left hand file menu here are in the same
+
+01:10.220 --> 01:11.640
+directory.
+
+01:11.660 --> 01:14.050
+Otherwise what we're about to do will not work.
+
+01:14.060 --> 01:22.460
+So what we do well to import our e-reader class into a separate file we write from lecture which is
+
+01:22.460 --> 01:30.470
+name my files your file may be different lecturn 98 so from file lecturn 98 import e-reader and your
+
+01:30.470 --> 01:35.310
+e-reader class is going to have a couple whatever it is in this instance is capital E..
+
+01:35.900 --> 01:41.930
+Now as you can see here we have no new variables created for new e-reader like we did in a previous
+
+01:41.930 --> 01:43.640
+lecture and we've no print statement.
+
+01:43.640 --> 01:45.700
+So we simply need to do that here.
+
+01:45.950 --> 01:50.670
+So my new e-reader and we did this before.
+
+01:50.700 --> 01:51.900
+So there's nothing new here.
+
+01:51.920 --> 01:59.480
+My new e-reader equals e-reader So we're calling our class and now we put in the features or the description
+
+01:59.720 --> 02:00.950
+that we had in a previous lecture.
+
+02:00.950 --> 02:05.320
+So it's an Amazon Kindle.
+
+02:05.530 --> 02:09.130
+That's the make model is Paperwhite
+
+02:11.930 --> 02:17.280
+name I have difficulty pronouncing it's backlight so we're just going to say it as we did before just
+
+02:17.280 --> 02:31.010
+of all don't forget are opening quote backlights which is an excellent feature just for backlights several
+
+02:32.480 --> 02:37.620
+months of battery life.
+
+02:38.060 --> 02:43.540
+And then finally I screen type where we trained with the API.
+
+02:43.760 --> 02:44.300
+OK.
+
+02:44.300 --> 02:46.090
+So nothing new there.
+
+02:46.520 --> 02:55.370
+Then we have Prince my new e-reader and we're going to call the method get e-reader name over here.
+
+02:55.480 --> 03:02.340
+So does get the reader name.
+
+03:02.340 --> 03:03.190
+There we go.
+
+03:03.420 --> 03:09.270
+So this is just as if we were writing at the end of our class down here on the bottom right hand side.
+
+03:09.750 --> 03:18.220
+Let's just run this when you get an error on line for when we get an error because get the reader name.
+
+03:18.420 --> 03:23.980
+I didn't put in the full method name there and I put a new name.
+
+03:24.000 --> 03:24.810
+There we go.
+
+03:25.020 --> 03:29.600
+Amazon Kindle paperweight it just put back like seven months of battery life trade DPR.
+
+03:30.240 --> 03:37.650
+So what line one here we write our import statement which tells Platon to open the e-reader module and
+
+03:37.650 --> 03:39.830
+import the e-reader class.
+
+03:39.870 --> 03:46.230
+Now we can use the e-reader class as if it were defined in this file here importing classes is an effective
+
+03:46.230 --> 03:49.470
+way to program once your classes work as you want them to.
+
+03:49.470 --> 03:53.810
+You can leave those files alone and focus on higher level logic of your main programs.
+
+03:54.120 --> 03:55.840
+Thank you for listening and have any questions.
+
+03:55.890 --> 03:58.670
+Please do not hesitate to contact me and I'll see you in the next lecture.

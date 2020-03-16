@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00.960 --> 00:02.170
+Hi everybody and welcome back.
+
+00:02.180 --> 00:05.790
+Now in this short lecture we're going to look at the file not found error.
+
+00:05.880 --> 00:12.090
+So as you can see here I've renamed this file file not found and I've entered in some simple text file
+
+00:12.090 --> 00:12.670
+name.
+
+00:12.690 --> 00:18.090
+Tony got the XTi to make sure whatever file name here you enter you don't have within your working folder.
+
+00:18.410 --> 00:24.510
+And any event today in what we've seen previously with open variable named file name on file object
+
+00:24.750 --> 00:27.070
+contents equals file object up read.
+
+00:27.210 --> 00:29.740
+So read the contents that are in our file.
+
+00:29.930 --> 00:30.390
+OK.
+
+00:30.600 --> 00:33.720
+What happens if I try and run this when I get an error.
+
+00:33.920 --> 00:35.640
+Thankfully it's an error we wanted.
+
+00:35.640 --> 00:38.560
+And as you can see here we have a file not found error.
+
+00:39.710 --> 00:41.180
+No such file or directory.
+
+00:41.180 --> 00:42.530
+Tony directx T.
+
+00:42.770 --> 00:46.310
+So how do we handle this a little bit better because obviously we don't want the program stopping like
+
+00:46.310 --> 00:46.880
+this.
+
+00:46.880 --> 00:51.390
+If we cannot find a file which is a very common task and probably a very common error.
+
+00:51.470 --> 00:55.190
+So let's say try calling.
+
+00:55.520 --> 01:01.380
+Now let's indent error width and we have to invent our contents.
+
+01:01.430 --> 01:09.860
+So after a read we enter and go back tab back a couple and that are in the line except file not found
+
+01:09.860 --> 01:10.530
+error.
+
+01:10.710 --> 01:20.910
+Colden message equals sorry the file comma.
+
+01:20.910 --> 01:25.830
+Sorry the file and what we can do here is we can actually put in the file names because we have that
+
+01:25.830 --> 01:27.210
+as a variable variable.
+
+01:27.210 --> 01:34.190
+So plus filename plus quotes again cannot be found.
+
+01:34.470 --> 01:39.500
+OK so nice and clean and a nice message elsewhere user then to finish this off.
+
+01:39.500 --> 01:45.170
+We have print message perfect.
+
+01:45.560 --> 01:47.560
+So let's run this now and see what we get.
+
+01:48.300 --> 01:49.740
+Absolutely beautiful.
+
+01:49.740 --> 01:53.150
+Sorry to file Tony that he XTi cannot be found.
+
+01:53.160 --> 01:57.450
+So a very simple example of how to make our programs a little bit more user friendly and provide some
+
+01:57.450 --> 01:59.930
+feedback for users as to what the error is.
+
+01:59.930 --> 02:00.730
+Exactly.
+
+02:00.820 --> 02:02.790
+So thanks for listening and I see you in the next lecture.

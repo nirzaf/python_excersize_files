@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.210 --> 00:04.770
+Hi everybody and welcome back this lecture we're going to look at reading an entire file and to do that
+
+00:04.800 --> 00:06.520
+we need to first create a file.
+
+00:06.780 --> 00:09.180
+So as you can see here I've got a couple of tabs open.
+
+00:09.240 --> 00:13.290
+So the first one is called Movie reader duppy white which gives you an indication of what this program
+
+00:13.290 --> 00:14.010
+will do.
+
+00:14.180 --> 00:19.230
+And then the second time I have moviestar text which just contains some information about the movie
+
+00:19.290 --> 00:20.150
+Avatar.
+
+00:20.160 --> 00:25.680
+Now I'm getting my information from I NDB I've downloaded a data set of 5000 movies and this was the
+
+00:25.680 --> 00:30.480
+first one from the top of the list and what into that dataset in a little bit later and other data sets
+
+00:30.660 --> 00:31.410
+before the moment.
+
+00:31.410 --> 00:33.190
+I just created a simple text file.
+
+00:33.300 --> 00:36.410
+You can get this in the resource section of this lecture.
+
+00:36.450 --> 00:42.420
+So back in our movie reader Doppie white How do we go about creating a program that will read our information
+
+00:42.420 --> 00:44.770
+from movies or text into our program.
+
+00:44.880 --> 00:45.830
+Well let's get started.
+
+00:45.900 --> 00:50.050
+Let's add in some comments first today's the 15th.
+
+00:50.160 --> 00:51.300
+My name and your name
+
+00:54.180 --> 00:57.230
+on the program what is this program going to do.
+
+00:57.240 --> 01:00.840
+It's going to read an entire file.
+
+01:00.840 --> 01:01.420
+There we go.
+
+01:01.500 --> 01:02.610
+OK so how do we start.
+
+01:02.610 --> 01:08.280
+We start with where it opened and what's the name to find we want to open.
+
+01:08.370 --> 01:14.220
+Well it's called moviestar text and this is surrounded by single quotes and as before you're moviestar
+
+01:14.220 --> 01:19.200
+text and your movie reader duppy why file both of them have to be in the same directory or why it's
+
+01:19.200 --> 01:19.950
+not going to work.
+
+01:19.960 --> 01:27.460
+I will look at that later on as well as a file object call it next.
+
+01:27.560 --> 01:32.760
+So contents are recreating a variable called contents equals file object.
+
+01:33.210 --> 01:37.440
+And if we go that read and I'll explain this in detail in a few minutes.
+
+01:37.440 --> 01:38.660
+Don't worry.
+
+01:38.670 --> 01:43.120
+Finally print contents dot strips.
+
+01:43.140 --> 01:48.390
+If you remember strip from previous lectures this takes all the whitespace to the left and right of
+
+01:48.410 --> 01:50.030
+the information in a movies or text file.
+
+01:50.060 --> 01:52.360
+Just in case it's been entered incorrectly.
+
+01:52.370 --> 01:54.550
+Now let's run this and see what we get.
+
+01:54.560 --> 01:55.840
+There we go.
+
+01:55.940 --> 02:02.980
+James Cameron Avatar action it's an action movie Avatar is the name 2009 and this last number here 33000
+
+02:03.050 --> 02:05.000
+is the number of Facebook likes that it got.
+
+02:05.000 --> 02:07.490
+So we're going to be using that a little later on.
+
+02:07.490 --> 02:11.750
+Not my favorite movie of all time not a great movie in my opinion but anyway it's the fourth on the
+
+02:11.750 --> 02:13.310
+list from MTV.
+
+02:13.910 --> 02:19.100
+And you can see here there is a text file that we've just imported into our program and output it to
+
+02:19.100 --> 02:19.860
+our screen.
+
+02:20.210 --> 02:22.860
+OK let's analyze this little program that we have here.
+
+02:22.880 --> 02:28.520
+And let's begin by looking at the open function here to do any work with a file.
+
+02:28.670 --> 02:31.290
+Even just print its contents.
+
+02:31.310 --> 02:33.360
+We first need to open the file to access it.
+
+02:33.590 --> 02:37.140
+The open function needs just one argument the name of the file we want to open.
+
+02:37.160 --> 02:42.200
+And as you can see here we've given it an argument moviestar text pite and looks for this file into
+
+02:42.200 --> 02:45.290
+the directory where the program that's currently being executed is stored.
+
+02:45.290 --> 02:49.890
+So as I mentioned make sure that all your programs and your text files are in the same directory.
+
+02:49.970 --> 02:56.480
+The open function returns an object representing the file here open moviestar text returns an object
+
+02:56.480 --> 03:04.680
+representing moviestar text and stores this object in file object here to the pipe and key word with
+
+03:05.400 --> 03:07.520
+at the beginning of a program closes the file.
+
+03:07.560 --> 03:10.050
+Once access to it is no longer required.
+
+03:10.050 --> 03:15.340
+Have you noticed yet how we use the function open but not the function close.
+
+03:15.420 --> 03:20.160
+We could use close but if a bug in our program prevents the closing statement from being executed the
+
+03:20.160 --> 03:21.510
+file may never close.
+
+03:21.510 --> 03:28.460
+This may not seem important but improperly close files can cause data to be lost or corrupted.
+
+03:28.470 --> 03:31.270
+All you have to do is open the file and work with it as desired.
+
+03:31.290 --> 03:34.750
+Trusting that pipe will close automatically when the time is right.
+
+03:34.770 --> 03:36.760
+Next we use the read method here.
+
+03:36.900 --> 03:42.840
+This method reads the entire contents of the file and stores it as one long string in contents.
+
+03:42.870 --> 03:46.250
+When we print the value of contents we get the entire text file back.
+
+03:46.410 --> 03:49.700
+OK so I hope that was pretty easy to understand and work with.
+
+03:49.830 --> 03:55.860
+In our next lecture we're going to look at five parts and get into further exploring files on textfiles.
+
+03:55.860 --> 03:57.970
+Thanks for listening and I'll see you in the next lecture.

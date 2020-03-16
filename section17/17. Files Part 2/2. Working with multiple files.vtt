@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.980 --> 00:02.230
+Hi everybody and welcome back.
+
+00:02.300 --> 00:04.840
+Now in this lecture going to be looking at analyzing some more books.
+
+00:04.850 --> 00:09.680
+But before we do that let's practice something from an earlier section of the book of a program to a
+
+00:09.680 --> 00:15.150
+function called word count doesn't make it easier to deal with multiple books.
+
+00:15.170 --> 00:19.860
+So what we have to do to move this all into a function well we first need to create a function.
+
+00:19.910 --> 00:26.450
+Let's take this line out and replace it with the F word count.
+
+00:28.260 --> 00:30.500
+And the problem we're going to parse it is filename.
+
+00:30.510 --> 00:32.380
+There we go.
+
+00:33.090 --> 00:41.440
+And as always with a function as we enter the description count the number of words in a file.
+
+00:41.440 --> 00:44.290
+Here we go close that up.
+
+00:44.300 --> 00:46.750
+So next we just remove the space here.
+
+00:46.970 --> 00:52.350
+So try but what we need to do is meet a little bit of indentation so little a little bit like moving.
+
+00:52.490 --> 00:57.090
+So that last indent this line content's gets indented.
+
+00:57.150 --> 01:03.850
+Now except luck here gets indented one says our message and our print line.
+
+01:03.910 --> 01:13.430
+Here we go and else gets indented words or number of words and our print OK there we go so we started
+
+01:13.430 --> 01:18.910
+our function you see and and what we want to do now is we want to create a list of files that we want
+
+01:18.920 --> 01:19.540
+one life.
+
+01:19.540 --> 01:23.250
+So file names equals.
+
+01:23.500 --> 01:24.590
+And let's just start with one.
+
+01:24.610 --> 01:32.840
+Let's go cliff because we know we have that in the right location that T S T OK.
+
+01:32.860 --> 01:42.530
+So for file name in file name so we know what all of this does in filenames.
+
+01:42.550 --> 01:46.380
+Now let's call it a function word count.
+
+01:47.380 --> 01:50.720
+And that's part of the file filename.
+
+01:50.730 --> 01:51.470
+There we go.
+
+01:51.720 --> 01:53.390
+OK so let's see what this does.
+
+01:54.090 --> 01:54.860
+OK.
+
+01:54.870 --> 01:56.690
+The output is the exact same.
+
+01:56.790 --> 02:01.390
+There we are but let's here in our list of files given a new file.
+
+02:01.680 --> 02:11.950
+And let's say if I had another classic book from Gottenburg dot org which could be Moby-Dick the T S
+
+02:11.970 --> 02:12.460
+T.
+
+02:12.630 --> 02:14.690
+Let's run it again.
+
+02:15.120 --> 02:17.010
+Sorry to find Moby-Dick cannot be found.
+
+02:17.010 --> 02:20.700
+And that's right because in my file structure here I don't have Moby-Dick.
+
+02:20.700 --> 02:25.890
+So what we've done here now is we've moved the program from last lecture into a function called word
+
+02:25.890 --> 02:27.150
+count.
+
+02:27.150 --> 02:33.170
+We then down the bottom create a simple loop to count the words in antitax we want to analyze.
+
+02:33.210 --> 02:39.750
+So Cliff Moby Dick and we've also called the error far not found error which helps the program to continue
+
+02:39.750 --> 02:41.160
+on as if nothing happened.
+
+02:41.950 --> 02:43.840
+Thanks for listening and I'll see you in the next lecture.

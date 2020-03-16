@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.700 --> 00:02.260
+Hi everybody and welcome back.
+
+00:02.260 --> 00:06.760
+Now in this short lecture we're going to look at how to prevent a function from modifying a list.
+
+00:06.760 --> 00:11.650
+So I have here on the left hand side of our screen our last lecture and all the code that was involved
+
+00:11.650 --> 00:18.510
+in dush And as you know in this lecture we modified the not checked in list to become detect check list.
+
+00:18.640 --> 00:23.770
+And as I said in this lecture as soon as we move a passenger from not checked in to check in the checked
+
+00:23.770 --> 00:25.240
+and list becomes empty.
+
+00:25.240 --> 00:29.390
+So every time we remove a person from this list that's it they're gone there's no getting them back.
+
+00:29.410 --> 00:31.120
+So you may not always want to do this.
+
+00:31.210 --> 00:36.160
+You may decide you want to keep a copy of the not checked in people now for whatever reason that might
+
+00:36.160 --> 00:39.930
+be you're dealing with you might always have to keep a copy of the original list.
+
+00:40.210 --> 00:45.210
+Well we can address this issue by passing the function a copy of the list of the changes made but the
+
+00:45.220 --> 00:49.390
+function will only affect the copy you can send a copy of a list to a function like this.
+
+00:49.390 --> 01:00.110
+Let's use the function from The Last Lecture passengers list name square brackets and a colon inside.
+
+01:00.120 --> 01:06.310
+And that's what's called the slice or a slice slice notation the slice notation makes a copy of the
+
+01:06.310 --> 01:08.140
+list to send to the function.
+
+01:08.140 --> 01:14.750
+If we didn't want to empty the list of not checked then passengers in our passengers function we could
+
+01:14.750 --> 01:18.590
+call the passengers function like this.
+
+01:18.590 --> 01:24.910
+So passengers are the same as above and in our last lecture not checked in
+
+01:27.740 --> 01:28.830
+not checked in.
+
+01:29.240 --> 01:30.820
+And then we want to make a copy.
+
+01:30.830 --> 01:35.260
+We want to pass the function a copy of a list of the list not the original list.
+
+01:39.900 --> 01:42.560
+Checked in and that's how we would do it there.
+
+01:42.570 --> 01:47.040
+So the only drawback to using a copy of a letter is that it creates more memory usage in your system
+
+01:47.070 --> 01:48.170
+and in your program.
+
+01:48.330 --> 01:51.310
+So if possible always use the original of your list.
+
+01:51.360 --> 01:52.430
+I hope that made sense.
+
+01:52.500 --> 01:54.210
+Thanks for listening and I'll see you in the next lecture.

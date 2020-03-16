@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.210 --> 00:01.980
+Hi everybody and welcome back.
+
+00:02.010 --> 00:04.540
+Now in this lecture we're going to be looking at file paths.
+
+00:04.860 --> 00:10.650
+So when we pass a simple fun name like movies RTX T to the open function pipe it looks in the directory
+
+00:10.650 --> 00:15.570
+where to find it's currently being executed is stored but this will not always be the case depending
+
+00:15.570 --> 00:16.890
+on how you organize your work.
+
+00:16.890 --> 00:20.940
+Sometimes the file you want to open may not be in the same directory as your program file.
+
+00:21.030 --> 00:26.280
+For example what in your working folder where you say reprogrammed you might have a note or folder called
+
+00:26.330 --> 00:31.320
+text files to store to text file and you're currently working with to get piped into open the files
+
+00:31.320 --> 00:34.060
+from a directory ordered under one where your program is stored.
+
+00:34.110 --> 00:38.720
+We need to provide a file path which tends to lock in a specific location on our system.
+
+00:40.270 --> 00:45.550
+If we create a new folder called text files within our working folder we would use a relative path to
+
+00:45.550 --> 00:51.610
+open a file with it around the file path tells it to look for a given location relative to the directory
+
+00:51.760 --> 00:54.070
+where the current program is stored.
+
+00:54.070 --> 00:55.490
+So what does this mean.
+
+00:55.780 --> 01:01.630
+Well as you can see on the left hand side here I have my working directory called files and then I have
+
+01:01.630 --> 01:06.750
+my movies dirty XTi I'm my movie reader which we worked with in the last lecture.
+
+01:06.760 --> 01:11.500
+Now I have a new program here called five parts which is the exact same as the last lecture except renamed
+
+01:12.800 --> 01:15.880
+also what in this folder files.
+
+01:16.010 --> 01:18.050
+I have another folder called textfiles.
+
+01:18.460 --> 01:19.210
+And went in there.
+
+01:19.210 --> 01:21.950
+I have a copy of moviestar XTi.
+
+01:21.950 --> 01:26.850
+And as you can see the copy I change James Cameron to Tony Stone and my name so we know we run it.
+
+01:26.900 --> 01:28.550
+We're pulling in the right file.
+
+01:28.610 --> 01:36.660
+So I go back into my file pads and I simply put it in t x t t x t
+
+01:40.580 --> 01:50.330
+files forward slash and I call this file copy of moviestar XTi of movie 30 XTi.
+
+01:50.510 --> 01:51.290
+There we go.
+
+01:52.890 --> 01:56.910
+So the forward slash is relevant for Linux and OS X users in Windows.
+
+01:56.920 --> 01:59.290
+It would be a backslash like that.
+
+02:00.500 --> 02:02.980
+Let's run that and see if it works.
+
+02:02.990 --> 02:04.270
+There we go.
+
+02:04.340 --> 02:10.790
+It's jumped from a working directory which is files into our tax files directory and it's found copy
+
+02:10.790 --> 02:18.200
+of moviestar XTi we can also use what are called absolute file paths these five parts to help Huyton
+
+02:18.230 --> 02:23.710
+exactly where the file is on our computer regardless of where the program that's being executed is stored.
+
+02:23.910 --> 02:26.890
+Absolute file parts are usually longer and well-defined parts.
+
+02:26.970 --> 02:30.720
+So it's helpful to store them in a variable and then pass the variable to open.
+
+02:30.720 --> 02:35.130
+I'm going to post this video now and go off and get the absolute file part from my copy of movies t
+
+02:35.250 --> 02:35.850
+XTi.
+
+02:36.010 --> 02:36.780
+OK welcome back.
+
+02:36.780 --> 02:40.900
+So I've gone off and I've gotten the file path to my copies of movies don t s t.
+
+02:41.040 --> 02:45.180
+So what we want to do here now is we want to save that file part in a variable.
+
+02:45.210 --> 02:46.520
+So we're going to call that variable.
+
+02:46.630 --> 02:47.550
+Something very obvious.
+
+02:47.550 --> 02:52.440
+File Path equals paste in there we go.
+
+02:52.470 --> 03:03.310
+Now what I want to do is I want to put in the name of my file so it's a copy of movies Dr. X take.
+
+03:03.600 --> 03:04.810
+Perfect.
+
+03:04.830 --> 03:06.660
+Now I want to take this out here.
+
+03:08.480 --> 03:13.900
+And inside it I want to say the name of my variable file path.
+
+03:13.920 --> 03:14.520
+There we go.
+
+03:14.520 --> 03:16.220
+Let's run that and see what we get.
+
+03:17.450 --> 03:18.040
+Perfect.
+
+03:18.110 --> 03:19.580
+Works like a charm.
+
+03:19.610 --> 03:22.130
+So now you can put it in the relative path to your files.
+
+03:22.160 --> 03:23.840
+Doing so with a variable.
+
+03:24.260 --> 03:27.740
+I hope all that made sense if you have any questions please let me know and I'll see you in the next
+
+03:27.740 --> 03:28.190
+lecture.

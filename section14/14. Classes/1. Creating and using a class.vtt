@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00.490 --> 00:01.920
+Hi everybody and welcome back.
+
+00:02.110 --> 00:06.990
+Now we're moving into a new section and it's time to talk about object our entailed program.
+
+00:07.180 --> 00:13.750
+So this section is called classes object orientated program is one of the most effective ways of writing
+
+00:13.750 --> 00:16.750
+software in Object orientation program.
+
+00:16.750 --> 00:22.930
+You write classes that represent real world things and situations and create objects based on those
+
+00:22.930 --> 00:24.080
+classes.
+
+00:24.220 --> 00:29.970
+When you write a class you're defining the general behavior that whole category of objects can have.
+
+00:30.010 --> 00:35.260
+Then when you create individual objects from the class each of those objects is automatically equipped
+
+00:35.320 --> 00:40.180
+with the general behavior you have given each object so prepare to be amazed.
+
+00:40.390 --> 00:46.230
+Making an object from a class is called instantiation and you work with instances of a class.
+
+00:46.270 --> 00:50.010
+This section will write classes and create instances of those classes.
+
+00:50.050 --> 00:52.400
+You can model almost anything using classes.
+
+00:52.480 --> 00:58.570
+And let's start simple by writing a book class which obviously represents a book not one book in particular
+
+00:58.600 --> 01:01.780
+but any book on what we know about most books.
+
+01:01.960 --> 01:02.730
+Well they have a name.
+
+01:02.740 --> 01:04.530
+They have a price and a publisher.
+
+01:04.540 --> 01:08.720
+We also know that most books are either hard or soft cover or e-books.
+
+01:09.010 --> 01:12.760
+These piece of information and behaviors will go into our book class because they're common to most
+
+01:12.760 --> 01:13.780
+books.
+
+01:13.780 --> 01:19.090
+This class will tell Spuyten how to make an object representing a book after a class is written.
+
+01:19.180 --> 01:23.220
+We'll use it to make individual instances each representing one specific book.
+
+01:24.100 --> 01:24.930
+Are you excited.
+
+01:24.940 --> 01:26.540
+I hope so because I am.
+
+01:26.680 --> 01:30.100
+Let's get started and create our first class the book Class.

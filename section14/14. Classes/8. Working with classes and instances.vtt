@@ -1,0 +1,355 @@
+WEBVTT
+
+00:00.900 --> 00:02.330
+Hi everybody and welcome back.
+
+00:02.330 --> 00:06.660
+Now with this lecture I'm going to create a brand new class called our e-reader class.
+
+00:07.170 --> 00:08.460
+So what does that involve.
+
+00:08.670 --> 00:11.370
+Well it involves creating a new class like we've done previously.
+
+00:11.370 --> 00:12.650
+It involves some functions.
+
+00:12.650 --> 00:14.430
+It evolves and parameters and attributes.
+
+00:14.430 --> 00:16.610
+Let's jump right in and get going.
+
+00:16.740 --> 00:21.880
+So let's start off by defining our class in our classes called e-reader brackets.
+
+00:21.900 --> 00:23.150
+Cool.
+
+00:23.250 --> 00:31.230
+Now we open this up for our comments my class to represent an e-reader
+
+00:34.730 --> 00:42.940
+where we go next we define our method underscore underscore I and I t underscore underscore.
+
+00:43.240 --> 00:52.710
+Now we have a parameter self make model as we know with e-readers or a number of different models.
+
+00:52.810 --> 00:56.800
+Does it have a backlights are putting it back like parameter.
+
+00:56.800 --> 00:57.930
+What's the battery life like.
+
+00:57.940 --> 01:05.320
+Sort of put that in as well and the screen type code are in there as well because now e-readers are
+
+01:05.320 --> 01:08.150
+not just black and white their color as well.
+
+01:08.210 --> 01:09.420
+And don't forget your colon.
+
+01:09.550 --> 01:11.130
+Next we put in a description.
+
+01:11.410 --> 01:12.350
+So initialize
+
+01:15.220 --> 01:16.120
+the attributes
+
+01:19.150 --> 01:22.470
+to describe an e-reader.
+
+01:22.490 --> 01:27.820
+Now we may we may not have captured all the attributes needed to describe any reader but we will look
+
+01:27.820 --> 01:30.860
+at that a little later.
+
+01:31.000 --> 01:43.350
+So as we saw in the previous lecture we start off with self does make equal make self does model equals
+
+01:43.420 --> 01:51.420
+model self dot backlight equals backlight
+
+01:55.180 --> 02:00.050
+that battery Eco's battery.
+
+02:00.730 --> 02:07.490
+And finally solve that screen type equals screen.
+
+02:08.000 --> 02:08.600
+There we go.
+
+02:10.690 --> 02:11.470
+Now what's next.
+
+02:11.470 --> 02:18.120
+Well next we're going to put in a function that will format are the output of our e-reader parameters.
+
+02:18.130 --> 02:19.380
+So let's have a look at how we do that.
+
+02:19.420 --> 02:26.670
+Well B.F. I'm going to call this gas e-reader name.
+
+02:26.680 --> 02:27.850
+There we go.
+
+02:28.290 --> 02:31.080
+We give that the parameter self call.
+
+02:31.130 --> 02:32.810
+Now a comment.
+
+02:33.670 --> 02:39.560
+So return a formatted script of
+
+02:44.230 --> 02:51.070
+name for our e-reader and if you think about it this would be something like if you're on Amazon buying
+
+02:51.160 --> 02:55.780
+an e-reader you would see a big head of head or descriptive name at the top of the page.
+
+02:55.780 --> 03:01.810
+So this could be dashed and it's called this long name because it is going to be a long name equals
+
+03:02.470 --> 03:04.510
+self does make.
+
+03:04.760 --> 03:17.110
+Let's start off with the make of our e-reader followed by quote's space plus Let's go to our model self-taught
+
+03:17.230 --> 03:18.090
+model.
+
+03:21.130 --> 03:30.640
+After that we have so many descriptive items in it so let's put in and the backlight self does back
+
+03:30.640 --> 03:39.840
+like plus space plus self Dazs battery
+
+03:42.740 --> 03:48.140
+plus putting in airspaces don't forget revisable come out nice and cleanly format.
+
+03:48.460 --> 03:56.740
+Plus screen type and just be spaced out there just for ease of use.
+
+03:56.770 --> 04:01.250
+Now we don't need a closing bracket or anything like that after that then we return.
+
+04:01.270 --> 04:03.000
+So what do we want to turn out.
+
+04:03.100 --> 04:05.100
+So we return our name
+
+04:07.900 --> 04:11.660
+that title so capitalized where necessary.
+
+04:11.730 --> 04:15.700
+Now let's call our new class and let's go.
+
+04:15.720 --> 04:17.170
+My so let's create a very.
+
+04:17.180 --> 04:18.900
+But my new e-reader.
+
+04:19.020 --> 04:22.870
+So we have a new e-reader you just ordered one from Amazon or wherever it is you shop.
+
+04:23.130 --> 04:28.000
+My new e-reader So here we are calling our class and let's give it the arguments that are passed into
+
+04:28.030 --> 04:29.020
+the parameters.
+
+04:29.100 --> 04:34.730
+So my new e-reader is an Amazon Kindle.
+
+04:34.910 --> 04:35.390
+OK.
+
+04:35.410 --> 04:36.990
+That's the make.
+
+04:36.990 --> 04:37.870
+What's the model.
+
+04:38.070 --> 04:39.150
+Well it's a paper wife.
+
+04:39.180 --> 04:43.210
+And if you want Amazon there are actually loads of different models so there's not just the one like
+
+04:43.210 --> 04:52.270
+there used to be there's a paper wice one back like well has an adjustable backlight.
+
+04:52.610 --> 04:54.000
+Have you read in the sun or in the dark.
+
+04:54.000 --> 05:00.120
+I suppose the battery while there's no kind of set time in the battery what it is is it's several months
+
+05:00.860 --> 05:05.120
+of battery life.
+
+05:05.170 --> 05:06.030
+OK.
+
+05:06.650 --> 05:08.750
+Then we have the screen types what kind of screen is.
+
+05:08.770 --> 05:11.570
+Well according to Amazon it straight home depot.
+
+05:11.980 --> 05:13.810
+There we go.
+
+05:13.810 --> 05:21.520
+And finally what we want to do what we want to print out is a variable that we just created my new e-reader
+
+05:21.890 --> 05:26.890
+want to invoke one of our method so get the reader name followed by brackets and that's it.
+
+05:26.890 --> 05:28.450
+So let's see what we have.
+
+05:29.410 --> 05:30.280
+We have an error.
+
+05:30.310 --> 05:31.180
+Why do we have an error.
+
+05:31.180 --> 05:32.110
+Let's have a look.
+
+05:32.290 --> 05:38.020
+Well we have an error because I didn't put self in front of screen type self that screen type.
+
+05:38.020 --> 05:38.790
+There we go.
+
+05:39.010 --> 05:40.990
+Let's run it again and see what we get.
+
+05:40.990 --> 05:41.980
+Perfect.
+
+05:42.010 --> 05:44.530
+So let's have a look at our output for a moment.
+
+05:44.530 --> 05:48.960
+Amazon Kindle Paperwhite It just bought back like several months of battery life on a deep drive.
+
+05:48.960 --> 05:51.150
+I'm sure we can clean that up just a little bit.
+
+05:51.230 --> 05:52.880
+So let's have a look at how we do that.
+
+05:53.020 --> 05:57.550
+Let's go back into our long name and let's start in a couple of hyphens.
+
+05:59.900 --> 06:03.190
+When I say a couple I mean several want to here
+
+06:07.790 --> 06:11.260
+and another one here.
+
+06:11.260 --> 06:11.940
+There we go.
+
+06:12.070 --> 06:13.250
+Let's run it again.
+
+06:13.720 --> 06:14.210
+OK.
+
+06:14.230 --> 06:15.640
+Little bit easier to read.
+
+06:15.640 --> 06:21.180
+Amazon Kindle Paperwhite just about back back like several months of battery life treatment to the API.
+
+06:21.190 --> 06:27.040
+Now it's not a very big stretch of imagination to see this on the Amazon web page so to click onto the
+
+06:27.040 --> 06:31.900
+image or the description of a Kindle and have this as your big headline at the top and then you follow
+
+06:31.900 --> 06:34.440
+it down to read people's reviews and things it does.
+
+06:34.480 --> 06:37.830
+So let's just go back to your class here and see what we have.
+
+06:38.500 --> 06:39.700
+OK let's start here.
+
+06:39.810 --> 06:40.280
+Line 8.
+
+06:40.300 --> 06:43.770
+We defined it in a method with the self parameter for us exactly like before.
+
+06:43.760 --> 06:44.710
+What about class.
+
+06:44.830 --> 06:51.610
+We also give it several parameters such as make model backlight battery screen type the init method
+
+06:51.610 --> 06:55.660
+takes in these parameters and stores them in attributes that would be associated with instances from
+
+06:55.660 --> 06:56.860
+this new class.
+
+06:56.860 --> 07:02.890
+When we make a new e-reader instance we will need to specify a make model backlight battery and screen
+
+07:02.890 --> 07:03.160
+type.
+
+07:03.160 --> 07:12.850
+For instance at line 16 here we define a method called Get e-reader name that puts on e-readers make
+
+07:12.850 --> 07:19.420
+model backlight battery screen type into one string neatly formatted for e-reader despairs from having
+
+07:19.420 --> 07:23.230
+to print each attribute value individually to work with the attribute value.
+
+07:23.230 --> 07:28.300
+In this method we use self-taught make self-taught model of self-taught back like self-taught battery
+
+07:28.450 --> 07:31.410
+self-taught screen type building on our last lectures.
+
+07:31.420 --> 07:32.940
+This is actually not that complicated.
+
+07:32.950 --> 07:37.750
+If you take it step by step piece by piece and this lecture now is all about bringing those pieces together
+
+07:37.750 --> 07:39.940
+into one class which we've just done.
+
+07:39.940 --> 07:45.040
+And then line 21 we make an instance from the e-reader class and stored in the variable.
+
+07:45.040 --> 07:51.420
+My new e-reader then we call get e-reader name to show what kind of e-reader we have.
+
+07:52.830 --> 07:54.020
+So hope all that made sense.
+
+07:54.060 --> 07:55.800
+If not please don't hesitate to ask me.
+
+07:55.800 --> 07:58.530
+And as always thank you for listening and I'll see you in the next lecture.

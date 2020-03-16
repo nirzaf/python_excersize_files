@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.360 --> 00:02.050
+Hi everybody and welcome back.
+
+00:02.070 --> 00:07.350
+Now previously we had a program to do certain tasks the given condition was true but what happens when
+
+00:07.350 --> 00:12.000
+you start to create more complicated programs in which many different events could cause your program
+
+00:12.000 --> 00:13.020
+to stop running.
+
+00:13.080 --> 00:17.730
+You could be creating a video game where several different events could cause it to end events such
+
+00:17.730 --> 00:23.490
+as the death of a player the death of another player a loss of energy or loss of a base any kind of
+
+00:23.490 --> 00:27.390
+lawsuit in a video game or situation a videogame can cause it to end.
+
+00:27.480 --> 00:29.110
+Not just one event.
+
+00:29.340 --> 00:33.210
+For programs that should grown only as long as many conditions are true.
+
+00:33.210 --> 00:37.980
+You can find one variable that determines whether or not the whole program is active.
+
+00:37.980 --> 00:41.980
+This variable is called a flag and it acts as a signal to your program.
+
+00:42.850 --> 00:47.040
+You can write your program so they run while the flag is set to true and stop running.
+
+00:47.080 --> 00:53.370
+When any of several events set the flag to folks what this means is that your overall while statement
+
+00:53.710 --> 00:57.840
+need to check only one condition whether or not the flag is currently true.
+
+00:58.090 --> 01:00.550
+So let's have a look at how we might do that now.
+
+01:01.160 --> 01:05.830
+So let's use our last example and we have prompt equals
+
+01:13.320 --> 01:14.060
+answer.
+
+01:14.070 --> 01:14.520
+Q
+
+01:17.680 --> 01:19.960
+And this program.
+
+01:20.900 --> 01:24.280
+OK next prompt
+
+01:27.340 --> 01:27.970
+backslash.
+
+01:28.000 --> 01:31.350
+And what is your name.
+
+01:32.190 --> 01:39.610
+Ok just let me add in a question mark there the question mark and just on our first prom's let me add
+
+01:39.610 --> 01:41.740
+in the new line characters.
+
+01:41.830 --> 01:42.690
+There we go.
+
+01:42.700 --> 01:54.870
+Now what we're going to do here next is we're going to set our flag so set our flag to true so act of
+
+01:56.190 --> 01:59.870
+equals true.
+
+01:59.970 --> 02:04.750
+So why the act of we wanted our message
+
+02:09.440 --> 02:13.690
+Eco's in part from
+
+02:17.850 --> 02:20.650
+and then if our message
+
+02:25.740 --> 02:32.630
+becomes Q act of equals faults OK.
+
+02:33.130 --> 02:37.760
+Otherwise let's print our message.
+
+02:37.830 --> 02:42.830
+Print message OK save that.
+
+02:42.840 --> 02:43.840
+Now let's run it
+
+02:48.100 --> 02:49.800
+and a Q to end this program.
+
+02:49.840 --> 02:50.630
+What is your number.
+
+02:50.630 --> 02:52.850
+So I have a typo there but we'll get back to that in a moment.
+
+02:53.020 --> 02:56.410
+So Tony Tony.
+
+02:56.710 --> 03:00.530
+Frank Q There we go.
+
+03:00.540 --> 03:01.220
+Perfect.
+
+03:01.330 --> 03:04.470
+Let's just take a look at the program again.
+
+03:04.470 --> 03:07.420
+First we set the variable of to true.
+
+03:07.540 --> 03:13.850
+So our program starts to run in an active state doing so makes the while statement simpler because no
+
+03:13.850 --> 03:16.150
+comparison is made in the While statement itself.
+
+03:16.370 --> 03:21.260
+As long as the active variable remains true the loop will continue running using the if statement inside
+
+03:21.260 --> 03:22.060
+the while loop.
+
+03:22.190 --> 03:23.570
+We check the value of message.
+
+03:23.660 --> 03:30.440
+Once the user enters or input if the user enters Q We set active default and the while loop stops if
+
+03:30.440 --> 03:35.720
+the user enters ordered and the program continues and we print our message OK.
+
+03:35.730 --> 03:40.200
+So there's another way that we can end programs and we look at using both this method and the last method
+
+03:40.440 --> 03:41.940
+in our programs going forward.
+
+03:41.940 --> 03:43.980
+Thanks for listening and I'll see you in the next lecture.

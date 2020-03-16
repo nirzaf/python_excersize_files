@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.270 --> 00:02.180
+Hi everybody and welcome back.
+
+00:02.220 --> 00:05.690
+Now in this lecture we're going to look at how to write multiple lines to a file.
+
+00:05.790 --> 00:09.690
+So the write function doesn't to add any new lines to the text we write.
+
+00:09.720 --> 00:13.990
+So if you write more than one line without including a newline character you will not get it cleaned
+
+00:14.010 --> 00:15.190
+the formatted file.
+
+00:15.540 --> 00:20.160
+So we're going to take a look at an example that is now and we're also going to look at is an example
+
+00:20.160 --> 00:24.110
+of the a function and that is how to append to a file.
+
+00:24.110 --> 00:26.510
+So we're going to look at those two examples now.
+
+00:26.650 --> 00:31.680
+So we're going start off simply with message to creating a variable called Message equals input.
+
+00:31.680 --> 00:34.440
+So we're going to look for some user input.
+
+00:34.440 --> 00:39.990
+I'm going to ask the user what is your favorite film
+
+00:43.600 --> 00:43.990
+OK.
+
+00:43.990 --> 00:44.570
+There we go.
+
+00:44.570 --> 00:50.350
+Now we're going to print message title.
+
+00:50.690 --> 00:52.280
+OK so we all know what that does.
+
+00:52.280 --> 00:54.620
+And just for good measure let's make sure it works.
+
+00:54.620 --> 00:56.150
+There you go what is your favorite film.
+
+00:58.050 --> 01:00.720
+OK so now we create our file name very file name.
+
+01:00.820 --> 01:07.350
+Equals favorite film ok.
+
+01:07.470 --> 01:08.380
+T x t.
+
+01:10.120 --> 01:21.320
+Next with open file name comma quote A to A for a pen a File object
+
+01:25.950 --> 01:27.540
+and we have the file object variable.
+
+01:27.540 --> 01:28.770
+File object.
+
+01:28.810 --> 01:33.000
+Right.
+
+01:33.170 --> 01:35.390
+I'm going to write our message so we get from the user
+
+01:38.260 --> 01:41.480
+I'm going to put it in a new line.
+
+01:41.810 --> 01:42.900
+OK there we go.
+
+01:43.020 --> 01:44.420
+So let's just take a quick look at this.
+
+01:44.420 --> 01:46.400
+So the beginning of the file line 5.
+
+01:46.400 --> 01:48.660
+We asked the user what is our favorite film.
+
+01:48.680 --> 01:54.890
+We print out the question we then create a line 8 new variable which stores the file favorite film that
+
+01:55.010 --> 01:58.390
+t XTi then that line 10.
+
+01:58.580 --> 02:04.900
+We call that variable again which obviously opens our file favorite film that he and then opens it with
+
+02:04.900 --> 02:05.790
+the method.
+
+02:05.860 --> 02:11.420
+Which means that we can append information to our file and line 11.
+
+02:11.430 --> 02:15.570
+We then write the message write the input that we get from the user onto a new line.
+
+02:15.570 --> 02:19.080
+So what I'm going to do is I'm going to open this up an idle and let's see how it works.
+
+02:19.080 --> 02:22.070
+I'll be back in just one moment when I've opened up my idle editor.
+
+02:22.260 --> 02:26.700
+OK everybody so I'm here my idol and I've got to open and why am I switching into my idol because you
+
+02:26.700 --> 02:30.390
+might remember sublime does not allow for user input but idle thoughts.
+
+02:30.390 --> 02:32.750
+So let's run this file.
+
+02:32.760 --> 02:33.150
+There we go.
+
+02:33.150 --> 02:34.430
+What is your favorite film.
+
+02:34.430 --> 02:45.440
+So my favorite film is give me a film Give me it's Christmas so let's say Santa Claus Santa Claus.
+
+02:45.570 --> 02:46.150
+There we go.
+
+02:46.150 --> 02:46.970
+The Santa Claus.
+
+02:47.040 --> 02:48.870
+OK it doesn't look like it does much.
+
+02:48.870 --> 02:50.690
+But let's jump back into our editor.
+
+02:51.690 --> 02:58.300
+And let's see now did we cast a favorite film that he XTi we did when we ran the program and end it
+
+02:58.570 --> 02:59.620
+to Santa Claus.
+
+02:59.800 --> 03:06.370
+Let's go back to Ireland not in a new film run this again.
+
+03:06.400 --> 03:14.550
+What is your favorite film to Santa Claus to.
+
+03:14.850 --> 03:15.420
+There we go.
+
+03:15.420 --> 03:17.840
+Let's go back to our file.
+
+03:17.850 --> 03:18.400
+There you are.
+
+03:18.390 --> 03:24.780
+To Santa Claus to all working away perfectly so we can see the append method and a new line method in
+
+03:24.780 --> 03:26.180
+action here.
+
+03:26.190 --> 03:26.820
+OK.
+
+03:27.000 --> 03:32.190
+So that brings this section on files to a close but this is only a basic introduction into writing and
+
+03:32.190 --> 03:33.490
+saving the files.
+
+03:33.540 --> 03:36.380
+We have a files part two coming up so I'll see you there.
+
+03:36.570 --> 03:38.520
+Thanks for listening and I'll see you in the next lecture.

@@ -1,0 +1,97 @@
+WEBVTT
+
+00:01.250 --> 00:01.760
+Hi everybody.
+
+00:01.760 --> 00:02.890
+Welcome back.
+
+00:02.900 --> 00:07.970
+Now instead of breaking out of a loop as we did in previous lecture you can use the continue statement
+
+00:08.120 --> 00:11.950
+to return to the beginning of the loop based on the result of a conditional test.
+
+00:12.000 --> 00:14.600
+So let's have a look at a quick example.
+
+00:14.600 --> 00:16.170
+So I'm still my idol code editor.
+
+00:16.220 --> 00:17.130
+So let's have a look.
+
+00:17.210 --> 00:21.560
+Current number equals zero.
+
+00:21.710 --> 00:23.220
+So we've seen this before.
+
+00:23.720 --> 00:27.440
+So while our current number
+
+00:30.100 --> 00:39.970
+is less than 10 due to following current number plus one
+
+00:43.340 --> 00:44.420
+if the current number
+
+00:47.140 --> 00:50.770
+this is one of the beautiful things that I like about Python is that when you're writing your programs
+
+00:50.830 --> 00:52.280
+it's very readable.
+
+00:52.300 --> 00:58.000
+It's almost like writing for a person just to sit down and read without knowing any pite because as
+
+00:58.000 --> 01:00.650
+you can see here this code is very user friendly.
+
+01:00.730 --> 01:03.300
+If you're coming at this from a blank slate.
+
+01:03.610 --> 01:06.490
+So if number modulars to
+
+01:09.660 --> 01:12.900
+0 continue
+
+01:16.130 --> 01:26.780
+and then print the current number that's saved us and let's run it.
+
+01:28.540 --> 01:28.990
+10.
+
+01:29.000 --> 01:29.950
+So there we go.
+
+01:30.290 --> 01:35.200
+So what we've done here is we've set a current number to zero.
+
+01:35.390 --> 01:41.200
+And while the current number is less than 10 I'd keep adding one so continuously add one.
+
+01:41.400 --> 01:48.870
+So if the current number is much less what is the current number much less to 0 continue.
+
+01:48.900 --> 01:54.910
+So here we go so we keep looping back to the start of our program and we print out a current number.
+
+01:54.920 --> 02:00.070
+Now while loop needs a way to stop running order wise it'll run forever.
+
+02:00.090 --> 02:05.970
+So in the last few lectures we've seen different examples of how to stop and break while loops.
+
+02:06.000 --> 02:10.110
+So whenever you get a program that keeps running and running and running and he can't seem to do anything
+
+02:10.110 --> 02:14.730
+with it or he can find the error go back and check your wire loops because it is possible that you've
+
+02:14.730 --> 02:17.670
+created an infinite loop that won't stop running.
+
+02:17.670 --> 02:20.090
+Thanks for listening and I'll see you in the next lecture.

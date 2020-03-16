@@ -1,0 +1,67 @@
+WEBVTT
+
+00:01.220 --> 00:03.110
+Hi everybody and welcome back.
+
+00:03.110 --> 00:09.670
+Now as we've seen the last few programs the for loop and the line of indented code is part of that loop.
+
+00:09.720 --> 00:15.240
+Furthermore pite news indentation to know when one line of code is connected to the line above it.
+
+00:15.500 --> 00:20.630
+As you write longer and more complicated programs you'll begin to see a code indented at a few different
+
+00:20.630 --> 00:21.500
+levels.
+
+00:21.630 --> 00:26.390
+Pide an indentation helps you to write clean and neatly formatted code.
+
+00:26.390 --> 00:31.260
+Also as you begin to write code that requires proper indentation mistakes will start to creep in.
+
+00:32.710 --> 00:36.070
+Let's look at some common mistakes and indentation errors to avoid
+
+00:38.920 --> 00:42.720
+forgetting to indent or forgetting to indent additional lines.
+
+00:42.940 --> 00:48.010
+Most of the time if you forget to indent Khaitan and your ID will remind you there will be times when
+
+00:48.010 --> 00:51.340
+your program is run but you will not get the results you expected.
+
+00:51.340 --> 00:55.540
+In some cases this can happen when you have forgotten to indent some of your loops lines.
+
+00:56.590 --> 00:58.700
+How about indenting unnecessarily.
+
+00:59.040 --> 01:03.940
+If you accidentally indent a line that doesn't need to be you're going to hear about it from Spuyten.
+
+01:04.030 --> 01:09.400
+Sometimes you can indent unnecessarily after the loop if you accidentally indent code that you want
+
+01:09.400 --> 01:10.910
+to rule on after the loop is finished.
+
+01:10.990 --> 01:14.100
+Then that code will be repeated once for each item in the list.
+
+01:14.140 --> 01:16.930
+More often than not you will receive a logical error.
+
+01:16.930 --> 01:22.330
+If this happens forgetting the code on this the one that I am most guilty of the code on at the end
+
+01:22.330 --> 01:26.050
+of a four statement tells me that the next line is the start of a loop.
+
+01:26.330 --> 01:30.850
+I hope this was helpful and refer back to this if you have any indentation errors in the future.
+
+01:30.850 --> 01:32.610
+Thank you and I'll see you in the next lecture.

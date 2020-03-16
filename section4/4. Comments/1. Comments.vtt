@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.300 --> 00:01.870
+Hi everybody and welcome back.
+
+00:02.040 --> 00:05.420
+And this section we're gonna be talking about Common's would imply.
+
+00:05.670 --> 00:11.010
+So in any programming language there are what are known as comments and comments are in fantastic and
+
+00:11.010 --> 00:14.510
+very helpful tool in any language not just writing.
+
+00:14.850 --> 00:16.590
+So what exactly is a comment.
+
+00:16.660 --> 00:22.260
+A comment allows you to add plain English text to your programs and this tax will be ignored by the
+
+00:22.260 --> 00:23.850
+python interpreter.
+
+00:23.970 --> 00:26.070
+So comments are completely ignored by the computer.
+
+00:26.070 --> 00:30.520
+So you don't have to worry about them causing errors or upsetting your programs.
+
+00:30.600 --> 00:31.340
+And how do we write.
+
+00:31.340 --> 00:35.490
+Comments well implied in a comment begins with the hash symbol.
+
+00:35.490 --> 00:40.090
+This lets Platon know that everything after a comment is to be ignored.
+
+00:49.860 --> 00:51.830
+So let's look at a quick example.
+
+00:59.990 --> 01:01.490
+Let's enter in a comment.
+
+01:01.520 --> 01:08.790
+This is my hello world program and let's print out Hello World print
+
+01:13.280 --> 01:15.040
+open and close brackets.
+
+01:15.800 --> 01:17.540
+Hello world.
+
+01:18.260 --> 01:25.570
+And let's see what we guessed from our interpreter perfect bottom left hand side Hello world.
+
+01:25.570 --> 01:30.610
+So as you can see the two comments that we've included here are not output it onto your screen and are
+
+01:30.610 --> 01:32.150
+completely ignored by Peyton.
+
+01:32.260 --> 01:38.590
+So this leave you free to add in tips reminders and comments for programmers to help them when reading
+
+01:38.590 --> 01:42.460
+your programming as your programs become larger and more complicated.
+
+01:42.460 --> 01:47.920
+Comments are a great way for you to insert helpful notes about a piece of code or program because when
+
+01:47.920 --> 01:52.630
+you come back to it in a few months or a few years later you may not know why you wrote what you did.
+
+01:52.630 --> 01:56.920
+So going forward now in this course we're going to be adding in comments throughout our code.
+
+01:56.920 --> 02:01.860
+At the start of every program and then throughout our programs to give helpful pointers and reminders.
+
+02:02.080 --> 02:03.580
+Thank you and I see you in the next letter.

@@ -1,0 +1,199 @@
+WEBVTT
+
+00:02.290 --> 00:04.780
+Hi everybody and welcome back.
+
+00:04.830 --> 00:09.240
+Now the first thing you're going to notice about this lecture is I have a new interface running so I'm
+
+00:09.240 --> 00:11.290
+using platens idle interpreter.
+
+00:11.340 --> 00:13.890
+So that's development environment provided by Python itself.
+
+00:13.890 --> 00:18.780
+When you install Python so if any of this is unfamiliar to you or you don't know how to get this interpreter
+
+00:18.780 --> 00:19.700
+open running.
+
+00:19.710 --> 00:25.140
+Please go back to the introduction sections and have a look there for the lecture on using Idol and
+
+00:25.140 --> 00:29.490
+the reason I switch into Idol is because as you've seen in the last lectures I was using the Sublime
+
+00:29.490 --> 00:33.090
+Text Editor but sublime does not let us use input statements.
+
+00:33.090 --> 00:35.540
+And that's what this lecture is all about.
+
+00:35.550 --> 00:39.080
+So in future lectures we're going to be discussing what's called branching and conditions.
+
+00:39.120 --> 00:44.370
+But before we get there I want to discuss Python's import function and that function looks like this
+
+00:44.700 --> 00:47.860
+in part opening close brackets.
+
+00:47.970 --> 00:51.660
+So let's look at simple example of a welcome message.
+
+00:51.660 --> 01:00.540
+So welcome equals input and then we place our argument inside or what we want the input method to show.
+
+01:01.360 --> 01:07.850
+Welcome What's your name.
+
+01:07.860 --> 01:12.900
+When we leave space there and we come back we close it up a quote and it becomes a bracket's perfect
+
+01:13.050 --> 01:14.130
+except for the input function.
+
+01:14.130 --> 01:18.480
+All of this should be very familiar to the purpose of the input function is again something from the
+
+01:18.480 --> 01:18.960
+user.
+
+01:19.020 --> 01:23.380
+In this case the users name it could be anything a password email address a phone number.
+
+01:23.460 --> 01:27.260
+And I think your program is paused until a user enters something.
+
+01:27.300 --> 01:28.570
+So let's run this.
+
+01:28.730 --> 01:33.630
+And unlike sublime which saves automatically before you can run a program in idle you have to save it.
+
+01:33.810 --> 01:35.180
+So let's just say it is.
+
+01:35.580 --> 01:36.450
+There we go.
+
+01:36.450 --> 01:39.270
+And then when you go up here run module
+
+01:42.460 --> 01:43.900
+welcome what's your name.
+
+01:43.900 --> 01:47.000
+So this is the pipe module Don't worry about it for the moment.
+
+01:47.020 --> 01:47.650
+What's your name.
+
+01:47.650 --> 01:48.790
+My name is Tony.
+
+01:48.850 --> 01:49.330
+OK.
+
+01:49.330 --> 01:51.770
+The takes in our name but it doesn't output anything.
+
+01:52.630 --> 01:53.690
+That's OK for the moment.
+
+01:53.740 --> 01:57.860
+Once it receives the user's input it is then stored in a variable for you to use later.
+
+01:58.000 --> 02:02.230
+So as we can see here our import is asking us what's our name and that information that's imported by
+
+02:02.230 --> 02:07.210
+the user such as your name will be stored in a variable welcomed the input function takes one argument
+
+02:07.390 --> 02:09.730
+which is whatever you want to display to the user.
+
+02:09.760 --> 02:13.710
+In our case the argument in this example is what is your name.
+
+02:13.750 --> 02:18.320
+Our program then wait while the user enters the name and continues after the user presses enter the
+
+02:18.320 --> 02:19.640
+response from the user.
+
+02:19.680 --> 02:22.770
+The name is stored in the variable welcome.
+
+02:22.840 --> 02:29.000
+So let's put what we get into the variable Welcome to the screen print Hello
+
+02:32.780 --> 02:35.900
+close or double quotes plus welcome.
+
+02:35.960 --> 02:37.590
+So we've seen this before.
+
+02:38.240 --> 02:39.480
+Okay perfect.
+
+02:39.480 --> 02:40.500
+And let's run this again.
+
+02:40.500 --> 02:43.400
+So first we have to save us coopting the top menu.
+
+02:43.440 --> 02:44.180
+Run.
+
+02:44.240 --> 02:46.320
+Module.
+
+02:46.350 --> 02:47.780
+So what's your name.
+
+02:48.180 --> 02:50.130
+Tony hello Tony.
+
+02:50.130 --> 02:54.510
+Perfect flight now takes user input and output to the screen.
+
+02:54.960 --> 02:58.460
+Let's extend our program slightly and add in the title.
+
+02:58.530 --> 03:01.140
+So welcome that t i t l e.
+
+03:01.320 --> 03:08.470
+Opening closing brackets saver's command an S and run us which is EF 5.
+
+03:08.820 --> 03:10.090
+So what's your name Tony.
+
+03:10.190 --> 03:10.910
+Lowercase.
+
+03:11.040 --> 03:11.760
+Hello Tony.
+
+03:11.800 --> 03:12.690
+Uppercase.
+
+03:12.780 --> 03:13.490
+Perfect.
+
+03:13.560 --> 03:15.390
+We'll come back to this import function later.
+
+03:15.450 --> 03:18.660
+But I just wanted to get you familiar with it because we're gonna be using it a lot in the lecture's
+
+03:18.660 --> 03:19.170
+ahead.
+
+03:19.380 --> 03:19.770
+Thank you.
+
+03:19.770 --> 03:21.390
+And I look forward to seeing you in the next lecture.

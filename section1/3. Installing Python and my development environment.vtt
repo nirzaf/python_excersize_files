@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.120 --> 00:05.770
+Hi everybody and welcome this short lecture we're going to briefly discuss how to install piking on
+
+00:05.770 --> 00:08.720
+both Windows and Mac OS X.
+
+00:08.920 --> 00:10.520
+So I'm using a Mac.
+
+00:10.570 --> 00:15.030
+So what you do is you go to pite and dot org WW dot dot org.
+
+00:15.130 --> 00:18.310
+Here you are here and then you click downloads.
+
+00:18.470 --> 00:23.740
+So as you can see on the downloads it's identified that I'm on a Mac and I can select an three point
+
+00:23.740 --> 00:25.150
+five point two.
+
+00:25.150 --> 00:28.860
+Now don't worry if that number is higher than what you see here because it may have moved on.
+
+00:28.860 --> 00:33.460
+By the time you purchased this course once you click pite entry point five point two the download will
+
+00:33.460 --> 00:33.940
+begin.
+
+00:33.940 --> 00:36.420
+And you can then install it on your application.
+
+00:36.770 --> 00:38.280
+And the same works for Windows.
+
+00:38.350 --> 00:41.140
+You download it and then you install it on your application.
+
+00:41.200 --> 00:45.080
+So once you have download it you can check if it's installed by doing the following.
+
+00:45.120 --> 00:46.930
+Go to your term not so in Mac.
+
+00:46.930 --> 00:50.740
+I got my launchpad and I type in terminal.
+
+00:50.830 --> 00:51.670
+There it is there.
+
+00:54.260 --> 00:58.660
+And I can type in my terminal piping tree.
+
+00:58.700 --> 00:59.100
+There you go.
+
+00:59.100 --> 01:03.470
+Now you can see my piping tray is installed and working.
+
+01:03.710 --> 01:06.860
+And you can also use this now as a quick adsorbed empire.
+
+01:06.860 --> 01:14.820
+And so one plus one to go a quick Spuyten and the it works the same on Windows.
+
+01:14.870 --> 01:19.580
+When you're in your terminal and windows you type in Python and I think it might be HIF and v for version
+
+01:19.580 --> 01:22.780
+so Pinetree hyphen VI but you might want to check that.
+
+01:23.090 --> 01:27.600
+Now when you have downloaded in one of the things that it gives you is the IDL e.
+
+01:27.620 --> 01:31.180
+Or as I call it the idle interactive development environment.
+
+01:31.220 --> 01:36.580
+So let's just go into that so I can go to my launch pad and you can see Idol here is the same on Windows.
+
+01:36.590 --> 01:41.000
+It will be installed as an application and you can click on it to run it or search for it and then run
+
+01:41.000 --> 01:41.600
+it.
+
+01:41.600 --> 01:47.590
+So here we have it here Idol and again this is an interactive development environment which means it
+
+01:47.590 --> 01:55.000
+gives you instant feedback to one plus one to print built in function print let you know exactly what
+
+01:55.000 --> 01:55.260
+it is.
+
+01:55.270 --> 02:00.770
+It's a built in Python function so that's installed and running away.
+
+02:00.880 --> 02:07.090
+Now you can use idle for a lot of programs rotis course and the way to build an even bigger program
+
+02:07.210 --> 02:08.250
+is what idle say.
+
+02:08.250 --> 02:15.620
+File new file and you get a working file here and you can begin to write your code save it and run it.
+
+02:15.690 --> 02:19.850
+And the way you run it is you go file and run Mudgal.
+
+02:19.960 --> 02:23.680
+But we explained that further on in the lecture.
+
+02:23.710 --> 02:30.050
+Now in the lecture you'll see me jump and be true idle my code editor of choice which is subline And
+
+02:30.100 --> 02:35.320
+here's my sublime interface here so you can see I've got actually two programs open from the Course
+
+02:35.860 --> 02:36.430
+now troat.
+
+02:36.430 --> 02:40.940
+Of course you'll see me jump from sublime into Idol and from Idol into subline.
+
+02:40.960 --> 02:41.910
+And why is that.
+
+02:42.100 --> 02:47.670
+Well sublime is a great text editor but what it doesn't do is it doesn't allow you to enter user input.
+
+02:47.890 --> 02:52.150
+So a lot of our programs are going to ask the user to input such things as their name or address the
+
+02:52.150 --> 02:54.050
+phone number whatever it might be.
+
+02:54.070 --> 02:57.070
+You cannot do that in sublime but you can do it in I'd.
+
+02:57.310 --> 02:59.710
+So I jump back and forth between sublime and idle.
+
+02:59.800 --> 03:04.800
+But I do recommend subline because it's a very quick very easy install of an ID.
+
+03:04.900 --> 03:06.280
+So that's my set up environment.
+
+03:06.280 --> 03:08.370
+Thanks for listening and I'll see you in the next lecture.

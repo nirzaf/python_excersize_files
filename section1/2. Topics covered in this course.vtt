@@ -1,0 +1,157 @@
+WEBVTT
+
+0
+00:00.390 --> 00:02.580
+Learn Python 3 For Beginners : Python Programming Tutorial - Hi everybody and welcome to this course.
+
+1
+00:02.610 --> 00:06.930
+First let me thank you for purchasing this course and showing an interest in learning the pipe and tree
+
+2
+00:06.960 --> 00:08.490
+programming language.
+
+3
+00:08.490 --> 00:13.110
+In this brief lecture we're just going to outline what you are going to learn throughout the course.
+
+4
+00:13.290 --> 00:15.570
+So we kick off the course with variables.
+
+5
+00:15.570 --> 00:20.640
+And in this lecture you learn to store information and variables and work with text and numerical values.
+
+6
+00:20.640 --> 00:24.900
+Next we're going to look at strings and what are strings but a sequence of characters.
+
+7
+00:24.900 --> 00:27.810
+And we're going to look at how to use or manipulate them.
+
+8
+00:27.810 --> 00:32.310
+Following that section we look at numbers so how to compare numbers to see if they're equal are not
+
+9
+00:32.310 --> 00:37.890
+equal to one another and how to create a list of numbers following that we look at list which are a
+
+10
+00:37.890 --> 00:44.130
+workhorse of Spuyten and form many of the fundamental parts of your programming list for as much information
+
+11
+00:44.160 --> 00:47.590
+as you want in one variable allowing you to work with that data efficiently.
+
+12
+00:47.640 --> 00:51.860
+You'll be able to work with hundreds of thousands and millions of values in just a few lines of code.
+
+13
+00:51.870 --> 00:56.510
+We then move on to conditions which help you control the flow of your programs.
+
+14
+00:56.520 --> 01:01.850
+So what happens if user goes one way or another way which are programs what do your programs do.
+
+15
+01:01.890 --> 01:03.550
+Next we'll look at dictionaries.
+
+16
+01:03.660 --> 01:08.310
+Dictionaries allow you to connect different pieces of information together like lists.
+
+17
+01:08.340 --> 01:11.870
+Dictionaries can contain as much information as you need to store them.
+
+18
+01:11.870 --> 01:17.250
+Look at the user input get gathering input from your users to make your programs more interactive and
+
+19
+01:17.250 --> 01:17.820
+fun.
+
+20
+01:19.050 --> 01:23.150
+Next we look at loops which allow your programs to repeat certain blocks of code.
+
+21
+01:23.250 --> 01:27.420
+Following that you will write functions which are named blocks of code that perform a specific task
+
+22
+01:27.450 --> 01:31.080
+and can be run whenever you need them and shared with other programmers.
+
+23
+01:31.080 --> 01:36.750
+In classes we move into object orientated programs classes allow you to model real world objects such
+
+24
+01:36.750 --> 01:42.720
+as dogs cats people's cars spaceships whatever you want so that your code can represent anything real
+
+25
+01:42.720 --> 01:43.950
+or abstract.
+
+26
+01:43.950 --> 01:45.840
+Then we move into working with files.
+
+27
+01:45.960 --> 01:49.500
+You'll be able to store data so that when your program closes you'll be able to read it back into your
+
+28
+01:49.500 --> 01:50.450
+programs again.
+
+29
+01:50.670 --> 01:55.380
+Next we look at how to handle errors and what happens if your programs crash unexpectedly and how to
+
+30
+01:55.380 --> 01:56.280
+avoid that.
+
+31
+01:56.310 --> 02:01.620
+Then we look at tests writing tests for your code to help check your programs work the way you intended
+
+32
+02:01.620 --> 02:02.120
+them to.
+
+33
+02:02.250 --> 02:06.690
+As a result of this you'll be able to expand your programs without worrying about introducing new errors
+
+34
+02:06.720 --> 02:11.850
+or bugs testing your code is one of the four skills that will help you transition from beginner to intermediate
+
+35
+02:11.850 --> 02:12.720
+programmer.
+
+36
+02:13.010 --> 02:15.960
+They are the main topics covered in this course.
+
+37
+02:15.960 --> 02:19.330
+Thanks for listening and let's get started with setting you up with Spuyten.
+
+38
+02:19.350 --> 02:20.530
+I'll see you in the next lecture. Learn Python 3 For Beginners : Python Programming Tutorial

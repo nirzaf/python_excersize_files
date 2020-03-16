@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.240 --> 00:05.430
+Hi everybody and welcome back in this lecture we're gonna be talking about how to convert numbers to
+
+00:05.430 --> 00:10.530
+strings and we're also going to combine some of the some of the things that we've learned over the previous
+
+00:10.550 --> 00:11.250
+lectures.
+
+00:11.490 --> 00:13.070
+So one of the most common things to do.
+
+00:13.140 --> 00:18.940
+Not just important but in any programming language is to use variables within a message.
+
+00:19.160 --> 00:21.800
+But what happens when the variable is a number.
+
+00:21.800 --> 00:23.180
+Well let's take a look and see.
+
+00:23.180 --> 00:24.400
+So let's start off with her name
+
+00:28.050 --> 00:29.880
+single opening closing single quotes.
+
+00:29.970 --> 00:36.810
+Tony that title to uppercase that when we need to know that's put in airdate variable.
+
+00:36.820 --> 00:43.990
+So date today equals now because we're putting in a number we don't need to surround that in opening
+
+00:44.010 --> 00:46.040
+closing quote single or double.
+
+00:46.140 --> 00:47.060
+So today's date.
+
+00:47.190 --> 00:48.470
+24.
+
+00:48.870 --> 00:51.070
+And now let's put in a welcome message to ourselves.
+
+00:51.270 --> 00:57.750
+So welcome.
+
+00:57.890 --> 01:03.220
+Now let's use concatenation here to combine a couple of variables that we've created.
+
+01:03.280 --> 01:11.290
+So let's start off with our opening closing double quote high space plus name so it inserts or name
+
+01:12.550 --> 01:17.230
+plus now we'll add in our welcome message.
+
+01:17.360 --> 01:22.400
+So opening closing quotes.
+
+01:22.500 --> 01:25.580
+Welcome back.
+
+01:26.010 --> 01:33.370
+Today's and we can use a single quote here because we've opened this piece of string with a double quote
+
+01:33.530 --> 01:34.840
+and we're going to close with a double quote.
+
+01:34.870 --> 01:38.830
+As you can see here so welcome back.
+
+01:38.890 --> 01:50.110
+Today's date is the now concatenate and we add in our date today variable day today.
+
+01:50.660 --> 02:00.550
+Plus opening closing double quote space of October and there we go and let's finish just offer up with
+
+02:00.540 --> 02:01.370
+a print statement.
+
+02:06.560 --> 02:11.270
+Now so we're telling it to print out our welcome message and let's have a look at the US
+
+02:14.970 --> 02:22.420
+well as you can see here are welcome message once again is hi Plus our name variable which is Tony.
+
+02:22.680 --> 02:25.680
+Then we have a welcome message so please welcome back.
+
+02:25.680 --> 02:34.300
+Today's date is the plus date today which is 24 of October so let's print this and see how it runs.
+
+02:34.870 --> 02:37.900
+We can see down here in the bottom left hand corner.
+
+02:37.950 --> 02:39.990
+The computer said no.
+
+02:39.990 --> 02:46.320
+So if anybody is familiar with the comedy sketch show in the UK Little Britain you will know this by
+
+02:46.320 --> 02:46.880
+heart.
+
+02:46.890 --> 02:48.360
+The computer says no.
+
+02:48.360 --> 02:50.540
+No matter what you do you've got to know.
+
+02:50.910 --> 02:52.770
+So why has a computer said no.
+
+02:52.980 --> 03:00.450
+Well down here an error message we can see that we can convert an integer which is our value 24 into
+
+03:00.450 --> 03:01.200
+a string.
+
+03:01.400 --> 03:08.910
+So what Python is doing here is that it expects today's date to be a string.
+
+03:09.110 --> 03:13.120
+So we expect Python to insert the variable date today into our string.
+
+03:13.130 --> 03:16.080
+But instead it gave an error.
+
+03:16.130 --> 03:22.220
+So in this instance Pluton knows that we have a variable with the value of 24 but what it doesn't know
+
+03:22.220 --> 03:27.850
+is how to interpret that value to pipe in that variable could be either.
+
+03:27.890 --> 03:32.850
+The numerical value of 2 4 are simply the characters 2 and 4.
+
+03:33.110 --> 03:38.940
+When you want to insert integers into a string you need to tell Python to use the integer like a string.
+
+03:39.290 --> 03:45.740
+And this can be done very simply with the Esti or for string method and that method looks like this
+
+03:46.590 --> 03:52.850
+as T or and like all other methods opening closing brackets this method tells Python to represent non-strict
+
+03:52.910 --> 03:55.480
+values such as integers as strings.
+
+03:55.520 --> 03:59.200
+So let's insert this method into our welcome message above.
+
+03:59.200 --> 04:05.430
+So now we're going to help Huyton to treat the variable data today as just any other string or last
+
+04:05.450 --> 04:07.180
+printer string again.
+
+04:07.610 --> 04:08.850
+And there we go.
+
+04:09.080 --> 04:10.940
+And actually I've missed a space here.
+
+04:11.060 --> 04:16.180
+Let me just that in space and run it again.
+
+04:16.190 --> 04:17.320
+So here we go.
+
+04:17.690 --> 04:19.070
+Hi Tony welcome back.
+
+04:19.070 --> 04:21.350
+Today's date is the 24th of October.
+
+04:21.350 --> 04:27.860
+Now pite knows that we want to convert the variable value of 24 to a string and display the characters
+
+04:28.070 --> 04:28.950
+to 4.
+
+04:28.970 --> 04:32.010
+So that's a good example of everything that we've learned so far.
+
+04:32.030 --> 04:36.620
+I hope that helped and if any questions please do not hesitate to contact me in the Q and A section
+
+04:36.880 --> 04:38.930
+and I look forward to seeing you in the next lecture.
+
+04:38.930 --> 04:39.240
+Thank you.

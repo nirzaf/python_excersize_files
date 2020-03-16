@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00.570 --> 00:06.180
+Hi everybody and welcome back in this lecture we're going to be looking at floats in the piping language.
+
+00:06.270 --> 00:09.000
+So any number with a decimal point is called a float.
+
+00:09.060 --> 00:10.200
+And why is it called that.
+
+00:10.380 --> 00:16.080
+Well it's because a decimal point can appear at any position in a number plate and if any number in
+
+00:16.080 --> 00:19.260
+your calculation is a float then the result will be two.
+
+00:19.260 --> 00:22.520
+So let's take a look at some simple examples.
+
+00:22.650 --> 00:24.280
+One plus one point.
+
+00:24.300 --> 00:25.110
+Oh.
+
+00:25.740 --> 00:26.790
+Both have the same value.
+
+00:26.830 --> 00:29.030
+Let's have a look at the output 2.0.
+
+00:29.090 --> 00:31.400
+Perfect 2.0
+
+00:34.660 --> 00:38.180
+multiplied by 3.0 6.0.
+
+00:38.320 --> 00:43.160
+Perfect that's do division point zero.
+
+00:43.190 --> 00:47.830
+Divide it by 2.0 1.5.
+
+00:47.830 --> 00:48.710
+Very good.
+
+00:48.760 --> 00:52.870
+Sometimes you can get an arbitrary number of decimal places in your answer.
+
+00:52.990 --> 01:00.490
+And let's have a look at what that looks like 0.2 plus zero point 1.
+
+01:00.490 --> 01:01.110
+There we go.
+
+01:01.150 --> 01:05.860
+And that's just one of those things that pops up from time to time in Python and other programming languages.
+
+01:05.860 --> 01:11.110
+For the moment just ignore the extra decimal places and we're just gonna have to deal with them later.
+
+01:11.470 --> 01:11.930
+Thank you.
+
+01:11.980 --> 01:13.660
+And I look forward to seeing you in the next lecture.

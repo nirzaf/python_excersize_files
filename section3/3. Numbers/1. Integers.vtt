@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.240 --> 00:02.030
+Hi everybody and welcome back.
+
+00:02.080 --> 00:06.540
+Now we're moving into a new section now and this section is all about numbers in pite.
+
+00:06.600 --> 00:12.470
+So as you can see here I've moved into my ruby Id sort of Ruby interactive interpreter.
+
+00:12.500 --> 00:15.120
+And the reason I've done that is because we want instant feedback.
+
+00:15.120 --> 00:17.130
+I'm going to show you how to work with numbers in Python.
+
+00:17.220 --> 00:19.090
+So we're going to be adding subtracting what the playing.
+
+00:19.110 --> 00:20.430
+And we just want instant feedback.
+
+00:20.430 --> 00:21.270
+So we're going to look here.
+
+00:21.270 --> 00:24.460
+So when it comes to programming numbers are everywhere.
+
+00:24.630 --> 00:28.970
+Video games charts and graphs information stored analytics on and on.
+
+00:29.010 --> 00:33.540
+Numbers are absolutely everywhere and even in today's world I'm sure you've seen that numbers are even
+
+00:33.540 --> 00:37.910
+more important when it comes to big data big storage and things like that.
+
+00:38.100 --> 00:42.610
+So it really is valuable to get a good foothold in numbers in your programming language.
+
+00:42.900 --> 00:45.570
+So let's take a look at some quick examples.
+
+00:45.600 --> 00:54.690
+So pop open the interactive interpreter and try to following two plus two for straight away.
+
+00:54.690 --> 00:55.860
+Very simple.
+
+00:55.860 --> 01:02.210
+So what we just did was add two integer numbers and integers are whole numbers.
+
+01:02.370 --> 01:03.810
+Let's try another example.
+
+01:03.880 --> 01:06.780
+Five minus three.
+
+01:06.800 --> 01:07.090
+So.
+
+01:07.230 --> 01:09.940
+Try to perfect.
+
+01:10.060 --> 01:15.530
+And another example three times tree 9.
+
+01:15.690 --> 01:17.070
+Everything working as we expect.
+
+01:17.070 --> 01:18.620
+So now let's divide two numbers.
+
+01:18.660 --> 01:24.330
+So let's divide 6 by two and I'm leaving space in here between the characters.
+
+01:24.330 --> 01:29.540
+Just for clarity but you don't have to do that at so Six divided by two is three.
+
+01:29.540 --> 01:31.250
+Now what about exponents.
+
+01:31.250 --> 01:34.890
+So in Python exponents are represented by two multiplication symbols.
+
+01:34.940 --> 01:48.810
+So we have three sorry three exponent three twenty 27 over two five three thousand one hundred twenty
+
+01:48.810 --> 01:49.200
+five.
+
+01:49.260 --> 01:49.970
+Simple.
+
+01:50.070 --> 01:54.720
+And then as we get into a little bit more complicated little more structured number sequences.
+
+01:54.720 --> 01:56.330
+What about the order of operations.
+
+01:56.400 --> 01:58.540
+Well pite and supports those as well.
+
+01:58.560 --> 02:01.170
+So if we look at this example two plus
+
+02:03.990 --> 02:07.230
+three multiplied by four.
+
+02:07.440 --> 02:12.780
+And as I said you don't have to leave spaces between your number symbols.
+
+02:12.780 --> 02:14.290
+There you go 14.
+
+02:14.520 --> 02:17.770
+You can now use brackets to modify the order of operations.
+
+02:17.820 --> 02:28.910
+So let's have a look at dice.
+
+02:29.070 --> 02:31.730
+And here we go 20.
+
+02:31.850 --> 02:36.350
+So that's a very brief introduction into the numbering system an order of operations with implied in
+
+02:36.700 --> 02:37.580
+the next letter.
+
+02:37.610 --> 02:40.650
+We'll look at floats and what our floats would imply.
+
+02:40.850 --> 02:42.950
+Thank you and I look forward to seeing it in the next lecture.
